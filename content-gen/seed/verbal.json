@@ -7203,5 +7203,260 @@
     "numericAnswer": null,
     "explanation": "Concluding in under an hour, contrary to expected 'wrangling,' describes speed: 'brief' and 'swift' both fit equivalently. 'Contentious' matches the expected-but-contradicted wrangling; 'secretive', 'profitable', and 'mandatory' don't describe duration.",
     "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "READING_COMPREHENSION",
+    "skillTag": "RC_INFERENCE",
+    "difficulty": "HARD",
+    "difficultyRationale": "Requires inferring the direction of a stated modeling error (underestimating warming means predicting a slower pace) rather than just restating the passage's claim.",
+    "passageId": "psg_permafrost_1",
+    "passageBodyHtml": "<p>As Arctic permafrost — ground that has remained frozen for at least two consecutive years — thaws due to rising temperatures, it releases carbon dioxide and methane that have been locked in frozen soil for millennia. Because methane traps substantially more heat per molecule than carbon dioxide over short time spans, even modest permafrost thaw could meaningfully accelerate warming. Climate models built before this mechanism was well understood may therefore underestimate the pace of future warming, since they did not fully account for this feedback loop, in which warming causes thaw, thaw releases greenhouse gases, and those gases cause further warming.</p>",
+    "stem": "It can be inferred from the passage that climate models built before the permafrost feedback loop was well understood would most likely",
+    "choices": [
+      {
+        "id": "A",
+        "label": "overestimate future sea level rise",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "predict a slower pace of future warming than models that account for the feedback loop",
+        "isCorrect": true
+      },
+      {
+        "id": "C",
+        "label": "accurately predict methane emissions from sources other than permafrost",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "assume that permafrost has already completely thawed",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "ignore carbon dioxide emissions from all sources",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "The passage states such models 'may ... underestimate the pace of future warming' by missing the feedback loop, meaning they would predict warming more slowly than it will actually occur — (B). (A), (C), (D), and (E) are not addressed or are too strong given the passage's careful hedging ('may').",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "MULTIPLE_CHOICE_SINGLE",
+    "skillTag": "VOCAB_IN_CONTEXT",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Requires the 'trapped/contained' sense of 'locked' as applied to gases in soil, rather than the literal sense of a mechanical lock.",
+    "passageId": "psg_permafrost_1",
+    "passageBodyHtml": "<p>As Arctic permafrost — ground that has remained frozen for at least two consecutive years — thaws due to rising temperatures, it releases carbon dioxide and methane that have been locked in frozen soil for millennia. Because methane traps substantially more heat per molecule than carbon dioxide over short time spans, even modest permafrost thaw could meaningfully accelerate warming. Climate models built before this mechanism was well understood may therefore underestimate the pace of future warming, since they did not fully account for this feedback loop, in which warming causes thaw, thaw releases greenhouse gases, and those gases cause further warming.</p>",
+    "stem": "As used in the passage, \"locked\" most nearly means",
+    "choices": [
+      {
+        "id": "A",
+        "label": "trapped",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "secured with a mechanical key",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "determined with finality",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "synchronized",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "forbidden",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Gases 'locked in frozen soil for millennia' means physically trapped and unable to escape, not secured by a literal key or other unrelated senses. 'Trapped' captures this: (A).",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "TEXT_COMPLETION",
+    "skillTag": "TEXT_COMPLETION",
+    "difficulty": "HARD",
+    "difficultyRationale": "Two interdependent blanks: recommendations satisfying neither side fully implies a compromise (blank i), while specific provisions each side could criticize implies the second blank names what those provisions were found to be.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "The panel's recommendations were (i)______ enough to satisfy neither side fully, yet specific enough that both sides could point to concrete provisions they found (ii)______.",
+    "choices": [
+      {
+        "id": "i-A",
+        "label": "moderate",
+        "isCorrect": true
+      },
+      {
+        "id": "i-B",
+        "label": "unanimous",
+        "isCorrect": false
+      },
+      {
+        "id": "i-C",
+        "label": "secret",
+        "isCorrect": false
+      },
+      {
+        "id": "ii-D",
+        "label": "objectionable",
+        "isCorrect": true
+      },
+      {
+        "id": "ii-E",
+        "label": "inspiring",
+        "isCorrect": false
+      },
+      {
+        "id": "ii-F",
+        "label": "irrelevant",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Recommendations that satisfy neither side fully are, by design, a middle-ground compromise — 'moderate' (blank i). Since both sides could point to concrete provisions, and neither was fully satisfied, those provisions were ones each side found objectionable (blank ii). 'Unanimous' would imply both sides were satisfied, contradicting the sentence.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "TEXT_COMPLETION",
+    "skillTag": "TEXT_COMPLETION",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Requires recognizing that praising effort while pointing out flaws describes feedback that is measured on both sides, not simply positive or negative.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "The professor's feedback was often ______, praising a student's effort while still pointing out substantial flaws in the argument.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "balanced",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "harsh",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "dismissive",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "vague",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "flattering",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Praising effort while also pointing out flaws combines both positive and critical elements — 'balanced'. 'Harsh' and 'dismissive' ignore the praise; 'flattering' ignores the criticism; 'vague' contradicts 'pointing out substantial flaws'.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "SENTENCE_EQUIVALENCE",
+    "skillTag": "SENTENCE_EQUIVALENCE",
+    "difficulty": "EASY",
+    "difficultyRationale": "Clear clue (entire audience burst into laughter within seconds) with a common synonym pair for very funny.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "The comedian's jokes were so ______ that the entire audience burst into laughter within seconds.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "hilarious",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "uproarious",
+        "isCorrect": true
+      },
+      {
+        "id": "C",
+        "label": "somber",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "offensive",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "forgettable",
+        "isCorrect": false
+      },
+      {
+        "id": "F",
+        "label": "lengthy",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Causing immediate laughter describes very funny jokes: 'hilarious' and 'uproarious' both fit equivalently. 'Somber' is the opposite; 'offensive', 'forgettable', and 'lengthy' don't describe being funny.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "SENTENCE_EQUIVALENCE",
+    "skillTag": "SENTENCE_EQUIVALENCE",
+    "difficulty": "HARD",
+    "difficultyRationale": "Requires matching 'deflecting attention onto unrelated matters' to synonyms for avoidance rather than to words describing directness or apology.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "Rather than addressing the report's substantive criticisms, the spokesperson's response was largely ______, deflecting attention onto unrelated matters.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "evasive",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "diversionary",
+        "isCorrect": true
+      },
+      {
+        "id": "C",
+        "label": "forthright",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "apologetic",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "comprehensive",
+        "isCorrect": false
+      },
+      {
+        "id": "F",
+        "label": "meticulous",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Deflecting attention onto unrelated matters instead of addressing criticisms describes avoidance: 'evasive' and 'diversionary' both fit equivalently. 'Forthright' is the opposite; 'apologetic', 'comprehensive', and 'meticulous' don't describe deflection.",
+    "assetUrl": null
   }
 ]

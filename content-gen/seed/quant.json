@@ -6481,5 +6481,272 @@
     "numericAnswer": null,
     "explanation": "Quantity A: multiplication before subtraction gives 7 − 6 = 1. Quantity B: the parentheses are evaluated first, giving 4 × 2 = 8. Since 8 > 1, Quantity B is greater: (B).",
     "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "NUMERIC_ENTRY",
+    "skillTag": "DATA_INTERPRETATION",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Direct sum of a small data series; first of a three-question set sharing the same quarterly-profit data.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "A company's quarterly profits, in thousands of dollars, were: Q1: 50, Q2: 65, Q3: 40, Q4: 85. What was the company's total profit for the year, in thousands of dollars?",
+    "choices": null,
+    "numericAnswer": 240,
+    "explanation": "Total = 50 + 65 + 40 + 85 = 240 (thousand dollars).",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "MULTIPLE_CHOICE_SINGLE",
+    "skillTag": "DATA_INTERPRETATION",
+    "difficulty": "HARD",
+    "difficultyRationale": "Requires computing a part as a percent of a previously-found total and rounding, the harder second step of the shared quarterly-profit data set.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "Using the same quarterly profits (Q1: 50, Q2: 65, Q3: 40, Q4: 85, in thousands of dollars), Q3 represents approximately what percent of the year's total profit?",
+    "choices": [
+      {
+        "id": "A",
+        "label": "10%",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "13%",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "17%",
+        "isCorrect": true
+      },
+      {
+        "id": "D",
+        "label": "21%",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "25%",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "The year's total is 240 (thousand dollars). Q3's share is 40/240 ≈ 0.1667, or about 17%, so (C).",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "NUMERIC_ENTRY",
+    "skillTag": "DATA_INTERPRETATION",
+    "difficulty": "EASY",
+    "difficultyRationale": "Simple difference between two values in the shared quarterly-profit data set, the easiest of the three questions.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "Using the same quarterly profits (Q1: 50, Q2: 65, Q3: 40, Q4: 85, in thousands of dollars), what was the increase in profit from Q3 to Q4, in thousands of dollars?",
+    "choices": null,
+    "numericAnswer": 45,
+    "explanation": "Increase = 85 − 40 = 45 (thousand dollars).",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "QUANT_COMPARISON",
+    "skillTag": "QUANT_COMPARISON_LOGIC",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Requires correctly enumerating divisors of two composite numbers rather than assuming the larger number always has more divisors.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "Quantity A: the number of positive divisors of 24\nQuantity B: the number of positive divisors of 36",
+    "choices": [
+      {
+        "id": "A",
+        "label": "Quantity A is greater",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "Quantity B is greater",
+        "isCorrect": true
+      },
+      {
+        "id": "C",
+        "label": "The two quantities are equal",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "The relationship cannot be determined from the information given",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "The divisors of 24 are 1, 2, 3, 4, 6, 8, 12, 24 — eight divisors. The divisors of 36 are 1, 2, 3, 4, 6, 9, 12, 18, 36 — nine divisors. Since 9 > 8, Quantity B is greater: (B).",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "QUANT_COMPARISON",
+    "skillTag": "QUANT_COMPARISON_LOGIC",
+    "difficulty": "HARD",
+    "difficultyRationale": "Requires testing multiple values of n to discover the relationship between n! and 2^n flips (2^n wins for small n, n! overtakes for n ≥ 4), so no constant relationship holds.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "n is an integer greater than 1.\nQuantity A: n!\nQuantity B: 2^n",
+    "choices": [
+      {
+        "id": "A",
+        "label": "Quantity A is greater",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "Quantity B is greater",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "The two quantities are equal",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "The relationship cannot be determined from the information given",
+        "isCorrect": true
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "For n = 2: 2! = 2 and 2² = 4, so Quantity B is greater. For n = 4: 4! = 24 and 2⁴ = 16, so Quantity A is greater. Since the relationship flips depending on n, the answer is (D).",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "QUANT_COMPARISON",
+    "skillTag": "QUANT_COMPARISON_LOGIC",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Requires recognizing that the constraint's boundary value makes Quantity A sometimes equal to Quantity B and sometimes less, so no single relationship (equal, greater, or less) holds for every allowed integer.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "x is an integer such that −5 < x < 5.\nQuantity A: x²\nQuantity B: 16",
+    "choices": [
+      {
+        "id": "A",
+        "label": "Quantity A is greater",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "Quantity B is greater",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "The two quantities are equal",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "The relationship cannot be determined from the information given",
+        "isCorrect": true
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "The allowed integers are −4 through 4. If x = 4 or x = −4, x² = 16, equal to Quantity B. If x = 0, x² = 0, less than Quantity B. Since both 'equal' and 'Quantity B is greater' occur depending on x, with no case where Quantity A is greater, but no single relationship holding for every x, the answer is (D).",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "NUMERIC_ENTRY",
+    "skillTag": "ALGEBRA",
+    "difficulty": "HARD",
+    "difficultyRationale": "Requires recognizing 81 as a power of 3 to solve an exponential equation, rather than a routine linear solve.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "If 3^(x+1) = 81, what is the value of x?",
+    "choices": null,
+    "numericAnswer": 3,
+    "explanation": "81 = 3⁴, so x + 1 = 4, giving x = 3.",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "MULTIPLE_CHOICE_SINGLE",
+    "skillTag": "WORD_PROBLEMS",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Classic percent-increase-then-decrease trap: the two percentages don't cancel out because the second percentage applies to a different (larger) base.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "A store increases the price of an item by 20% and then decreases the new price by 20%. If the original price was $50, what is the final price?",
+    "choices": [
+      {
+        "id": "A",
+        "label": "$46",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "$48",
+        "isCorrect": true
+      },
+      {
+        "id": "C",
+        "label": "$50",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "$52",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "$54",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "After the 20% increase: $50 × 1.2 = $60. After the 20% decrease on the new price: $60 × 0.8 = $48, so (B). The two 20% changes do not cancel out to $50 because they apply to different base amounts.",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "MULTIPLE_CHOICE_MULTIPLE",
+    "skillTag": "ARITHMETIC",
+    "difficulty": "EASY",
+    "difficultyRationale": "Straightforward multiple-of-6 check requiring divisibility by both 2 and 3, appropriate for the easy tier of a select-all format.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "Which of the following are multiples of 6?\n\nSelect all that apply.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "12",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "18",
+        "isCorrect": true
+      },
+      {
+        "id": "C",
+        "label": "20",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "24",
+        "isCorrect": true
+      },
+      {
+        "id": "E",
+        "label": "28",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "12 = 6×2, 18 = 6×3, and 24 = 6×4 are all multiples of 6. 20 and 28 are not divisible by 6 (20/6 and 28/6 are not integers). Correct selections: A, B, D.",
+    "assetUrl": null
   }
 ]
