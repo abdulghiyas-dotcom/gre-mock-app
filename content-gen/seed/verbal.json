@@ -8013,5 +8013,305 @@
     "numericAnswer": null,
     "explanation": "Cutting spending while competitors increase theirs, in context, reads as a poor decision: 'imprudent' and 'injudicious' both mean unwise and fit equivalently. 'Strategic' contradicts the implied criticism; 'inevitable', 'popular', and 'overdue' don't fit the contrast with competitors' behavior.",
     "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "READING_COMPREHENSION",
+    "skillTag": "RC_INFERENCE",
+    "difficulty": "HARD",
+    "difficultyRationale": "Requires inferring that researchers who dismissed the mineral chunks must have observed them accurately but misjudged their function, rather than assuming they never noticed or examined them at all.",
+    "passageId": "psg_concrete_1",
+    "passageBodyHtml": "<p>Roman concrete structures, some nearly two thousand years old, remain standing today, while many modern concrete structures begin to crack and crumble within a century. For decades, this durability was attributed simply to the Romans' use of volcanic ash, which reacts differently with lime than the materials in modern cement. Recent analysis, however, has identified a further factor: small white mineral chunks embedded throughout Roman concrete, once dismissed by researchers as evidence of poor mixing, appear instead to function as a kind of self-healing mechanism. When cracks form and rainwater seeps in, the water reacts with these mineral deposits to produce a solution that recrystallizes and fills the crack, a process modern concrete, lacking such deposits, cannot replicate.</p>",
+    "stem": "It can be inferred from the passage that researchers who once dismissed the mineral chunks as evidence of poor mixing",
+    "choices": [
+      {
+        "id": "A",
+        "label": "had correctly noticed the chunks but misunderstood their function",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "had never examined samples of Roman concrete directly",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "were correct that the chunks indicate poor mixing",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "believed volcanic ash was irrelevant to Roman concrete's durability",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "argued that modern concrete already contains similar self-healing deposits",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "The chunks were observed and interpreted (as 'poor mixing'), just incorrectly — recent analysis reveals they actually serve a self-healing function, implying earlier researchers saw the same chunks but misread their significance — (A). (C) is directly contradicted by 'recent analysis'; (D) and (E) go beyond what the passage states; (B) is unsupported since dismissing something as evidence of mixing implies it was observed.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "READING_COMPREHENSION",
+    "skillTag": "RC_STRUCTURE",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Requires recognizing that the passage adds a new factor to an existing explanation rather than replacing it, distinguishing 'complicates/adds to' from 'refutes' or 'disproves'.",
+    "passageId": "psg_concrete_1",
+    "passageBodyHtml": "<p>Roman concrete structures, some nearly two thousand years old, remain standing today, while many modern concrete structures begin to crack and crumble within a century. For decades, this durability was attributed simply to the Romans' use of volcanic ash, which reacts differently with lime than the materials in modern cement. Recent analysis, however, has identified a further factor: small white mineral chunks embedded throughout Roman concrete, once dismissed by researchers as evidence of poor mixing, appear instead to function as a kind of self-healing mechanism. When cracks form and rainwater seeps in, the water reacts with these mineral deposits to produce a solution that recrystallizes and fills the crack, a process modern concrete, lacking such deposits, cannot replicate.</p>",
+    "stem": "Which of the following best describes the organization of the passage?",
+    "choices": [
+      {
+        "id": "A",
+        "label": "A puzzling durability difference is noted, an initial explanation is given, then a newly identified additional factor is described",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "Two rival hypotheses are presented and both are dismissed in favor of a third",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "A step-by-step process for manufacturing modern concrete is outlined",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "A historical timeline of Roman construction techniques is presented chronologically",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "An old explanation is proven completely false and discarded",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "The passage notes the durability puzzle, gives the volcanic-ash explanation, then adds the mineral-chunk self-healing mechanism as a 'further factor' — matching (A). (E) overstates this as disproving and discarding the ash explanation, which the passage never does ('volcanic ash indeed mattered'); (B)-(D) mischaracterize the passage's content.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "TEXT_COMPLETION",
+    "skillTag": "TEXT_COMPLETION",
+    "difficulty": "HARD",
+    "difficultyRationale": "Two interdependent blanks distinguishing 'wrong' from 'incomplete' — the sentence explicitly says the ash explanation 'mattered,' so it must be the milder claim of incompleteness rather than outright error.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "The engineers' initial explanation was not so much (i)______ as (ii)______: volcanic ash indeed mattered, but it was not, as researchers later discovered, the whole story.",
+    "choices": [
+      {
+        "id": "i-A",
+        "label": "incorrect",
+        "isCorrect": true
+      },
+      {
+        "id": "i-B",
+        "label": "irrelevant",
+        "isCorrect": false
+      },
+      {
+        "id": "i-C",
+        "label": "popular",
+        "isCorrect": false
+      },
+      {
+        "id": "ii-D",
+        "label": "incomplete",
+        "isCorrect": true
+      },
+      {
+        "id": "ii-E",
+        "label": "fabricated",
+        "isCorrect": false
+      },
+      {
+        "id": "ii-F",
+        "label": "irrelevant",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "'Not so much X as Y' contrasts a rejected description (X) with the accurate one (Y). Since 'volcanic ash indeed mattered,' the explanation wasn't wrong ('incorrect', blank i, is what's being denied) but rather 'incomplete' — missing the whole story (blank ii). 'Irrelevant' in either blank would contradict 'indeed mattered'.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "TEXT_COMPLETION",
+    "skillTag": "TEXT_COMPLETION",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Requires inferring that reproducing a poorly understood ancient property is harder than a simple ingredient substitution would suggest.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "Contemporary engineers, eager to replicate the ancient technique, have found that reproducing Roman concrete's self-healing property is far more ______ than simply adding volcanic ash to modern cement mixes.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "complicated",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "affordable",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "traditional",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "documented",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "popular",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "'Far more ___ than simply adding ash' implies the real process involves more difficulty than a simple ingredient swap — 'complicated'. 'Affordable', 'traditional', 'documented', and 'popular' don't fit a contrast with a 'simple' step.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "SENTENCE_EQUIVALENCE",
+    "skillTag": "SENTENCE_EQUIVALENCE",
+    "difficulty": "EASY",
+    "difficultyRationale": "Clear clue (blending seamlessly) with a common synonym pair for architectural harmony.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "The museum's new wing was widely praised as ______, blending seamlessly with the original nineteenth-century building.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "harmonious",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "cohesive",
+        "isCorrect": true
+      },
+      {
+        "id": "C",
+        "label": "jarring",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "temporary",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "expensive",
+        "isCorrect": false
+      },
+      {
+        "id": "F",
+        "label": "controversial",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Blending seamlessly with the original building describes visual harmony: 'harmonious' and 'cohesive' fit equivalently. 'Jarring' is the opposite; 'temporary', 'expensive', and 'controversial' don't describe blending well.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "SENTENCE_EQUIVALENCE",
+    "skillTag": "SENTENCE_EQUIVALENCE",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Requires matching 'broad conclusions without detailed evidence' to synonyms for a lack of support rather than to words implying thoroughness.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "The committee's report was criticized as ______, offering broad conclusions without the detailed evidence needed to support them.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "unsubstantiated",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "unsupported",
+        "isCorrect": true
+      },
+      {
+        "id": "C",
+        "label": "rigorous",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "exhaustive",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "confidential",
+        "isCorrect": false
+      },
+      {
+        "id": "F",
+        "label": "belated",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Broad conclusions lacking detailed evidence describes claims without adequate backing: 'unsubstantiated' and 'unsupported' both fit equivalently. 'Rigorous' and 'exhaustive' contradict the criticism; 'confidential' and 'belated' don't describe a lack of evidence.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "SENTENCE_EQUIVALENCE",
+    "skillTag": "SENTENCE_EQUIVALENCE",
+    "difficulty": "HARD",
+    "difficultyRationale": "Requires matching 'conducted over several years using techniques unavailable to earlier researchers' to synonyms for careful, sustained effort rather than to words implying speed or luck.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "Rather than a sudden breakthrough, the discovery was the product of ______ analysis, conducted over several years using techniques unavailable to earlier researchers.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "painstaking",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "meticulous",
+        "isCorrect": true
+      },
+      {
+        "id": "C",
+        "label": "hasty",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "accidental",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "superficial",
+        "isCorrect": false
+      },
+      {
+        "id": "F",
+        "label": "informal",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Analysis conducted carefully over several years, contrasted with a 'sudden breakthrough,' describes sustained, careful effort: 'painstaking' and 'meticulous' fit equivalently. 'Hasty' and 'accidental' contradict 'rather than a sudden breakthrough'; 'superficial' and 'informal' contradict years of careful analysis.",
+    "assetUrl": null
   }
 ]

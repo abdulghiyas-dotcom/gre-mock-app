@@ -7223,5 +7223,272 @@
     "numericAnswer": null,
     "explanation": "The circle's area is π(4²) = 16π ≈ 50.3. The square's area is 7² = 49. Since 50.3 > 49, Quantity A is greater: (A).",
     "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "NUMERIC_ENTRY",
+    "skillTag": "GEOMETRY",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Direct application of the trapezoid area formula with round numbers.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "A trapezoid has parallel sides of length 8 and 14, and a height of 5. What is its area?",
+    "choices": null,
+    "numericAnswer": 55,
+    "explanation": "Area = (1/2)(sum of parallel sides)(height) = (1/2)(8 + 14)(5) = (1/2)(22)(5) = 55.",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "MULTIPLE_CHOICE_SINGLE",
+    "skillTag": "GEOMETRY",
+    "difficulty": "HARD",
+    "difficultyRationale": "Requires recognizing that the radius is the distance from the center to a point on the circle, computed via the coordinate difference, before applying the area formula.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "In the xy-plane, a circle is centered at (2, 3) and passes through the point (2, 8). What is the area of the circle?",
+    "choices": [
+      {
+        "id": "A",
+        "label": "5π",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "10π",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "20π",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "25π",
+        "isCorrect": true
+      },
+      {
+        "id": "E",
+        "label": "50π",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "The radius is the distance from (2, 3) to (2, 8), which share the same x-coordinate: radius = |8 − 3| = 5. Area = πr² = π(5²) = 25π, so (D).",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "NUMERIC_ENTRY",
+    "skillTag": "WORD_PROBLEMS",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Classic average-speed trap: averaging the two speeds directly (50) is wrong because equal distances, not equal times, are traveled at each speed, requiring the harmonic mean instead.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "A train travels the first half of a journey (by distance) at 60 mph and the second half at 40 mph. What is the average speed for the entire journey, in mph?",
+    "choices": null,
+    "numericAnswer": 48,
+    "explanation": "For equal distances at two speeds, average speed = 2 × (speed1 × speed2) / (speed1 + speed2) = 2(60)(40)/(100) = 4800/100 = 48 mph. (Simply averaging 60 and 40 to get 50 is a common error, since more time is spent at the slower speed.)",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "NUMERIC_ENTRY",
+    "skillTag": "WORD_PROBLEMS",
+    "difficulty": "HARD",
+    "difficultyRationale": "Requires the worker-days (constant total work) concept rather than a simple proportion, since more workers means fewer days, not more.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "Three workers, each working at the same constant rate, can complete a job in 12 days. How many days would it take 4 workers, working at that same rate, to complete the same job?",
+    "choices": null,
+    "numericAnswer": 9,
+    "explanation": "Total work = 3 workers × 12 days = 36 worker-days. With 4 workers: 36 ÷ 4 = 9 days.",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "QUANT_COMPARISON",
+    "skillTag": "ARITHMETIC",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Requires converting two similar-looking fractions to a common basis (decimals) rather than eyeballing which is larger.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "Quantity A: 3/7\nQuantity B: 5/12",
+    "choices": [
+      {
+        "id": "A",
+        "label": "Quantity A is greater",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "Quantity B is greater",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "The two quantities are equal",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "The relationship cannot be determined from the information given",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "3/7 ≈ 0.4286 and 5/12 ≈ 0.4167. Since 0.4286 > 0.4167, Quantity A is greater: (A).",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "QUANT_COMPARISON",
+    "skillTag": "QUANT_COMPARISON_LOGIC",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Requires counting multiples within a range for two different divisors rather than assuming a smaller divisor always yields fewer multiples.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "Quantity A: the number of integers from 1 to 100, inclusive, that are divisible by 3\nQuantity B: the number of integers from 1 to 100, inclusive, that are divisible by 4",
+    "choices": [
+      {
+        "id": "A",
+        "label": "Quantity A is greater",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "Quantity B is greater",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "The two quantities are equal",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "The relationship cannot be determined from the information given",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Multiples of 3 from 1 to 100: ⌊100/3⌋ = 33. Multiples of 4 from 1 to 100: ⌊100/4⌋ = 25. Since 33 > 25, Quantity A is greater: (A).",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "QUANT_COMPARISON",
+    "skillTag": "QUANT_COMPARISON_LOGIC",
+    "difficulty": "HARD",
+    "difficultyRationale": "Requires the insight that, for a fixed product, the sum of positive integer factors is maximized by making the factors as unequal as possible (extreme factorization 1 x 1 x 30), not by more 'balanced' factorizations.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "a, b, and c are positive integers with abc = 30.\nQuantity A: the greatest possible value of a + b + c\nQuantity B: 16",
+    "choices": [
+      {
+        "id": "A",
+        "label": "Quantity A is greater",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "Quantity B is greater",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "The two quantities are equal",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "The relationship cannot be determined from the information given",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "To maximize a + b + c given a fixed product, make the factors as unequal as possible: 1 × 1 × 30 = 30, with sum 1 + 1 + 30 = 32. Any more balanced factorization (e.g., 2 × 3 × 5 = 10, sum 10, or 1 × 5 × 6 = 30, sum 12) gives a smaller sum. So the greatest possible value of a + b + c is 32, which is greater than 16: (A).",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "MULTIPLE_CHOICE_SINGLE",
+    "skillTag": "DATA_INTERPRETATION",
+    "difficulty": "EASY",
+    "difficultyRationale": "Single-step percent-increase computation with round numbers.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "A store's sales increased from $200 to $250. What was the percent increase?",
+    "choices": [
+      {
+        "id": "A",
+        "label": "20%",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "25%",
+        "isCorrect": true
+      },
+      {
+        "id": "C",
+        "label": "30%",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "40%",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "50%",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Percent increase = (250 − 200)/200 = 50/200 = 0.25 = 25%, so (B).",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "MULTIPLE_CHOICE_MULTIPLE",
+    "skillTag": "ALGEBRA",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Requires recognizing that a/b = 3/4 in lowest terms means a must be a multiple of 3 (with a corresponding multiple of 4 for b), rather than checking each choice by trial division alone.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "a and b are positive integers and a/b = 0.75. Which of the following could be the value of a?\n\nSelect all that apply.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "3",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "4",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "6",
+        "isCorrect": true
+      },
+      {
+        "id": "D",
+        "label": "8",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "9",
+        "isCorrect": true
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "a/b = 0.75 = 3/4, so a must be a multiple of 3 with a corresponding integer b = 4a/3. a = 3 gives b = 4; a = 6 gives b = 8; a = 9 gives b = 12 — all valid. a = 4 gives b = 16/3 (not an integer); a = 8 gives b = 32/3 (not an integer). Correct selections: A, C, E.",
+    "assetUrl": null
   }
 ]
