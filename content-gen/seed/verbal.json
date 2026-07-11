@@ -1,0 +1,104 @@
+[
+  {
+    "section": "VERBAL",
+    "questionType": "TEXT_COMPLETION",
+    "skillTag": "TEXT_COMPLETION",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Requires recognizing a contrast signal ('Although ... surprisingly generous') and knowing mid-frequency GRE vocabulary; distractors include two near-synonyms of the trap direction.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "Although the critic was known for her ______ reviews, her assessment of the young novelist's debut was surprisingly generous.",
+    "choices": [
+      { "id": "A", "label": "scathing", "isCorrect": true },
+      { "id": "B", "label": "laudatory", "isCorrect": false },
+      { "id": "C", "label": "equivocal", "isCorrect": false },
+      { "id": "D", "label": "perfunctory", "isCorrect": false },
+      { "id": "E", "label": "effusive", "isCorrect": false }
+    ],
+    "numericAnswer": null,
+    "explanation": "'Although ... surprisingly generous' signals that her usual reviews contrast with generosity, so they are normally harsh. 'Scathing' (severely critical) fits. 'Laudatory' and 'effusive' mean praising — the opposite of the needed contrast. 'Equivocal' (ambiguous) and 'perfunctory' (cursory) do not capture harshness.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "TEXT_COMPLETION",
+    "skillTag": "TEXT_COMPLETION",
+    "difficulty": "HARD",
+    "difficultyRationale": "Two-blank item whose blanks are interdependent: the reader must infer that an 'arbitrary' decision is hard to 'justify'. Blank options are encoded as 'i-*' (blank 1) and 'ii-*' (blank 2), three per blank as on the real GRE.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "The committee's decision was so (i)______ that even its staunchest supporters struggled to (ii)______ it to a skeptical public.",
+    "choices": [
+      { "id": "i-A", "label": "defensible", "isCorrect": false },
+      { "id": "i-B", "label": "arbitrary", "isCorrect": true },
+      { "id": "i-C", "label": "transparent", "isCorrect": false },
+      { "id": "ii-D", "label": "justify", "isCorrect": true },
+      { "id": "ii-E", "label": "conceal", "isCorrect": false },
+      { "id": "ii-F", "label": "exaggerate", "isCorrect": false }
+    ],
+    "numericAnswer": null,
+    "explanation": "The word 'struggled' plus 'even its staunchest supporters' implies the decision was hard to defend; a decision that is 'arbitrary' (blank i) is exactly what supporters would struggle to 'justify' (blank ii). 'Defensible'/'transparent' would make justification easy, contradicting 'struggled'. 'Conceal' and 'exaggerate' do not match a public defense of a decision.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "SENTENCE_EQUIVALENCE",
+    "skillTag": "SENTENCE_EQUIVALENCE",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Six options with exactly one synonym pair ('candid'/'forthright') that both fit the sentence and yield equivalent meaning; the remaining four form no second valid pair.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "The senator's ______ remarks, delivered without any attempt to soften their bluntness, alienated even her allies.",
+    "choices": [
+      { "id": "A", "label": "tactful", "isCorrect": false },
+      { "id": "B", "label": "candid", "isCorrect": true },
+      { "id": "C", "label": "forthright", "isCorrect": true },
+      { "id": "D", "label": "evasive", "isCorrect": false },
+      { "id": "E", "label": "verbose", "isCorrect": false },
+      { "id": "F", "label": "eloquent", "isCorrect": false }
+    ],
+    "numericAnswer": null,
+    "explanation": "'Delivered without any attempt to soften their bluntness' calls for a word meaning frank/direct. 'Candid' and 'forthright' are synonyms and both produce sentences alike in meaning. 'Tactful' and 'evasive' contradict bluntness; 'verbose' (wordy) and 'eloquent' (fluent) are unrelated to frankness and do not pair with each other.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "READING_COMPREHENSION",
+    "skillTag": "RC_MAIN_IDEA",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Standard main-purpose question over an original science passage; the correct choice generalizes the passage arc while distractors seize on true-but-narrow details or overreach.",
+    "passageId": "psg_lichen_1",
+    "passageBodyHtml": "<p>Lichens, long classified as single organisms, are in fact composite life forms: a fungus living in symbiosis with an alga or cyanobacterium. The fungal partner provides structure and shelters the photosynthetic partner from desiccation, while the alga supplies carbohydrates produced through photosynthesis. For decades this two-partner model was considered complete. Recent genomic surveys, however, have detected a second, previously overlooked fungal species embedded in many lichens' tissues. Its precise contribution remains uncertain, but its consistent presence across geographically distant samples suggests it is integral rather than incidental. The finding complicates the tidy binary of the classic account and hints that other apparently simple symbioses may harbor comparable hidden complexity.</p>",
+    "stem": "The primary purpose of the passage is to",
+    "choices": [
+      { "id": "A", "label": "argue that lichens should be reclassified as a type of fungus", "isCorrect": false },
+      { "id": "B", "label": "describe how a long-accepted model of an organism has been complicated by new evidence", "isCorrect": true },
+      { "id": "C", "label": "explain in detail the biochemical process by which algae produce carbohydrates", "isCorrect": false },
+      { "id": "D", "label": "contrast the relative importance of the fungal and algal partners", "isCorrect": false },
+      { "id": "E", "label": "cast doubt on the reliability of genomic survey methods", "isCorrect": false }
+    ],
+    "numericAnswer": null,
+    "explanation": "The passage lays out the accepted two-partner model, then presents genomic evidence of a third partner that 'complicates the tidy binary' — a model-complicated-by-new-evidence structure, so (B). (A) is never claimed. (C) and (D) are details, not the purpose. (E) reverses the passage, which relies on the surveys rather than doubting them.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "READING_COMPREHENSION",
+    "skillTag": "RC_INFERENCE",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Inference tied to one specific clause ('consistent presence ... suggests it is integral rather than incidental'); distractors are unsupported extrapolations or direct contradictions.",
+    "passageId": "psg_lichen_1",
+    "passageBodyHtml": "<p>Lichens, long classified as single organisms, are in fact composite life forms: a fungus living in symbiosis with an alga or cyanobacterium. The fungal partner provides structure and shelters the photosynthetic partner from desiccation, while the alga supplies carbohydrates produced through photosynthesis. For decades this two-partner model was considered complete. Recent genomic surveys, however, have detected a second, previously overlooked fungal species embedded in many lichens' tissues. Its precise contribution remains uncertain, but its consistent presence across geographically distant samples suggests it is integral rather than incidental. The finding complicates the tidy binary of the classic account and hints that other apparently simple symbioses may harbor comparable hidden complexity.</p>",
+    "stem": "The passage suggests that the newly detected fungal species is most likely",
+    "choices": [
+      { "id": "A", "label": "harmful to the lichen's long-term survival", "isCorrect": false },
+      { "id": "B", "label": "a functional component of the lichen rather than a chance contaminant", "isCorrect": true },
+      { "id": "C", "label": "responsible for the majority of the lichen's photosynthesis", "isCorrect": false },
+      { "id": "D", "label": "present only in geographically isolated samples", "isCorrect": false },
+      { "id": "E", "label": "genetically identical to the primary fungal partner", "isCorrect": false }
+    ],
+    "numericAnswer": null,
+    "explanation": "The passage states the second fungus's 'consistent presence across geographically distant samples suggests it is integral rather than incidental' — i.e., a functional component, so (B). (D) contradicts 'geographically distant'. (A), (C), and (E) assert facts the passage never provides; it explicitly says the fungus's 'precise contribution remains uncertain'.",
+    "assetUrl": null
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "id": "awa_issue_1",
+    "taskType": "Analyze an Issue",
+    "promptText": "Governments should prioritize funding for basic scientific research over applied research aimed at immediate commercial benefit.\n\nWrite a response in which you discuss the extent to which you agree or disagree with the claim. In developing and supporting your position, be sure to address the most compelling reasons or examples that could be used to challenge your position.",
+    "timeLimitSeconds": 1800
+  },
+  {
+    "id": "awa_issue_2",
+    "taskType": "Analyze an Issue",
+    "promptText": "A society's progress is best measured by how it treats its most vulnerable members rather than by its overall economic output.\n\nWrite a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true.",
+    "timeLimitSeconds": 1800
+  },
+  {
+    "id": "awa_issue_3",
+    "taskType": "Analyze an Issue",
+    "promptText": "The widespread availability of information online has made formal education less essential than it once was.\n\nWrite a response in which you discuss the extent to which you agree or disagree with the claim and support your position with reasons and examples drawn from your own experience, observation, or reading.",
+    "timeLimitSeconds": 1800
+  }
+]
