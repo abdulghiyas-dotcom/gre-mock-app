@@ -2718,5 +2718,385 @@
     "numericAnswer": null,
     "explanation": "If subsidizing the very cost the theory blames doesn't raise migration much, that finding weakens the moving-costs-alone explanation — (B), which the passage explicitly frames as 'complicating this picture'. (A) reverses the point; (C), (D), (E) go beyond what the passage supports.",
     "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "TEXT_COMPLETION",
+    "skillTag": "TEXT_COMPLETION",
+    "difficulty": "EASY",
+    "difficultyRationale": "Direct clue ('reduced the tent to a small bundle that fit in a backpack') and common vocabulary.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "The new tent design is remarkably ______, folding down to a small bundle that fits easily in a backpack.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "compact",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "bulky",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "durable",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "waterproof",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "colorful",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Folding down to a small bundle describes something small and portable — 'compact'. 'Bulky' is the opposite; 'durable', 'waterproof', and 'colorful' don't describe size.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "TEXT_COMPLETION",
+    "skillTag": "TEXT_COMPLETION",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Concessive 'although' contrast between reputation and outcome; 'meticulous' is a same-direction distractor that a careless reader might pick.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "Although the contractor had a reputation for ______ work, the finished renovation was riddled with visible flaws.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "meticulous",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "shoddy",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "expensive",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "slow",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "unlicensed",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "'Although ... riddled with visible flaws' contrasts a good reputation with a bad result: the reputation was for 'meticulous' (careful, high-quality) work. 'Shoddy' would match the flawed result rather than contrast with it; 'expensive', 'slow', and 'unlicensed' don't fit a reputation for quality.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "TEXT_COMPLETION",
+    "skillTag": "TEXT_COMPLETION",
+    "difficulty": "HARD",
+    "difficultyRationale": "Two-blank item requiring the reader to see that a supposedly objective account was actually shaped by bias; 'impartial' is a plausible surface match for 'objective' but contradicts the revealed bias.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "The chronicle, long regarded as (i)______, has recently been shown by historians to be shot through with the (ii)______ of its royal patrons.",
+    "choices": [
+      {
+        "id": "i-A",
+        "label": "impartial",
+        "isCorrect": true
+      },
+      {
+        "id": "i-B",
+        "label": "biased",
+        "isCorrect": false
+      },
+      {
+        "id": "i-C",
+        "label": "incomplete",
+        "isCorrect": false
+      },
+      {
+        "id": "ii-D",
+        "label": "prejudices",
+        "isCorrect": true
+      },
+      {
+        "id": "ii-E",
+        "label": "generosity",
+        "isCorrect": false
+      },
+      {
+        "id": "ii-F",
+        "label": "expertise",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "'Long regarded as ___, has recently been shown ... to be shot through with' sets up a reversal: it was thought 'impartial' (i) but is actually full of 'prejudices' (ii) from its patrons. 'Biased' would make the reversal redundant rather than surprising; 'generosity' and 'expertise' don't fit 'shot through with'.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "SENTENCE_EQUIVALENCE",
+    "skillTag": "SENTENCE_EQUIVALENCE",
+    "difficulty": "EASY",
+    "difficultyRationale": "Clear clue (finished the marathon well ahead of the rest of the field) with a common synonym pair.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "The runner's pace was so ______ that she finished the marathon nearly twenty minutes ahead of the next competitor.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "swift",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "sluggish",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "rapid",
+        "isCorrect": true
+      },
+      {
+        "id": "D",
+        "label": "steady",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "cautious",
+        "isCorrect": false
+      },
+      {
+        "id": "F",
+        "label": "unusual",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Finishing twenty minutes ahead implies a very fast pace: 'swift' and 'rapid' are synonyms that both fit. 'Sluggish' is the opposite; 'steady', 'cautious', and 'unusual' don't specifically mean fast and don't pair.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "SENTENCE_EQUIVALENCE",
+    "skillTag": "SENTENCE_EQUIVALENCE",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Contrast with 'unlike the abstract theorizing of her peers' requires a practicality word; one synonym pair among plausible near-field distractors.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "Unlike the abstract theorizing of her peers, her research was ______, grounded in data collected from actual factory floors.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "empirical",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "speculative",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "pragmatic",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "evidence-based",
+        "isCorrect": true
+      },
+      {
+        "id": "E",
+        "label": "theoretical",
+        "isCorrect": false
+      },
+      {
+        "id": "F",
+        "label": "ambitious",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "'Grounded in data collected from actual factory floors' describes research based on observed evidence: 'empirical' and 'evidence-based' are synonyms that both fit. 'Speculative' and 'theoretical' contradict being grounded in data; 'pragmatic' and 'ambitious' don't specifically mean data-based.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "SENTENCE_EQUIVALENCE",
+    "skillTag": "SENTENCE_EQUIVALENCE",
+    "difficulty": "HARD",
+    "difficultyRationale": "Low-frequency pair ('parsimonious'/'frugal') set against a family-history contrast; 'stingy' carries a negative connotation the neutral sentence doesn't support, making it a plausible but imprecise trap.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "Having grown up during a period of scarcity, her grandmother remained ______ even decades later, reusing wrapping paper and mending clothes rather than replacing them.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "parsimonious",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "extravagant",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "frugal",
+        "isCorrect": true
+      },
+      {
+        "id": "D",
+        "label": "nostalgic",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "sentimental",
+        "isCorrect": false
+      },
+      {
+        "id": "F",
+        "label": "meticulous",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Reusing wrapping paper and mending clothes describes careful thrift: 'parsimonious' and 'frugal' both mean careful with resources and fit equivalently. 'Extravagant' is the opposite; 'nostalgic', 'sentimental', and 'meticulous' don't specifically capture thriftiness.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "READING_COMPREHENSION",
+    "skillTag": "RC_MAIN_IDEA",
+    "difficulty": "EASY",
+    "difficultyRationale": "Short original passage with an unambiguous claim and structure; distractors are details or unsupported claims.",
+    "passageId": "psg_coral_1",
+    "passageBodyHtml": "<p>Coral reefs, though composed of tiny animals called polyps, depend heavily on microscopic algae that live within the polyps' tissues. These algae, known as zooxanthellae, photosynthesize and share the resulting nutrients with their coral hosts, fueling the rapid growth that allows reefs to form massive structures visible from space. When water temperatures rise even slightly above normal, stressed corals expel their algae, a phenomenon known as bleaching, which leaves the coral white and vulnerable to starvation.</p>",
+    "stem": "The passage indicates that coral bleaching occurs when",
+    "choices": [
+      {
+        "id": "A",
+        "label": "corals expel algae in response to elevated water temperatures",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "algae naturally die after a fixed lifespan",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "polyps grow too large to support their algae",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "reefs are visible from space",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "water temperatures drop below normal",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "The passage states bleaching happens 'when water temperatures rise even slightly above normal, stressed corals expel their algae' — so (A). (E) reverses the direction of temperature change; (B), (C), and (D) are not stated as causes of bleaching.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "READING_COMPREHENSION",
+    "skillTag": "RC_INFERENCE",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Inference chaining two stated facts (algae fuel growth; bleaching removes algae) to a consequence the passage does not explicitly state.",
+    "passageId": "psg_coral_1",
+    "passageBodyHtml": "<p>Coral reefs, though composed of tiny animals called polyps, depend heavily on microscopic algae that live within the polyps' tissues. These algae, known as zooxanthellae, photosynthesize and share the resulting nutrients with their coral hosts, fueling the rapid growth that allows reefs to form massive structures visible from space. When water temperatures rise even slightly above normal, stressed corals expel their algae, a phenomenon known as bleaching, which leaves the coral white and vulnerable to starvation.</p>",
+    "stem": "It can be inferred from the passage that a bleached coral's rate of growth would most likely",
+    "choices": [
+      {
+        "id": "A",
+        "label": "increase, since the coral no longer shares nutrients with algae",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "decrease, since the coral has lost its primary source of nutrients",
+        "isCorrect": true
+      },
+      {
+        "id": "C",
+        "label": "remain unchanged, since polyps do not depend on algae for growth",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "become impossible to measure",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "increase temporarily before stopping entirely",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "The passage says algae 'fuel the rapid growth' and that bleaching leaves coral 'vulnerable to starvation' after losing its algae — so growth would decrease, (B). (A) misreads nutrient-sharing as a cost rather than a benefit to the coral; (C), (D), (E) are unsupported.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "MULTIPLE_CHOICE_SINGLE",
+    "skillTag": "VOCAB_IN_CONTEXT",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Standalone vocabulary-in-context item (no passage) using a sentence frame; tests whether 'ubiquitous' is read for its core meaning rather than a near-miss like 'ancient'.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "In the sentence \"Plastic packaging has become so ubiquitous that avoiding it entirely is nearly impossible,\" the word \"ubiquitous\" most nearly means",
+    "choices": [
+      {
+        "id": "A",
+        "label": "present everywhere",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "extremely old",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "environmentally harmful",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "expensive to produce",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "difficult to recycle",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "'So ubiquitous that avoiding it entirely is nearly impossible' describes something found everywhere — (A). The other options describe plausible real-world facts about plastic but are not what 'ubiquitous' means.",
+    "assetUrl": null
   }
 ]

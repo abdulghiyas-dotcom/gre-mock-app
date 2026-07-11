@@ -2242,5 +2242,348 @@
     "numericAnswer": null,
     "explanation": "Let x = 100, so y = 125. The percent by which x is less than y is (125-100)/125 = 25/125 = 20 percent, not 25 percent, because percent-less-than uses y (the larger value) as the base while percent-greater-than used x. Since 20% < 25%, Quantity B is greater: (B).",
     "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "MULTIPLE_CHOICE_SINGLE",
+    "skillTag": "ARITHMETIC",
+    "difficulty": "EASY",
+    "difficultyRationale": "Single-step remainder computation with small numbers.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "What is the remainder when 47 is divided by 6?",
+    "choices": [
+      {
+        "id": "A",
+        "label": "1",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "2",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "5",
+        "isCorrect": true
+      },
+      {
+        "id": "D",
+        "label": "6",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "7",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "6 × 7 = 42, and 47 - 42 = 5, so the remainder is 5: (C).",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "QUANT_COMPARISON",
+    "skillTag": "GEOMETRY",
+    "difficulty": "EASY",
+    "difficultyRationale": "Direct area comparison after computing each shape's area from given dimensions.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "A square has side length 6. A circle has radius 3.\n\nQuantity A: The area of the square\nQuantity B: The area of the circle",
+    "choices": [
+      {
+        "id": "A",
+        "label": "Quantity A is greater",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "Quantity B is greater",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "The two quantities are equal",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "The relationship cannot be determined from the information given",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Square area = 6² = 36. Circle area = π(3²) = 9π ≈ 28.3. Since 36 > 28.3, Quantity A is greater: (A).",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "MULTIPLE_CHOICE_SINGLE",
+    "skillTag": "ALGEBRA",
+    "difficulty": "EASY",
+    "difficultyRationale": "Single-step inequality solve with a sign flip on division by a negative number.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "If -3x > 12, which of the following must be true?",
+    "choices": [
+      {
+        "id": "A",
+        "label": "x > -4",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "x < -4",
+        "isCorrect": true
+      },
+      {
+        "id": "C",
+        "label": "x > 4",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "x < 4",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "x = -4",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Dividing both sides of -3x > 12 by -3 requires flipping the inequality: x < -4: (B). Forgetting to flip the sign when dividing by a negative gives the trap answer (A).",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "NUMERIC_ENTRY",
+    "skillTag": "WORD_PROBLEMS",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Requires setting up a weighted mixture equation for two solutions of different concentrations combined into a target concentration.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "A chemist mixes x liters of a 10% saline solution with (20 - x) liters of a 40% saline solution to create 20 liters of a 25% saline solution. What is the value of x?",
+    "choices": [],
+    "numericAnswer": 10,
+    "explanation": "Salt balance: 0.10x + 0.40(20 - x) = 0.25(20). This gives 0.10x + 8 - 0.40x = 5, so -0.30x = -3, meaning x = 10. (Check: 0.10(10) + 0.40(10) = 1 + 4 = 5 = 0.25 × 20. ✓)",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "MULTIPLE_CHOICE_SINGLE",
+    "skillTag": "DATA_INTERPRETATION",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Requires computing the median of an odd-count list after mentally sorting it; distractors include the mean and the unsorted middle value.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "What is the median of the following list of numbers: 14, 3, 9, 21, 7 ?",
+    "choices": [
+      {
+        "id": "A",
+        "label": "3",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "7",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "9",
+        "isCorrect": true
+      },
+      {
+        "id": "D",
+        "label": "10.8",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "21",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Sorted: 3, 7, 9, 14, 21. The median (middle value) is 9: (C). Choice (D) = 10.8 is the mean, not the median.",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "MULTIPLE_CHOICE_SINGLE",
+    "skillTag": "GEOMETRY",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Requires computing surface area of a cube from its volume, a two-step reverse computation; distractors include using the volume as if it were the edge or area directly.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "A cube has a volume of 64 cubic centimeters. What is its total surface area, in square centimeters?",
+    "choices": [
+      {
+        "id": "A",
+        "label": "16",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "24",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "48",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "96",
+        "isCorrect": true
+      },
+      {
+        "id": "E",
+        "label": "384",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Volume = edge³ = 64, so edge = 4. Surface area = 6 × edge² = 6 × 16 = 96: (D). Choice (C) = 48 forgets one pair of faces (uses 3 faces instead of 6).",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "MULTIPLE_CHOICE_SINGLE",
+    "skillTag": "WORD_PROBLEMS",
+    "difficulty": "HARD",
+    "difficultyRationale": "Requires setting up two unknowns from a total-and-difference-style relationship involving fractions of a whole, then verifying via substitution.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "A jar contains only red and green candies. If 3/8 of the candies are red and there are 20 more green candies than red candies, how many candies are in the jar?",
+    "choices": [
+      {
+        "id": "A",
+        "label": "64",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "72",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "80",
+        "isCorrect": true
+      },
+      {
+        "id": "D",
+        "label": "88",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "96",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "If the jar has t candies, red = 3t/8 and green = 5t/8 (the rest). Green exceeds red by 20: 5t/8 - 3t/8 = 20, so 2t/8 = 20, giving t/4 = 20 and t = 80: (C). (Check: red = 30, green = 50, difference = 20. ✓)",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "MULTIPLE_CHOICE_MULTIPLE",
+    "skillTag": "QUANT_COMPARISON_LOGIC",
+    "difficulty": "HARD",
+    "difficultyRationale": "Select-all item requiring the solver to determine which integer values satisfy a compound absolute-value constraint, testing boundary handling.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "|x - 3| ≤ 2 and x is an integer. Which of the following are possible values of x?\n\nSelect all that apply.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "0",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "1",
+        "isCorrect": true
+      },
+      {
+        "id": "C",
+        "label": "3",
+        "isCorrect": true
+      },
+      {
+        "id": "D",
+        "label": "5",
+        "isCorrect": true
+      },
+      {
+        "id": "E",
+        "label": "6",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "|x - 3| ≤ 2 means -2 ≤ x - 3 ≤ 2, so 1 ≤ x ≤ 5. Integers in this closed range are 1, 2, 3, 4, 5. Among the choices, 1, 3, and 5 qualify (5 is included since the inequality is ≤, not <); 0 and 6 fall outside. Correct selections: B, C, D.",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "NUMERIC_ENTRY",
+    "skillTag": "ARITHMETIC",
+    "difficulty": "EASY",
+    "difficultyRationale": "Single-step conversion between a percent and a fraction of a whole number.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "What is 60% of 45?",
+    "choices": [],
+    "numericAnswer": 27,
+    "explanation": "60% of 45 = 0.60 × 45 = 27.",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "MULTIPLE_CHOICE_SINGLE",
+    "skillTag": "ALGEBRA",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Requires substituting one expression into another and simplifying; distractors reflect a sign error or a missed distribution.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "If f(x) = 2x + 1 and g(x) = x² - 3, what is f(g(2)) ?",
+    "choices": [
+      {
+        "id": "A",
+        "label": "1",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "2",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "3",
+        "isCorrect": true
+      },
+      {
+        "id": "D",
+        "label": "5",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "9",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "First find g(2) = 2² - 3 = 4 - 3 = 1. Then f(1) = 2(1) + 1 = 3: (C). Choice (E) = 9 mistakenly computes f(2) first and then applies g.",
+    "assetUrl": null
   }
 ]
