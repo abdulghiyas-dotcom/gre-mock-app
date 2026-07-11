@@ -4473,5 +4473,345 @@
     "numericAnswer": null,
     "explanation": "By showing that inducing scarcity in people who are NOT poor produces the same cognitive decline, the study isolates scarcity itself as the cause rather than any trait specific to poor people — (B), directly supporting the passage's claim that it's 'scarcity itself, rather than any inherent trait'. (C), (D), (E) are not supported; (A) is not the study's purpose.",
     "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "TEXT_COMPLETION",
+    "skillTag": "TEXT_COMPLETION",
+    "difficulty": "EASY",
+    "difficultyRationale": "Direct clue ('finished the marathon despite a torn ligament') and common vocabulary.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "The athlete's ______ was widely admired: she finished the marathon despite a torn ligament.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "perseverance",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "carelessness",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "hesitation",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "indifference",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "impatience",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Finishing despite an injury shows determination — 'perseverance'. 'Carelessness' and 'indifference' contradict admirable effort; 'hesitation' and 'impatience' don't fit finishing the race.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "TEXT_COMPLETION",
+    "skillTag": "TEXT_COMPLETION",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Requires inferring that a treaty lasting only months, despite years of negotiation, was fragile; 'durable' is the reversed-polarity trap.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "Despite years of painstaking negotiation, the treaty proved ______, collapsing within months of its signing.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "fragile",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "durable",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "controversial",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "comprehensive",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "delayed",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Collapsing within months despite years of negotiation shows the treaty was unstable — 'fragile'. 'Durable' contradicts 'collapsing'; 'controversial', 'comprehensive', and 'delayed' don't specifically address stability.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "TEXT_COMPLETION",
+    "skillTag": "TEXT_COMPLETION",
+    "difficulty": "HARD",
+    "difficultyRationale": "Two interdependent blanks describing an author whose accessible prose belies deep erudition; each blank has a plausible same-direction distractor.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "The historian's prose was so (i)______ that casual readers rarely suspected the (ii)______ scholarship underlying every seemingly effortless sentence.",
+    "choices": [
+      {
+        "id": "i-A",
+        "label": "accessible",
+        "isCorrect": true
+      },
+      {
+        "id": "i-B",
+        "label": "dense",
+        "isCorrect": false
+      },
+      {
+        "id": "i-C",
+        "label": "obscure",
+        "isCorrect": false
+      },
+      {
+        "id": "ii-D",
+        "label": "rigorous",
+        "isCorrect": true
+      },
+      {
+        "id": "ii-E",
+        "label": "superficial",
+        "isCorrect": false
+      },
+      {
+        "id": "ii-F",
+        "label": "absent",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "'So ___ that casual readers rarely suspected' implies easy, approachable prose masking something substantial: 'accessible' (i) prose hid 'rigorous' (ii) scholarship. 'Dense'/'obscure' would make readers suspect difficulty, not overlook it; 'superficial'/'absent' contradict deep scholarship existing 'underlying' the prose.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "SENTENCE_EQUIVALENCE",
+    "skillTag": "SENTENCE_EQUIVALENCE",
+    "difficulty": "EASY",
+    "difficultyRationale": "Clear clue (repaired the antique clock with parts no longer manufactured) with a common synonym pair.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "The craftsman was famously ______, repairing the antique clock using parts that were no longer manufactured anywhere.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "resourceful",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "wasteful",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "ingenious",
+        "isCorrect": true
+      },
+      {
+        "id": "D",
+        "label": "expensive",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "slow",
+        "isCorrect": false
+      },
+      {
+        "id": "F",
+        "label": "cautious",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Repairing something with unavailable parts shows cleverness and resourcefulness: 'resourceful' and 'ingenious' are synonyms that both fit. 'Wasteful' contradicts skillful repair; 'expensive', 'slow', and 'cautious' don't describe this cleverness and don't pair.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "SENTENCE_EQUIVALENCE",
+    "skillTag": "SENTENCE_EQUIVALENCE",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Contrast with 'unlike the exhaustive report submitted by the previous auditor' points to a brevity word; one synonym pair among plausible distractors.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "Unlike the exhaustive report submitted by the previous auditor, this year's summary was ______, covering the essentials in barely two pages.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "succinct",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "elaborate",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "concise",
+        "isCorrect": true
+      },
+      {
+        "id": "D",
+        "label": "delayed",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "confidential",
+        "isCorrect": false
+      },
+      {
+        "id": "F",
+        "label": "inaccurate",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "'Covering the essentials in barely two pages' describes a brief report: 'succinct' and 'concise' are synonyms that both fit. 'Elaborate' is the opposite; 'delayed', 'confidential', and 'inaccurate' don't describe brevity.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "SENTENCE_EQUIVALENCE",
+    "skillTag": "SENTENCE_EQUIVALENCE",
+    "difficulty": "HARD",
+    "difficultyRationale": "Low-frequency pair ('nebulous'/'amorphous') needed for a plan lacking concrete detail; 'flexible' is a tempting near-miss with a more positive connotation that doesn't mean lacking definition.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "The startup's business plan remained frustratingly ______ even after three rounds of investor meetings, with no clear timeline or budget ever specified.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "nebulous",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "detailed",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "amorphous",
+        "isCorrect": true
+      },
+      {
+        "id": "D",
+        "label": "flexible",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "ambitious",
+        "isCorrect": false
+      },
+      {
+        "id": "F",
+        "label": "profitable",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "No clear timeline or budget describes a vague, undefined plan: 'nebulous' and 'amorphous' both mean lacking clear form or definition and fit equivalently. 'Detailed' is the opposite; 'flexible', 'ambitious', and 'profitable' don't specifically mean undefined.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "READING_COMPREHENSION",
+    "skillTag": "RC_MAIN_IDEA",
+    "difficulty": "EASY",
+    "difficultyRationale": "Short original passage on a historical topic with an unambiguous claim; distractors are unsupported extensions or narrow details.",
+    "passageId": "psg_glass_1",
+    "passageBodyHtml": "<p>Stained glass windows in medieval cathedrals served a purpose beyond decoration. In an era when most parishioners could not read, the windows functioned as visual scripture, depicting biblical stories in sequences that worshippers could follow scene by scene. Artisans arranged the panels deliberately, often placing the most theologically important images at eye level or near the altar, where they would draw the greatest attention during services.</p>",
+    "stem": "According to the passage, medieval stained glass windows primarily served to",
+    "choices": [
+      {
+        "id": "A",
+        "label": "convey religious narratives to a largely illiterate congregation",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "demonstrate the wealth of the cathedral's patrons",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "provide natural light for reading manuscripts",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "protect the cathedral's interior from weather damage",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "commemorate the artisans who created them",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "The passage states the windows 'functioned as visual scripture' for parishioners 'who could not read' — conveying religious narratives to an illiterate congregation, so (A). (B), (C), (D), (E) are not stated in the passage.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "READING_COMPREHENSION",
+    "skillTag": "RC_INFERENCE",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Inference tied to the specific detail about panel placement 'at eye level or near the altar'; distractors overreach or invert the stated purpose.",
+    "passageId": "psg_glass_1",
+    "passageBodyHtml": "<p>Stained glass windows in medieval cathedrals served a purpose beyond decoration. In an era when most parishioners could not read, the windows functioned as visual scripture, depicting biblical stories in sequences that worshippers could follow scene by scene. Artisans arranged the panels deliberately, often placing the most theologically important images at eye level or near the altar, where they would draw the greatest attention during services.</p>",
+    "stem": "It can be inferred from the passage that the placement of panels within a cathedral's windows was",
+    "choices": [
+      {
+        "id": "A",
+        "label": "random, since the artisans had no control over panel arrangement",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "intended to maximize the visibility of theologically significant scenes",
+        "isCorrect": true
+      },
+      {
+        "id": "C",
+        "label": "determined solely by the availability of colored glass",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "irrelevant to how effectively the windows conveyed their message",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "identical in every medieval cathedral",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "The passage says artisans placed important images 'where they would draw the greatest attention' — deliberate placement to maximize visibility of key scenes, so (B). (A) contradicts 'deliberately'; (C), (D), (E) are not supported.",
+    "assetUrl": null
   }
 ]

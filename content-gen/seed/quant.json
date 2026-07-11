@@ -3797,5 +3797,308 @@
     "numericAnswer": null,
     "explanation": "4% of 500 = 20 defective units. Non-defective units = 500 - 20 = 480: (C). Choice (E) = 496 mistakenly computes 4 units per day rather than 4% of the total.",
     "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "MULTIPLE_CHOICE_SINGLE",
+    "skillTag": "ARITHMETIC",
+    "difficulty": "EASY",
+    "difficultyRationale": "Single-step conversion between a fraction and a percent.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "What is 7/20 expressed as a percent?",
+    "choices": [
+      {
+        "id": "A",
+        "label": "7%",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "20%",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "35%",
+        "isCorrect": true
+      },
+      {
+        "id": "D",
+        "label": "70%",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "140%",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "7/20 = 0.35 = 35%: (C).",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "MULTIPLE_CHOICE_SINGLE",
+    "skillTag": "ALGEBRA",
+    "difficulty": "EASY",
+    "difficultyRationale": "Direct factoring of a common quadratic pattern with small integer roots.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "What are the solutions to x^2 - 9 = 0 ?",
+    "choices": [
+      {
+        "id": "A",
+        "label": "x = 9 only",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "x = 3 only",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "x = 3 or x = -3",
+        "isCorrect": true
+      },
+      {
+        "id": "D",
+        "label": "x = 9 or x = -9",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "There are no real solutions",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "x² - 9 = 0 means x² = 9, so x = 3 or x = -3: (C). Forgetting the negative root gives the trap answer (B).",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "QUANT_COMPARISON",
+    "skillTag": "ARITHMETIC",
+    "difficulty": "EASY",
+    "difficultyRationale": "Direct comparison of two computed values with no hidden cases.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "Quantity A: The sum of the first 4 positive even integers\nQuantity B: 20",
+    "choices": [
+      {
+        "id": "A",
+        "label": "Quantity A is greater",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "Quantity B is greater",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "The two quantities are equal",
+        "isCorrect": true
+      },
+      {
+        "id": "D",
+        "label": "The relationship cannot be determined from the information given",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "The first 4 positive even integers are 2, 4, 6, 8, summing to 2 + 4 + 6 + 8 = 20. Quantity A equals Quantity B (20): (C).",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "NUMERIC_ENTRY",
+    "skillTag": "WORD_PROBLEMS",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Requires a two-step unit price and total spending computation with a leftover-money component.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "A shopper has $50. She buys 3 shirts at $12 each and spends the rest of her money on notebooks priced at $2 each. How many notebooks does she buy?",
+    "choices": [],
+    "numericAnswer": 7,
+    "explanation": "3 shirts cost 3 × 12 = 36. Remaining money = 50 - 36 = 14. Notebooks = 14 / 2 = 7.",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "MULTIPLE_CHOICE_SINGLE",
+    "skillTag": "DATA_INTERPRETATION",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Requires computing a proportion of a subgroup relative to a different subgroup, not the whole, testing careful base selection.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "At a conference, 180 attendees are researchers and 120 are industry professionals. If 60% of the researchers and 25% of the industry professionals attended a particular workshop, how many total attendees went to the workshop?",
+    "choices": [
+      {
+        "id": "A",
+        "label": "108",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "138",
+        "isCorrect": true
+      },
+      {
+        "id": "C",
+        "label": "150",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "162",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "180",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Researchers at workshop: 60% of 180 = 108. Industry professionals at workshop: 25% of 120 = 30. Total = 108 + 30 = 138: (B). Choice (A) = 108 is only the researcher count.",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "MULTIPLE_CHOICE_SINGLE",
+    "skillTag": "GEOMETRY",
+    "difficulty": "HARD",
+    "difficultyRationale": "Requires relating a cylinder's volume formula to a change in one dimension while holding the other fixed, a proportional-reasoning geometry item.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "A cylinder has radius r and height h. If the radius is doubled while the height stays the same, by what factor does the volume increase?",
+    "choices": [
+      {
+        "id": "A",
+        "label": "2",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "3",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "4",
+        "isCorrect": true
+      },
+      {
+        "id": "D",
+        "label": "6",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "8",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Volume = πr²h. Doubling r gives π(2r)²h = 4πr²h — four times the original volume, since r is squared in the formula: (C).",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "MULTIPLE_CHOICE_MULTIPLE",
+    "skillTag": "ALGEBRA",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Select-all item requiring the solver to test which values satisfy a two-part compound condition (both an equation and an inequality).",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "x^2 = 25 and x < 4. Which of the following could be the value of x?\n\nSelect all that apply.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "-5",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "-4",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "4",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "5",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "0",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "x² = 25 restricts x to 5 or -5 only. Of those, only -5 satisfies x < 4 (5 does not, since 5 is not less than 4). -4, 4, and 0 don't satisfy x² = 25 at all. Correct selection: A only.",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "NUMERIC_ENTRY",
+    "skillTag": "ARITHMETIC",
+    "difficulty": "EASY",
+    "difficultyRationale": "Single-step computation finding a number when it is decreased by a given percent to reach a stated result.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "A number decreased by 25 percent equals 60. What is the original number?",
+    "choices": [],
+    "numericAnswer": 80,
+    "explanation": "If x decreased by 25% equals 60, then 0.75x = 60, so x = 60 / 0.75 = 80.",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "MULTIPLE_CHOICE_SINGLE",
+    "skillTag": "WORD_PROBLEMS",
+    "difficulty": "HARD",
+    "difficultyRationale": "Requires setting up a system involving three unknowns reduced through substitution across two given relationships, more layered than a standard two-variable word problem.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "A jar contains only dimes and quarters, worth $6.15 in total. If there are 5 more quarters than dimes, how many dimes are in the jar?",
+    "choices": [
+      {
+        "id": "A",
+        "label": "10",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "12",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "14",
+        "isCorrect": true
+      },
+      {
+        "id": "D",
+        "label": "16",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "19",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Let d = number of dimes, so quarters = d + 5. Value: 0.10d + 0.25(d + 5) = 6.15. This gives 0.35d + 1.25 = 6.15, so 0.35d = 4.90, meaning d = 14: (C). (Check: 14 dimes = $1.40, 19 quarters = $4.75, total = $6.15. ✓) Choice (E) = 19 is the number of quarters, not dimes.",
+    "assetUrl": null
   }
 ]
