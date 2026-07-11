@@ -5153,5 +5153,300 @@
     "numericAnswer": null,
     "explanation": "The passage states vegetation 'rebounded so dramatically that it altered the course of local rivers by stabilizing eroding banks' — vegetation regrowth is the direct cause, so (B). (A), (C), (D), (E) are not what the passage identifies as the direct cause of the river change.",
     "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "TEXT_COMPLETION",
+    "skillTag": "TEXT_COMPLETION",
+    "difficulty": "EASY",
+    "difficultyRationale": "Direct clue ('unlocked the door in under a minute using only a bent paperclip') and common vocabulary.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "The locksmith's skill was ______: she unlocked the antique cabinet in under a minute using only a bent paperclip.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "impressive",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "unremarkable",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "questionable",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "outdated",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "theoretical",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Unlocking a cabinet in under a minute with just a paperclip demonstrates notable skill — 'impressive'. 'Unremarkable' and 'questionable' contradict the described feat; 'outdated' and 'theoretical' don't fit a demonstrated skill.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "TEXT_COMPLETION",
+    "skillTag": "TEXT_COMPLETION",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Requires inferring that a museum guide who answered every obscure question without hesitation must know the collection deeply; 'superficial' is the reversed-polarity trap.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "The guide's knowledge of the collection was clearly ______, as she answered even the most obscure visitor questions without a moment's hesitation.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "thorough",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "superficial",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "recent",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "disputed",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "secondhand",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Answering obscure questions without hesitation demonstrates deep knowledge — 'thorough'. 'Superficial' contradicts this; 'recent', 'disputed', and 'secondhand' don't address depth of knowledge.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "SENTENCE_EQUIVALENCE",
+    "skillTag": "SENTENCE_EQUIVALENCE",
+    "difficulty": "EASY",
+    "difficultyRationale": "Clear clue (delivered the same lecture word for word for a decade) with a common synonym pair.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "The professor's lectures had grown ______, delivered nearly word for word each semester for over a decade.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "repetitive",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "innovative",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "predictable",
+        "isCorrect": true
+      },
+      {
+        "id": "D",
+        "label": "controversial",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "brief",
+        "isCorrect": false
+      },
+      {
+        "id": "F",
+        "label": "popular",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Delivering the same lecture word for word for a decade describes repetitiveness: 'repetitive' and 'predictable' are synonyms that both fit. 'Innovative' is the opposite; 'controversial', 'brief', and 'popular' don't describe sameness.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "SENTENCE_EQUIVALENCE",
+    "skillTag": "SENTENCE_EQUIVALENCE",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Contrast with 'unlike the vague promises of previous candidates' points to a specificity word; one synonym pair among plausible near-field distractors.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "Unlike the vague promises of previous candidates, her policy proposals were remarkably ______, specifying exact budgets and timelines for every initiative.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "concrete",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "ambiguous",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "specific",
+        "isCorrect": true
+      },
+      {
+        "id": "D",
+        "label": "popular",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "expensive",
+        "isCorrect": false
+      },
+      {
+        "id": "F",
+        "label": "delayed",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Specifying exact budgets and timelines describes detailed, well-defined proposals: 'concrete' and 'specific' are synonyms that both fit. 'Ambiguous' is the opposite (and matches the 'vague' being contrasted); 'popular', 'expensive', and 'delayed' don't describe specificity.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "SENTENCE_EQUIVALENCE",
+    "skillTag": "SENTENCE_EQUIVALENCE",
+    "difficulty": "HARD",
+    "difficultyRationale": "Low-frequency pair ('mercurial'/'volatile') needed for a manager whose mood swings unsettle a team; 'strict' is a tempting near-miss describing a different, more stable disposition.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "The new manager's ______ temperament, warm and encouraging one day, cold and dismissive the next, left the team perpetually unsettled.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "mercurial",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "steady",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "volatile",
+        "isCorrect": true
+      },
+      {
+        "id": "D",
+        "label": "strict",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "generous",
+        "isCorrect": false
+      },
+      {
+        "id": "F",
+        "label": "reserved",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Swinging from warm to cold unpredictably describes a changeable temperament: 'mercurial' and 'volatile' both mean prone to sudden, unpredictable change and fit equivalently. 'Steady' is the opposite; 'strict', 'generous', and 'reserved' describe consistent traits, not swings.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "READING_COMPREHENSION",
+    "skillTag": "RC_MAIN_IDEA",
+    "difficulty": "EASY",
+    "difficultyRationale": "Short original passage on an accessible topic with a clear single claim; distractors are unsupported or too narrow.",
+    "passageId": "psg_octopus_2",
+    "passageBodyHtml": "<p>Unlike most invertebrates, octopuses possess a highly distributed nervous system: roughly two-thirds of their neurons reside not in the central brain but in their eight arms. Each arm can process sensory information and initiate movement with a degree of independence, allowing an octopus to explore a crevice with one arm while simultaneously grasping food with another. This distributed architecture has led some researchers to describe the octopus as possessing not one mind but a kind of loose confederation of semi-autonomous parts.</p>",
+    "stem": "The main point of the passage is that",
+    "choices": [
+      {
+        "id": "A",
+        "label": "octopus arms can operate with a notable degree of independence from the central brain",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "octopuses have more neurons than any other invertebrate",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "octopus arms cannot process any sensory information",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "researchers agree that octopuses possess a single unified mind",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "octopuses primarily use their arms for locomotion",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "The passage's main point is the distributed nervous system giving arms independence, so (A). (B) is not claimed (no comparison to 'any other invertebrate' is made); (C) directly contradicts the passage; (D) reverses the described view; (E) is not discussed.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "READING_COMPREHENSION",
+    "skillTag": "VOCAB_IN_CONTEXT",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Vocabulary-in-context item on 'confederation' requiring the reader to apply its political-metaphor sense (loosely joined parts) rather than a literal political meaning.",
+    "passageId": "psg_octopus_2",
+    "passageBodyHtml": "<p>Unlike most invertebrates, octopuses possess a highly distributed nervous system: roughly two-thirds of their neurons reside not in the central brain but in their eight arms. Each arm can process sensory information and initiate movement with a degree of independence, allowing an octopus to explore a crevice with one arm while simultaneously grasping food with another. This distributed architecture has led some researchers to describe the octopus as possessing not one mind but a kind of loose confederation of semi-autonomous parts.</p>",
+    "stem": "In context, the phrase \"loose confederation of semi-autonomous parts\" is best understood to mean that the octopus's arms",
+    "choices": [
+      {
+        "id": "A",
+        "label": "function as a formal political alliance with the brain",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "operate as separately governed regions with a shared, weakly centralized system",
+        "isCorrect": true
+      },
+      {
+        "id": "C",
+        "label": "are entirely disconnected from one another and the brain",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "compete with each other for control of the octopus's body",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "are incapable of any independent movement",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "The metaphor of a 'loose confederation' (a political term for loosely joined, semi-independent units) applied to 'semi-autonomous parts' suggests separately functioning parts under a weak central coordination — (B). (A) takes the political metaphor too literally; (C) contradicts 'confederation' (implying some connection); (D) and (E) are not supported.",
+    "assetUrl": null
   }
 ]

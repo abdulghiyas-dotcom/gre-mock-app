@@ -4363,5 +4363,282 @@
     "numericAnswer": null,
     "explanation": "A triangle is valid only if the sum of any two sides exceeds the third. (A) 3+4=7>5 ✓. (B) 2+3=5<6 ✗. (C) 5+5=10>9 ✓. (D) 1+2=3, not greater than 3 (degenerate, not a valid triangle) ✗. (E) 7+8=15>10 ✓. Correct selections: A, C, E.",
     "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "MULTIPLE_CHOICE_SINGLE",
+    "skillTag": "ARITHMETIC",
+    "difficulty": "EASY",
+    "difficultyRationale": "Single-step fraction-of computation with round numbers.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "What is 4/5 of 65?",
+    "choices": [
+      {
+        "id": "A",
+        "label": "45",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "48",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "50",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "52",
+        "isCorrect": true
+      },
+      {
+        "id": "E",
+        "label": "60",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "4/5 of 65 = (4 × 65) / 5 = 260 / 5 = 52: (D).",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "MULTIPLE_CHOICE_SINGLE",
+    "skillTag": "GEOMETRY",
+    "difficulty": "EASY",
+    "difficultyRationale": "Direct application of the rectangular-solid surface-area formula.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "A rectangular box has length 5, width 3, and height 2. What is its total surface area?",
+    "choices": [
+      {
+        "id": "A",
+        "label": "31",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "42",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "56",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "62",
+        "isCorrect": true
+      },
+      {
+        "id": "E",
+        "label": "93",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Surface area = 2(lw + lh + wh) = 2(5×3 + 5×2 + 3×2) = 2(15 + 10 + 6) = 2(31) = 62: (D). Choice (A) = 31 forgets to double the sum of face-pair areas.",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "QUANT_COMPARISON",
+    "skillTag": "ARITHMETIC",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Tests whether the solver recognizes the factorial identity n! = n x (n-1)! rather than computing both sides from scratch.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "Quantity A: 6!\nQuantity B: 6 × 5!",
+    "choices": [
+      {
+        "id": "A",
+        "label": "Quantity A is greater",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "Quantity B is greater",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "The two quantities are equal",
+        "isCorrect": true
+      },
+      {
+        "id": "D",
+        "label": "The relationship cannot be determined from the information given",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "By definition, 6! = 6 × 5!, so the two quantities are identical (both equal 720): (C).",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "NUMERIC_ENTRY",
+    "skillTag": "ALGEBRA",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Requires distributing on both sides of a linear equation before isolating the variable.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "If 4(y + 3) = 2(y + 15), what is the value of y?",
+    "choices": [],
+    "numericAnswer": 9,
+    "explanation": "Distribute: 4y + 12 = 2y + 30. Subtract 2y from both sides: 2y + 12 = 30. Subtract 12: 2y = 18. Divide by 2: y = 9.",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "MULTIPLE_CHOICE_SINGLE",
+    "skillTag": "DATA_INTERPRETATION",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Requires reconstructing a total from one known percentage and dollar amount, then applying a different percentage to find another category's amount.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "A charity raised money from three sources in the following proportions: 40% online donations, 25% event ticket sales, and 35% corporate sponsorships. If online donations totaled $12,000, how much did corporate sponsorships contribute?",
+    "choices": [
+      {
+        "id": "A",
+        "label": "$7,500",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "$9,000",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "$10,500",
+        "isCorrect": true
+      },
+      {
+        "id": "D",
+        "label": "$12,000",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "$13,500",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Online donations of $12,000 represent 40% of the total, so total = 12,000 / 0.40 = 30,000. Corporate sponsorships are 35% of the total: 0.35 × 30,000 = $10,500: (C).",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "MULTIPLE_CHOICE_SINGLE",
+    "skillTag": "GEOMETRY",
+    "difficulty": "HARD",
+    "difficultyRationale": "Requires extending the Pythagorean theorem to three dimensions to find a rectangular solid's space diagonal.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "A rectangular box has dimensions 3, 4, and 12. What is the length of the diagonal connecting two opposite corners of the box?",
+    "choices": [
+      {
+        "id": "A",
+        "label": "9",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "11",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "13",
+        "isCorrect": true
+      },
+      {
+        "id": "D",
+        "label": "15",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "19",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "The space diagonal of a rectangular box satisfies d = √(l² + w² + h²) = √(3² + 4² + 12²) = √(9 + 16 + 144) = √169 = 13: (C).",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "NUMERIC_ENTRY",
+    "skillTag": "ALGEBRA",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Requires solving a two-variable linear system by elimination, then computing a derived quantity (product) rather than reporting a variable directly.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "If 4x - y = 10 and x + y = 5, what is the value of xy?",
+    "choices": [],
+    "numericAnswer": 6,
+    "explanation": "Adding the two equations eliminates y: (4x - y) + (x + y) = 10 + 5, giving 5x = 15, so x = 3. Then from x + y = 5, y = 2. The product xy = 3 × 2 = 6.",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "NUMERIC_ENTRY",
+    "skillTag": "WORD_PROBLEMS",
+    "difficulty": "HARD",
+    "difficultyRationale": "Requires combining a fill rate and a drain rate as opposing signed rates, a variant of standard combined-work problems.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "A pipe can fill an empty tank in 6 hours. A separate drain, if left open, can empty a full tank in 10 hours. If the tank starts empty and both the pipe and the drain are left open, how many hours does it take to fill the tank?",
+    "choices": [],
+    "numericAnswer": 15,
+    "explanation": "Fill rate: 1/6 of the tank per hour. Drain rate: 1/10 of the tank per hour (working against filling). Net rate: 1/6 - 1/10 = 5/30 - 3/30 = 2/30 = 1/15 of the tank per hour. Time to fill: 1 ÷ (1/15) = 15 hours.",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "MULTIPLE_CHOICE_MULTIPLE",
+    "skillTag": "ALGEBRA",
+    "difficulty": "HARD",
+    "difficultyRationale": "Requires sign analysis of a factored cubic across four intervals defined by its roots, testing systematic case-checking over guesswork.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "For which of the following values of x is x^3 - x negative?\n\nSelect all that apply.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "-2",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "-1",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "-0.5",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "0.5",
+        "isCorrect": true
+      },
+      {
+        "id": "E",
+        "label": "2",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "x³ - x factors as x(x-1)(x+1), with roots at -1, 0, 1. Testing each: x=-2 gives -8-(-2)=-6 (negative). x=-1 gives -1-(-1)=0 (not negative). x=-0.5 gives -0.125-(-0.5)=0.375 (positive). x=0.5 gives 0.125-0.5=-0.375 (negative). x=2 gives 8-2=6 (positive). Correct selections: A, D.",
+    "assetUrl": null
   }
 ]
