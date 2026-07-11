@@ -138,9 +138,9 @@ function buildPractice(
 // As the bank grows (run content-gen), bump these counts toward the 6
 // full-length + 5 verbal + 5 quant target; the partitioning yields fuller
 // sections automatically as more content becomes available.
-const N_FULL = 3;
-const N_VERBAL_PRACTICE = 3;
-const N_QUANT_PRACTICE = 3;
+const N_FULL = 4;
+const N_VERBAL_PRACTICE = 4;
+const N_QUANT_PRACTICE = 4;
 
 export async function getTestDefs(): Promise<TestDef[]> {
   const [verbalRaw, quantRaw, prompts] = await Promise.all([
