@@ -6198,5 +6198,255 @@
     "numericAnswer": null,
     "explanation": "Pre-registering a study design commits researchers to their analytical plan before seeing the data, directly countering 'flexible analytical choices made after data are collected' — (B). (A) is better addressed by 'requiring larger samples'; (C) is explicitly downplayed by 'most researchers ... point instead to subtler causes'; (D) and (E) are not discussed.",
     "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "TEXT_COMPLETION",
+    "skillTag": "TEXT_COMPLETION",
+    "difficulty": "HARD",
+    "difficultyRationale": "Low-frequency vocabulary ('sanguine') used ironically against a context of repeated setbacks; the surface tone invites the common trap of picking a negative-sounding word instead.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "Remarkably, after three consecutive product failures, the founder remained ______, insisting to investors that the fourth attempt would succeed.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "sanguine",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "despondent",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "indifferent",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "vindictive",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "reticent",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "'Remarkably' signals a contrast with what three failures would normally produce; insisting the next attempt will succeed is optimism despite setbacks — 'sanguine'. 'Despondent' fits the expected-but-contradicted reaction; 'indifferent', 'vindictive', and 'reticent' don't match insisting on future success.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "TEXT_COMPLETION",
+    "skillTag": "TEXT_COMPLETION",
+    "difficulty": "HARD",
+    "difficultyRationale": "Two interdependent blanks: the first requires recognizing that citing sources 'meticulously' while still reaching a flawed conclusion implies the flaw lies elsewhere; the second requires the word for that specific flaw ('interpretation').",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "The report's citations were (i)______ documented, so critics concluded that its flawed conclusions stemmed not from a lack of evidence but from a faulty (ii)______ of that evidence.",
+    "choices": [
+      {
+        "id": "i-A",
+        "label": "meticulously",
+        "isCorrect": true
+      },
+      {
+        "id": "i-B",
+        "label": "carelessly",
+        "isCorrect": false
+      },
+      {
+        "id": "i-C",
+        "label": "sparsely",
+        "isCorrect": false
+      },
+      {
+        "id": "ii-D",
+        "label": "interpretation",
+        "isCorrect": true
+      },
+      {
+        "id": "ii-E",
+        "label": "collection",
+        "isCorrect": false
+      },
+      {
+        "id": "ii-F",
+        "label": "concealment",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "'So critics concluded ... not from a lack of evidence' implies the citations were thorough — 'meticulously' (blank i). The flaw is then in how the evidence was read, not gathered or hidden — 'interpretation' (blank ii). 'Carelessly'/'sparsely' would explain the flaw as a documentation problem, contradicting 'not from a lack of evidence'.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "TEXT_COMPLETION",
+    "skillTag": "TEXT_COMPLETION",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Requires recognizing that a policy praised for one virtue (simplicity) is being criticized for a different, related shortcoming.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "Critics conceded that the new tax form was simpler, but argued that this simplicity came at the cost of ______, since it no longer accounted for cases like self-employment income.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "comprehensiveness",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "clarity",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "popularity",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "affordability",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "legality",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Failing to account for a category of income (self-employment) is a gap in coverage — a loss of 'comprehensiveness'. 'Clarity' is what simplicity improves, not costs; 'popularity', 'affordability', and 'legality' aren't addressed by the example given.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "SENTENCE_EQUIVALENCE",
+    "skillTag": "SENTENCE_EQUIVALENCE",
+    "difficulty": "EASY",
+    "difficultyRationale": "Clear clue (finished the marathon well ahead of the next runner) paired with a common synonym pair for a large margin.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "Her victory was ______, since she finished the marathon nearly twenty minutes ahead of the next runner.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "decisive",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "narrow",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "commanding",
+        "isCorrect": true
+      },
+      {
+        "id": "D",
+        "label": "disputed",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "accidental",
+        "isCorrect": false
+      },
+      {
+        "id": "F",
+        "label": "delayed",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "A twenty-minute lead describes a lopsided win: 'decisive' and 'commanding' both mean clearly dominant and fit equivalently. 'Narrow' is the opposite; 'disputed', 'accidental', and 'delayed' don't describe margin of victory.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "READING_COMPREHENSION",
+    "skillTag": "RC_STRUCTURE",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Requires identifying the passage's organizing move (posing a puzzle, then explaining it) rather than just its topic.",
+    "passageId": "psg_vents_1",
+    "passageBodyHtml": "<p>Hydrothermal vents on the deep ocean floor support dense communities of tube worms, clams, and shrimp in an environment that receives no sunlight and would otherwise be nearly lifeless. For decades this seemed paradoxical, since nearly all known food webs ultimately depend on photosynthesis. The puzzle was resolved by the discovery that bacteria living inside these vent animals, or free in the surrounding water, oxidize hydrogen sulfide released by the vents to produce energy, a process called chemosynthesis. These bacteria form the base of the vent food web in the same role that photosynthetic plants and algae play elsewhere, allowing entire ecosystems to flourish in permanent darkness.</p>",
+    "stem": "Which of the following best describes the organization of the passage?",
+    "choices": [
+      {
+        "id": "A",
+        "label": "A phenomenon is described, an apparent puzzle about it is raised, and the puzzle is then resolved",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "Two competing theories are presented and one is rejected in favor of the other",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "A historical controversy is traced from its origin to its eventual resolution in court",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "A claim is made and then systematically refuted with counterexamples",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "A series of unrelated observations about deep-sea life is listed without explanation",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "The passage describes vent communities, notes the paradox that they lack sunlight, and then resolves it via chemosynthesis — matching (A). No competing theories are weighed (B), no legal history is traced (C), no claim is refuted (D), and the observations are explained, not left unexplained (E).",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "MULTIPLE_CHOICE_SINGLE",
+    "skillTag": "VOCAB_IN_CONTEXT",
+    "difficulty": "HARD",
+    "difficultyRationale": "Requires selecting the sense of 'resolved' that matches its specific use in the passage (a puzzle being explained away) rather than more common senses like 'decided' or 'determined firmly'.",
+    "passageId": "psg_vents_1",
+    "passageBodyHtml": "<p>Hydrothermal vents on the deep ocean floor support dense communities of tube worms, clams, and shrimp in an environment that receives no sunlight and would otherwise be nearly lifeless. For decades this seemed paradoxical, since nearly all known food webs ultimately depend on photosynthesis. The puzzle was resolved by the discovery that bacteria living inside these vent animals, or free in the surrounding water, oxidize hydrogen sulfide released by the vents to produce energy, a process called chemosynthesis. These bacteria form the base of the vent food web in the same role that photosynthetic plants and algae play elsewhere, allowing entire ecosystems to flourish in permanent darkness.</p>",
+    "stem": "As used in the passage, \"resolved\" most nearly means",
+    "choices": [
+      {
+        "id": "A",
+        "label": "explained satisfactorily",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "decided by a vote",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "firmly determined in advance",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "separated into components",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "brought to a legal settlement",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "In context, the 'puzzle was resolved by the discovery' of chemosynthesis, meaning the apparent contradiction was accounted for — 'explained satisfactorily'. The other choices reflect unrelated senses of 'resolve' (voting, firm resolve, chemical/optical separation, legal settlement) that don't fit a scientific puzzle being explained.",
+    "assetUrl": null
   }
 ]
