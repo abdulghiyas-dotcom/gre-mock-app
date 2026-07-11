@@ -1918,5 +1918,425 @@
     "numericAnswer": null,
     "explanation": "A 'genial manner' hiding fierce competitiveness that 'surfaced only when' threatened means the manner masked the trait — 'concealed'. 'Advertised' and 'reinforced' would make it visible; 'explained' and 'required' don't capture the hidden-then-revealed contrast.",
     "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "TEXT_COMPLETION",
+    "skillTag": "TEXT_COMPLETION",
+    "difficulty": "EASY",
+    "difficultyRationale": "Direct cause-effect clue ('finished in record time without any confusion') and common vocabulary.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "The recipe was so ______ that even a novice cook finished the dish in record time without any confusion.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "straightforward",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "elaborate",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "expensive",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "outdated",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "unfamiliar",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Finishing quickly without confusion implies the recipe was easy to follow — 'straightforward'. 'Elaborate' and 'unfamiliar' would cause confusion; 'expensive' and 'outdated' are unrelated to ease.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "TEXT_COMPLETION",
+    "skillTag": "TEXT_COMPLETION",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Contrast structure ('despite ... nonetheless') requiring the reader to infer an unexpected outcome; 'predictable' is a same-direction trap.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "Despite months of careful planning, the expedition's outcome remained ______, and the team was forced to improvise at nearly every turn.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "uncertain",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "predictable",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "successful",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "documented",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "delayed",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Constant improvisation implies the team faced unpredictability despite planning — 'uncertain'. 'Predictable' contradicts the need to improvise 'at nearly every turn'; 'successful', 'documented', and 'delayed' don't fit the improvisation clue.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "TEXT_COMPLETION",
+    "skillTag": "TEXT_COMPLETION",
+    "difficulty": "HARD",
+    "difficultyRationale": "Two interdependent blanks around an economic argument; 'entrenched' interests resisting reform requires inferring both the interests' disposition and the reform's fate.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "Economists had long argued that the subsidy was inefficient, yet the policy proved remarkably (i)______, protected by (ii)______ interests that had grown dependent on it.",
+    "choices": [
+      {
+        "id": "i-A",
+        "label": "durable",
+        "isCorrect": true
+      },
+      {
+        "id": "i-B",
+        "label": "vulnerable",
+        "isCorrect": false
+      },
+      {
+        "id": "i-C",
+        "label": "controversial",
+        "isCorrect": false
+      },
+      {
+        "id": "ii-D",
+        "label": "entrenched",
+        "isCorrect": true
+      },
+      {
+        "id": "ii-E",
+        "label": "indifferent",
+        "isCorrect": false
+      },
+      {
+        "id": "ii-F",
+        "label": "fledgling",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "'Yet ... remarkably ___' signals the policy survived against expectation, so it was 'durable' (i); the interests protecting it, having 'grown dependent,' were 'entrenched' (ii). 'Vulnerable' contradicts survival; 'indifferent' and 'fledgling' contradict protecting something they depend on.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "SENTENCE_EQUIVALENCE",
+    "skillTag": "SENTENCE_EQUIVALENCE",
+    "difficulty": "EASY",
+    "difficultyRationale": "Direct clue (nothing left to eat by nightfall) and a common synonym pair.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "The picnic spread was so ______ that by nightfall there was nothing left to eat.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "popular",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "meager",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "well-received",
+        "isCorrect": true
+      },
+      {
+        "id": "D",
+        "label": "expensive",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "healthy",
+        "isCorrect": false
+      },
+      {
+        "id": "F",
+        "label": "colorful",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Nothing left by nightfall implies the food was in high demand: 'popular' and 'well-received' are synonyms that both fit. 'Meager' would explain scarcity differently (too little food, not high demand); 'expensive', 'healthy', and 'colorful' don't pair.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "SENTENCE_EQUIVALENCE",
+    "skillTag": "SENTENCE_EQUIVALENCE",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Contrast with 'meticulously organized' points to the opposite word; one clean synonym pair among near-field distractors.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "Unlike his meticulously organized colleague, the new intern kept a ______ desk, papers strewn everywhere with no apparent system.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "chaotic",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "tidy",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "disorderly",
+        "isCorrect": true
+      },
+      {
+        "id": "D",
+        "label": "spacious",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "shared",
+        "isCorrect": false
+      },
+      {
+        "id": "F",
+        "label": "cluttered with equipment",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "'Papers strewn everywhere with no apparent system' describes a messy desk: 'chaotic' and 'disorderly' are synonyms that both fit. 'Tidy' is the opposite; 'spacious' and 'shared' don't describe messiness, and the last option is a phrase, not a matching single-word synonym.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "SENTENCE_EQUIVALENCE",
+    "skillTag": "SENTENCE_EQUIVALENCE",
+    "difficulty": "HARD",
+    "difficultyRationale": "Low-frequency pair ('placate'/'mollify') needed to resolve a diplomatic-tension sentence; 'antagonize' reverses polarity and 'negotiate' is a plausible near-miss that doesn't match in meaning.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "The ambassador's carefully worded statement was designed to ______ both delegations without conceding any of the disputed territory.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "placate",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "antagonize",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "mollify",
+        "isCorrect": true
+      },
+      {
+        "id": "D",
+        "label": "negotiate",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "inform",
+        "isCorrect": false
+      },
+      {
+        "id": "F",
+        "label": "outrage",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "A statement designed to calm both sides 'without conceding territory' aims to appease: 'placate' and 'mollify' are synonyms meaning to soothe/calm and both fit. 'Antagonize' and 'outrage' are opposites; 'negotiate' and 'inform' describe different actions, not calming.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "READING_COMPREHENSION",
+    "skillTag": "RC_MAIN_IDEA",
+    "difficulty": "EASY",
+    "difficultyRationale": "Short, single-claim original passage with an unambiguous main point; distractors are details or unsupported extensions.",
+    "passageId": "psg_honeybee_1",
+    "passageBodyHtml": "<p>Honeybees communicate the location of food sources through a movement known as the waggle dance. A returning forager performs a figure-eight pattern on the vertical surface of the hive, and the angle of the dance's straight run relative to vertical indicates the direction of the food relative to the sun, while the duration of the waggle portion indicates distance. Other bees, sensing these cues in darkness through touch and vibration, can then fly directly to a food source they have never seen.</p>",
+    "stem": "The main point of the passage is that",
+    "choices": [
+      {
+        "id": "A",
+        "label": "honeybees use a specific movement to convey information about food location",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "honeybees cannot see in the darkness of the hive",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "the waggle dance is performed only by young bees",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "bees rely primarily on scent to locate food",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "the angle of the sun changes the taste of nectar",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "The passage explains how the waggle dance encodes direction and distance to food, so (A). (B) is a supporting detail, not the main point; (C), (D), and (E) are not stated in the passage.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "READING_COMPREHENSION",
+    "skillTag": "RC_INFERENCE",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Inference from 'they have never seen' to the reliability/precision of the encoded information, without the passage stating this explicitly.",
+    "passageId": "psg_honeybee_1",
+    "passageBodyHtml": "<p>Honeybees communicate the location of food sources through a movement known as the waggle dance. A returning forager performs a figure-eight pattern on the vertical surface of the hive, and the angle of the dance's straight run relative to vertical indicates the direction of the food relative to the sun, while the duration of the waggle portion indicates distance. Other bees, sensing these cues in darkness through touch and vibration, can then fly directly to a food source they have never seen.</p>",
+    "stem": "The passage suggests that the information conveyed by the waggle dance is",
+    "choices": [
+      {
+        "id": "A",
+        "label": "vague, requiring bees to search a wide area",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "precise enough to guide a bee directly to an unseen location",
+        "isCorrect": true
+      },
+      {
+        "id": "C",
+        "label": "useful only when the hive is exposed to sunlight",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "understood only by the forager who performed the dance",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "communicated primarily through scent trails",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "'Can fly directly to a food source they have never seen' implies the encoded direction and distance are precise, not approximate, so (B). (A) contradicts 'directly'; (C) is undercut by the dance being read 'in darkness'; (D) and (E) are unsupported.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "TEXT_COMPLETION",
+    "skillTag": "TEXT_COMPLETION",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Single blank governed by 'notorious for', requiring a negative-register word; 'renowned' is a positive-connotation trap sharing the surface meaning of 'well known'.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "The judge, notorious for her ______ rulings, rarely allowed sentencing guidelines any flexibility.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "inflexible",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "renowned",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "lenient",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "contested",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "delayed",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "'Notorious for' plus 'rarely allowed ... flexibility' describes strictness — 'inflexible'. 'Lenient' is the opposite; 'renowned' is a mismatched register (positive fame, not the negative 'notorious'); 'contested' and 'delayed' don't fit rigidity.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "READING_COMPREHENSION",
+    "skillTag": "RC_STRUCTURE",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Structural question over the honeybee passage: identify the passage's organizing pattern (mechanism explained via cause-and-effect for two variables).",
+    "passageId": "psg_honeybee_1",
+    "passageBodyHtml": "<p>Honeybees communicate the location of food sources through a movement known as the waggle dance. A returning forager performs a figure-eight pattern on the vertical surface of the hive, and the angle of the dance's straight run relative to vertical indicates the direction of the food relative to the sun, while the duration of the waggle portion indicates distance. Other bees, sensing these cues in darkness through touch and vibration, can then fly directly to a food source they have never seen.</p>",
+    "stem": "The passage explains the waggle dance chiefly by",
+    "choices": [
+      {
+        "id": "A",
+        "label": "comparing it to a similar behavior in another species",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "describing how two distinct features of the movement each encode a different kind of information",
+        "isCorrect": true
+      },
+      {
+        "id": "C",
+        "label": "narrating the historical discovery of the dance by researchers",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "listing several competing explanations and evaluating each",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "presenting statistical data on how often bees perform the dance",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "The passage pairs the angle (direction) and the duration (distance) as two features each conveying different information — (B). No comparison to another species (A), no history (C), no competing theories (D), and no statistics (E) appear.",
+    "assetUrl": null
   }
 ]

@@ -1566,5 +1566,343 @@
     "numericAnswer": null,
     "explanation": "The multiples of 4 in the range run from 12 to 48. Count = (48 - 12)/4 + 1 = 36/4 + 1 = 9 + 1 = 10: (B). Choice (A) = 9 omits the '+1' for inclusive counting.",
     "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "MULTIPLE_CHOICE_SINGLE",
+    "skillTag": "ARITHMETIC",
+    "difficulty": "EASY",
+    "difficultyRationale": "Single-step unit conversion with round numbers.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "A recipe requires 3/4 cup of sugar. If a baker wants to make 4 batches, how many cups of sugar are needed in total?",
+    "choices": [
+      {
+        "id": "A",
+        "label": "2",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "3",
+        "isCorrect": true
+      },
+      {
+        "id": "C",
+        "label": "4",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "4.75",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "5",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "4 batches require 4 × 3/4 = 3 cups: (B).",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "QUANT_COMPARISON",
+    "skillTag": "QUANT_COMPARISON_LOGIC",
+    "difficulty": "EASY",
+    "difficultyRationale": "Direct evaluation of two square roots; no hidden cases.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "Quantity A: √50\nQuantity B: 7",
+    "choices": [
+      {
+        "id": "A",
+        "label": "Quantity A is greater",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "Quantity B is greater",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "The two quantities are equal",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "The relationship cannot be determined from the information given",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "7^2 = 49, and 50 > 49, so √50 > 7. Quantity A is greater: (A).",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "MULTIPLE_CHOICE_SINGLE",
+    "skillTag": "GEOMETRY",
+    "difficulty": "EASY",
+    "difficultyRationale": "Direct application of the Pythagorean theorem with a common triple.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "A right triangle has legs of length 6 and 8. What is the length of the hypotenuse?",
+    "choices": [
+      {
+        "id": "A",
+        "label": "9",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "10",
+        "isCorrect": true
+      },
+      {
+        "id": "C",
+        "label": "12",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "14",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "48",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "By the Pythagorean theorem, hypotenuse = √(6² + 8²) = √(36 + 64) = √100 = 10: (B). This is the well-known 6-8-10 (scaled 3-4-5) triple.",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "NUMERIC_ENTRY",
+    "skillTag": "DATA_INTERPRETATION",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Weighted average across two groups of different sizes; the common error takes a simple average of the two class averages.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "A class of 20 students has an average test score of 80, and a second class of 30 students has an average test score of 90. What is the average score of all 50 students combined?",
+    "choices": [],
+    "numericAnswer": 86,
+    "explanation": "Total points = 20 × 80 + 30 × 90 = 1600 + 2700 = 4300. Average = 4300 / 50 = 86. Simply averaging 80 and 90 to get 85 ignores the different group sizes and is incorrect.",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "MULTIPLE_CHOICE_SINGLE",
+    "skillTag": "ALGEBRA",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Requires setting up an equation from an age-relationship word problem and solving for a variable used in a follow-up expression.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "Maria is currently three times as old as her son. In 10 years, she will be twice as old as he will be then. How old is Maria now?",
+    "choices": [
+      {
+        "id": "A",
+        "label": "20",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "24",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "30",
+        "isCorrect": true
+      },
+      {
+        "id": "D",
+        "label": "36",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "40",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Let the son's current age be x, so Maria is 3x. In 10 years: 3x + 10 = 2(x + 10), so 3x + 10 = 2x + 20, giving x = 10. Maria's current age is 3 × 10 = 30: (C).",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "QUANT_COMPARISON",
+    "skillTag": "QUANT_COMPARISON_LOGIC",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Tests whether the solver tracks how odd vs. even powers treat a negative base: cubing a negative number keeps it negative while squaring makes it positive, so despite the variable nature of x the comparison is fully determinate. Rewards sign reasoning over reflexively picking (D).",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "x < 0\n\nQuantity A: x^3\nQuantity B: x^2",
+    "choices": [
+      {
+        "id": "A",
+        "label": "Quantity A is greater",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "Quantity B is greater",
+        "isCorrect": true
+      },
+      {
+        "id": "C",
+        "label": "The two quantities are equal",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "The relationship cannot be determined from the information given",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "For any x < 0, x^3 is negative (odd power preserves sign) while x^2 is positive (even power). A negative number is always less than a positive number, so Quantity B is always greater regardless of the specific negative value: (B). Testing x = -2 confirms: x^3 = -8 vs x^2 = 4.",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "MULTIPLE_CHOICE_SINGLE",
+    "skillTag": "GEOMETRY",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Requires the arc-length fraction of a circle's circumference based on a central angle; distractors reflect using diameter or the wrong fraction.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "A circle has a radius of 9. What is the length of an arc formed by a central angle of 60 degrees?",
+    "choices": [
+      {
+        "id": "A",
+        "label": "π",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "3π",
+        "isCorrect": true
+      },
+      {
+        "id": "C",
+        "label": "6π",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "9π",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "18π",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Circumference = 2π(9) = 18π. A 60-degree arc is 60/360 = 1/6 of the circle: (1/6)(18π) = 3π: (B).",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "MULTIPLE_CHOICE_MULTIPLE",
+    "skillTag": "ALGEBRA",
+    "difficulty": "HARD",
+    "difficultyRationale": "Solving a quadratic inequality requires testing sign regions around both roots, not just solving the equation; select-all format with no partial credit raises the stakes for missing a boundary case.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "x^2 - 5x + 6 < 0. Which of the following are possible values of x?\n\nSelect all that apply.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "1",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "2.5",
+        "isCorrect": true
+      },
+      {
+        "id": "C",
+        "label": "3",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "2",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "4",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "x^2 - 5x + 6 = (x - 2)(x - 3), which is negative when x is strictly between 2 and 3. Only 2.5 falls in that open interval; 2 and 3 are the boundary roots (the expression equals 0 there, not less than 0), and 1 and 4 are outside the interval. Correct selection: B only.",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "NUMERIC_ENTRY",
+    "skillTag": "WORD_PROBLEMS",
+    "difficulty": "HARD",
+    "difficultyRationale": "Compound interest with a two-year compounding period, requiring repeated application of the growth factor rather than simple interest.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "An investment of $1,000 earns 10% annual interest, compounded annually. What is the value of the investment, in dollars, after 2 years?",
+    "choices": [],
+    "numericAnswer": 1210,
+    "explanation": "After year 1: 1000 × 1.10 = 1100. After year 2: 1100 × 1.10 = 1210. (Simple interest would incorrectly give 1000 + 100 + 100 = 1200.)",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "MULTIPLE_CHOICE_SINGLE",
+    "skillTag": "DATA_INTERPRETATION",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Requires computing a weighted total from category counts and a per-unit cost, then comparing to a budget; distractors include the unit cost and an off-by-one-category total.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "A company orders 150 notebooks at $3 each and 80 pens at $1.50 each. What is the total cost of the order, in dollars?",
+    "choices": [
+      {
+        "id": "A",
+        "label": "230",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "450",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "570",
+        "isCorrect": true
+      },
+      {
+        "id": "D",
+        "label": "690",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "720",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Notebooks: 150 × $3 = $450. Pens: 80 × $1.50 = $120. Total: $450 + $120 = $570: (C). Choice (B) = 450 is only the notebook cost.",
+    "assetUrl": null
   }
 ]
