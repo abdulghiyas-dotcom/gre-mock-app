@@ -1,0 +1,63 @@
+// Production data layer. See docs/DATABASE_SCHEMA.md for the full design and
+// rationale. This schema covers the question bank + essay prompts (Phase 1);
+// attempts/sections/responses/scoring models are added in Phase 2-5.
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum SectionType {
+  VERBAL
+  QUANT
+  AWA
+}
+
+enum Difficulty {
+  EASY
+  MEDIUM
+  HARD
+}
+
+enum QuestionType {
+  TEXT_COMPLETION
+  SENTENCE_EQUIVALENCE
+  READING_COMPREHENSION
+  QUANT_COMPARISON
+  MULTIPLE_CHOICE_SINGLE
+  MULTIPLE_CHOICE_MULTIPLE
+  NUMERIC_ENTRY
+}
+
+model Passage {
+  id        String     @id @default(cuid())
+  bodyHtml  String
+  questions Question[]
+}
+
+model Question {
+  id            String       @id @default(cuid())
+  section       SectionType
+  questionType  QuestionType
+  skillTag      String
+  difficulty    Difficulty
+  passageId     String?
+  passage       Passage?     @relation(fields: [passageId], references: [id])
+  stem          String
+  choices       Json // [{ id, label, isCorrect }]
+  correctAnswer Json // choice id[s] or numeric value
+  explanation   String
+  createdAt     DateTime     @default(now())
+
+  @@index([section, questionType, difficulty, skillTag])
+}
+
+model EssayPrompt {
+  id         String @id @default(cuid())
+  taskType   String
+  promptText String
+}

@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+/* The live test surface uses a fixed, distraction-free layout like the real
+   test-day software: no page scroll chrome, panes scroll internally. */
+.test-shell {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
