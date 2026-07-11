@@ -6698,5 +6698,260 @@
     "numericAnswer": null,
     "explanation": "'Far from being ___' followed by meticulous documentation means the blank should describe a hasty, superficial report — the opposite of what's described. 'Cursory' and 'perfunctory' both mean done without care and fit equivalently. 'Exhaustive' and 'meticulous' describe the report's actual quality, not the negated blank; 'authoritative' and 'impartial' don't fit either sense.",
     "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "READING_COMPREHENSION",
+    "skillTag": "RC_MAIN_IDEA",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Main-purpose question over a passage that both reports a documented benefit and stresses reasons the benefit varies; the wrong answers each overstate the passage into a one-sided advocacy or attack piece.",
+    "passageId": "psg_urban_forest_1",
+    "passageBodyHtml": "<p>Cities that increase their tree canopy cover have been shown to reduce local air temperatures by several degrees during heat waves, an effect sometimes called urban cooling. The mechanism is twofold: trees provide direct shade that blocks incoming solar radiation, and they cool the surrounding air through transpiration, the release of water vapor from leaves. Municipal planners have increasingly cited these findings to justify large-scale tree-planting initiatives, though ecologists caution that the cooling benefit varies considerably by species, planting density, and local climate, and that trees planted without regard to these factors may fail to establish or may provide only marginal relief.</p>",
+    "stem": "The primary purpose of the passage is to",
+    "choices": [
+      {
+        "id": "A",
+        "label": "describe a documented urban cooling effect and note important caveats about how reliably it delivers benefits",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "argue that municipal governments should abandon tree-planting initiatives entirely",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "prove that transpiration is a more powerful cooling mechanism than shading",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "criticize ecologists for questioning the value of urban forestry",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "provide a step-by-step guide for selecting tree species to plant",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "The passage reports the cooling effect and its mechanism, then adds ecologists' caveats about variability and poor planting outcomes — matching (A). (B) overstates the caveats into rejection; (C) is never compared; (D) mischaracterizes caution as criticism; (E) is not attempted.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "MULTIPLE_CHOICE_SINGLE",
+    "skillTag": "VOCAB_IN_CONTEXT",
+    "difficulty": "HARD",
+    "difficultyRationale": "Requires the specific 'slight/minor' sense of 'marginal' rather than the more common financial sense ('profit margin'), a frequent GRE vocabulary-in-context trap.",
+    "passageId": "psg_urban_forest_1",
+    "passageBodyHtml": "<p>Cities that increase their tree canopy cover have been shown to reduce local air temperatures by several degrees during heat waves, an effect sometimes called urban cooling. The mechanism is twofold: trees provide direct shade that blocks incoming solar radiation, and they cool the surrounding air through transpiration, the release of water vapor from leaves. Municipal planners have increasingly cited these findings to justify large-scale tree-planting initiatives, though ecologists caution that the cooling benefit varies considerably by species, planting density, and local climate, and that trees planted without regard to these factors may fail to establish or may provide only marginal relief.</p>",
+    "stem": "As used in the passage, \"marginal\" most nearly means",
+    "choices": [
+      {
+        "id": "A",
+        "label": "minimal",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "profitable",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "borderline unlawful",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "central",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "additional",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "In context, trees planted poorly 'may fail to establish or may provide only marginal relief' — a slight, minor amount of cooling — so 'minimal'. 'Profitable' reflects the unrelated financial sense of 'margin'; 'central' is nearly opposite; 'borderline unlawful' and 'additional' don't fit a discussion of cooling benefit.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "TEXT_COMPLETION",
+    "skillTag": "TEXT_COMPLETION",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Requires recognizing that imposing present-day values on old works is what critics would call 'revisionism,' distinguishing it from neutral archival terms like preservation or cataloguing.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "The museum's new acquisitions policy, meant to make the collection more representative, was praised by some curators as overdue and criticized by others as an act of historical ______, imposing present-day values onto works created centuries earlier.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "revisionism",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "preservation",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "authentication",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "restoration",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "cataloguing",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Imposing present-day values on older works is exactly what critics label 'revisionism'. 'Preservation', 'authentication', 'restoration', and 'cataloguing' are neutral curatorial tasks unrelated to the described criticism.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "TEXT_COMPLETION",
+    "skillTag": "TEXT_COMPLETION",
+    "difficulty": "HARD",
+    "difficultyRationale": "Two interdependent blanks: diplomats giving 'starkly different accounts' of the same treaty implies the language allowed multiple readings (blank i), and the disagreement concerns what was committed to (blank ii).",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "Because the treaty's language was so (i)______, diplomats from both nations later offered starkly different accounts of what had actually been (ii)______.",
+    "choices": [
+      {
+        "id": "i-A",
+        "label": "ambiguous",
+        "isCorrect": true
+      },
+      {
+        "id": "i-B",
+        "label": "precise",
+        "isCorrect": false
+      },
+      {
+        "id": "i-C",
+        "label": "translated",
+        "isCorrect": false
+      },
+      {
+        "id": "ii-D",
+        "label": "promised",
+        "isCorrect": true
+      },
+      {
+        "id": "ii-E",
+        "label": "forbidden",
+        "isCorrect": false
+      },
+      {
+        "id": "ii-F",
+        "label": "publicized",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Diverging later accounts of the same text point to language open to multiple readings — 'ambiguous' (blank i) — and the dispute concerns what commitments were made — 'promised' (blank ii). 'Precise' language would produce agreement, not divergence, contradicting the sentence.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "SENTENCE_EQUIVALENCE",
+    "skillTag": "SENTENCE_EQUIVALENCE",
+    "difficulty": "EASY",
+    "difficultyRationale": "Clear clue (novice cooks could follow it without difficulty) with a common synonym pair.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "The chef's technique was so ______ that even novice cooks could follow the recipe without difficulty.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "straightforward",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "simple",
+        "isCorrect": true
+      },
+      {
+        "id": "C",
+        "label": "elaborate",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "secretive",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "expensive",
+        "isCorrect": false
+      },
+      {
+        "id": "F",
+        "label": "risky",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Something novices can follow without difficulty is easy: 'straightforward' and 'simple' both fit equivalently. 'Elaborate' and 'risky' suggest difficulty, the opposite; 'secretive' and 'expensive' are unrelated to ease of following a recipe.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "SENTENCE_EQUIVALENCE",
+    "skillTag": "SENTENCE_EQUIVALENCE",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Requires matching 'lacking wit and energy' to synonyms meaning dull, distinguishing them from words describing a positive or merely different quality.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "Critics found the sequel surprisingly ______, lacking the wit and energy that had made the original film so memorable.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "flat",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "lackluster",
+        "isCorrect": true
+      },
+      {
+        "id": "C",
+        "label": "inventive",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "faithful",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "profitable",
+        "isCorrect": false
+      },
+      {
+        "id": "F",
+        "label": "lengthy",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Lacking wit and energy describes a dull film: 'flat' and 'lackluster' both mean dull/uninspired and fit equivalently. 'Inventive' contradicts the description; 'faithful', 'profitable', and 'lengthy' don't describe dullness.",
+    "assetUrl": null
   }
 ]

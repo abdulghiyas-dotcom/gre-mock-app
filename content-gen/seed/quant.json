@@ -5963,5 +5963,251 @@
     "numericAnswer": 6,
     "explanation": "Let boys = 3k and girls = 5k. After 4 more girls join: 3k / (5k + 4) = 3/7, so 7(3k) = 3(5k + 4), giving 21k = 15k + 12, so 6k = 12 and k = 2. Boys = 3k = 6 (and girls = 5k = 10, becoming 14 after 4 join, and 6:14 = 3:7, confirming the answer).",
     "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "NUMERIC_ENTRY",
+    "skillTag": "GEOMETRY",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Direct application of the distance formula in the coordinate plane, with a 3-4-5 triple to keep the arithmetic clean.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "What is the distance between the points (1, 2) and (4, 6) in the xy-plane?",
+    "choices": null,
+    "numericAnswer": 5,
+    "explanation": "Distance = √[(4−1)² + (6−2)²] = √(9 + 16) = √25 = 5.",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "NUMERIC_ENTRY",
+    "skillTag": "GEOMETRY",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Direct slope computation between two coordinate points, testing correct application of the slope formula's order of subtraction.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "A line passes through the points (2, 3) and (5, 9) in the xy-plane. What is the slope of the line?",
+    "choices": null,
+    "numericAnswer": 2,
+    "explanation": "Slope = (9 − 3) / (5 − 2) = 6/3 = 2.",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "MULTIPLE_CHOICE_SINGLE",
+    "skillTag": "ALGEBRA",
+    "difficulty": "HARD",
+    "difficultyRationale": "Requires solving a compound inequality and correctly counting integers in an open interval on both ends, a common off-by-one trap.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "For how many integer values of x are both 2x − 5 < 9 and x > −3 true?",
+    "choices": [
+      {
+        "id": "A",
+        "label": "7",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "8",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "9",
+        "isCorrect": true
+      },
+      {
+        "id": "D",
+        "label": "10",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "11",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "2x − 5 < 9 gives 2x < 14, so x < 7. Combined with x > −3, the integers satisfying −3 < x < 7 are −2, −1, 0, 1, 2, 3, 4, 5, 6 — nine values, so (C).",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "NUMERIC_ENTRY",
+    "skillTag": "ARITHMETIC",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Single-step markup computation on a round base price.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "A retailer buys a jacket for $80 and sells it at a 35% markup over the purchase price. What is the selling price, in dollars?",
+    "choices": null,
+    "numericAnswer": 108,
+    "explanation": "Selling price = $80 × 1.35 = $108.",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "QUANT_COMPARISON",
+    "skillTag": "ALGEBRA",
+    "difficulty": "HARD",
+    "difficultyRationale": "Tests whether the solver mistakenly treats x^2 as making the whole product positive; since y is negative, x^2 * y is negative for every allowed x and y, making Quantity B constantly greater.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "x and y are negative integers.\nQuantity A: x^2 · y\nQuantity B: 0",
+    "choices": [
+      {
+        "id": "A",
+        "label": "Quantity A is greater",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "Quantity B is greater",
+        "isCorrect": true
+      },
+      {
+        "id": "C",
+        "label": "The two quantities are equal",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "The relationship cannot be determined from the information given",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "x^2 is always positive (x is a nonzero integer), but y is negative, so x^2 · y is always negative regardless of the specific negative integers chosen. A negative number is always less than 0, so Quantity B is always greater: (B).",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "MULTIPLE_CHOICE_MULTIPLE",
+    "skillTag": "ARITHMETIC",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Requires checking primality of each option individually, including two composite numbers (9 = 3², 21 = 3×7) chosen to look potentially prime.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "Which of the following are prime numbers?\n\nSelect all that apply.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "2",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "9",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "17",
+        "isCorrect": true
+      },
+      {
+        "id": "D",
+        "label": "21",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "29",
+        "isCorrect": true
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "2, 17, and 29 have no divisors other than 1 and themselves, so they are prime. 9 = 3 × 3 and 21 = 3 × 7 are composite. Correct selections: A, C, E.",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "NUMERIC_ENTRY",
+    "skillTag": "ALGEBRA",
+    "difficulty": "HARD",
+    "difficultyRationale": "Requires solving a 2-variable linear system via substitution rather than guess-and-check, with coefficients chosen so the intermediate step isn't a trivial lookup.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "If 2x + y = 11 and x − y = 1, what is the value of x?",
+    "choices": null,
+    "numericAnswer": 4,
+    "explanation": "From x − y = 1, y = x − 1. Substituting into 2x + y = 11: 2x + (x − 1) = 11, so 3x = 12, and x = 4 (with y = 3, check: 2(4) + 3 = 11 ✓).",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "QUANT_COMPARISON",
+    "skillTag": "ARITHMETIC",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Illustrates that percent-of is commutative (a% of b equals b% of a), a conceptual shortcut that makes an apparently asymmetric comparison resolve to equality.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "Quantity A: 40% of 150\nQuantity B: 150% of 40",
+    "choices": [
+      {
+        "id": "A",
+        "label": "Quantity A is greater",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "Quantity B is greater",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "The two quantities are equal",
+        "isCorrect": true
+      },
+      {
+        "id": "D",
+        "label": "The relationship cannot be determined from the information given",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "40% of 150 = 0.40 × 150 = 60. 150% of 40 = 1.50 × 40 = 60. Both equal 60, since a% of b always equals b% of a: (C).",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "MULTIPLE_CHOICE_SINGLE",
+    "skillTag": "ARITHMETIC",
+    "difficulty": "EASY",
+    "difficultyRationale": "Basic fraction-to-decimal conversion with a common denominator, appropriate for the easy tier.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "What is 3/8 expressed as a decimal?",
+    "choices": [
+      {
+        "id": "A",
+        "label": "0.325",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "0.375",
+        "isCorrect": true
+      },
+      {
+        "id": "C",
+        "label": "0.425",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "0.475",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "0.525",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "3 ÷ 8 = 0.375, so (B).",
+    "assetUrl": null
   }
 ]
