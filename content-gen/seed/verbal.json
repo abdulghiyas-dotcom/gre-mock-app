@@ -4133,5 +4133,345 @@
     "numericAnswer": null,
     "explanation": "The passage states the old 'passive state' view, then says modern neuroscience 'has overturned this view' with a more accurate active-process account — a replaced-view structure, so (B). (A) wrongly implies neither view is favored; (C), (D), (E) don't match the passage's short, single-shift structure.",
     "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "TEXT_COMPLETION",
+    "skillTag": "TEXT_COMPLETION",
+    "difficulty": "EASY",
+    "difficultyRationale": "Direct clue ('agreed with almost every point the other made') and common vocabulary.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "The two economists, despite representing rival schools of thought, found themselves in surprising ______, agreeing on almost every point.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "agreement",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "conflict",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "silence",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "competition",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "confusion",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Agreeing on almost every point describes 'agreement' directly. 'Conflict' and 'competition' are opposites; 'silence' and 'confusion' don't fit agreeing on points.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "TEXT_COMPLETION",
+    "skillTag": "TEXT_COMPLETION",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Concessive structure requiring inference that a sparse-looking exhibit was intentional rather than incomplete; 'unfinished' is a plausible surface reading that the sentence rules out.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "The exhibit's sparse arrangement, with only a handful of objects in a cavernous room, was not an oversight but a ______ curatorial choice meant to focus attention on each piece.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "deliberate",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "unfinished",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "accidental",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "expensive",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "temporary",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "'Not an oversight but a ___ choice' directly signals intentionality — 'deliberate'. 'Unfinished' and 'accidental' are ruled out by 'not an oversight'; 'expensive' and 'temporary' don't address intentionality.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "TEXT_COMPLETION",
+    "skillTag": "TEXT_COMPLETION",
+    "difficulty": "HARD",
+    "difficultyRationale": "Two interdependent blanks describing a translator whose fidelity to the source text sacrifices readability; each blank has a plausible opposite-direction distractor.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "The translation was praised by scholars for its (i)______ to the original text, even as general readers found it (ii)______, its convoluted syntax mirroring the source language rather than adapting to English idiom.",
+    "choices": [
+      {
+        "id": "i-A",
+        "label": "fidelity",
+        "isCorrect": true
+      },
+      {
+        "id": "i-B",
+        "label": "departure",
+        "isCorrect": false
+      },
+      {
+        "id": "i-C",
+        "label": "irrelevance",
+        "isCorrect": false
+      },
+      {
+        "id": "ii-D",
+        "label": "unreadable",
+        "isCorrect": true
+      },
+      {
+        "id": "ii-E",
+        "label": "engaging",
+        "isCorrect": false
+      },
+      {
+        "id": "ii-F",
+        "label": "concise",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Scholars praised faithfulness to the original — 'fidelity' (i) — while general readers, given 'convoluted syntax' mirroring the source rather than English idiom, found it 'unreadable' (ii). 'Departure' contradicts scholarly praise for closeness to the original; 'engaging' and 'concise' contradict convoluted syntax.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "SENTENCE_EQUIVALENCE",
+    "skillTag": "SENTENCE_EQUIVALENCE",
+    "difficulty": "EASY",
+    "difficultyRationale": "Clear clue (finished the puzzle in under ten minutes) with a high-frequency synonym pair.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "The child proved remarkably ______, solving the thousand-piece puzzle in under an hour.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "skillful",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "clumsy",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "adept",
+        "isCorrect": true
+      },
+      {
+        "id": "D",
+        "label": "impatient",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "quiet",
+        "isCorrect": false
+      },
+      {
+        "id": "F",
+        "label": "young",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Solving a thousand-piece puzzle quickly demonstrates skill: 'skillful' and 'adept' are synonyms that both fit. 'Clumsy' is the opposite; 'impatient', 'quiet', and 'young' don't describe skill and don't pair with each other.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "SENTENCE_EQUIVALENCE",
+    "skillTag": "SENTENCE_EQUIVALENCE",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "'Instead of clarifying the policy, the memo only ___ confusion' requires a worsening verb; one clean synonym pair among neutral distractors.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "Instead of clarifying the new policy, the poorly written memo only ______ confusion among staff.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "compounded",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "resolved",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "deepened",
+        "isCorrect": true
+      },
+      {
+        "id": "D",
+        "label": "documented",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "anticipated",
+        "isCorrect": false
+      },
+      {
+        "id": "F",
+        "label": "measured",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "'Instead of clarifying ... only ___' signals worsening, not resolving, confusion: 'compounded' and 'deepened' both mean intensified and fit equivalently. 'Resolved' is the opposite; 'documented', 'anticipated', and 'measured' don't mean worsened.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "SENTENCE_EQUIVALENCE",
+    "skillTag": "SENTENCE_EQUIVALENCE",
+    "difficulty": "HARD",
+    "difficultyRationale": "Low-frequency pair ('vindicated'/'exonerated') needed after a scandal ends favorably; 'acquitted' is a tempting near-miss limited to legal contexts, narrower than the general sentence requires.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "After years under a cloud of suspicion, the researcher was finally ______ when an independent review confirmed that her original data had been accurate all along.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "vindicated",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "condemned",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "exonerated",
+        "isCorrect": true
+      },
+      {
+        "id": "D",
+        "label": "acquitted",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "forgotten",
+        "isCorrect": false
+      },
+      {
+        "id": "F",
+        "label": "promoted",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "An independent review confirming her data was accurate clears her of suspicion: 'vindicated' and 'exonerated' both mean cleared of blame and fit equivalently in this general (non-legal) context. 'Condemned' is the opposite; 'acquitted' is specifically a legal-trial term, mismatched to a data-accuracy review; 'forgotten' and 'promoted' don't fit being cleared of suspicion.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "READING_COMPREHENSION",
+    "skillTag": "RC_MAIN_IDEA",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Main-purpose question over an original economics passage describing a counterintuitive finding; the strongest distractor overstates the passage's confidence in the explanation offered.",
+    "passageId": "psg_scarcity_1",
+    "passageBodyHtml": "<p>Conventional wisdom holds that people under financial strain make worse decisions because they lack the discipline of those who are more comfortable. A series of studies complicates this assumption. When researchers temporarily induced a sense of scarcity in financially secure participants — for instance, by asking them to imagine an unexpected expense — those participants' performance on unrelated cognitive tasks declined measurably, mirroring patterns seen in genuinely poor populations. The finding suggests that scarcity itself, rather than any inherent trait of the people experiencing it, may consume mental bandwidth that would otherwise support careful judgment. The explanation remains provisional, but it reframes financial hardship as a cognitive burden rather than a character flaw.</p>",
+    "stem": "The primary purpose of the passage is to",
+    "choices": [
+      {
+        "id": "A",
+        "label": "prove conclusively that scarcity causes poor decision-making in all cases",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "present findings that challenge a common assumption about financial hardship and decision-making",
+        "isCorrect": true
+      },
+      {
+        "id": "C",
+        "label": "describe the methodology used to study cognitive tasks",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "argue that financially secure people are less capable than they realize",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "recommend specific interventions to reduce financial strain",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "The passage states the conventional 'character flaw' assumption, then presents study findings that reframe hardship as a 'cognitive burden' — challenging the common assumption, so (B). (A) overstates: the passage calls the explanation 'provisional'. (C), (D), (E) are not the passage's purpose.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "READING_COMPREHENSION",
+    "skillTag": "RC_INFERENCE",
+    "difficulty": "HARD",
+    "difficultyRationale": "Requires inferring the logical significance of testing financially SECURE participants specifically, as a controlled comparison ruling out inherent-trait explanations.",
+    "passageId": "psg_scarcity_1",
+    "passageBodyHtml": "<p>Conventional wisdom holds that people under financial strain make worse decisions because they lack the discipline of those who are more comfortable. A series of studies complicates this assumption. When researchers temporarily induced a sense of scarcity in financially secure participants — for instance, by asking them to imagine an unexpected expense — those participants' performance on unrelated cognitive tasks declined measurably, mirroring patterns seen in genuinely poor populations. The finding suggests that scarcity itself, rather than any inherent trait of the people experiencing it, may consume mental bandwidth that would otherwise support careful judgment. The explanation remains provisional, but it reframes financial hardship as a cognitive burden rather than a character flaw.</p>",
+    "stem": "The passage suggests that the researchers' choice to study financially secure participants was significant chiefly because it helped",
+    "choices": [
+      {
+        "id": "A",
+        "label": "increase the number of participants available for the study",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "rule out the possibility that an inherent trait of poor people explained the cognitive effects",
+        "isCorrect": true
+      },
+      {
+        "id": "C",
+        "label": "demonstrate that wealthy people are generally better decision-makers",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "measure the exact financial cost of poor decision-making",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "confirm the conventional wisdom about financial discipline",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "By showing that inducing scarcity in people who are NOT poor produces the same cognitive decline, the study isolates scarcity itself as the cause rather than any trait specific to poor people — (B), directly supporting the passage's claim that it's 'scarcity itself, rather than any inherent trait'. (C), (D), (E) are not supported; (A) is not the study's purpose.",
+    "assetUrl": null
   }
 ]

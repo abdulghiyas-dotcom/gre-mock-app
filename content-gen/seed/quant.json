@@ -3494,5 +3494,308 @@
     "numericAnswer": null,
     "explanation": "A number divisible by both 4 and 6 must be divisible by their LCM, 12. Checking each: 20/12 no, 24/12=2 yes, 30/12 no, 36/12=3 yes, 48/12=4 yes. Correct selections: B, D, E.",
     "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "MULTIPLE_CHOICE_SINGLE",
+    "skillTag": "ARITHMETIC",
+    "difficulty": "EASY",
+    "difficultyRationale": "Single-step greatest common factor with small numbers.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "What is the greatest common factor of 18 and 24?",
+    "choices": [
+      {
+        "id": "A",
+        "label": "2",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "3",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "6",
+        "isCorrect": true
+      },
+      {
+        "id": "D",
+        "label": "9",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "12",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "18 = 2 × 3², and 24 = 2³ × 3. The common factors are 2¹ and 3¹, so GCF = 2 × 3 = 6: (C).",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "MULTIPLE_CHOICE_SINGLE",
+    "skillTag": "GEOMETRY",
+    "difficulty": "EASY",
+    "difficultyRationale": "Direct application of the circle circumference formula.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "A circle has a diameter of 14. What is its circumference?",
+    "choices": [
+      {
+        "id": "A",
+        "label": "7π",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "14π",
+        "isCorrect": true
+      },
+      {
+        "id": "C",
+        "label": "28π",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "49π",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "196π",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Circumference = π × diameter = 14π: (B). Choice (A) = 7π mistakenly uses the radius formula (2πr) but plugs in the diameter as if it were the radius, effectively halving the answer.",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "QUANT_COMPARISON",
+    "skillTag": "ALGEBRA",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Requires recognizing that a strict inequality on x doesn't pin down x^2 relative to a fixed number without more information about the sign or magnitude of x — the comparison depends on which values x can take.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "-1 < x < 1\n\nQuantity A: x^2\nQuantity B: 1",
+    "choices": [
+      {
+        "id": "A",
+        "label": "Quantity A is greater",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "Quantity B is greater",
+        "isCorrect": true
+      },
+      {
+        "id": "C",
+        "label": "The two quantities are equal",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "The relationship cannot be determined from the information given",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "For any x strictly between -1 and 1, x² is strictly between 0 and 1 (squaring a proper fraction, positive or negative, makes it smaller in absolute value). So x² < 1 always holds in this range, meaning Quantity B is always greater: (B), not (D), since the strict bounds guarantee the relationship regardless of which value x takes.",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "NUMERIC_ENTRY",
+    "skillTag": "WORD_PROBLEMS",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Requires setting up a total-cost equation with a fixed fee plus a per-unit rate and solving for the number of units.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "A taxi service charges a flat fee of $3.50 plus $2.25 per mile. If a ride costs $19.25, how many miles was the ride?",
+    "choices": [],
+    "numericAnswer": 7,
+    "explanation": "Let m be the number of miles. 3.50 + 2.25m = 19.25, so 2.25m = 15.75, giving m = 15.75 / 2.25 = 7.",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "MULTIPLE_CHOICE_SINGLE",
+    "skillTag": "DATA_INTERPRETATION",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Requires computing a percentage change between two data points read from a described set and identifying the correct direction of change.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "A city's population was 40,000 in 2010 and 52,000 in 2020. By approximately what percent did the population increase over this period?",
+    "choices": [
+      {
+        "id": "A",
+        "label": "12%",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "23%",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "24%",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "30%",
+        "isCorrect": true
+      },
+      {
+        "id": "E",
+        "label": "77%",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Percent increase = (52,000 - 40,000) / 40,000 × 100 = 12,000/40,000 × 100 = 30%: (D). Choice (B) ≈ 23% mistakenly divides the increase by the 2020 population instead of the original 2010 population.",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "MULTIPLE_CHOICE_SINGLE",
+    "skillTag": "GEOMETRY",
+    "difficulty": "HARD",
+    "difficultyRationale": "Requires the 30-60-90 special right triangle side ratios to find the height, then applying the triangle area formula — a two-concept item.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "An equilateral triangle has a side length of 8. What is its area?",
+    "choices": [
+      {
+        "id": "A",
+        "label": "16",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "16√3",
+        "isCorrect": true
+      },
+      {
+        "id": "C",
+        "label": "32",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "32√3",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "64",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Drawing an altitude splits the equilateral triangle into two 30-60-90 triangles, giving height = side × (√3/2) = 8 × √3/2 = 4√3. Area = (1/2)(base)(height) = (1/2)(8)(4√3) = 16√3: (B).",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "MULTIPLE_CHOICE_SINGLE",
+    "skillTag": "ARITHMETIC",
+    "difficulty": "HARD",
+    "difficultyRationale": "Requires computing a combined discount applied sequentially versus a single equivalent discount, a multi-step percent problem with a non-additive trap.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "A store applies a 10% discount, and then applies an additional 10% discount to the already-reduced price. What single discount, applied to the original price, would produce the same final price?",
+    "choices": [
+      {
+        "id": "A",
+        "label": "18%",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "19%",
+        "isCorrect": true
+      },
+      {
+        "id": "C",
+        "label": "20%",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "21%",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "25%",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Two successive 10% discounts leave 0.90 × 0.90 = 0.81 of the original price, a 19% total discount: (B). Simply adding 10% + 10% = 20% (C) is the common but incorrect assumption, since the second discount applies to a smaller base.",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "NUMERIC_ENTRY",
+    "skillTag": "ALGEBRA",
+    "difficulty": "EASY",
+    "difficultyRationale": "Single-step solve for a variable in a simple linear equation.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "If 7x + 3 = 38, what is the value of x?",
+    "choices": [],
+    "numericAnswer": 5,
+    "explanation": "7x + 3 = 38, so 7x = 35, giving x = 5.",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "MULTIPLE_CHOICE_SINGLE",
+    "skillTag": "WORD_PROBLEMS",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Requires combining two rates (production and defect rate) to find a net usable-output quantity, a two-step manufacturing word problem.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "A factory produces 500 units per day, but 4% of units produced are defective and discarded. How many non-defective units does the factory produce in a day?",
+    "choices": [
+      {
+        "id": "A",
+        "label": "460",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "470",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "480",
+        "isCorrect": true
+      },
+      {
+        "id": "D",
+        "label": "490",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "496",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "4% of 500 = 20 defective units. Non-defective units = 500 - 20 = 480: (C). Choice (E) = 496 mistakenly computes 4 units per day rather than 4% of the total.",
+    "assetUrl": null
   }
 ]
