@@ -4813,5 +4813,345 @@
     "numericAnswer": null,
     "explanation": "The passage says artisans placed important images 'where they would draw the greatest attention' — deliberate placement to maximize visibility of key scenes, so (B). (A) contradicts 'deliberately'; (C), (D), (E) are not supported.",
     "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "TEXT_COMPLETION",
+    "skillTag": "TEXT_COMPLETION",
+    "difficulty": "EASY",
+    "difficultyRationale": "Direct clue ('answered every question without once checking her notes') and common vocabulary.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "The witness's testimony was ______, answering every question without once checking her notes.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "confident",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "uncertain",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "brief",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "rehearsed",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "reluctant",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Answering every question without checking notes shows self-assurance — 'confident'. 'Uncertain' and 'reluctant' are opposites; 'brief' and 'rehearsed' don't capture the lack of hesitation described.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "TEXT_COMPLETION",
+    "skillTag": "TEXT_COMPLETION",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Requires inferring that a policy praised for one quality yet criticized elsewhere for the opposite reveals an internal tension; 'consistent' is the reversed-polarity trap.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "Critics noted a curious ______ in the policy: it was praised by economists for its flexibility even as legal scholars faulted it for being impossible to apply predictably.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "tension",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "consistency",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "clarity",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "popularity",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "delay",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Being praised for flexibility while faulted for unpredictability describes an internal conflict — 'tension'. 'Consistency' and 'clarity' contradict the described conflict; 'popularity' and 'delay' don't fit either.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "TEXT_COMPLETION",
+    "skillTag": "TEXT_COMPLETION",
+    "difficulty": "HARD",
+    "difficultyRationale": "Two interdependent blanks about an artist whose late work was dismissed then later celebrated as prescient; each blank has a plausible surface-matching distractor.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "Critics of her own era dismissed the late paintings as (i)______, evidence of a talent in decline; only decades later did a new generation recognize them as (ii)______ of a movement that had not yet been named.",
+    "choices": [
+      {
+        "id": "i-A",
+        "label": "derivative",
+        "isCorrect": true
+      },
+      {
+        "id": "i-B",
+        "label": "masterful",
+        "isCorrect": false
+      },
+      {
+        "id": "i-C",
+        "label": "colorful",
+        "isCorrect": false
+      },
+      {
+        "id": "ii-D",
+        "label": "precursors",
+        "isCorrect": true
+      },
+      {
+        "id": "ii-E",
+        "label": "imitations",
+        "isCorrect": false
+      },
+      {
+        "id": "ii-F",
+        "label": "relics",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "'Dismissed ... as (i), evidence of a talent in decline' suggests unoriginal, uninspired work — 'derivative' (i); later recognized as coming before a movement, they were seen as 'precursors' (ii). 'Masterful' would not be dismissed as decline; 'imitations' and 'relics' don't fit anticipating a future movement.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "SENTENCE_EQUIVALENCE",
+    "skillTag": "SENTENCE_EQUIVALENCE",
+    "difficulty": "EASY",
+    "difficultyRationale": "Clear clue (rebuilt the engine from spare parts found at a junkyard) with a common synonym pair.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "The teenager proved surprisingly ______, rebuilding the old engine using only spare parts found at a junkyard.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "resourceful",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "wasteful",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "capable",
+        "isCorrect": true
+      },
+      {
+        "id": "D",
+        "label": "impatient",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "wealthy",
+        "isCorrect": false
+      },
+      {
+        "id": "F",
+        "label": "cautious",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Rebuilding an engine from junkyard parts shows skill and resourcefulness: 'resourceful' and 'capable' are synonyms that both fit here. 'Wasteful' contradicts using scraps efficiently; 'impatient', 'wealthy', and 'cautious' don't describe this skill and don't pair.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "SENTENCE_EQUIVALENCE",
+    "skillTag": "SENTENCE_EQUIVALENCE",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "'Rather than settle into predictable habits, the band kept ___ its sound' requires a change-oriented verb; one synonym pair among plausible distractors.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "Rather than settle into predictable habits, the band kept ______ its sound, releasing an entirely different genre with each new album.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "reinventing",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "preserving",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "transforming",
+        "isCorrect": true
+      },
+      {
+        "id": "D",
+        "label": "promoting",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "recording",
+        "isCorrect": false
+      },
+      {
+        "id": "F",
+        "label": "abandoning",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Releasing a different genre each album describes ongoing change: 'reinventing' and 'transforming' are synonyms that both fit. 'Preserving' is the opposite; 'promoting', 'recording', and 'abandoning' don't specifically mean changing.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "SENTENCE_EQUIVALENCE",
+    "skillTag": "SENTENCE_EQUIVALENCE",
+    "difficulty": "HARD",
+    "difficultyRationale": "Low-frequency pair ('propitious'/'auspicious') needed to describe favorable timing for a launch; 'convenient' is a tempting but weaker near-miss lacking the sense of favorable fortune.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "Analysts described the timing of the product launch as remarkably ______, coinciding with both a surge in consumer spending and the sudden collapse of the company's main competitor.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "propitious",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "unfortunate",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "auspicious",
+        "isCorrect": true
+      },
+      {
+        "id": "D",
+        "label": "convenient",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "delayed",
+        "isCorrect": false
+      },
+      {
+        "id": "F",
+        "label": "premature",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "A surge in spending plus a competitor's collapse describes exceptionally lucky timing: 'propitious' and 'auspicious' both mean favorable/promising and fit equivalently. 'Unfortunate' is the opposite; 'convenient' is too mild to capture the described stroke of fortune; 'delayed' and 'premature' describe timing direction, not favorability.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "READING_COMPREHENSION",
+    "skillTag": "RC_MAIN_IDEA",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Main-purpose question over an original ecology passage describing an unexpected chain reaction; distractor claims a fully settled outcome the passage doesn't assert.",
+    "passageId": "psg_wolves_1",
+    "passageBodyHtml": "<p>When wolves were reintroduced to a large North American national park after a decades-long absence, researchers expected a straightforward drop in the deer population that had grown unchecked in the wolves' absence. What followed surprised even specialists: deer began avoiding certain valleys where wolves could easily corner them, and the vegetation in those valleys rebounded so dramatically that it altered the course of local rivers by stabilizing eroding banks. The wolves' influence, in other words, extended far beyond predation itself, reshaping the landscape through the changed behavior of the species they hunted.</p>",
+    "stem": "The primary purpose of the passage is to",
+    "choices": [
+      {
+        "id": "A",
+        "label": "argue that wolf reintroduction programs are always successful",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "describe how a predator's return produced effects beyond simple predation",
+        "isCorrect": true
+      },
+      {
+        "id": "C",
+        "label": "explain the process by which rivers naturally change course over time",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "criticize researchers for underestimating deer population growth",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "compare wolf behavior before and after reintroduction",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "The passage traces effects beyond the expected predation-driven population drop — behavioral avoidance, vegetation rebound, and river changes — so (B). (A) overgeneralizes to all programs; (C), (D), (E) are not the passage's focus.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "READING_COMPREHENSION",
+    "skillTag": "RC_STRUCTURE",
+    "difficulty": "HARD",
+    "difficultyRationale": "Requires tracing the passage's causal chain (wolves -> deer avoidance -> vegetation -> rivers) and identifying which link connects two specific stages.",
+    "passageId": "psg_wolves_1",
+    "passageBodyHtml": "<p>When wolves were reintroduced to a large North American national park after a decades-long absence, researchers expected a straightforward drop in the deer population that had grown unchecked in the wolves' absence. What followed surprised even specialists: deer began avoiding certain valleys where wolves could easily corner them, and the vegetation in those valleys rebounded so dramatically that it altered the course of local rivers by stabilizing eroding banks. The wolves' influence, in other words, extended far beyond predation itself, reshaping the landscape through the changed behavior of the species they hunted.</p>",
+    "stem": "According to the passage, the change in river courses was most directly caused by",
+    "choices": [
+      {
+        "id": "A",
+        "label": "wolves preying directly on fish in the rivers",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "vegetation regrowth that stabilized riverbanks",
+        "isCorrect": true
+      },
+      {
+        "id": "C",
+        "label": "a decline in the overall deer population",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "researchers redirecting rivers as part of the reintroduction program",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "wolves altering their own hunting territory over time",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "The passage states vegetation 'rebounded so dramatically that it altered the course of local rivers by stabilizing eroding banks' — vegetation regrowth is the direct cause, so (B). (A), (C), (D), (E) are not what the passage identifies as the direct cause of the river change.",
+    "assetUrl": null
   }
 ]

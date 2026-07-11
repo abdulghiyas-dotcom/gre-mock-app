@@ -4100,5 +4100,268 @@
     "numericAnswer": null,
     "explanation": "Let d = number of dimes, so quarters = d + 5. Value: 0.10d + 0.25(d + 5) = 6.15. This gives 0.35d + 1.25 = 6.15, so 0.35d = 4.90, meaning d = 14: (C). (Check: 14 dimes = $1.40, 19 quarters = $4.75, total = $6.15. ✓) Choice (E) = 19 is the number of quarters, not dimes.",
     "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "MULTIPLE_CHOICE_SINGLE",
+    "skillTag": "ARITHMETIC",
+    "difficulty": "EASY",
+    "difficultyRationale": "Single-step comparison of unit prices to determine the better deal.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "A 12-ounce box of cereal costs $3.60, and an 18-ounce box costs $5.04. Which box has the lower price per ounce, and what is that price?",
+    "choices": [
+      {
+        "id": "A",
+        "label": "12-ounce box, $0.28 per ounce",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "12-ounce box, $0.30 per ounce",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "18-ounce box, $0.28 per ounce",
+        "isCorrect": true
+      },
+      {
+        "id": "D",
+        "label": "18-ounce box, $0.30 per ounce",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "Both boxes have the same price per ounce",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "12-ounce box: $3.60/12 = $0.30 per ounce. 18-ounce box: $5.04/18 = $0.28 per ounce. The 18-ounce box is cheaper per ounce, at $0.28: (C). Choice (B) states the correct per-ounce price for the 12-ounce box but wrongly identifies it as the lower-priced option — the 18-ounce box is actually cheaper.",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "QUANT_COMPARISON",
+    "skillTag": "GEOMETRY",
+    "difficulty": "EASY",
+    "difficultyRationale": "Direct perimeter comparison after computing dimensions from given constraints.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "Rectangle A has length 8 and width 3. Rectangle B has length 6 and width 5.\n\nQuantity A: The perimeter of Rectangle A\nQuantity B: The perimeter of Rectangle B",
+    "choices": [
+      {
+        "id": "A",
+        "label": "Quantity A is greater",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "Quantity B is greater",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "The two quantities are equal",
+        "isCorrect": true
+      },
+      {
+        "id": "D",
+        "label": "The relationship cannot be determined from the information given",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Rectangle A: 2(8+3) = 22. Rectangle B: 2(6+5) = 22. The perimeters are equal: (C), even though the areas (24 vs 30) differ.",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "MULTIPLE_CHOICE_SINGLE",
+    "skillTag": "ALGEBRA",
+    "difficulty": "EASY",
+    "difficultyRationale": "Single-step simplification of a linear expression by combining like terms.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "Simplify: 5x + 3 - 2x + 7",
+    "choices": [
+      {
+        "id": "A",
+        "label": "3x + 10",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "3x + 4",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "7x + 10",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "3x - 4",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "7x + 4",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Combine like terms: (5x - 2x) + (3 + 7) = 3x + 10: (A).",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "NUMERIC_ENTRY",
+    "skillTag": "DATA_INTERPRETATION",
+    "difficulty": "HARD",
+    "difficultyRationale": "Requires reconstructing a total from a stated median position across an odd-sized ordered list, minimizing the other values to maximize the target one — a compound data-reasoning item.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "A list of 5 different positive integers has a sum of 50 and a median of 8. What is the largest possible value of the greatest number in the list?",
+    "choices": [],
+    "numericAnswer": 30,
+    "explanation": "With 5 numbers in order, the median is the 3rd value: 8. To maximize the greatest (5th) value, minimize the others while keeping all five distinct positive integers in order: the two below the median can be as small as 1 and 2, and the 4th value (between the median and the greatest) can be as small as 9 (the smallest integer greater than 8). These four values sum to 1 + 2 + 8 + 9 = 20, so the greatest value is 50 - 20 = 30. (Check: 1, 2, 8, 9, 30 — sum 50, median 8, all distinct. ✓)",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "MULTIPLE_CHOICE_SINGLE",
+    "skillTag": "WORD_PROBLEMS",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Requires setting up a total-and-rate word problem involving three different hourly wages summed into total earnings.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "An employee earns $18 per hour for regular hours and $27 per hour for overtime hours. In one week, she worked 40 regular hours plus some overtime hours, earning $963 total. How many overtime hours did she work?",
+    "choices": [
+      {
+        "id": "A",
+        "label": "5",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "6",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "7",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "8",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "9",
+        "isCorrect": true
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Regular pay: 40 × 18 = 720. Overtime pay: 963 - 720 = 243. Overtime hours: 243 / 27 = 9: (E).",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "MULTIPLE_CHOICE_SINGLE",
+    "skillTag": "GEOMETRY",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Requires the relationship between a square's diagonal and its side length using the Pythagorean theorem, then finding perimeter from the diagonal.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "A square has a diagonal of length 6√2. What is the perimeter of the square?",
+    "choices": [
+      {
+        "id": "A",
+        "label": "12",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "18",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "24",
+        "isCorrect": true
+      },
+      {
+        "id": "D",
+        "label": "36",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "48",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "For a square, diagonal = side × √2. So side = 6√2 / √2 = 6. Perimeter = 4 × 6 = 24: (C).",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "NUMERIC_ENTRY",
+    "skillTag": "ARITHMETIC",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Requires computing a weighted average of three groups with different sizes, extending the two-group weighted-average pattern.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "A teacher has three classes: 10 students averaging 75, 15 students averaging 82, and 5 students averaging 90. What is the average score of all 30 students combined?",
+    "choices": [],
+    "numericAnswer": 81,
+    "explanation": "Total points = 10(75) + 15(82) + 5(90) = 750 + 1230 + 450 = 2430. Average = 2430 / 30 = 81.",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "MULTIPLE_CHOICE_MULTIPLE",
+    "skillTag": "GEOMETRY",
+    "difficulty": "HARD",
+    "difficultyRationale": "Select-all item requiring the solver to test which side-length triples can form a valid triangle using the triangle inequality theorem.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "Which of the following sets of three numbers could be the side lengths of a triangle?\n\nSelect all that apply.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "3, 4, 5",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "2, 3, 6",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "5, 5, 9",
+        "isCorrect": true
+      },
+      {
+        "id": "D",
+        "label": "1, 2, 3",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "7, 8, 10",
+        "isCorrect": true
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "A triangle is valid only if the sum of any two sides exceeds the third. (A) 3+4=7>5 ✓. (B) 2+3=5<6 ✗. (C) 5+5=10>9 ✓. (D) 1+2=3, not greater than 3 (degenerate, not a valid triangle) ✗. (E) 7+8=15>10 ✓. Correct selections: A, C, E.",
+    "assetUrl": null
   }
 ]
