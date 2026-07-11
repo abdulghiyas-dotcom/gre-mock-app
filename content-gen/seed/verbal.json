@@ -6448,5 +6448,255 @@
     "numericAnswer": null,
     "explanation": "In context, the 'puzzle was resolved by the discovery' of chemosynthesis, meaning the apparent contradiction was accounted for — 'explained satisfactorily'. The other choices reflect unrelated senses of 'resolve' (voting, firm resolve, chemical/optical separation, legal settlement) that don't fit a scientific puzzle being explained.",
     "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "READING_COMPREHENSION",
+    "skillTag": "RC_MAIN_IDEA",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Main-purpose question over a passage that critiques the evidentiary basis of a popular claim; the tempting wrong answers overstate the passage's actual, more cautious position.",
+    "passageId": "psg_microbiome_1",
+    "passageBodyHtml": "<p>Recent research on the human gut microbiome — the trillions of bacteria that live in the digestive tract — has linked reduced microbial diversity to a range of conditions, including obesity, inflammatory bowel disease, and even some mood disorders. Popular accounts often present this research as showing that an impoverished microbiome causes these conditions, and that restoring diversity through diet or targeted supplementation would reverse them. Most of the underlying studies, however, are observational: they compare the microbiomes of people who already have a given condition to those who do not, a design that can reveal association but cannot by itself establish which factor came first. It remains entirely possible that the conditions themselves, or the dietary and lifestyle changes that often accompany them, alter the microbiome rather than the reverse.</p>",
+    "stem": "The primary purpose of the passage is to",
+    "choices": [
+      {
+        "id": "A",
+        "label": "urge that dietary supplementation is the most effective way to restore microbial diversity",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "argue that the gut microbiome plays no meaningful role in human disease",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "question whether popular causal claims about the microbiome are adequately supported by the observational evidence cited",
+        "isCorrect": true
+      },
+      {
+        "id": "D",
+        "label": "prove that mood disorders are caused primarily by dietary imbalances",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "summarize the history of microbiome research from its origins to the present",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "The passage grants the observed link but stresses that observational studies 'can reveal association but cannot by itself establish which factor came first,' casting doubt on the popular causal reading — matching (C). (A) and (D) assert claims the passage explicitly questions; (B) overstates the passage into denying any role at all; (E) is not the passage's focus.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "READING_COMPREHENSION",
+    "skillTag": "RC_INFERENCE",
+    "difficulty": "HARD",
+    "difficultyRationale": "Requires inferring what kind of evidence would resolve the passage's specific objection (reverse causation in observational data) rather than just more of the same kind of evidence.",
+    "passageId": "psg_microbiome_1",
+    "passageBodyHtml": "<p>Recent research on the human gut microbiome — the trillions of bacteria that live in the digestive tract — has linked reduced microbial diversity to a range of conditions, including obesity, inflammatory bowel disease, and even some mood disorders. Popular accounts often present this research as showing that an impoverished microbiome causes these conditions, and that restoring diversity through diet or targeted supplementation would reverse them. Most of the underlying studies, however, are observational: they compare the microbiomes of people who already have a given condition to those who do not, a design that can reveal association but cannot by itself establish which factor came first. It remains entirely possible that the conditions themselves, or the dietary and lifestyle changes that often accompany them, alter the microbiome rather than the reverse.</p>",
+    "stem": "The passage suggests that which of the following would most directly address the objection it raises against the popular causal claim?",
+    "choices": [
+      {
+        "id": "A",
+        "label": "a larger sample of observational studies comparing microbiomes across more countries",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "an experiment in which microbial diversity is deliberately altered before the conditions are measured, to see whether the conditions still develop",
+        "isCorrect": true
+      },
+      {
+        "id": "C",
+        "label": "a survey asking patients whether they believe diet affects their mood",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "a study focusing only on obesity and excluding the other two conditions",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "additional popular-press coverage of the existing observational findings",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "The passage's objection is that observational designs 'cannot by itself establish which factor came first.' An experiment that alters diversity before the conditions are measured fixes the temporal order directly, resolving that objection — (B). (A) and (E) only add more observational (non-causal) evidence; (C) doesn't address causation; (D) narrows scope without addressing directionality.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "TEXT_COMPLETION",
+    "skillTag": "TEXT_COMPLETION",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Requires recognizing that specialists resisting a conclusion despite evidence implies the evidence only appeared to threaten the theory, not that it confirmed or clarified it.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "Although the new evidence appeared to ______ the earlier theory, most specialists in the field considered it too preliminary to warrant abandoning decades of established research.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "undermine",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "confirm",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "clarify",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "ignore",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "simplify",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "'Too preliminary to warrant abandoning' established research implies the evidence seemed to threaten, i.e. 'undermine', the theory, but specialists weren't convinced. 'Confirm' would give no reason to consider abandoning anything; 'clarify', 'ignore', and 'simplify' don't fit a reason to abandon a theory.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "TEXT_COMPLETION",
+    "skillTag": "TEXT_COMPLETION",
+    "difficulty": "EASY",
+    "difficultyRationale": "Direct clue (asked many thoughtful questions) with a common vocabulary match.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "Because the new intern asked so many thoughtful questions during the meeting, her colleagues quickly recognized her as remarkably ______.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "inquisitive",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "apathetic",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "tardy",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "forgetful",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "silent",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Asking many thoughtful questions describes curiosity — 'inquisitive'. 'Apathetic' and 'silent' are the opposite; 'tardy' and 'forgetful' are unrelated traits.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "SENTENCE_EQUIVALENCE",
+    "skillTag": "SENTENCE_EQUIVALENCE",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Requires recognizing that neither side conceding describes a standstill, with two synonyms for that standstill among plausible-sounding distractors.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "The negotiations remained ______ for months, with neither side willing to make the concessions necessary for a breakthrough.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "stalled",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "deadlocked",
+        "isCorrect": true
+      },
+      {
+        "id": "C",
+        "label": "amicable",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "brief",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "productive",
+        "isCorrect": false
+      },
+      {
+        "id": "F",
+        "label": "collaborative",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Neither side conceding for months describes a standstill: 'stalled' and 'deadlocked' both mean stuck without progress and fit equivalently. 'Productive' and 'collaborative' contradict the described impasse; 'amicable' and 'brief' don't describe being stuck.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "SENTENCE_EQUIVALENCE",
+    "skillTag": "SENTENCE_EQUIVALENCE",
+    "difficulty": "HARD",
+    "difficultyRationale": "Low-frequency pair ('cursory'/'perfunctory') as the negated blank in a 'far from being ___' construction, requiring the reader to hold the negation in mind while matching synonyms.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "Far from being ______, the committee's report meticulously documented every source and cross-checked each claim against independent data.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "cursory",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "perfunctory",
+        "isCorrect": true
+      },
+      {
+        "id": "C",
+        "label": "authoritative",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "exhaustive",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "meticulous",
+        "isCorrect": false
+      },
+      {
+        "id": "F",
+        "label": "impartial",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "'Far from being ___' followed by meticulous documentation means the blank should describe a hasty, superficial report — the opposite of what's described. 'Cursory' and 'perfunctory' both mean done without care and fit equivalently. 'Exhaustive' and 'meticulous' describe the report's actual quality, not the negated blank; 'authoritative' and 'impartial' don't fit either sense.",
+    "assetUrl": null
   }
 ]
