@@ -1,22 +1,20 @@
-import { readFile } from "node:fs/promises";
-import path from "node:path";
 import type { Question, Difficulty, TestDef, TestSummary } from "./types";
+import verbalRaw from "../data/verbal.json";
+import quantRaw from "../data/quant.json";
+import awaPromptsRaw from "../data/awa-prompts.json";
 
-// DEV DATA SOURCE: reads the verified seed bank produced by content-gen.
+// DEV DATA SOURCE: the verified seed bank produced by content-gen, bundled
+// directly into the app (synced from content-gen/seed/*.json) so it works
+// on serverless deployments with no runtime filesystem dependency.
 // In production this module is replaced by Prisma queries against Postgres.
 // The test engine never calls an LLM at runtime — it reads pre-generated,
 // pre-verified questions only.
-const SEED_DIR =
-  process.env.SEED_DIR ?? path.resolve(process.cwd(), "..", "..", "content-gen", "seed");
-
-async function readSeed(file: string): Promise<Omit<Question, "id">[]> {
-  const raw = await readFile(path.join(SEED_DIR, file), "utf8");
-  return JSON.parse(raw) as Omit<Question, "id">[];
+function readSeed(raw: unknown): Omit<Question, "id">[] {
+  return raw as Omit<Question, "id">[];
 }
 
-async function readEssayPrompts(): Promise<{ id: string; promptText: string }[]> {
-  const raw = await readFile(path.join(SEED_DIR, "awa-prompts.json"), "utf8");
-  return JSON.parse(raw) as { id: string; promptText: string }[];
+function readEssayPrompts(): { id: string; promptText: string }[] {
+  return awaPromptsRaw as { id: string; promptText: string }[];
 }
 
 function withIds(items: Omit<Question, "id">[], prefix: string): Question[] {
@@ -143,13 +141,9 @@ const N_VERBAL_PRACTICE = 5;
 const N_QUANT_PRACTICE = 5;
 
 export async function getTestDefs(): Promise<TestDef[]> {
-  const [verbalRaw, quantRaw, prompts] = await Promise.all([
-    readSeed("verbal.json"),
-    readSeed("quant.json"),
-    readEssayPrompts(),
-  ]);
-  const verbal = withIds(verbalRaw, "v");
-  const quant = withIds(quantRaw, "q");
+  const prompts = readEssayPrompts();
+  const verbal = withIds(readSeed(verbalRaw), "v");
+  const quant = withIds(readSeed(quantRaw), "q");
 
   const verbalShares = partition(verbal, N_FULL + N_VERBAL_PRACTICE);
   const quantShares = partition(quant, N_FULL + N_QUANT_PRACTICE);
