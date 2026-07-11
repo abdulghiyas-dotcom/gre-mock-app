@@ -7458,5 +7458,305 @@
     "numericAnswer": null,
     "explanation": "Deflecting attention onto unrelated matters instead of addressing criticisms describes avoidance: 'evasive' and 'diversionary' both fit equivalently. 'Forthright' is the opposite; 'apologetic', 'comprehensive', and 'meticulous' don't describe deflection.",
     "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "READING_COMPREHENSION",
+    "skillTag": "RC_MAIN_IDEA",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Main-purpose question over a passage that complicates a conventional dismissal with new evidence; wrong answers overstate the passage's hedged, minority-view conclusion into a firm recommendation.",
+    "passageId": "psg_placebo_1",
+    "passageBodyHtml": "<p>The placebo effect — the tendency for patients to show real symptomatic improvement after receiving an inert treatment they believe to be active — has long been dismissed by some clinicians as a mere nuisance to be controlled for in drug trials rather than a phenomenon worth studying in its own right. Recent research complicates this dismissal: brain-imaging studies show that placebo treatments can trigger measurable changes in pain-processing regions of the brain, and in some conditions, particularly chronic pain and depression, placebo response rates approach those of active medications. These findings have led a minority of researchers to argue that clinical trial design, which treats the placebo response as background noise to be subtracted out, may be obscuring a treatment mechanism that could eventually be harnessed deliberately and ethically.</p>",
+    "stem": "The primary purpose of the passage is to",
+    "choices": [
+      {
+        "id": "A",
+        "label": "argue that placebo treatments should replace active medications for chronic pain",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "present evidence that complicates the traditional dismissal of the placebo effect as a mere nuisance",
+        "isCorrect": true
+      },
+      {
+        "id": "C",
+        "label": "criticize the design of all clinical drug trials as scientifically invalid",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "prove that brain-imaging studies are more reliable than self-reported symptom improvement",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "explain how clinical trials are conducted from start to finish",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "The passage opens with the conventional dismissal, then presents brain-imaging evidence and response-rate data that complicate it, concluding with a hedged minority view — matching (B). (A) and (C) overstate the passage's careful hedging ('a minority of researchers argue', 'may be obscuring'); (D) and (E) are not the focus.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "READING_COMPREHENSION",
+    "skillTag": "RC_STRUCTURE",
+    "difficulty": "HARD",
+    "difficultyRationale": "Requires distinguishing 'complicating a conventional view' from stronger structural relationships like proof or refutation, matching the passage's actual hedged tone.",
+    "passageId": "psg_placebo_1",
+    "passageBodyHtml": "<p>The placebo effect — the tendency for patients to show real symptomatic improvement after receiving an inert treatment they believe to be active — has long been dismissed by some clinicians as a mere nuisance to be controlled for in drug trials rather than a phenomenon worth studying in its own right. Recent research complicates this dismissal: brain-imaging studies show that placebo treatments can trigger measurable changes in pain-processing regions of the brain, and in some conditions, particularly chronic pain and depression, placebo response rates approach those of active medications. These findings have led a minority of researchers to argue that clinical trial design, which treats the placebo response as background noise to be subtracted out, may be obscuring a treatment mechanism that could eventually be harnessed deliberately and ethically.</p>",
+    "stem": "Which of the following best describes the relationship between the passage's first sentence and the sentences that follow it?",
+    "choices": [
+      {
+        "id": "A",
+        "label": "The first sentence states a conventional view that the rest of the passage complicates with new evidence",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "The first sentence states a conclusion that the rest of the passage proves definitively",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "The first sentence poses a question that the rest of the passage answers directly",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "The first sentence introduces a historical event that the rest of the passage analyzes causally",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "The first sentence and the rest of the passage present two independent, unrelated ideas",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "The first sentence states the conventional dismissal; the rest presents evidence that 'complicates' it, ending in a hedged minority claim ('may be obscuring') rather than a proof — matching (A). (B) overstates the passage's hedged conclusion as definitive proof; (C)-(E) mischaracterize the passage's structure.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "TEXT_COMPLETION",
+    "skillTag": "TEXT_COMPLETION",
+    "difficulty": "HARD",
+    "difficultyRationale": "Two interdependent blanks: 'far from being ___, as early critics assumed' negates a dismissive characterization (blank i), while the contrasted modern view calls for a word affirming the phenomenon's reality (blank ii).",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "Far from being (i)______, as early critics assumed, the placebo response now appears to be a (ii)______, measurable neurological phenomenon in its own right.",
+    "choices": [
+      {
+        "id": "i-A",
+        "label": "illusory",
+        "isCorrect": true
+      },
+      {
+        "id": "i-B",
+        "label": "beneficial",
+        "isCorrect": false
+      },
+      {
+        "id": "i-C",
+        "label": "permanent",
+        "isCorrect": false
+      },
+      {
+        "id": "ii-D",
+        "label": "genuine",
+        "isCorrect": true
+      },
+      {
+        "id": "ii-E",
+        "label": "imaginary",
+        "isCorrect": false
+      },
+      {
+        "id": "ii-F",
+        "label": "temporary",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Early critics dismissed the placebo response as not real — 'illusory' (blank i) — but it is 'far from' that, being a real, 'genuine' phenomenon instead (blank ii). 'Imaginary' in blank ii would contradict 'measurable neurological phenomenon'.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "TEXT_COMPLETION",
+    "skillTag": "TEXT_COMPLETION",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Requires inferring that contradicting nearly all prior research would prompt cautious doubt, not enthusiasm or indifference, before publication.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "Because the trial's results contradicted nearly every prior study on the subject, reviewers treated the findings with considerable ______, requesting that the experiment be independently replicated before publication.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "skepticism",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "enthusiasm",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "indifference",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "gratitude",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "urgency",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Requesting independent replication before publishing surprising, contradictory results is a classic response to doubt — 'skepticism'. 'Enthusiasm' and 'gratitude' would not prompt a replication request; 'indifference' contradicts taking the request seriously at all.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "SENTENCE_EQUIVALENCE",
+    "skillTag": "SENTENCE_EQUIVALENCE",
+    "difficulty": "EASY",
+    "difficultyRationale": "Clear clue (no one could read the notes) with a common synonym pair for unreadable handwriting.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "The new employee's handwriting was so ______ that no one in the office could read her notes.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "illegible",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "unreadable",
+        "isCorrect": true
+      },
+      {
+        "id": "C",
+        "label": "elegant",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "formal",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "brief",
+        "isCorrect": false
+      },
+      {
+        "id": "F",
+        "label": "colorful",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Notes no one could read describe handwriting that is 'illegible' or 'unreadable', which fit equivalently. 'Elegant' would make notes appealing, not unreadable; 'formal', 'brief', and 'colorful' don't describe legibility.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "SENTENCE_EQUIVALENCE",
+    "skillTag": "SENTENCE_EQUIVALENCE",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Requires recognizing that packing the auditorium despite (or given) a reputation implies the lectures were engaging, testing whether the reader tracks the logical connector 'although'.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "Although the professor's lectures were famously ______, students packed the auditorium each week, eager not to miss a single one.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "captivating",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "engrossing",
+        "isCorrect": true
+      },
+      {
+        "id": "C",
+        "label": "tedious",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "mandatory",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "brief",
+        "isCorrect": false
+      },
+      {
+        "id": "F",
+        "label": "recorded",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Students eager to attend describes captivating lectures: 'captivating' and 'engrossing' fit equivalently — the 'although' is a red herring here since being captivating is exactly why students packed in, not a contrast. 'Tedious' would explain packed attendance only if mandatory, but 'mandatory' isn't supported and doesn't fit 'eager'; 'brief' and 'recorded' are unrelated.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "SENTENCE_EQUIVALENCE",
+    "skillTag": "SENTENCE_EQUIVALENCE",
+    "difficulty": "HARD",
+    "difficultyRationale": "Requires matching 'signal support without committing to any specific action' to synonyms for cautious hedging rather than to words implying commitment or recklessness.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "The senator's remarks were carefully ______, designed to signal support for the policy without committing her to any specific action if it failed.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "circumspect",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "guarded",
+        "isCorrect": true
+      },
+      {
+        "id": "C",
+        "label": "reckless",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "enthusiastic",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "unambiguous",
+        "isCorrect": false
+      },
+      {
+        "id": "F",
+        "label": "impulsive",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Signaling support without committing to specific action describes careful hedging: 'circumspect' and 'guarded' both fit equivalently. 'Reckless' and 'impulsive' contradict 'carefully'; 'enthusiastic' and 'unambiguous' contradict avoiding commitment.",
+    "assetUrl": null
   }
 ]

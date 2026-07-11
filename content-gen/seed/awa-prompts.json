@@ -28,5 +28,11 @@
     "taskType": "Analyze an Issue",
     "promptText": "The most reliable way to understand the character of a society is to examine the achievements it chooses to celebrate.\n\nWrite a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true.",
     "timeLimitSeconds": 1800
+  },
+  {
+    "id": "awa_issue_6",
+    "taskType": "Analyze an Issue",
+    "promptText": "Organizations and institutions should be required to reach decisions by consensus rather than by granting a single leader final authority.\n\nWrite a response in which you discuss the extent to which you agree or disagree with the claim. In developing and supporting your position, be sure to address the most compelling reasons or examples that could be used to challenge your position.",
+    "timeLimitSeconds": 1800
   }
 ]

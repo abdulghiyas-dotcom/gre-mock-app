@@ -138,7 +138,7 @@ function buildPractice(
 // As the bank grows (run content-gen), bump these counts toward the 6
 // full-length + 5 verbal + 5 quant target; the partitioning yields fuller
 // sections automatically as more content becomes available.
-const N_FULL = 5;
+const N_FULL = 6;
 const N_VERBAL_PRACTICE = 5;
 const N_QUANT_PRACTICE = 5;
 
