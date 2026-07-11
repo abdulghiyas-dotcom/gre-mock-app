@@ -1398,5 +1398,525 @@
     "numericAnswer": null,
     "explanation": "The passage states the 'tidy story' historians once told, then qualifies it with archival evidence that the transition was gradual and market-segmented — structure (A). No second theory is formally refuted (B), no experiment occurs (C), and there are no digressions (D) or unrelated examples (E).",
     "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "TEXT_COMPLETION",
+    "skillTag": "TEXT_COMPLETION",
+    "difficulty": "EASY",
+    "difficultyRationale": "Direct restatement clue ('so many contradictory clauses that no one could agree on its meaning') with common vocabulary.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "The contract was so ______ that the two parties could not agree on what it actually required of them.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "ambiguous",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "explicit",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "concise",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "generous",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "recent",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "If the parties could not agree on what it required, the contract's meaning was unclear — 'ambiguous'. 'Explicit' and 'concise' would make the meaning clear; 'generous' and 'recent' are unrelated to clarity.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "TEXT_COMPLETION",
+    "skillTag": "TEXT_COMPLETION",
+    "difficulty": "EASY",
+    "difficultyRationale": "Straightforward positive clue ('audience of thousands hung on her every word') and everyday vocabulary.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "The speaker was so ______ that an audience of thousands hung on her every word.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "captivating",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "monotonous",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "hesitant",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "brief",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "anonymous",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "An audience hanging on every word indicates a compelling speaker — 'captivating'. 'Monotonous' and 'hesitant' would lose an audience; 'brief' and 'anonymous' don't describe how engaging she was.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "TEXT_COMPLETION",
+    "skillTag": "TEXT_COMPLETION",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Concessive 'while' contrast with a near-synonym trap ('acclaim') and a reversed-polarity trap ('obscurity').",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "While her early paintings languished in ______, her later works command record prices at auction.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "obscurity",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "acclaim",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "controversy",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "storage",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "demand",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "'While ... command record prices' contrasts later success with earlier neglect: the early works 'languished in obscurity'. 'Acclaim' and 'demand' contradict languishing; 'controversy' and 'storage' don't complete the success/neglect contrast.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "TEXT_COMPLETION",
+    "skillTag": "TEXT_COMPLETION",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Two interdependent blanks: a scarcity of data forces caution in conclusions; each blank has an opposite-direction distractor.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "Because the available data were so (i)______, the researchers were careful to present their findings as (ii)______ rather than definitive.",
+    "choices": [
+      {
+        "id": "i-A",
+        "label": "sparse",
+        "isCorrect": true
+      },
+      {
+        "id": "i-B",
+        "label": "abundant",
+        "isCorrect": false
+      },
+      {
+        "id": "i-C",
+        "label": "consistent",
+        "isCorrect": false
+      },
+      {
+        "id": "ii-D",
+        "label": "provisional",
+        "isCorrect": true
+      },
+      {
+        "id": "ii-E",
+        "label": "conclusive",
+        "isCorrect": false
+      },
+      {
+        "id": "ii-F",
+        "label": "irrefutable",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Limited data warrants tentative claims: data were 'sparse' (i), so findings were 'provisional' (ii) 'rather than definitive'. 'Abundant'/'consistent' would support firmer claims; 'conclusive'/'irrefutable' contradict 'rather than definitive'.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "TEXT_COMPLETION",
+    "skillTag": "TEXT_COMPLETION",
+    "difficulty": "HARD",
+    "difficultyRationale": "Three interdependent blanks tracing a reversal from expectation to outcome; each blank carries a plausible in-context distractor.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "The general's memoirs, expected to be a (i)______ of his own accomplishments, proved instead surprisingly (ii)______, dwelling at length on the errors that had (iii)______ his most celebrated campaigns.",
+    "choices": [
+      {
+        "id": "i-A",
+        "label": "celebration",
+        "isCorrect": true
+      },
+      {
+        "id": "i-B",
+        "label": "indictment",
+        "isCorrect": false
+      },
+      {
+        "id": "i-C",
+        "label": "summary",
+        "isCorrect": false
+      },
+      {
+        "id": "ii-D",
+        "label": "self-critical",
+        "isCorrect": true
+      },
+      {
+        "id": "ii-E",
+        "label": "self-congratulatory",
+        "isCorrect": false
+      },
+      {
+        "id": "ii-F",
+        "label": "evasive",
+        "isCorrect": false
+      },
+      {
+        "id": "iii-G",
+        "label": "marred",
+        "isCorrect": true
+      },
+      {
+        "id": "iii-H",
+        "label": "enabled",
+        "isCorrect": false
+      },
+      {
+        "id": "iii-I",
+        "label": "defined",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "'Expected to be a X ... proved instead surprisingly Y' sets up a reversal. A memoir expected to be a 'celebration' (i) of accomplishments that instead dwells on errors is 'self-critical' (ii); those errors 'marred' (iii) his celebrated campaigns. 'Self-congratulatory' contradicts 'instead'; 'enabled' reverses the sense of errors damaging campaigns.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "SENTENCE_EQUIVALENCE",
+    "skillTag": "SENTENCE_EQUIVALENCE",
+    "difficulty": "EASY",
+    "difficultyRationale": "Clear situational clue (long-awaited sequel exceeding hopes) with a high-frequency synonym pair.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "Fans found the long-awaited sequel ______, exceeding even their high hopes.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "satisfying",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "disappointing",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "gratifying",
+        "isCorrect": true
+      },
+      {
+        "id": "D",
+        "label": "tedious",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "confusing",
+        "isCorrect": false
+      },
+      {
+        "id": "F",
+        "label": "expensive",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Exceeding high hopes means the sequel pleased fans: 'satisfying' and 'gratifying' are synonyms that both fit. 'Disappointing' and 'tedious' are opposites; 'confusing' and 'expensive' are unrelated and don't pair.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "SENTENCE_EQUIVALENCE",
+    "skillTag": "SENTENCE_EQUIVALENCE",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Contrast clue ('once ... now questioned') points to a formerly-accepted word; one synonym pair with a reversed-polarity distractor.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "Assumptions once regarded as ______ within the discipline are now openly questioned by a younger generation of scholars.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "sacrosanct",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "dubious",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "inviolable",
+        "isCorrect": true
+      },
+      {
+        "id": "D",
+        "label": "marginal",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "novel",
+        "isCorrect": false
+      },
+      {
+        "id": "F",
+        "label": "tentative",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Assumptions 'now openly questioned' were formerly beyond question: 'sacrosanct' and 'inviolable' both mean not to be challenged and fit equivalently. 'Dubious'/'tentative' describe the new skepticism, not the old status; 'marginal' and 'novel' don't pair.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "SENTENCE_EQUIVALENCE",
+    "skillTag": "SENTENCE_EQUIVALENCE",
+    "difficulty": "HARD",
+    "difficultyRationale": "Low-frequency pair ('laconic'/'terse') set against a wordy-committee contrast; 'taciturn' is a tempting near-miss that describes disposition, not prose.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "Amid the committee's sprawling, digressive reports, his own memoranda stood out as remarkably ______, rarely exceeding a single page.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "laconic",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "verbose",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "terse",
+        "isCorrect": true
+      },
+      {
+        "id": "D",
+        "label": "meandering",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "taciturn",
+        "isCorrect": false
+      },
+      {
+        "id": "F",
+        "label": "ornate",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Memoranda 'rarely exceeding a single page' amid 'sprawling' reports are notably brief: 'laconic' and 'terse' both mean concise and fit equivalently. 'Verbose', 'meandering', and 'ornate' are opposites; 'taciturn' describes a reserved person, not concise writing, so it doesn't fit the prose being described.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "READING_COMPREHENSION",
+    "skillTag": "RC_MAIN_IDEA",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Main-purpose question over an original social-science passage with a correlation-vs-cause structure; the strongest distractor asserts the causal claim the passage withholds.",
+    "passageId": "psg_commute_1",
+    "passageBodyHtml": "<p>Surveys consistently find that people with longer commutes report lower life satisfaction, a pattern often taken to mean that commuting itself erodes well-being. The relationship, though real, may be less direct than it appears. Longer commutes tend to accompany other conditions — higher housing costs pushing workers toward distant suburbs, jobs concentrated in expensive urban cores, less time for exercise and family — any of which could depress satisfaction on its own. Recent longitudinal work that follows the same individuals as their commutes change offers a partial test: satisfaction does dip when a commute lengthens, but the effect is smaller than cross-sectional surveys imply, suggesting that commuting is one strand in a larger knot of circumstances rather than the whole of it.</p>",
+    "stem": "The primary purpose of the passage is to",
+    "choices": [
+      {
+        "id": "A",
+        "label": "prove that commuting has no effect on well-being",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "caution against reading a simple causal claim into a correlation",
+        "isCorrect": true
+      },
+      {
+        "id": "C",
+        "label": "recommend policies to shorten workers' commutes",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "compare housing costs in suburbs and urban cores",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "argue that survey methods are inherently unreliable",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "The passage takes a common causal reading of a correlation, then complicates it with confounds and longitudinal evidence showing a smaller effect — cautioning against the simple causal claim, so (B). (A) overstates: the effect is real but smaller. (C), (D), (E) are not the passage's aim.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "READING_COMPREHENSION",
+    "skillTag": "RC_INFERENCE",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Inference anchored to the longitudinal-vs-cross-sectional contrast; distractors overstate or reverse the passage's measured claim.",
+    "passageId": "psg_commute_1",
+    "passageBodyHtml": "<p>Surveys consistently find that people with longer commutes report lower life satisfaction, a pattern often taken to mean that commuting itself erodes well-being. The relationship, though real, may be less direct than it appears. Longer commutes tend to accompany other conditions — higher housing costs pushing workers toward distant suburbs, jobs concentrated in expensive urban cores, less time for exercise and family — any of which could depress satisfaction on its own. Recent longitudinal work that follows the same individuals as their commutes change offers a partial test: satisfaction does dip when a commute lengthens, but the effect is smaller than cross-sectional surveys imply, suggesting that commuting is one strand in a larger knot of circumstances rather than the whole of it.</p>",
+    "stem": "The passage suggests that cross-sectional surveys, compared with the longitudinal work described, tend to",
+    "choices": [
+      {
+        "id": "A",
+        "label": "understate the effect of commuting on satisfaction",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "overstate the effect of commuting on satisfaction",
+        "isCorrect": true
+      },
+      {
+        "id": "C",
+        "label": "measure housing costs more accurately",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "follow the same individuals over time",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "find no relationship between commuting and satisfaction",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "The longitudinal effect is 'smaller than cross-sectional surveys imply,' so the cross-sectional surveys overstate the effect: (B). (A) reverses this; (D) describes the longitudinal work, not the cross-sectional surveys; (C) and (E) are unsupported.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "READING_COMPREHENSION",
+    "skillTag": "VOCAB_IN_CONTEXT",
+    "difficulty": "HARD",
+    "difficultyRationale": "Figurative phrase ('one strand in a larger knot') must be interpreted from context rather than literal meaning; distractors are literal or reversed readings.",
+    "passageId": "psg_commute_1",
+    "passageBodyHtml": "<p>Surveys consistently find that people with longer commutes report lower life satisfaction, a pattern often taken to mean that commuting itself erodes well-being. The relationship, though real, may be less direct than it appears. Longer commutes tend to accompany other conditions — higher housing costs pushing workers toward distant suburbs, jobs concentrated in expensive urban cores, less time for exercise and family — any of which could depress satisfaction on its own. Recent longitudinal work that follows the same individuals as their commutes change offers a partial test: satisfaction does dip when a commute lengthens, but the effect is smaller than cross-sectional surveys imply, suggesting that commuting is one strand in a larger knot of circumstances rather than the whole of it.</p>",
+    "stem": "In context, the phrase \"one strand in a larger knot of circumstances\" most nearly means that commuting is",
+    "choices": [
+      {
+        "id": "A",
+        "label": "one of several interrelated contributing factors",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "the single most important cause of dissatisfaction",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "entirely unrelated to life satisfaction",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "a problem that is easily untangled",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "a recent development in urban life",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "The metaphor casts commuting as 'one strand' among many in a 'knot' — one of several interlinked factors, not the whole, so (A). (B) contradicts 'rather than the whole of it'; (C) ignores that the effect is real; (D) and (E) misread the figure.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "TEXT_COMPLETION",
+    "skillTag": "TEXT_COMPLETION",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Single blank governed by 'belied', which inverts the surface impression; 'reinforced' is the reversed-polarity trap.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "His genial manner ______ a fierce competitiveness that surfaced only when his position was threatened.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "concealed",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "advertised",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "reinforced",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "explained",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "required",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "A 'genial manner' hiding fierce competitiveness that 'surfaced only when' threatened means the manner masked the trait — 'concealed'. 'Advertised' and 'reinforced' would make it visible; 'explained' and 'required' don't capture the hidden-then-revealed contrast.",
+    "assetUrl": null
   }
 ]

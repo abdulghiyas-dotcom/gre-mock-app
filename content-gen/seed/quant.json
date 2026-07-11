@@ -1148,5 +1148,423 @@
     "numericAnswer": null,
     "explanation": "LEVEL has 5 letters with L repeated twice and E repeated twice: 5! / (2! × 2!) = 120 / 4 = 30: (B). Choice (D) = 120 ignores both repeats; (C) = 60 corrects for only one repeated letter.",
     "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "MULTIPLE_CHOICE_SINGLE",
+    "skillTag": "ARITHMETIC",
+    "difficulty": "EASY",
+    "difficultyRationale": "Single-step order-of-operations evaluation; distractors reflect left-to-right and sign errors.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "What is the value of 8 + 12 / 4 - 2 ?",
+    "choices": [
+      {
+        "id": "A",
+        "label": "3",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "7",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "9",
+        "isCorrect": true
+      },
+      {
+        "id": "D",
+        "label": "11",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "13",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Divide first: 12 / 4 = 3. Then 8 + 3 - 2 = 9: (C). Choice (A) = 3 comes from evaluating strictly left to right ((8+12)/4 - 2 = 3).",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "MULTIPLE_CHOICE_SINGLE",
+    "skillTag": "ALGEBRA",
+    "difficulty": "EASY",
+    "difficultyRationale": "Evaluate a quadratic expression at a value; distractors reflect (3x)^2 and sign slips.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "If x = 3, what is the value of x^2 + 2x - 1 ?",
+    "choices": [
+      {
+        "id": "A",
+        "label": "8",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "11",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "14",
+        "isCorrect": true
+      },
+      {
+        "id": "D",
+        "label": "16",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "20",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "x^2 + 2x - 1 = 9 + 6 - 1 = 14: (C). Choice (D) = 16 forgets the -1; (E) = 20 treats x^2 as (2x)^2 style errors.",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "QUANT_COMPARISON",
+    "skillTag": "QUANT_COMPARISON_LOGIC",
+    "difficulty": "EASY",
+    "difficultyRationale": "Direct comparison of two computed products; no hidden cases.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "Quantity A: 25 percent of 80\nQuantity B: 15 percent of 120",
+    "choices": [
+      {
+        "id": "A",
+        "label": "Quantity A is greater",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "Quantity B is greater",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "The two quantities are equal",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "The relationship cannot be determined from the information given",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "25% of 80 = 20; 15% of 120 = 18. Since 20 > 18, Quantity A is greater: (A).",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "NUMERIC_ENTRY",
+    "skillTag": "ARITHMETIC",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Percent-change computation where the base is the original value; a common error divides by the new value.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "A book's price rises from $40 to $50. By what percent did the price increase? (Enter the number of percent.)",
+    "choices": [],
+    "numericAnswer": 25,
+    "explanation": "Percent increase = (increase / original) × 100 = (10 / 40) × 100 = 25 percent. Dividing by the new price (10/50 = 20%) is the common error.",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "MULTIPLE_CHOICE_SINGLE",
+    "skillTag": "GEOMETRY",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Requires recognizing that the third angle is fixed by the 180-degree sum and that the triangle is therefore isosceles; distractors are the given angles.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "In a triangle, two of the angles measure 50 degrees and 80 degrees. If the side opposite the third angle has length 6, which of the following must also be a side length of the triangle?\n\n(The third angle equals 50 degrees.)",
+    "choices": [
+      {
+        "id": "A",
+        "label": "6",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "8",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "10",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "12",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "It cannot be determined.",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "The angles sum to 180, so the third angle is 180 - 50 - 80 = 50 degrees. Two angles are equal (50 and 50), making the triangle isosceles, and sides opposite equal angles are equal. The side opposite the other 50-degree angle also has length 6: (A).",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "MULTIPLE_CHOICE_MULTIPLE",
+    "skillTag": "ARITHMETIC",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Select-all prime identification requiring a check of each candidate, including the 1-is-not-prime and 51-is-composite traps.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "Which of the following numbers are prime?\n\nSelect all that apply.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "1",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "17",
+        "isCorrect": true
+      },
+      {
+        "id": "C",
+        "label": "23",
+        "isCorrect": true
+      },
+      {
+        "id": "D",
+        "label": "51",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "2",
+        "isCorrect": true
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "17, 23, and 2 are prime. 1 is not prime by definition. 51 = 3 × 17 is composite. Correct selections: B, C, E.",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "QUANT_COMPARISON",
+    "skillTag": "QUANT_COMPARISON_LOGIC",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Uses the mean to fix the sum but leaves individual values free, so a comparison to any single term is indeterminate.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "The average (arithmetic mean) of five different positive integers is 10.\n\nQuantity A: The largest of the five integers\nQuantity B: 10",
+    "choices": [
+      {
+        "id": "A",
+        "label": "Quantity A is greater",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "Quantity B is greater",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "The two quantities are equal",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "The relationship cannot be determined from the information given",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Five DIFFERENT positive integers average 10, so they sum to 50 and are not all equal. If they were all 10 they wouldn't be different, so at least one exceeds the mean — the largest must be greater than 10. Quantity A is greater: (A).",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "MULTIPLE_CHOICE_SINGLE",
+    "skillTag": "WORD_PROBLEMS",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Two-stage percentage: find a whole from a part, then take a different percent; distractors include the intermediate value.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "In a school, 30% of the students play a sport, and there are 90 students who play a sport. How many students are in the school?",
+    "choices": [
+      {
+        "id": "A",
+        "label": "120",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "180",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "270",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "300",
+        "isCorrect": true
+      },
+      {
+        "id": "E",
+        "label": "360",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "If 30% equals 90 students, the total is 90 / 0.30 = 300: (D). Choice (C) = 270 mistakenly takes 90 as 30% of some value by multiplying rather than dividing.",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "MULTIPLE_CHOICE_SINGLE",
+    "skillTag": "ALGEBRA",
+    "difficulty": "HARD",
+    "difficultyRationale": "Uses the difference-of-squares identity rather than solving for the variables individually; distractors tempt solvers to find x and y separately.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "If x + y = 12 and x - y = 4, what is the value of x^2 - y^2 ?",
+    "choices": [
+      {
+        "id": "A",
+        "label": "16",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "32",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "48",
+        "isCorrect": true
+      },
+      {
+        "id": "D",
+        "label": "64",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "144",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "x^2 - y^2 factors as (x + y)(x - y) = 12 × 4 = 48: (C). Solving x = 8, y = 4 and computing 64 - 16 = 48 confirms it. Choice (E) = 144 is (x + y)^2.",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "MULTIPLE_CHOICE_SINGLE",
+    "skillTag": "DATA_INTERPRETATION",
+    "difficulty": "HARD",
+    "difficultyRationale": "Multi-step: compute two category counts from percentages of a total and take their ratio in lowest terms; distractors include the unsimplified and inverted ratios.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "A company's 800 employees are distributed as follows: 35% in Engineering, 25% in Sales, 20% in Operations, and the rest in Administration. What is the ratio of Engineering employees to Administration employees?",
+    "choices": [
+      {
+        "id": "A",
+        "label": "3 to 2",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "7 to 4",
+        "isCorrect": true
+      },
+      {
+        "id": "C",
+        "label": "7 to 5",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "4 to 7",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "2 to 1",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Administration = 100 - 35 - 25 - 20 = 20%. Engineering is 35% and Administration is 20%, a ratio of 35:20 = 7:4: (B). Choice (D) inverts it; (C) uses the wrong Administration percentage.",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "NUMERIC_ENTRY",
+    "skillTag": "WORD_PROBLEMS",
+    "difficulty": "HARD",
+    "difficultyRationale": "Simple-interest problem requiring rearrangement of I = P r t to solve for the rate; the common error omits the time factor.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "A principal of $2,000 earns $240 in simple interest over 2 years. What is the annual interest rate, as a percent? (Enter the number of percent.)",
+    "choices": [],
+    "numericAnswer": 6,
+    "explanation": "Simple interest: I = P × r × t, so 240 = 2000 × r × 2 = 4000r, giving r = 0.06 = 6 percent per year. Forgetting the 2-year factor gives the incorrect 12 percent.",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "MULTIPLE_CHOICE_SINGLE",
+    "skillTag": "ARITHMETIC",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Counting with the inclusive-endpoints formula (last - first)/step + 1; the off-by-one and endpoint-exclusion errors are the traps.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "How many multiples of 4 are there between 10 and 50, inclusive?",
+    "choices": [
+      {
+        "id": "A",
+        "label": "9",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "10",
+        "isCorrect": true
+      },
+      {
+        "id": "C",
+        "label": "11",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "12",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "13",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "The multiples of 4 in the range run from 12 to 48. Count = (48 - 12)/4 + 1 = 36/4 + 1 = 9 + 1 = 10: (B). Choice (A) = 9 omits the '+1' for inclusive counting.",
+    "assetUrl": null
   }
 ]
