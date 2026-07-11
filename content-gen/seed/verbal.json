@@ -3098,5 +3098,345 @@
     "numericAnswer": null,
     "explanation": "'So ubiquitous that avoiding it entirely is nearly impossible' describes something found everywhere — (A). The other options describe plausible real-world facts about plastic but are not what 'ubiquitous' means.",
     "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "TEXT_COMPLETION",
+    "skillTag": "TEXT_COMPLETION",
+    "difficulty": "EASY",
+    "difficultyRationale": "Direct clue ('kept working through the night without complaint') and common vocabulary.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "The crew's ______ was evident in the way they kept working through the night without a single complaint.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "dedication",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "indifference",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "confusion",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "hesitation",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "inexperience",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Working through the night without complaint shows commitment — 'dedication'. 'Indifference' and 'hesitation' contradict sustained effort; 'confusion' and 'inexperience' don't fit either.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "TEXT_COMPLETION",
+    "skillTag": "TEXT_COMPLETION",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Requires inferring that a manuscript surviving multiple fires and floods must be tough; 'fragile' is the reversed-polarity trap.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "That the manuscript survived two fires and a flood attests to its ______ construction.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "sturdy",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "fragile",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "elaborate",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "recent",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "anonymous",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Surviving two fires and a flood indicates the manuscript was physically durable — 'sturdy'. 'Fragile' is the opposite; 'elaborate', 'recent', and 'anonymous' don't relate to physical durability.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "TEXT_COMPLETION",
+    "skillTag": "TEXT_COMPLETION",
+    "difficulty": "HARD",
+    "difficultyRationale": "Two interdependent blanks about a scientist whose caution is mistaken for uncertainty; each blank has a plausible in-field distractor.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "Colleagues sometimes mistook her (i)______ for a lack of conviction, when in fact her habit of (ii)______ every claim reflected an unusually rigorous standard of evidence.",
+    "choices": [
+      {
+        "id": "i-A",
+        "label": "caution",
+        "isCorrect": true
+      },
+      {
+        "id": "i-B",
+        "label": "certainty",
+        "isCorrect": false
+      },
+      {
+        "id": "i-C",
+        "label": "enthusiasm",
+        "isCorrect": false
+      },
+      {
+        "id": "ii-D",
+        "label": "qualifying",
+        "isCorrect": true
+      },
+      {
+        "id": "ii-E",
+        "label": "publicizing",
+        "isCorrect": false
+      },
+      {
+        "id": "ii-F",
+        "label": "simplifying",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "'Mistook her ___ for a lack of conviction' implies the trait resembled uncertainty on the surface: 'caution' (i) fits, and her habit of 'qualifying' (ii) every claim reflects that same careful rigor. 'Certainty' and 'enthusiasm' would not be mistaken for uncertainty; 'publicizing' and 'simplifying' don't fit rigorous qualification of claims.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "SENTENCE_EQUIVALENCE",
+    "skillTag": "SENTENCE_EQUIVALENCE",
+    "difficulty": "EASY",
+    "difficultyRationale": "Clear clue (repaired within minutes using only tools on hand) with a high-frequency synonym pair.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "The mechanic was remarkably ______, repairing the engine within minutes using only the tools she had on hand.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "resourceful",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "careless",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "inventive",
+        "isCorrect": true
+      },
+      {
+        "id": "D",
+        "label": "expensive",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "unlicensed",
+        "isCorrect": false
+      },
+      {
+        "id": "F",
+        "label": "punctual",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Fixing something quickly with limited tools shows resourcefulness: 'resourceful' and 'inventive' are synonyms that both fit. 'Careless' contradicts a successful repair; 'expensive', 'unlicensed', and 'punctual' don't describe this skill and don't pair.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "SENTENCE_EQUIVALENCE",
+    "skillTag": "SENTENCE_EQUIVALENCE",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "'Instead of addressing the complaint, the manager only ___ it' requires a worsening verb; one synonym pair among neutral distractors.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "Instead of addressing the customer's complaint, the manager's dismissive response only ______ her frustration.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "compounded",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "alleviated",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "aggravated",
+        "isCorrect": true
+      },
+      {
+        "id": "D",
+        "label": "documented",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "anticipated",
+        "isCorrect": false
+      },
+      {
+        "id": "F",
+        "label": "explained",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "'Instead of addressing ... only ___' signals worsening rather than resolution: 'compounded' and 'aggravated' both mean made worse and fit equivalently. 'Alleviated' is the opposite; 'documented', 'anticipated', and 'explained' don't mean worsened.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "SENTENCE_EQUIVALENCE",
+    "skillTag": "SENTENCE_EQUIVALENCE",
+    "difficulty": "HARD",
+    "difficultyRationale": "Low-frequency pair ('recalcitrant'/'intractable') needed for a committee that resists every proposed compromise; 'unpopular' is a tempting but distinct near-miss describing reception, not resistance.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "The subcommittee proved ______, rejecting every compromise proposed over the course of three lengthy sessions.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "recalcitrant",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "amenable",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "intractable",
+        "isCorrect": true
+      },
+      {
+        "id": "D",
+        "label": "unpopular",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "distracted",
+        "isCorrect": false
+      },
+      {
+        "id": "F",
+        "label": "punctual",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Rejecting every compromise across three sessions describes stubborn resistance: 'recalcitrant' and 'intractable' both mean unmanageable/resistant to control and fit equivalently. 'Amenable' is the opposite; 'unpopular', 'distracted', and 'punctual' don't describe resistance to compromise.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "READING_COMPREHENSION",
+    "skillTag": "RC_MAIN_IDEA",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Main-purpose question over an original archaeology-flavored passage with a revised-timeline structure; distractor overreaches into certainty the passage withholds.",
+    "passageId": "psg_migration_1",
+    "passageBodyHtml": "<p>For much of the twentieth century, archaeologists dated the first human arrival in a particular region to roughly 13,000 years ago, based on a distinctive style of stone tool found at numerous sites. Excavations at a handful of newer sites, however, have yielded artifacts and hearths dated by independent methods to several thousand years earlier, in layers where the tool style is entirely absent. Some researchers remain unconvinced, noting that the dating methods used at the newer sites have occasionally produced anomalous results elsewhere and that the sample of early sites remains small. The debate has not been resolved, but it has forced a reconsideration of assumptions that once seemed settled.</p>",
+    "stem": "The primary purpose of the passage is to",
+    "choices": [
+      {
+        "id": "A",
+        "label": "prove that the traditional dating of first human arrival is wrong",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "describe an ongoing debate that has unsettled a previously accepted timeline",
+        "isCorrect": true
+      },
+      {
+        "id": "C",
+        "label": "explain the technique used to identify the distinctive stone tool style",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "argue that dating methods used at the newer sites are unreliable",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "summarize the history of archaeological research in the region",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "The passage presents the traditional dating, then newer evidence, then persisting skepticism, concluding 'the debate has not been resolved' — describing an unsettled ongoing debate, so (B). (A) overstates the passage's neutral, unresolved framing; (C), (D), (E) are not the passage's purpose.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "READING_COMPREHENSION",
+    "skillTag": "RC_STRUCTURE",
+    "difficulty": "HARD",
+    "difficultyRationale": "Requires identifying the specific rhetorical role of the skeptics' objection within the passage's argument, not just its content.",
+    "passageId": "psg_migration_1",
+    "passageBodyHtml": "<p>For much of the twentieth century, archaeologists dated the first human arrival in a particular region to roughly 13,000 years ago, based on a distinctive style of stone tool found at numerous sites. Excavations at a handful of newer sites, however, have yielded artifacts and hearths dated by independent methods to several thousand years earlier, in layers where the tool style is entirely absent. Some researchers remain unconvinced, noting that the dating methods used at the newer sites have occasionally produced anomalous results elsewhere and that the sample of early sites remains small. The debate has not been resolved, but it has forced a reconsideration of assumptions that once seemed settled.</p>",
+    "stem": "The mention of researchers who \"remain unconvinced\" serves primarily to",
+    "choices": [
+      {
+        "id": "A",
+        "label": "discredit the newer excavation sites entirely",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "indicate that the new evidence, while significant, has not settled the question",
+        "isCorrect": true
+      },
+      {
+        "id": "C",
+        "label": "introduce a completely new hypothesis about human migration",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "prove that the traditional 13,000-year dating is correct",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "criticize the archaeologists who proposed the original timeline",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "The unconvinced researchers' specific, limited objections (methodological anomalies elsewhere, small sample) show why the debate remains open rather than settled by the new evidence — (B). (A) and (D) overstate their role as decisive; (C) and (E) misdescribe what they're doing.",
+    "assetUrl": null
   }
 ]

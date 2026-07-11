@@ -2585,5 +2585,308 @@
     "numericAnswer": null,
     "explanation": "First find g(2) = 2² - 3 = 4 - 3 = 1. Then f(1) = 2(1) + 1 = 3: (C). Choice (E) = 9 mistakenly computes f(2) first and then applies g.",
     "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "MULTIPLE_CHOICE_SINGLE",
+    "skillTag": "ARITHMETIC",
+    "difficulty": "EASY",
+    "difficultyRationale": "Single-step ratio scaling with round numbers.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "A recipe uses flour and sugar in a ratio of 5 to 2. If 10 cups of flour are used, how many cups of sugar are needed?",
+    "choices": [
+      {
+        "id": "A",
+        "label": "2",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "4",
+        "isCorrect": true
+      },
+      {
+        "id": "C",
+        "label": "5",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "6",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "25",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "10 cups of flour is double the ratio's 5, so sugar scales the same way: 2 × 2 = 4: (B).",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "MULTIPLE_CHOICE_SINGLE",
+    "skillTag": "GEOMETRY",
+    "difficulty": "EASY",
+    "difficultyRationale": "Direct perimeter computation with given dimensions.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "A rectangular garden is 12 meters long and 7 meters wide. What is its perimeter, in meters?",
+    "choices": [
+      {
+        "id": "A",
+        "label": "19",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "24",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "38",
+        "isCorrect": true
+      },
+      {
+        "id": "D",
+        "label": "42",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "84",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Perimeter = 2(length + width) = 2(12 + 7) = 2(19) = 38: (C). Choice (E) = 84 mistakenly computes the area instead of the perimeter.",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "QUANT_COMPARISON",
+    "skillTag": "ARITHMETIC",
+    "difficulty": "EASY",
+    "difficultyRationale": "Direct comparison of two computed exponent values with no hidden cases.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "Quantity A: 3^4\nQuantity B: 4^3",
+    "choices": [
+      {
+        "id": "A",
+        "label": "Quantity A is greater",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "Quantity B is greater",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "The two quantities are equal",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "The relationship cannot be determined from the information given",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "3^4 = 81 and 4^3 = 64. Since 81 > 64, Quantity A is greater: (A).",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "NUMERIC_ENTRY",
+    "skillTag": "WORD_PROBLEMS",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Requires setting up a combined-rate equation for two workers with different individual times and solving for the time remaining after one withdraws partway through.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "Alice can paint a fence alone in 3 hours, and Ben can paint the same fence alone in 6 hours. They work together for 1 hour, after which Ben leaves and Alice finishes the job alone. How many additional hours does Alice need to finish?",
+    "choices": [],
+    "numericAnswer": 1.5,
+    "explanation": "Combined rate: 1/3 + 1/6 = 2/6 + 1/6 = 3/6 = 1/2 of the fence per hour. In 1 hour together, they complete 1/2, leaving 1/2. Alice alone works at 1/3 per hour, so she needs (1/2) ÷ (1/3) = (1/2)(3) = 3/2 = 1.5 hours.",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "MULTIPLE_CHOICE_SINGLE",
+    "skillTag": "DATA_INTERPRETATION",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Requires computing a percent decrease across two sequential years and identifying the year with the largest single-year percent drop from a short data series.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "A company's profit, in thousands of dollars, over four years was: Year 1: 200, Year 2: 150, Year 3: 180, Year 4: 90. In which year-to-year transition was the percent decrease in profit the greatest?",
+    "choices": [
+      {
+        "id": "A",
+        "label": "Year 1 to Year 2",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "Year 2 to Year 3",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "Year 3 to Year 4",
+        "isCorrect": true
+      },
+      {
+        "id": "D",
+        "label": "All decreases were equal in percent",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "There is not enough information to determine this",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Year 1→2: (200-150)/200 = 25% decrease. Year 2→3 is an increase, not a decrease. Year 3→4: (180-90)/180 = 50% decrease. The greatest percent decrease is Year 3 to Year 4: (C).",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "MULTIPLE_CHOICE_SINGLE",
+    "skillTag": "ALGEBRA",
+    "difficulty": "HARD",
+    "difficultyRationale": "Requires manipulating a rational equation and checking for an extraneous solution introduced by multiplying both sides by a variable expression.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "What is the value of x that satisfies the equation (x + 2)/(x - 1) = 3 ?",
+    "choices": [
+      {
+        "id": "A",
+        "label": "1",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "2.5",
+        "isCorrect": true
+      },
+      {
+        "id": "C",
+        "label": "3",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "4",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "5",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Multiply both sides by (x - 1): x + 2 = 3(x - 1) = 3x - 3. So 2 + 3 = 3x - x, giving 5 = 2x, and x = 2.5: (B). (Check: (2.5+2)/(2.5-1) = 4.5/1.5 = 3. ✓) Note x = 1 would make the original denominator zero and must be excluded, but it doesn't arise as a solution here.",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "MULTIPLE_CHOICE_SINGLE",
+    "skillTag": "GEOMETRY",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Requires the relationship between a trapezoid's area formula and its two parallel sides plus height; distractors reflect using only one base or omitting the 1/2 factor.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "A trapezoid has parallel sides of length 8 and 14, and a height of 5. What is its area?",
+    "choices": [
+      {
+        "id": "A",
+        "label": "35",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "44",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "55",
+        "isCorrect": true
+      },
+      {
+        "id": "D",
+        "label": "70",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "110",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Trapezoid area = (1/2)(base1 + base2)(height) = (1/2)(8 + 14)(5) = (1/2)(22)(5) = 55: (C). Choice (E) = 110 forgets the factor of 1/2.",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "NUMERIC_ENTRY",
+    "skillTag": "ARITHMETIC",
+    "difficulty": "EASY",
+    "difficultyRationale": "Single-step conversion of a mixed number computation.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "What is 1/2 + 1/3 + 1/6, expressed as a single number?",
+    "choices": [],
+    "numericAnswer": 1,
+    "explanation": "Using a common denominator of 6: 3/6 + 2/6 + 1/6 = 6/6 = 1.",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "MULTIPLE_CHOICE_SINGLE",
+    "skillTag": "WORD_PROBLEMS",
+    "difficulty": "HARD",
+    "difficultyRationale": "Requires setting up a system from two different combinations of the same two unit prices and solving simultaneously, a classic 'two purchases' word problem.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "At a bakery, 3 muffins and 2 cookies cost $13, while 1 muffin and 4 cookies cost $11. What is the price of one muffin, in dollars?",
+    "choices": [
+      {
+        "id": "A",
+        "label": "2",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "2.50",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "3",
+        "isCorrect": true
+      },
+      {
+        "id": "D",
+        "label": "3.50",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "4",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Let m = muffin price, c = cookie price. 3m + 2c = 13 and m + 4c = 11. From the second equation, m = 11 - 4c. Substitute: 3(11 - 4c) + 2c = 13, so 33 - 12c + 2c = 13, giving -10c = -20, so c = 2. Then m = 11 - 4(2) = 3: (C). (Check: 3(3) + 2(2) = 9 + 4 = 13. ✓)",
+    "assetUrl": null
   }
 ]
