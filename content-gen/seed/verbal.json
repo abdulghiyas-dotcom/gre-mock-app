@@ -6953,5 +6953,255 @@
     "numericAnswer": null,
     "explanation": "Lacking wit and energy describes a dull film: 'flat' and 'lackluster' both mean dull/uninspired and fit equivalently. 'Inventive' contradicts the description; 'faithful', 'profitable', and 'lengthy' don't describe dullness.",
     "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "READING_COMPREHENSION",
+    "skillTag": "RC_STRUCTURE",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Requires identifying the rhetorical function of the passage's final sentence (a supporting illustration) rather than mistaking it for a new topic or a refutation.",
+    "passageId": "psg_archive_1",
+    "passageBodyHtml": "<p>Libraries and archives around the world have accelerated efforts to digitize their historical holdings, driven partly by preservation concerns and partly by a desire to widen access beyond patrons who can visit in person. Digitization is often described as democratizing access to rare materials, yet the process itself introduces new gatekeepers: the institutions that choose what to scan first, the companies that build and license the search tools researchers use to navigate digitized collections, and the metadata standards that determine what is even findable. A manuscript that has been digitized but poorly indexed may in practice be harder to locate than the same manuscript sitting on a physical shelf in a well-organized reading room.</p>",
+    "stem": "Which of the following best describes the function of the last sentence of the passage?",
+    "choices": [
+      {
+        "id": "A",
+        "label": "It provides a concrete illustration supporting the passage's qualification of the 'democratizing' claim",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "It introduces a wholly new topic unrelated to digitization",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "It refutes the claim that digitization ever improves access",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "It summarizes the history of manuscript preservation",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "It offers statistical evidence for the passage's argument",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "The final sentence gives a concrete case (a poorly indexed digitized manuscript) illustrating the preceding claim that digitization introduces new gatekeepers — supporting, not refuting or replacing, the passage's qualified view of 'democratizing' access. (C) overstates this into a blanket refutation; (B), (D), (E) mischaracterize the sentence's content.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "MULTIPLE_CHOICE_SINGLE",
+    "skillTag": "VOCAB_IN_CONTEXT",
+    "difficulty": "HARD",
+    "difficultyRationale": "Requires the abstract 'controls access to' sense of 'gatekeepers' rather than the literal, physical sense the word most readily suggests.",
+    "passageId": "psg_archive_1",
+    "passageBodyHtml": "<p>Libraries and archives around the world have accelerated efforts to digitize their historical holdings, driven partly by preservation concerns and partly by a desire to widen access beyond patrons who can visit in person. Digitization is often described as democratizing access to rare materials, yet the process itself introduces new gatekeepers: the institutions that choose what to scan first, the companies that build and license the search tools researchers use to navigate digitized collections, and the metadata standards that determine what is even findable. A manuscript that has been digitized but poorly indexed may in practice be harder to locate than the same manuscript sitting on a physical shelf in a well-organized reading room.</p>",
+    "stem": "As used in the passage, \"gatekeepers\" most nearly refers to",
+    "choices": [
+      {
+        "id": "A",
+        "label": "parties that control access to something",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "security guards employed at physical entrances",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "financial officers who manage institutional budgets",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "individuals responsible for locking buildings at night",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "elected legislative representatives",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "The passage names institutions, companies, and metadata standards as 'gatekeepers' that determine what is findable — an abstract sense of controlling access, not literal doorkeeping. (B) and (D) take the word too literally; (C) and (E) are unrelated roles.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "TEXT_COMPLETION",
+    "skillTag": "TEXT_COMPLETION",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Requires inferring that promising services without a funding plan is exactly what critics would call fiscally reckless, rather than a more neutral or opposite term.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "The mayor's proposal was denounced by opponents as fiscally ______, promising new services without identifying any way to pay for them.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "reckless",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "conservative",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "transparent",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "popular",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "gradual",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Promising services with no funding plan is exactly what critics denounce as 'reckless' spending. 'Conservative' and 'gradual' suggest caution, the opposite; 'transparent' and 'popular' don't describe fiscal irresponsibility.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "TEXT_COMPLETION",
+    "skillTag": "TEXT_COMPLETION",
+    "difficulty": "EASY",
+    "difficultyRationale": "Direct clue (a first-time assembler had no trouble) with a common vocabulary match.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "The instructions were so ______ that even someone assembling the furniture for the first time had no trouble.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "clear",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "confusing",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "incomplete",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "technical",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "lengthy",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Having no trouble on a first attempt describes clear instructions. 'Confusing' and 'incomplete' would cause trouble; 'technical' and 'lengthy' don't imply ease of use.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "SENTENCE_EQUIVALENCE",
+    "skillTag": "SENTENCE_EQUIVALENCE",
+    "difficulty": "HARD",
+    "difficultyRationale": "Low-frequency pair ('equivocal'/'qualified') describing a hedged, non-committal review, distinguished from strongly positive or negative distractors.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "The critic's review was ______, praising the film's visuals while offering only the faintest, most guarded acknowledgment of its narrative flaws.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "equivocal",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "qualified",
+        "isCorrect": true
+      },
+      {
+        "id": "C",
+        "label": "scathing",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "glowing",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "unanimous",
+        "isCorrect": false
+      },
+      {
+        "id": "F",
+        "label": "impartial",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Praising one aspect while only faintly, guardedly acknowledging flaws describes a hedged, non-committal review: 'equivocal' and 'qualified' both fit equivalently. 'Scathing' and 'glowing' describe unambiguous reviews, the opposite; 'unanimous' and 'impartial' don't describe hedging.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "SENTENCE_EQUIVALENCE",
+    "skillTag": "SENTENCE_EQUIVALENCE",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Requires matching 'concluding in under an hour after months of anticipated wrangling' to synonyms for unexpected speed.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "The negotiations between the two firms proved unexpectedly ______, concluding in under an hour after months of anticipated wrangling.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "brief",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "swift",
+        "isCorrect": true
+      },
+      {
+        "id": "C",
+        "label": "contentious",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "secretive",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "profitable",
+        "isCorrect": false
+      },
+      {
+        "id": "F",
+        "label": "mandatory",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Concluding in under an hour, contrary to expected 'wrangling,' describes speed: 'brief' and 'swift' both fit equivalently. 'Contentious' matches the expected-but-contradicted wrangling; 'secretive', 'profitable', and 'mandatory' don't describe duration.",
+    "assetUrl": null
   }
 ]

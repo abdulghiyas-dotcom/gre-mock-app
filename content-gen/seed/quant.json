@@ -6209,5 +6209,277 @@
     "numericAnswer": null,
     "explanation": "3 ÷ 8 = 0.375, so (B).",
     "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "NUMERIC_ENTRY",
+    "skillTag": "GEOMETRY",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Direct application of the triangle area formula with round numbers.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "A triangle has a base of 12 and a height of 7. What is its area?",
+    "choices": null,
+    "numericAnswer": 42,
+    "explanation": "Area = (1/2) × base × height = (1/2) × 12 × 7 = 42.",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "MULTIPLE_CHOICE_SINGLE",
+    "skillTag": "GEOMETRY",
+    "difficulty": "HARD",
+    "difficultyRationale": "Requires the cylinder volume formula and keeping the answer in terms of π rather than a decimal, with a distractor set built from common formula-swap errors.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "A cylinder has a radius of 3 and a height of 10. What is its volume, in terms of π?",
+    "choices": [
+      {
+        "id": "A",
+        "label": "30π",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "60π",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "90π",
+        "isCorrect": true
+      },
+      {
+        "id": "D",
+        "label": "120π",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "270π",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Volume = πr²h = π(3²)(10) = π(9)(10) = 90π, so (C). 30π uses r instead of r²; 270π uses r³.",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "NUMERIC_ENTRY",
+    "skillTag": "WORD_PROBLEMS",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Standard unit-rate problem requiring the solver to find the rate first, then scale it to a new distance.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "A car travels 240 miles using 8 gallons of gas. At the same rate, how many gallons would it need to travel 360 miles?",
+    "choices": null,
+    "numericAnswer": 12,
+    "explanation": "The rate is 240 ÷ 8 = 30 miles per gallon. At that rate, 360 miles requires 360 ÷ 30 = 12 gallons.",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "NUMERIC_ENTRY",
+    "skillTag": "WORD_PROBLEMS",
+    "difficulty": "HARD",
+    "difficultyRationale": "Classic mixture problem requiring a weighted-average equation with an unknown volume on both sides, rather than a simple ratio.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "A chemist has a 10% acid solution and a 40% acid solution. How many liters of the 40% solution must be added to 5 liters of the 10% solution to create a 25% acid solution?",
+    "choices": null,
+    "numericAnswer": 5,
+    "explanation": "Let x be the liters of 40% solution added. Total acid: 0.10(5) + 0.40(x) = 0.25(5 + x). This gives 0.5 + 0.4x = 1.25 + 0.25x, so 0.15x = 0.75, and x = 5 liters.",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "QUANT_COMPARISON",
+    "skillTag": "GEOMETRY",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Requires computing two different area formulas (square vs. rectangle) and comparing the results, rather than assuming equal perimeters imply equal areas.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "Quantity A: the area of a square with side length 6\nQuantity B: the area of a rectangle with length 8 and width 5",
+    "choices": [
+      {
+        "id": "A",
+        "label": "Quantity A is greater",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "Quantity B is greater",
+        "isCorrect": true
+      },
+      {
+        "id": "C",
+        "label": "The two quantities are equal",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "The relationship cannot be determined from the information given",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "The square's area is 6² = 36. The rectangle's area is 8 × 5 = 40. Since 40 > 36, Quantity B is greater: (B).",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "MULTIPLE_CHOICE_SINGLE",
+    "skillTag": "WORD_PROBLEMS",
+    "difficulty": "EASY",
+    "difficultyRationale": "Single-step proportional reasoning with a clean scale factor.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "A recipe calls for 2 cups of flour for every 3 cups of sugar. If a baker uses 9 cups of sugar, how many cups of flour are needed?",
+    "choices": [
+      {
+        "id": "A",
+        "label": "4",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "5",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "6",
+        "isCorrect": true
+      },
+      {
+        "id": "D",
+        "label": "7",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "8",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "9 cups of sugar is 3 times the recipe's 3 cups, so flour scales by the same factor: 2 × 3 = 6 cups, so (C).",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "MULTIPLE_CHOICE_SINGLE",
+    "skillTag": "ALGEBRA",
+    "difficulty": "HARD",
+    "difficultyRationale": "Requires factoring a quadratic to find its roots; only one of the two true roots appears among the choices, guarding against a partial-credit guess.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "If x² − 5x − 14 = 0, which of the following could be the value of x?",
+    "choices": [
+      {
+        "id": "A",
+        "label": "−7",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "−2",
+        "isCorrect": true
+      },
+      {
+        "id": "C",
+        "label": "2",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "5",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "14",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "x² − 5x − 14 = (x − 7)(x + 2) = 0, so x = 7 or x = −2. Only −2 appears among the choices, so (B).",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "MULTIPLE_CHOICE_SINGLE",
+    "skillTag": "DATA_INTERPRETATION",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Two-step percent-of-a-percent computation, a common data-interpretation pattern that punishes stopping after the first step.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "A survey of 300 employees found that 60% work remotely at least once a week. Of those who work remotely, 25% work remotely every day. How many employees work remotely every day?",
+    "choices": [
+      {
+        "id": "A",
+        "label": "30",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "36",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "45",
+        "isCorrect": true
+      },
+      {
+        "id": "D",
+        "label": "54",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "75",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Employees who work remotely: 60% of 300 = 180. Of those, 25% work remotely every day: 0.25 × 180 = 45, so (C). Choice (E) is just 25% of 300, skipping the first step.",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "QUANT_COMPARISON",
+    "skillTag": "ARITHMETIC",
+    "difficulty": "EASY",
+    "difficultyRationale": "Tests correct order-of-operations application versus a left-to-right miscalculation.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "Quantity A: 7 − 3 × 2\nQuantity B: (7 − 3) × 2",
+    "choices": [
+      {
+        "id": "A",
+        "label": "Quantity A is greater",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "Quantity B is greater",
+        "isCorrect": true
+      },
+      {
+        "id": "C",
+        "label": "The two quantities are equal",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "The relationship cannot be determined from the information given",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Quantity A: multiplication before subtraction gives 7 − 6 = 1. Quantity B: the parentheses are evaluated first, giving 4 × 2 = 8. Since 8 > 1, Quantity B is greater: (B).",
+    "assetUrl": null
   }
 ]
