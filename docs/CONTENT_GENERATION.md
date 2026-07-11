@@ -10,29 +10,31 @@ A single "write a GRE question" call produces plausible-looking but subtly broke
 
 | Concern | Choice |
 |---|---|
-| Model | **Claude Opus 4.8** (`claude-opus-4-8`) — most capable; question authoring is correctness-sensitive |
-| Reasoning | Adaptive thinking on; `effort: "high"` (use `xhigh` for Hard-tier Quant) |
+| Model | **Claude Fable 5** (`claude-fable-5`) — Anthropic's most capable model; question authoring is correctness-sensitive |
+| Reasoning | Thinking is **always on** for Fable 5; depth is controlled via `output_config.effort: "high"` (`xhigh` for Hard-tier Quant). No `budget_tokens`. |
+| Refusal handling | Fable 5 runs safety classifiers and can return `stop_reason: "refusal"`. A **server-side fallback to Opus 4.8** (`fallbacks: [{ model: "claude-opus-4-8" }]`, beta `server-side-fallback-2026-06-01`) is enabled by default so a benign GRE item that trips a false positive is re-served instead of failing the batch. The pipeline throws only if the whole chain refuses. |
+| Data retention | Fable 5 requires **30-day data retention** on the org — it is **not** available under zero-data-retention (ZDR); a ZDR org gets a 400 on every request. |
 | Output shape | **Structured outputs** (`output_config.format`) with a JSON schema matching the `Question` model, so generated items drop straight into the DB |
-| Throughput | **Message Batches API** (50% cost; generation isn't latency-sensitive) |
+| Throughput | **Message Batches API** (50% cost; generation isn't latency-sensitive). Note: the server-side `fallbacks` parameter is rejected on the Batches API — for a batch run, drop `fallbacks` and handle refusals with a client-side retry on Opus 4.8 instead. |
 | Quant verification | **Code execution tool** — actually compute the answer rather than trusting the model's arithmetic |
 
 ## Pipeline stages
 
 ```
 1. GENERATE
-   Opus 4.8 writes one question to spec (section, questionType, skillTag,
+   Fable 5 writes one question to spec (section, questionType, skillTag,
    target difficulty) + a rationale for WHY it's that difficulty.
    Structured output conforms to the Question schema. Few-shot anchored
    with verified exemplars (see Calibration).
         │
 2. SOLVE-BLIND   ← highest-value check
-   A SEPARATE Opus 4.8 call sees ONLY stem + choices (no answer key) and
+   A SEPARATE Fable 5 call sees ONLY stem + choices (no answer key) and
    must choose an answer with justification. If it disagrees with the
    generator's key, or reports more than one defensible answer, the item
    is flagged. This is what catches multi-correct-answer defects.
         │
 3. CRITIQUE
-   Opus 4.8 as adversarial reviewer against a GRE-authenticity rubric:
+   Fable 5 as adversarial reviewer against a GRE-authenticity rubric:
    exactly one correct answer? distractors plausible-but-wrong? vocabulary
    in GRE register? no ambiguity? (RC) does the passage actually support
    the keyed inference? Returns pass/fail + reasons.

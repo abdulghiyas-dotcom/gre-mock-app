@@ -1,6 +1,6 @@
 # content-gen
 
-LLM question-generation pipeline for the GRE mock platform. Implements the design in [`../docs/CONTENT_GENERATION.md`](../docs/CONTENT_GENERATION.md): **generate → solve-blind → critique → validate**, using Claude Opus 4.8.
+LLM question-generation pipeline for the GRE mock platform. Implements the design in [`../docs/CONTENT_GENERATION.md`](../docs/CONTENT_GENERATION.md): **generate → solve-blind → critique → validate**, using Claude Fable 5 (Anthropic's most capable model) with a server-side fallback to Opus 4.8 for refusals.
 
 ## What's here
 
@@ -18,12 +18,14 @@ LLM question-generation pipeline for the GRE mock platform. Implements the desig
 
 ## Running the generator
 
-Requires an Anthropic API key (or an `ant auth login` profile):
+Requires an Anthropic API key (or an `ant auth login` profile). Claude Fable 5 also requires **30-day data retention** on your org — it is not available under zero-data-retention:
 
 ```bash
 npm install
 ANTHROPIC_API_KEY=sk-... npm run generate
 ```
+
+Refusals from Fable 5's safety classifiers are handled automatically via a server-side fallback to Opus 4.8 (enabled in `pipeline.ts`); the pipeline only errors if the whole chain refuses.
 
 This expands the blueprint, runs each spec through the pipeline, and writes accepted questions plus a rejection log to `seed/`. For production volume (1,500+ items), switch `run.ts` to the Message Batches API for 50% cost — noted inline.
 

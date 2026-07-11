@@ -14,7 +14,17 @@ import {
   critiqueUserPrompt,
 } from "./prompts.js";
 
-const MODEL = "claude-opus-4-8";
+// Generation runs on Claude Fable 5 — Anthropic's most capable model.
+// Fable 5 specifics handled below:
+//  - Thinking is always on; controlled via output_config.effort (no budget_tokens).
+//  - Safety classifiers can return stop_reason "refusal" (HTTP 200) — guarded.
+//  - Server-side fallback to Opus 4.8 is enabled by default so a benign item that
+//    trips a false-positive classifier is re-served instead of failing the batch.
+//  - Requires 30-day data retention on the org (not available under ZDR).
+const MODEL = "claude-fable-5";
+const FALLBACK_MODEL = "claude-opus-4-8";
+const FALLBACK_BETA = "server-side-fallback-2026-06-01";
+
 const client = new Anthropic(); // reads ANTHROPIC_API_KEY / ant auth profile
 
 export interface QuestionSpec {
@@ -33,97 +43,106 @@ export interface PipelineOutcome {
   rejectionReasons: string[];
 }
 
-function firstText(msg: Anthropic.Message): string {
+// One structured-output call to Fable 5 with the Opus-4.8 refusal fallback.
+// Returns the first text block's parsed JSON, or throws on a full-chain refusal.
+async function structuredCall<T>(opts: {
+  system: string;
+  user: string;
+  schema: Record<string, unknown>;
+  effort: "high" | "xhigh";
+  maxTokens: number;
+}): Promise<T> {
+  const msg = await client.beta.messages.create({
+    model: MODEL,
+    max_tokens: opts.maxTokens,
+    betas: [FALLBACK_BETA],
+    fallbacks: [{ model: FALLBACK_MODEL }],
+    thinking: { type: "adaptive" }, // always-on for Fable 5; accepted explicitly
+    output_config: {
+      effort: opts.effort,
+      format: { type: "json_schema", schema: opts.schema },
+    },
+    system: opts.system,
+    messages: [{ role: "user", content: opts.user }],
+  });
+
+  if (msg.stop_reason === "refusal") {
+    const detail = msg.stop_details?.explanation ?? "safety classifier refusal";
+    throw new Error(`model refused (fallback chain exhausted): ${detail}`);
+  }
   const block = msg.content.find((b) => b.type === "text");
   if (!block || block.type !== "text") throw new Error("no text block in response");
-  return block.text;
+  return JSON.parse(block.text) as T;
 }
 
 // 1. GENERATE — structured output conforming to the Question schema.
 export async function generate(spec: QuestionSpec): Promise<GeneratedQuestion> {
-  const msg = await client.messages.create({
-    model: MODEL,
-    max_tokens: 4000,
-    thinking: { type: "adaptive" },
-    output_config: {
-      effort: spec.difficulty === "HARD" && spec.section === "QUANT" ? "xhigh" : "high",
-      format: { type: "json_schema", schema: generatedQuestionJsonSchema },
-    },
+  const raw = await structuredCall<unknown>({
     system: GENERATE_SYSTEM,
-    messages: [{ role: "user", content: generateUserPrompt(spec) }],
+    user: generateUserPrompt(spec),
+    schema: generatedQuestionJsonSchema as unknown as Record<string, unknown>,
+    // Hard Quant gets the top effort tier; everything else runs at high.
+    effort: spec.difficulty === "HARD" && spec.section === "QUANT" ? "xhigh" : "high",
+    maxTokens: 8000,
   });
-  return GeneratedQuestion.parse(JSON.parse(firstText(msg)));
+  return GeneratedQuestion.parse(raw);
 }
 
 // 2. SOLVE-BLIND — a separate call sees stem+choices only, never the key.
 export async function solveBlind(q: GeneratedQuestion): Promise<SolveBlindResult> {
-  const msg = await client.messages.create({
-    model: MODEL,
-    max_tokens: 3000,
-    thinking: { type: "adaptive" },
-    output_config: {
-      effort: "high",
-      format: {
-        type: "json_schema",
-        schema: {
-          type: "object",
-          additionalProperties: false,
-          properties: {
-            chosenAnswer: { type: "array", items: { type: "string" } },
-            numericValue: { type: ["number", "null"] },
-            multipleDefensibleAnswers: { type: "boolean" },
-            reasoning: { type: "string" },
-          },
-          required: ["chosenAnswer", "numericValue", "multipleDefensibleAnswers", "reasoning"],
-        },
-      },
-    },
+  const raw = await structuredCall<unknown>({
     system: SOLVE_BLIND_SYSTEM,
-    messages: [{ role: "user", content: solveBlindUserPrompt(q) }],
+    user: solveBlindUserPrompt(q),
+    schema: {
+      type: "object",
+      additionalProperties: false,
+      properties: {
+        chosenAnswer: { type: "array", items: { type: "string" } },
+        numericValue: { type: ["number", "null"] },
+        multipleDefensibleAnswers: { type: "boolean" },
+        reasoning: { type: "string" },
+      },
+      required: ["chosenAnswer", "numericValue", "multipleDefensibleAnswers", "reasoning"],
+    },
+    effort: "high",
+    maxTokens: 6000,
   });
-  return SolveBlindResult.parse(JSON.parse(firstText(msg)));
+  return SolveBlindResult.parse(raw);
 }
 
 // 3. CRITIQUE — adversarial review against the GRE-authenticity rubric.
 export async function critique(q: GeneratedQuestion): Promise<CritiqueResult> {
-  const msg = await client.messages.create({
-    model: MODEL,
-    max_tokens: 2000,
-    thinking: { type: "adaptive" },
-    output_config: {
-      effort: "high",
-      format: {
-        type: "json_schema",
-        schema: {
-          type: "object",
-          additionalProperties: false,
-          properties: {
-            pass: { type: "boolean" },
-            exactlyOneCorrect: { type: "boolean" },
-            distractorsPlausible: { type: "boolean" },
-            registerAuthentic: { type: "boolean" },
-            unambiguous: { type: "boolean" },
-            passageSupportsKey: { type: "boolean" },
-            difficultyMatchesLabel: { type: "boolean" },
-            issues: { type: "array", items: { type: "string" } },
-          },
-          required: [
-            "pass",
-            "exactlyOneCorrect",
-            "distractorsPlausible",
-            "registerAuthentic",
-            "unambiguous",
-            "passageSupportsKey",
-            "difficultyMatchesLabel",
-            "issues",
-          ],
-        },
-      },
-    },
+  const raw = await structuredCall<unknown>({
     system: CRITIQUE_SYSTEM,
-    messages: [{ role: "user", content: critiqueUserPrompt(q) }],
+    user: critiqueUserPrompt(q),
+    schema: {
+      type: "object",
+      additionalProperties: false,
+      properties: {
+        pass: { type: "boolean" },
+        exactlyOneCorrect: { type: "boolean" },
+        distractorsPlausible: { type: "boolean" },
+        registerAuthentic: { type: "boolean" },
+        unambiguous: { type: "boolean" },
+        passageSupportsKey: { type: "boolean" },
+        difficultyMatchesLabel: { type: "boolean" },
+        issues: { type: "array", items: { type: "string" } },
+      },
+      required: [
+        "pass",
+        "exactlyOneCorrect",
+        "distractorsPlausible",
+        "registerAuthentic",
+        "unambiguous",
+        "passageSupportsKey",
+        "difficultyMatchesLabel",
+        "issues",
+      ],
+    },
+    effort: "high",
+    maxTokens: 4000,
   });
-  return CritiqueResult.parse(JSON.parse(firstText(msg)));
+  return CritiqueResult.parse(raw);
 }
 
 // Reconcile the solve-blind answer against the generator's key.
