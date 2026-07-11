@@ -898,5 +898,505 @@
     "numericAnswer": null,
     "explanation": "Rain ending a drought is a positive relief; 'welcome' and 'gratifying' are synonyms that both fit and give sentences alike in meaning. 'Temporary', 'costly', 'surprising', and 'minor' are neither positive-relief synonyms nor a matching pair.",
     "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "TEXT_COMPLETION",
+    "skillTag": "TEXT_COMPLETION",
+    "difficulty": "EASY",
+    "difficultyRationale": "Direct restatement clue ('blending seamlessly with the historic architecture') and a single clearly-opposed distractor set.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "The museum's new wing was designed to be ______, blending seamlessly with the historic architecture around it.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "unobtrusive",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "conspicuous",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "ornate",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "imposing",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "futuristic",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Blending seamlessly means not standing out — 'unobtrusive'. 'Conspicuous' and 'imposing' are opposites; 'ornate' and 'futuristic' would clash with, not blend into, historic surroundings.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "TEXT_COMPLETION",
+    "skillTag": "TEXT_COMPLETION",
+    "difficulty": "EASY",
+    "difficultyRationale": "Cause-effect clue ('caught errors others had overlooked') with common vocabulary.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "The editor's ______ attention to detail caught errors that others had overlooked.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "meticulous",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "cursory",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "sporadic",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "grudging",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "belated",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Catching errors others missed implies careful, thorough attention — 'meticulous'. 'Cursory' and 'sporadic' describe insufficient attention; 'grudging' and 'belated' describe attitude and timing, not thoroughness.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "TEXT_COMPLETION",
+    "skillTag": "TEXT_COMPLETION",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Definition-by-apposition ('favoring neither side') with 'partisan' as a direct-opposite trap and 'conciliatory' as a near-field distractor.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "The mediator was careful to remain ______ throughout the negotiations, favoring neither side even when pressed for an opinion.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "impartial",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "partisan",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "obstinate",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "conciliatory",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "candid",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "'Favoring neither side' defines 'impartial'. 'Partisan' is the opposite. 'Conciliatory' (seeking to appease) is a negotiation-flavored trap but doesn't mean neutral; 'obstinate' and 'candid' are unrelated to neutrality.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "TEXT_COMPLETION",
+    "skillTag": "TEXT_COMPLETION",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Two interdependent blanks with a 'Rather than X, Y' reversal structure; each blank has an in-field distractor.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "Rather than (i)______ the early criticism of her screenplay, the director (ii)______ it, incorporating several of the reviewers' suggestions into the final cut.",
+    "choices": [
+      {
+        "id": "i-A",
+        "label": "dismissing",
+        "isCorrect": true
+      },
+      {
+        "id": "i-B",
+        "label": "soliciting",
+        "isCorrect": false
+      },
+      {
+        "id": "i-C",
+        "label": "anticipating",
+        "isCorrect": false
+      },
+      {
+        "id": "ii-D",
+        "label": "embraced",
+        "isCorrect": true
+      },
+      {
+        "id": "ii-E",
+        "label": "resented",
+        "isCorrect": false
+      },
+      {
+        "id": "ii-F",
+        "label": "suppressed",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "'Rather than' opposes the two blanks, and 'incorporating suggestions' shows she accepted the criticism: she 'embraced' (ii) it rather than 'dismissing' (i) it. 'Resented'/'suppressed' contradict incorporating suggestions; 'soliciting'/'anticipating' don't oppose acceptance.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "TEXT_COMPLETION",
+    "skillTag": "TEXT_COMPLETION",
+    "difficulty": "HARD",
+    "difficultyRationale": "Low-frequency correct answer ('torpor') and a contrast that must be read across the whole sentence; 'efficiency' is a reversed-polarity trap.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "Despite the agency's reputation for ______, her application was processed with unexpected dispatch.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "torpor",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "efficiency",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "transparency",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "rigor",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "leniency",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "'Despite' + 'unexpected dispatch' (speed) means the reputation was for slowness — 'torpor' (sluggishness). 'Efficiency' would make the speed expected, not unexpected. 'Transparency', 'rigor', and 'leniency' don't contrast with speed.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "SENTENCE_EQUIVALENCE",
+    "skillTag": "SENTENCE_EQUIVALENCE",
+    "difficulty": "EASY",
+    "difficultyRationale": "Concrete situational clue (sudden storm, taking shelter) and a high-frequency synonym pair.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "The hikers were ______ by the sudden storm and hurried to take shelter under a rock ledge.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "startled",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "delighted",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "surprised",
+        "isCorrect": true
+      },
+      {
+        "id": "D",
+        "label": "guided",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "encouraged",
+        "isCorrect": false
+      },
+      {
+        "id": "F",
+        "label": "unharmed",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "A 'sudden' storm that sends hikers hurrying for shelter caught them off guard: 'startled' and 'surprised' are synonyms that both fit. 'Delighted' and 'encouraged' contradict hurrying for shelter; 'guided' and 'unharmed' don't describe a reaction to suddenness.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "SENTENCE_EQUIVALENCE",
+    "skillTag": "SENTENCE_EQUIVALENCE",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "One clean synonym pair ('flimsy'/'insubstantial'); remaining options include reversed-polarity words and non-pairing fillers.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "The prosecutor conceded that the physical evidence was too ______ to support a conviction on its own.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "flimsy",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "damning",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "insubstantial",
+        "isCorrect": true
+      },
+      {
+        "id": "D",
+        "label": "compelling",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "abundant",
+        "isCorrect": false
+      },
+      {
+        "id": "F",
+        "label": "recent",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Evidence that cannot support a conviction is weak: 'flimsy' and 'insubstantial' are synonyms that both fit. 'Damning' and 'compelling' would support a conviction; 'abundant' and 'recent' don't describe weakness and don't pair.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "SENTENCE_EQUIVALENCE",
+    "skillTag": "SENTENCE_EQUIVALENCE",
+    "difficulty": "HARD",
+    "difficultyRationale": "Low-frequency pair ('turgid'/'ponderous') that must be read against the concessive 'though ... rewarded the patient listener'; 'scintillating' reverses polarity and 'succinct' misreads the contrast.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "The professor's lectures, though ______, rewarded the patient listener with insights available nowhere else.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "turgid",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "scintillating",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "ponderous",
+        "isCorrect": true
+      },
+      {
+        "id": "D",
+        "label": "succinct",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "accessible",
+        "isCorrect": false
+      },
+      {
+        "id": "F",
+        "label": "infrequent",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "'Though ... rewarded the PATIENT listener' implies the lectures demanded patience — they were heavy and slow. 'Turgid' and 'ponderous' both mean labored/dull and produce equivalent sentences. 'Scintillating' and 'accessible' need no patience; 'succinct' and 'infrequent' don't pair or fit the concession.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "READING_COMPREHENSION",
+    "skillTag": "RC_MAIN_IDEA",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Main-purpose question over an original humanities passage with a common-view-then-correction structure; the strongest distractor states the common view itself.",
+    "passageId": "psg_print_1",
+    "passageBodyHtml": "<p>Historians once told a tidy story about the printing press: movable type appeared, and the laborious hand-copying of manuscripts promptly collapsed. The archival record suggests a slower, stranger transition. For decades after the first presses, scribal workshops not only survived but in some regions enjoyed a brief efflorescence. Early printed books were often riddled with errors, and their standardized formats could not accommodate the customized layouts, annotations, and illuminations that wealthy patrons prized. Scribes, in effect, retreated upmarket, serving clients for whom a book was as much an object of display as a text to be read. Manuscript production declined not with a crash but by degrees, as printing gradually conquered one segment of the market after another.</p>",
+    "stem": "The primary purpose of the passage is to",
+    "choices": [
+      {
+        "id": "A",
+        "label": "argue that the printing press had little lasting effect on book production",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "complicate a familiar account of a technological transition",
+        "isCorrect": true
+      },
+      {
+        "id": "C",
+        "label": "explain the techniques scribes used to illuminate manuscripts",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "demonstrate that early printed books were superior to manuscripts",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "trace the causes of errors in early printed books",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "The passage opens with the 'tidy story' historians once told, then uses the archival record to show the transition was slower and more segmented — complicating the familiar account, so (B). (A) overcorrects: printing did eventually conquer the market. (C), (D), (E) are supporting details or reversals, not the purpose.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "READING_COMPREHENSION",
+    "skillTag": "RC_INFERENCE",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Inference anchored to the 'retreated upmarket' and 'object of display' clauses; distractors extrapolate beyond or against the text.",
+    "passageId": "psg_print_1",
+    "passageBodyHtml": "<p>Historians once told a tidy story about the printing press: movable type appeared, and the laborious hand-copying of manuscripts promptly collapsed. The archival record suggests a slower, stranger transition. For decades after the first presses, scribal workshops not only survived but in some regions enjoyed a brief efflorescence. Early printed books were often riddled with errors, and their standardized formats could not accommodate the customized layouts, annotations, and illuminations that wealthy patrons prized. Scribes, in effect, retreated upmarket, serving clients for whom a book was as much an object of display as a text to be read. Manuscript production declined not with a crash but by degrees, as printing gradually conquered one segment of the market after another.</p>",
+    "stem": "It can be inferred from the passage that the scribal workshops that persisted after the advent of printing did so in part because they",
+    "choices": [
+      {
+        "id": "A",
+        "label": "lowered their prices to compete with printed books",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "offered qualities of customization that early presses could not match",
+        "isCorrect": true
+      },
+      {
+        "id": "C",
+        "label": "were subsidized by governments hostile to printing",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "produced books more quickly than the presses could",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "refused to serve wealthy patrons",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "The passage says printed books' 'standardized formats could not accommodate the customized layouts, annotations, and illuminations that wealthy patrons prized,' and that scribes served exactly those clients — so (B). (A) reverses 'retreated upmarket'; (D) contradicts 'laborious hand-copying'; (C) and (E) have no textual basis.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "READING_COMPREHENSION",
+    "skillTag": "VOCAB_IN_CONTEXT",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Vocabulary-in-context item on a low-frequency word ('efflorescence') whose meaning must be recovered from the surrounding 'not only survived but' construction.",
+    "passageId": "psg_print_1",
+    "passageBodyHtml": "<p>Historians once told a tidy story about the printing press: movable type appeared, and the laborious hand-copying of manuscripts promptly collapsed. The archival record suggests a slower, stranger transition. For decades after the first presses, scribal workshops not only survived but in some regions enjoyed a brief efflorescence. Early printed books were often riddled with errors, and their standardized formats could not accommodate the customized layouts, annotations, and illuminations that wealthy patrons prized. Scribes, in effect, retreated upmarket, serving clients for whom a book was as much an object of display as a text to be read. Manuscript production declined not with a crash but by degrees, as printing gradually conquered one segment of the market after another.</p>",
+    "stem": "In the context in which it appears, \"efflorescence\" most nearly means",
+    "choices": [
+      {
+        "id": "A",
+        "label": "flowering",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "decline",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "reorganization",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "reputation",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "standardization",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "The construction 'not only survived but ... enjoyed a brief efflorescence' escalates beyond survival, so the word must mean a period of thriving — 'flowering', (A). 'Decline' reverses the escalation; the others don't fit something workshops could briefly 'enjoy' beyond mere survival.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "READING_COMPREHENSION",
+    "skillTag": "RC_STRUCTURE",
+    "difficulty": "HARD",
+    "difficultyRationale": "Requires characterizing the passage's argumentative organization as a whole rather than retrieving a fact; distractors describe structures the passage does not use.",
+    "passageId": "psg_print_1",
+    "passageBodyHtml": "<p>Historians once told a tidy story about the printing press: movable type appeared, and the laborious hand-copying of manuscripts promptly collapsed. The archival record suggests a slower, stranger transition. For decades after the first presses, scribal workshops not only survived but in some regions enjoyed a brief efflorescence. Early printed books were often riddled with errors, and their standardized formats could not accommodate the customized layouts, annotations, and illuminations that wealthy patrons prized. Scribes, in effect, retreated upmarket, serving clients for whom a book was as much an object of display as a text to be read. Manuscript production declined not with a crash but by degrees, as printing gradually conquered one segment of the market after another.</p>",
+    "stem": "Which of the following best describes the organization of the passage?",
+    "choices": [
+      {
+        "id": "A",
+        "label": "A widely held view is stated and then qualified with evidence of a more gradual process",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "Two competing theories are presented and one is decisively refuted",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "A hypothesis is proposed and then confirmed by an experiment",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "A chronological narrative is interrupted by a series of digressions",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "A general principle is stated and illustrated with unrelated examples",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "The passage states the 'tidy story' historians once told, then qualifies it with archival evidence that the transition was gradual and market-segmented — structure (A). No second theory is formally refuted (B), no experiment occurs (C), and there are no digressions (D) or unrelated examples (E).",
+    "assetUrl": null
   }
 ]

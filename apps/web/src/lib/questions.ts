@@ -23,53 +23,67 @@ function withIds(items: Omit<Question, "id">[], prefix: string): Question[] {
   return items.map((q, i) => ({ ...q, id: `${prefix}-${i + 1}` }));
 }
 
-function poolsByDifficulty(questions: Question[]): Partial<Record<Difficulty, Question[]>> {
-  const pools: Partial<Record<Difficulty, Question[]>> = {};
-  for (const q of questions) (pools[q.difficulty] ??= []).push(q);
+function byDifficulty(questions: Question[]): Record<Difficulty, Question[]> {
+  const pools: Record<Difficulty, Question[]> = { EASY: [], MEDIUM: [], HARD: [] };
+  for (const q of questions) pools[q.difficulty].push(q);
   return pools;
 }
 
-// Build all test definitions from the seed bank.
-//
-// NOTE ON CONTENT SCALE: the section sizes below are bounded by the small seed
-// bank. Real GRE sections are ~13-14 questions across separate EASY/MEDIUM/HARD
-// pools; grow the bank with content-gen and these assemblies fill out. The test
-// STRUCTURE (multi-section, one-way boundaries, adaptive section 2) is complete.
-export async function getTestDefs(): Promise<TestDef[]> {
-  const [verbalRaw, quantRaw, prompts] = await Promise.all([
-    readSeed("verbal.json"),
-    readSeed("quant.json"),
-    readEssayPrompts(),
-  ]);
-  const verbal = withIds(verbalRaw, "v");
-  const quant = withIds(quantRaw, "q");
-  const vPools = poolsByDifficulty(verbal);
-  const qPools = poolsByDifficulty(quant);
+// Deterministically partition the bank into n disjoint shares, balanced per
+// difficulty tier (round-robin within each tier), so every test gets its own
+// questions AND its own usable EASY/MEDIUM/HARD pools. Deterministic order
+// keeps server/client rendering and resumed attempts stable.
+function partition(questions: Question[], n: number): Question[][] {
+  const shares: Question[][] = Array.from({ length: n }, () => []);
+  const tiers = byDifficulty(questions);
+  for (const tier of ["EASY", "MEDIUM", "HARD"] as const) {
+    tiers[tier].forEach((q, i) => shares[i % n].push(q));
+  }
+  return shares;
+}
 
-  const verbalPractice: TestDef = {
-    id: "verbal-practice-1",
-    name: "Verbal Practice Test 1",
-    kind: "VERBAL_PRACTICE",
-    sections: [
-      { id: "v1", kind: "VERBAL", title: "Verbal Reasoning — Section 1", timeLimitSeconds: verbal.length * 90, adaptive: false, questions: verbal },
-      { id: "v2", kind: "VERBAL", title: "Verbal Reasoning — Section 2", timeLimitSeconds: verbal.length * 90, adaptive: false, questions: verbal },
-    ],
-  };
+// Build one full-length test from a verbal share + quant share + essay prompt.
+// Section 1 is a fixed medium-difficulty set; Section 2 is adaptive, drawing
+// from the share's remaining items grouped into difficulty pools.
+function buildFullLength(
+  id: string,
+  name: string,
+  verbalShare: Question[],
+  quantShare: Question[],
+  prompt: { id: string; promptText: string } | undefined,
+): TestDef {
+  function sectionsFor(kind: "VERBAL" | "QUANT", share: Question[], secPrefix: string, perQ: number) {
+    const tiers = byDifficulty(share);
+    // Section 1: up to 6 medium items (fixed pool, mirrors the real GRE's
+    // medium first section); the rest of the share feeds Section 2's pools.
+    const s1 = tiers.MEDIUM.slice(0, 6);
+    const rest = share.filter((q) => !s1.includes(q));
+    const pools = byDifficulty(rest);
+    const s2Count = Math.max(4, Math.min(6, Math.max(pools.EASY.length, pools.MEDIUM.length, pools.HARD.length)));
+    return [
+      {
+        id: `${secPrefix}-1`,
+        kind,
+        title: `${kind === "VERBAL" ? "Verbal" : "Quantitative"} Reasoning — Section 1`,
+        timeLimitSeconds: s1.length * perQ,
+        adaptive: false,
+        questions: s1,
+      },
+      {
+        id: `${secPrefix}-2`,
+        kind,
+        title: `${kind === "VERBAL" ? "Verbal" : "Quantitative"} Reasoning — Section 2 (adaptive)`,
+        timeLimitSeconds: s2Count * perQ,
+        adaptive: true,
+        pools,
+        questionCount: s2Count,
+      },
+    ] satisfies TestDef["sections"];
+  }
 
-  const quantPractice: TestDef = {
-    id: "quant-practice-1",
-    name: "Quantitative Practice Test 1",
-    kind: "QUANT_PRACTICE",
-    sections: [
-      { id: "q1", kind: "QUANT", title: "Quantitative Reasoning — Section 1", timeLimitSeconds: quant.length * 105, adaptive: false, questions: quant },
-      { id: "q2", kind: "QUANT", title: "Quantitative Reasoning — Section 2", timeLimitSeconds: quant.length * 105, adaptive: false, questions: quant },
-    ],
-  };
-
-  // Full-length: AWA -> Verbal 1 -> Quant 1 -> Verbal 2 (adaptive) -> Quant 2 (adaptive).
-  const fullLength: TestDef = {
-    id: "full-length-1",
-    name: "Full-Length Mock Test 1",
+  return {
+    id,
+    name,
     kind: "FULL_LENGTH",
     sections: [
       {
@@ -78,17 +92,69 @@ export async function getTestDefs(): Promise<TestDef[]> {
         title: "Analytical Writing — Analyze an Issue",
         timeLimitSeconds: 1800,
         adaptive: false,
-        essayPromptId: prompts[0]?.id,
-        essayPromptText: prompts[0]?.promptText,
+        essayPromptId: prompt?.id,
+        essayPromptText: prompt?.promptText,
       },
-      { id: "verbal-1", kind: "VERBAL", title: "Verbal Reasoning — Section 1", timeLimitSeconds: verbal.length * 90, adaptive: false, questions: verbal },
-      { id: "quant-1", kind: "QUANT", title: "Quantitative Reasoning — Section 1", timeLimitSeconds: quant.length * 105, adaptive: false, questions: quant },
-      { id: "verbal-2", kind: "VERBAL", title: "Verbal Reasoning — Section 2 (adaptive)", timeLimitSeconds: verbal.length * 90, adaptive: true, pools: vPools, questionCount: verbal.length },
-      { id: "quant-2", kind: "QUANT", title: "Quantitative Reasoning — Section 2 (adaptive)", timeLimitSeconds: quant.length * 105, adaptive: true, pools: qPools, questionCount: quant.length },
+      ...sectionsFor("VERBAL", verbalShare, "verbal", 90),
+      ...sectionsFor("QUANT", quantShare, "quant", 105),
     ],
   };
+}
 
-  return [fullLength, verbalPractice, quantPractice];
+// Build one two-section practice test from a share (non-adaptive).
+function buildPractice(
+  id: string,
+  name: string,
+  kind: "VERBAL_PRACTICE" | "QUANT_PRACTICE",
+  share: Question[],
+  perQ: number,
+): TestDef {
+  const secKind = kind === "VERBAL_PRACTICE" ? "VERBAL" : "QUANT";
+  const label = secKind === "VERBAL" ? "Verbal" : "Quantitative";
+  const half = Math.ceil(share.length / 2);
+  const s1 = share.slice(0, half);
+  const s2 = share.slice(half);
+  return {
+    id,
+    name,
+    kind,
+    sections: [
+      { id: "s1", kind: secKind, title: `${label} Reasoning — Section 1`, timeLimitSeconds: s1.length * perQ, adaptive: false, questions: s1 },
+      { id: "s2", kind: secKind, title: `${label} Reasoning — Section 2`, timeLimitSeconds: s2.length * perQ, adaptive: false, questions: s2 },
+    ],
+  };
+}
+
+// Assemble the catalog: 2 full-length + 2 verbal practice + 2 quant practice,
+// each drawing from a DISJOINT slice of the bank so no two tests share items.
+// As the bank grows (run content-gen), the same partitioning yields fuller
+// sections automatically; the real GRE's 13-14 per section needs ~55+ items
+// per section type per full-length test.
+export async function getTestDefs(): Promise<TestDef[]> {
+  const [verbalRaw, quantRaw, prompts] = await Promise.all([
+    readSeed("verbal.json"),
+    readSeed("quant.json"),
+    readEssayPrompts(),
+  ]);
+  const verbal = withIds(verbalRaw, "v");
+  const quant = withIds(quantRaw, "q");
+
+  // Half the bank feeds the two full-length tests, half the practice tests.
+  const [vFull, vPractice] = partition(verbal, 2);
+  const [qFull, qPractice] = partition(quant, 2);
+  const [vFull1, vFull2] = partition(vFull, 2);
+  const [qFull1, qFull2] = partition(qFull, 2);
+  const [vPrac1, vPrac2] = partition(vPractice, 2);
+  const [qPrac1, qPrac2] = partition(qPractice, 2);
+
+  return [
+    buildFullLength("full-length-1", "Full-Length Mock Test 1", vFull1, qFull1, prompts[0]),
+    buildFullLength("full-length-2", "Full-Length Mock Test 2", vFull2, qFull2, prompts[1]),
+    buildPractice("verbal-practice-1", "Verbal Practice Test 1", "VERBAL_PRACTICE", vPrac1, 90),
+    buildPractice("verbal-practice-2", "Verbal Practice Test 2", "VERBAL_PRACTICE", vPrac2, 90),
+    buildPractice("quant-practice-1", "Quantitative Practice Test 1", "QUANT_PRACTICE", qPrac1, 105),
+    buildPractice("quant-practice-2", "Quantitative Practice Test 2", "QUANT_PRACTICE", qPrac2, 105),
+  ];
 }
 
 export async function getTestSummaries(): Promise<TestSummary[]> {
