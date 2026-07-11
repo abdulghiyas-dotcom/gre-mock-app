@@ -4640,5 +4640,256 @@
     "numericAnswer": null,
     "explanation": "x³ - x factors as x(x-1)(x+1), with roots at -1, 0, 1. Testing each: x=-2 gives -8-(-2)=-6 (negative). x=-1 gives -1-(-1)=0 (not negative). x=-0.5 gives -0.125-(-0.5)=0.375 (positive). x=0.5 gives 0.125-0.5=-0.375 (negative). x=2 gives 8-2=6 (positive). Correct selections: A, D.",
     "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "MULTIPLE_CHOICE_SINGLE",
+    "skillTag": "ARITHMETIC",
+    "difficulty": "EASY",
+    "difficultyRationale": "Single-step evaluation combining two exponents.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "What is the value of 3^3 - 2^4 ?",
+    "choices": [
+      {
+        "id": "A",
+        "label": "9",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "10",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "11",
+        "isCorrect": true
+      },
+      {
+        "id": "D",
+        "label": "12",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "13",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "3³ = 27 and 2⁴ = 16. 27 - 16 = 11: (C).",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "NUMERIC_ENTRY",
+    "skillTag": "ALGEBRA",
+    "difficulty": "EASY",
+    "difficultyRationale": "Single-step solve for a variable requiring one distribution.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "If 2(x + 4) = 18, what is the value of x?",
+    "choices": [],
+    "numericAnswer": 5,
+    "explanation": "2(x + 4) = 18 gives 2x + 8 = 18, so 2x = 10, meaning x = 5.",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "QUANT_COMPARISON",
+    "skillTag": "ARITHMETIC",
+    "difficulty": "EASY",
+    "difficultyRationale": "Direct fraction-to-decimal comparison with no hidden cases.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "Quantity A: 3/8\nQuantity B: 0.4",
+    "choices": [
+      {
+        "id": "A",
+        "label": "Quantity A is greater",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "Quantity B is greater",
+        "isCorrect": true
+      },
+      {
+        "id": "C",
+        "label": "The two quantities are equal",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "The relationship cannot be determined from the information given",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "3/8 = 0.375, and 0.375 < 0.4, so Quantity B is greater: (B).",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "MULTIPLE_CHOICE_SINGLE",
+    "skillTag": "GEOMETRY",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Requires reversing the circle area formula to find the radius, then applying the circumference formula — a two-step chained computation.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "A circle has an area of 49π. What is its circumference?",
+    "choices": [
+      {
+        "id": "A",
+        "label": "7π",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "14π",
+        "isCorrect": true
+      },
+      {
+        "id": "C",
+        "label": "21π",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "28π",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "49π",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Area = πr² = 49π means r² = 49, so r = 7. Circumference = 2πr = 2π(7) = 14π: (B).",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "NUMERIC_ENTRY",
+    "skillTag": "WORD_PROBLEMS",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Requires isolating a mileage-based variable cost from a multi-day flat fee plus per-mile total.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "A car rental company charges $35 per day plus $0.20 per mile driven. If a customer's total bill for a 3-day rental was $145, how many miles did the customer drive?",
+    "choices": [],
+    "numericAnswer": 200,
+    "explanation": "Daily charges: 3 × $35 = $105. Remaining amount for mileage: $145 - $105 = $40. Miles driven: $40 / $0.20 = 200.",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "NUMERIC_ENTRY",
+    "skillTag": "DATA_INTERPRETATION",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Requires computing both the mean and median of a skewed small data set and comparing them, testing whether the solver conflates the two measures.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "A list contains the five numbers 4, 4, 4, 4, and 20. What is the positive difference between the mean and the median of this list?",
+    "choices": [],
+    "numericAnswer": 3.2,
+    "explanation": "Mean = (4+4+4+4+20)/5 = 36/5 = 7.2. Median (middle value when ordered: 4, 4, 4, 4, 20) = 4. Positive difference = 7.2 - 4 = 3.2.",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "MULTIPLE_CHOICE_SINGLE",
+    "skillTag": "ALGEBRA",
+    "difficulty": "HARD",
+    "difficultyRationale": "Requires using the (x+y)^2 = x^2 + 2xy + y^2 identity to find a combined quantity without solving for x and y individually.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "If x^2 + y^2 = 34 and xy = 15, what is the value of (x + y)^2 ?",
+    "choices": [
+      {
+        "id": "A",
+        "label": "34",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "49",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "60",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "64",
+        "isCorrect": true
+      },
+      {
+        "id": "E",
+        "label": "79",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "(x + y)² = x² + 2xy + y² = 34 + 2(15) = 34 + 30 = 64: (D).",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "NUMERIC_ENTRY",
+    "skillTag": "GEOMETRY",
+    "difficulty": "HARD",
+    "difficultyRationale": "Requires recognizing that a cone's slant height, radius, and height form a right triangle, applying the Pythagorean theorem in a less familiar configuration.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "A right circular cone has a base radius of 3 and a height of 4. What is the slant height of the cone (the distance from the apex to a point on the edge of the base)?",
+    "choices": [],
+    "numericAnswer": 5,
+    "explanation": "The radius, height, and slant height of a right circular cone form a right triangle, with the slant height as the hypotenuse: slant = √(r² + h²) = √(3² + 4²) = √(9 + 16) = √25 = 5.",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "MULTIPLE_CHOICE_MULTIPLE",
+    "skillTag": "ARITHMETIC",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Select-all remainder-checking item requiring the solver to test each candidate individually rather than assume a pattern.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "Which of the following integers leave a remainder of 3 when divided by 5?\n\nSelect all that apply.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "13",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "17",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "23",
+        "isCorrect": true
+      },
+      {
+        "id": "D",
+        "label": "28",
+        "isCorrect": true
+      },
+      {
+        "id": "E",
+        "label": "32",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "13 = 5(2) + 3 ✓. 17 = 5(3) + 2 ✗. 23 = 5(4) + 3 ✓. 28 = 5(5) + 3 ✓. 32 = 5(6) + 2 ✗. Correct selections: A, C, D.",
+    "assetUrl": null
   }
 ]

@@ -5448,5 +5448,255 @@
     "numericAnswer": null,
     "explanation": "The metaphor of a 'loose confederation' (a political term for loosely joined, semi-independent units) applied to 'semi-autonomous parts' suggests separately functioning parts under a weak central coordination — (B). (A) takes the political metaphor too literally; (C) contradicts 'confederation' (implying some connection); (D) and (E) are not supported.",
     "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "TEXT_COMPLETION",
+    "skillTag": "TEXT_COMPLETION",
+    "difficulty": "EASY",
+    "difficultyRationale": "Direct clue ('finished setting up the entire booth in fifteen minutes') and common vocabulary.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "The volunteers worked in remarkably ______ fashion, setting up the entire booth in just fifteen minutes.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "efficient",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "sluggish",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "disorganized",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "cautious",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "reluctant",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Finishing a task quickly describes efficiency — 'efficient'. 'Sluggish' and 'disorganized' would slow the process; 'cautious' and 'reluctant' don't fit speedy completion.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "TEXT_COMPLETION",
+    "skillTag": "TEXT_COMPLETION",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Requires recognizing that a report offering only vague generalities, despite months of study, disappointed those expecting rigor; 'precise' is the reversed-polarity trap.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "After six months of study, the committee's report proved disappointingly ______, offering only vague generalities where specific recommendations had been expected.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "vague",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "precise",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "lengthy",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "controversial",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "premature",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "'Offering only vague generalities' directly restates the blank as 'vague'. 'Precise' contradicts this; 'lengthy', 'controversial', and 'premature' don't match the described disappointment about specificity.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "SENTENCE_EQUIVALENCE",
+    "skillTag": "SENTENCE_EQUIVALENCE",
+    "difficulty": "EASY",
+    "difficultyRationale": "Clear clue (repaired the leak before the plumber even arrived) with a high-frequency synonym pair.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "The homeowner proved surprisingly ______, fixing the leak herself before the plumber even arrived.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "capable",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "helpless",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "competent",
+        "isCorrect": true
+      },
+      {
+        "id": "D",
+        "label": "wealthy",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "impatient",
+        "isCorrect": false
+      },
+      {
+        "id": "F",
+        "label": "cautious",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Fixing the leak herself demonstrates skill: 'capable' and 'competent' are synonyms that both fit. 'Helpless' is the opposite; 'wealthy', 'impatient', and 'cautious' don't describe this skill and don't pair.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "SENTENCE_EQUIVALENCE",
+    "skillTag": "SENTENCE_EQUIVALENCE",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "'Rather than dampening enthusiasm, the setback only ___ the team's resolve' requires a strengthening verb; one synonym pair among neutral distractors.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "Rather than dampening enthusiasm, the early setback only ______ the team's resolve to succeed.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "strengthened",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "weakened",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "hardened",
+        "isCorrect": true
+      },
+      {
+        "id": "D",
+        "label": "documented",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "postponed",
+        "isCorrect": false
+      },
+      {
+        "id": "F",
+        "label": "questioned",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "'Rather than dampening ... only ___' signals the setback made resolve stronger, not weaker: 'strengthened' and 'hardened' are synonyms that both fit. 'Weakened' is the opposite; 'documented', 'postponed', and 'questioned' don't mean intensified.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "READING_COMPREHENSION",
+    "skillTag": "RC_MAIN_IDEA",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Main-purpose question over an original passage on urban planning describing a policy tradeoff; the strongest distractor claims a resolved consensus the passage does not assert.",
+    "passageId": "psg_zoning_1",
+    "passageBodyHtml": "<p>Single-family zoning, which restricts entire neighborhoods to detached houses, has come under increasing scrutiny from housing economists. Proponents argue that such zoning preserves neighborhood character and protects property values built up over generations. Critics counter that by restricting the supply of denser housing in desirable areas, single-family zoning drives up regional rents and pushes lower-income residents into longer commutes or substandard housing elsewhere. Recent reforms in a handful of cities, which allow modest multi-unit buildings in previously single-family zones, offer an early test of whether these competing concerns can be reconciled, though the results remain too preliminary to settle the debate.</p>",
+    "stem": "The primary purpose of the passage is to",
+    "choices": [
+      {
+        "id": "A",
+        "label": "prove that single-family zoning should be abolished everywhere",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "present a policy debate and note an early, inconclusive attempt to address it",
+        "isCorrect": true
+      },
+      {
+        "id": "C",
+        "label": "describe the history of zoning law in the United States",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "argue that property values are the most important consideration in zoning policy",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "declare that recent zoning reforms have successfully resolved the housing debate",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "The passage presents both sides of the zoning debate, then describes reforms as 'an early test' whose 'results remain too preliminary to settle the debate' — presenting the debate and an inconclusive test, so (B). (A) and (D) take one side the passage doesn't endorse; (C) is not the passage's content; (E) contradicts 'too preliminary to settle'.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "READING_COMPREHENSION",
+    "skillTag": "RC_INFERENCE",
+    "difficulty": "HARD",
+    "difficultyRationale": "Requires inferring the logical relationship between zoning restrictions and commute length via the chain of reasoning in the critics' argument, without the passage stating the link explicitly in one sentence.",
+    "passageId": "psg_zoning_1",
+    "passageBodyHtml": "<p>Single-family zoning, which restricts entire neighborhoods to detached houses, has come under increasing scrutiny from housing economists. Proponents argue that such zoning preserves neighborhood character and protects property values built up over generations. Critics counter that by restricting the supply of denser housing in desirable areas, single-family zoning drives up regional rents and pushes lower-income residents into longer commutes or substandard housing elsewhere. Recent reforms in a handful of cities, which allow modest multi-unit buildings in previously single-family zones, offer an early test of whether these competing concerns can be reconciled, though the results remain too preliminary to settle the debate.</p>",
+    "stem": "Based on the critics' argument as described in the passage, longer commutes for lower-income residents are best understood as",
+    "choices": [
+      {
+        "id": "A",
+        "label": "an intended goal of single-family zoning policy",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "an indirect consequence of restricted housing supply in desirable areas",
+        "isCorrect": true
+      },
+      {
+        "id": "C",
+        "label": "unrelated to zoning policy and caused by traffic congestion alone",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "a problem that recent reforms have already fully solved",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "more significant than the concern about property values",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "The critics' chain is: zoning restricts supply → rents rise → lower-income residents are pushed to longer commutes — an indirect consequence of the supply restriction, so (B). (A) misreads intent as effect; (C) contradicts the passage's causal chain; (D) contradicts 'too preliminary to settle'; (E) is a comparison the passage doesn't make.",
+    "assetUrl": null
   }
 ]
