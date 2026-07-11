@@ -5698,5 +5698,255 @@
     "numericAnswer": null,
     "explanation": "The critics' chain is: zoning restricts supply → rents rise → lower-income residents are pushed to longer commutes — an indirect consequence of the supply restriction, so (B). (A) misreads intent as effect; (C) contradicts the passage's causal chain; (D) contradicts 'too preliminary to settle'; (E) is a comparison the passage doesn't make.",
     "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "TEXT_COMPLETION",
+    "skillTag": "TEXT_COMPLETION",
+    "difficulty": "EASY",
+    "difficultyRationale": "Direct clue ('recalled every date and name without consulting a single note') and common vocabulary.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "The tour guide's memory was ______, recalling every date and name in the region's history without consulting a single note.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "remarkable",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "faulty",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "selective",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "average",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "questionable",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Recalling every detail without notes shows an exceptional memory — 'remarkable'. 'Faulty' and 'questionable' contradict flawless recall; 'selective' and 'average' don't capture the described completeness.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "TEXT_COMPLETION",
+    "skillTag": "TEXT_COMPLETION",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Requires inferring that a supposedly simple repair job that took three mechanics and two days was actually complicated; 'trivial' is the reversed-polarity trap.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "What the client described as a ______ repair turned out to require three mechanics and two full days to complete.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "trivial",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "complicated",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "urgent",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "expensive",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "routine",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "'What the client described as a ___ repair' contrasts with what it 'turned out' to require: the client thought it was minor — 'trivial' — but it was actually demanding. 'Complicated' matches the actual outcome, not the client's mistaken description; 'urgent', 'expensive', and 'routine' don't set up the described mismatch as clearly as 'trivial' does.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "SENTENCE_EQUIVALENCE",
+    "skillTag": "SENTENCE_EQUIVALENCE",
+    "difficulty": "EASY",
+    "difficultyRationale": "Clear clue (memorized the entire script after a single reading) with a common synonym pair.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "The young actor's memory proved ______, allowing him to recite the entire script after just one reading.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "exceptional",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "unreliable",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "extraordinary",
+        "isCorrect": true
+      },
+      {
+        "id": "D",
+        "label": "typical",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "brief",
+        "isCorrect": false
+      },
+      {
+        "id": "F",
+        "label": "selective",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Reciting an entire script after one reading shows an outstanding memory: 'exceptional' and 'extraordinary' are synonyms that both fit. 'Unreliable' is the opposite; 'typical', 'brief', and 'selective' don't describe an outstanding memory and don't pair.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "SENTENCE_EQUIVALENCE",
+    "skillTag": "SENTENCE_EQUIVALENCE",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Requires recognizing that 'never once broke composure despite hostile questioning for six hours' points to unusual calm; one synonym pair among plausible distractors.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "Under six hours of hostile cross-examination, the witness remained astonishingly ______, never once losing her composure.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "composed",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "flustered",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "unflappable",
+        "isCorrect": true
+      },
+      {
+        "id": "D",
+        "label": "evasive",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "talkative",
+        "isCorrect": false
+      },
+      {
+        "id": "F",
+        "label": "defensive",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Never losing composure under six hours of hostile questioning describes remarkable calm: 'composed' and 'unflappable' are synonyms that both fit. 'Flustered' is the opposite; 'evasive', 'talkative', and 'defensive' don't specifically mean calm and don't pair.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "READING_COMPREHENSION",
+    "skillTag": "RC_MAIN_IDEA",
+    "difficulty": "EASY",
+    "difficultyRationale": "Short original passage on an accessible science topic with a clear single claim; distractors overreach or misstate the passage.",
+    "passageId": "psg_migratory_1",
+    "passageBodyHtml": "<p>Many migratory birds travel thousands of miles between breeding and wintering grounds, yet return to the same specific nesting sites year after year with remarkable precision. Researchers have found that birds use a combination of cues to navigate: the position of the sun and stars, the Earth's magnetic field, and even olfactory landmarks recognized from previous journeys. No single cue fully explains this navigational feat; rather, birds appear to cross-reference multiple systems, so that failure or interference with one cue does not necessarily derail the entire journey.</p>",
+    "stem": "The main point of the passage is that",
+    "choices": [
+      {
+        "id": "A",
+        "label": "migratory birds rely on multiple, overlapping cues to navigate accurately over long distances",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "the Earth's magnetic field is the only cue birds use for navigation",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "birds cannot navigate successfully if any single cue is disrupted",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "migratory birds do not return to the same nesting sites each year",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "olfactory landmarks are more reliable than celestial cues",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "The passage's main point is that birds cross-reference multiple cues, so (A). (B) contradicts 'combination of cues'; (C) is the opposite of what the passage states ('failure of one cue does not necessarily derail the journey'); (D) contradicts the opening claim; (E) is not compared in the passage.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "READING_COMPREHENSION",
+    "skillTag": "RC_INFERENCE",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Inference tied to the specific claim about redundancy across cues; distractors misapply the redundancy logic or overreach.",
+    "passageId": "psg_migratory_1",
+    "passageBodyHtml": "<p>Many migratory birds travel thousands of miles between breeding and wintering grounds, yet return to the same specific nesting sites year after year with remarkable precision. Researchers have found that birds use a combination of cues to navigate: the position of the sun and stars, the Earth's magnetic field, and even olfactory landmarks recognized from previous journeys. No single cue fully explains this navigational feat; rather, birds appear to cross-reference multiple systems, so that failure or interference with one cue does not necessarily derail the entire journey.</p>",
+    "stem": "It can be inferred from the passage that a bird experiencing interference with its magnetic-field sensing would most likely",
+    "choices": [
+      {
+        "id": "A",
+        "label": "become permanently unable to navigate",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "still be able to navigate using its remaining cues",
+        "isCorrect": true
+      },
+      {
+        "id": "C",
+        "label": "rely exclusively on olfactory landmarks from that point forward",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "abandon its migratory journey entirely",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "navigate with greater precision than before",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "The passage states that interference with one cue 'does not necessarily derail the entire journey' because birds cross-reference multiple systems — so the bird would likely still navigate using remaining cues, (B). (A) and (D) contradict this redundancy; (C) overstates exclusive reliance; (E) is unsupported.",
+    "assetUrl": null
   }
 ]

@@ -4891,5 +4891,256 @@
     "numericAnswer": null,
     "explanation": "13 = 5(2) + 3 ✓. 17 = 5(3) + 2 ✗. 23 = 5(4) + 3 ✓. 28 = 5(5) + 3 ✓. 32 = 5(6) + 2 ✗. Correct selections: A, C, D.",
     "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "MULTIPLE_CHOICE_SINGLE",
+    "skillTag": "ARITHMETIC",
+    "difficulty": "EASY",
+    "difficultyRationale": "Tests the common misconception that (a+b)^2 equals a^2+b^2, requiring correct order of operations.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "What is the value of (2 + 3)^2 - (2^2 + 3^2) ?",
+    "choices": [
+      {
+        "id": "A",
+        "label": "10",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "11",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "12",
+        "isCorrect": true
+      },
+      {
+        "id": "D",
+        "label": "13",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "25",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "(2+3)² = 5² = 25. (2² + 3²) = 4 + 9 = 13. 25 - 13 = 12: (C).",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "NUMERIC_ENTRY",
+    "skillTag": "GEOMETRY",
+    "difficulty": "EASY",
+    "difficultyRationale": "Requires reversing the square area formula to find the side, then computing perimeter.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "A square has an area of 81. What is its perimeter?",
+    "choices": [],
+    "numericAnswer": 36,
+    "explanation": "Area = side², so side = √81 = 9. Perimeter = 4 × 9 = 36.",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "QUANT_COMPARISON",
+    "skillTag": "ARITHMETIC",
+    "difficulty": "EASY",
+    "difficultyRationale": "Direct evaluation of two small powers with different base/exponent pairings.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "Quantity A: 2^3\nQuantity B: 3^2",
+    "choices": [
+      {
+        "id": "A",
+        "label": "Quantity A is greater",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "Quantity B is greater",
+        "isCorrect": true
+      },
+      {
+        "id": "C",
+        "label": "The two quantities are equal",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "The relationship cannot be determined from the information given",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "2³ = 8 and 3² = 9. Since 9 > 8, Quantity B is greater: (B).",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "NUMERIC_ENTRY",
+    "skillTag": "ALGEBRA",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Requires cross-multiplying a rational equation to isolate the variable.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "If 3/(x - 2) = 1/4, what is the value of x?",
+    "choices": [],
+    "numericAnswer": 14,
+    "explanation": "Cross-multiplying: 3 × 4 = 1 × (x - 2), so 12 = x - 2, giving x = 14.",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "NUMERIC_ENTRY",
+    "skillTag": "WORD_PROBLEMS",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Requires scaling a three-part ratio by a factor derived from one known part, then summing two of the resulting quantities.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "A recipe requires flour, sugar, and butter in the ratio 4 : 2 : 1. If a baker uses 10 cups of flour, how many total cups of sugar and butter combined does the baker use?",
+    "choices": [],
+    "numericAnswer": 7.5,
+    "explanation": "The scale factor is 10 / 4 = 2.5 (since flour's ratio value is 4). Sugar: 2 × 2.5 = 5 cups. Butter: 1 × 2.5 = 2.5 cups. Combined: 5 + 2.5 = 7.5 cups.",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "MULTIPLE_CHOICE_SINGLE",
+    "skillTag": "DATA_INTERPRETATION",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Requires applying the inclusion-exclusion principle to two overlapping categories to find the complement group.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "A survey of 300 people found that 45% own a car and 30% own a bicycle, with 15% owning both. What percent of those surveyed own neither a car nor a bicycle?",
+    "choices": [
+      {
+        "id": "A",
+        "label": "25%",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "30%",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "35%",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "40%",
+        "isCorrect": true
+      },
+      {
+        "id": "E",
+        "label": "45%",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Percent owning a car or a bicycle (or both) = 45% + 30% - 15% = 60% (subtracting the overlap to avoid double-counting). Percent owning neither = 100% - 60% = 40%: (D).",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "MULTIPLE_CHOICE_SINGLE",
+    "skillTag": "ALGEBRA",
+    "difficulty": "HARD",
+    "difficultyRationale": "Requires the difference-of-squares factoring to find a sum from limited given information, avoiding solving for each variable individually.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "If a and b are positive integers such that a^2 - b^2 = 45 and a - b = 5, what is the value of a + b?",
+    "choices": [
+      {
+        "id": "A",
+        "label": "5",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "7",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "9",
+        "isCorrect": true
+      },
+      {
+        "id": "D",
+        "label": "11",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "13",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "a² - b² factors as (a - b)(a + b) = 45. Since a - b = 5, we have 5(a + b) = 45, so a + b = 9: (C).",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "NUMERIC_ENTRY",
+    "skillTag": "GEOMETRY",
+    "difficulty": "HARD",
+    "difficultyRationale": "Requires the sector-area formula and solving for the radius given a fractional central angle, rather than the more common arc-length problem.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "A sector of a circle has a central angle of 90 degrees and an area of 16π. What is the radius of the circle?",
+    "choices": [],
+    "numericAnswer": 8,
+    "explanation": "Sector area = (θ/360)πr² = (90/360)πr² = (1/4)πr². Setting this equal to 16π: (1/4)r² = 16, so r² = 64, giving r = 8.",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "MULTIPLE_CHOICE_MULTIPLE",
+    "skillTag": "ALGEBRA",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Select-all item on an absolute-value equation with exactly two exact solutions, testing whether the solver considers both the positive and negative case.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "If |2x - 6| = 10, which of the following could be the value of x?\n\nSelect all that apply.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "-2",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "0",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "4",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "8",
+        "isCorrect": true
+      },
+      {
+        "id": "E",
+        "label": "10",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "|2x - 6| = 10 means 2x - 6 = 10 or 2x - 6 = -10. The first gives x = 8; the second gives x = -2. Checking: at x=-2, |2(-2)-6| = |-10| = 10 ✓. At x=8, |2(8)-6| = |10| = 10 ✓. Correct selections: A, D.",
+    "assetUrl": null
   }
 ]
