@@ -9,11 +9,31 @@
     "passageBodyHtml": null,
     "stem": "Although the critic was known for her ______ reviews, her assessment of the young novelist's debut was surprisingly generous.",
     "choices": [
-      { "id": "A", "label": "scathing", "isCorrect": true },
-      { "id": "B", "label": "laudatory", "isCorrect": false },
-      { "id": "C", "label": "equivocal", "isCorrect": false },
-      { "id": "D", "label": "perfunctory", "isCorrect": false },
-      { "id": "E", "label": "effusive", "isCorrect": false }
+      {
+        "id": "A",
+        "label": "scathing",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "laudatory",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "equivocal",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "perfunctory",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "effusive",
+        "isCorrect": false
+      }
     ],
     "numericAnswer": null,
     "explanation": "'Although ... surprisingly generous' signals that her usual reviews contrast with generosity, so they are normally harsh. 'Scathing' (severely critical) fits. 'Laudatory' and 'effusive' mean praising — the opposite of the needed contrast. 'Equivocal' (ambiguous) and 'perfunctory' (cursory) do not capture harshness.",
@@ -29,11 +49,31 @@
     "passageBodyHtml": null,
     "stem": "The scientist's explanation was so ______ that even non-experts in the audience grasped it immediately.",
     "choices": [
-      { "id": "A", "label": "lucid", "isCorrect": true },
-      { "id": "B", "label": "convoluted", "isCorrect": false },
-      { "id": "C", "label": "tedious", "isCorrect": false },
-      { "id": "D", "label": "abstract", "isCorrect": false },
-      { "id": "E", "label": "verbose", "isCorrect": false }
+      {
+        "id": "A",
+        "label": "lucid",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "convoluted",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "tedious",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "abstract",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "verbose",
+        "isCorrect": false
+      }
     ],
     "numericAnswer": null,
     "explanation": "If non-experts grasped it immediately, the explanation was clear — 'lucid'. 'Convoluted' and 'abstract' would make it harder to grasp; 'tedious' and 'verbose' describe length/tone, not clarity.",
@@ -49,11 +89,31 @@
     "passageBodyHtml": null,
     "stem": "Because the instructions were so ______, the new employees completed the setup without asking a single question.",
     "choices": [
-      { "id": "A", "label": "clear", "isCorrect": true },
-      { "id": "B", "label": "confusing", "isCorrect": false },
-      { "id": "C", "label": "lengthy", "isCorrect": false },
-      { "id": "D", "label": "technical", "isCorrect": false },
-      { "id": "E", "label": "outdated", "isCorrect": false }
+      {
+        "id": "A",
+        "label": "clear",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "confusing",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "lengthy",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "technical",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "outdated",
+        "isCorrect": false
+      }
     ],
     "numericAnswer": null,
     "explanation": "Completing setup without questions implies the instructions were easy to follow — 'clear'. 'Confusing' is the opposite; 'lengthy', 'technical', and 'outdated' would tend to prompt questions, not prevent them.",
@@ -69,11 +129,31 @@
     "passageBodyHtml": null,
     "stem": "Far from being ______, the senator's proposal drew support from across the political spectrum, uniting factions that rarely agree.",
     "choices": [
-      { "id": "A", "label": "divisive", "isCorrect": true },
-      { "id": "B", "label": "popular", "isCorrect": false },
-      { "id": "C", "label": "innovative", "isCorrect": false },
-      { "id": "D", "label": "pragmatic", "isCorrect": false },
-      { "id": "E", "label": "bipartisan", "isCorrect": false }
+      {
+        "id": "A",
+        "label": "divisive",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "popular",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "innovative",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "pragmatic",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "bipartisan",
+        "isCorrect": false
+      }
     ],
     "numericAnswer": null,
     "explanation": "'Far from being ___' means the proposal is the opposite of the blank. Since it united rival factions, it was NOT divisive — so the blank is 'divisive'. 'Bipartisan' describes what the proposal actually was, so 'far from being bipartisan' contradicts the sentence.",
@@ -89,12 +169,36 @@
     "passageBodyHtml": null,
     "stem": "The committee's decision was so (i)______ that even its staunchest supporters struggled to (ii)______ it to a skeptical public.",
     "choices": [
-      { "id": "i-A", "label": "defensible", "isCorrect": false },
-      { "id": "i-B", "label": "arbitrary", "isCorrect": true },
-      { "id": "i-C", "label": "transparent", "isCorrect": false },
-      { "id": "ii-D", "label": "justify", "isCorrect": true },
-      { "id": "ii-E", "label": "conceal", "isCorrect": false },
-      { "id": "ii-F", "label": "exaggerate", "isCorrect": false }
+      {
+        "id": "i-A",
+        "label": "defensible",
+        "isCorrect": false
+      },
+      {
+        "id": "i-B",
+        "label": "arbitrary",
+        "isCorrect": true
+      },
+      {
+        "id": "i-C",
+        "label": "transparent",
+        "isCorrect": false
+      },
+      {
+        "id": "ii-D",
+        "label": "justify",
+        "isCorrect": true
+      },
+      {
+        "id": "ii-E",
+        "label": "conceal",
+        "isCorrect": false
+      },
+      {
+        "id": "ii-F",
+        "label": "exaggerate",
+        "isCorrect": false
+      }
     ],
     "numericAnswer": null,
     "explanation": "'Struggled' plus 'even its staunchest supporters' implies the decision was hard to defend; an 'arbitrary' decision (blank i) is exactly what supporters would struggle to 'justify' (blank ii). 'Defensible'/'transparent' would make justification easy, contradicting 'struggled'.",
@@ -110,15 +214,51 @@
     "passageBodyHtml": null,
     "stem": "Although her colleagues regarded the results as (i)______, she remained (ii)______, insisting that a single unreplicated experiment could not (iii)______ decades of established theory.",
     "choices": [
-      { "id": "i-A", "label": "conclusive", "isCorrect": true },
-      { "id": "i-B", "label": "preliminary", "isCorrect": false },
-      { "id": "i-C", "label": "fraudulent", "isCorrect": false },
-      { "id": "ii-D", "label": "skeptical", "isCorrect": true },
-      { "id": "ii-E", "label": "persuaded", "isCorrect": false },
-      { "id": "ii-F", "label": "indifferent", "isCorrect": false },
-      { "id": "iii-G", "label": "overturn", "isCorrect": true },
-      { "id": "iii-H", "label": "corroborate", "isCorrect": false },
-      { "id": "iii-I", "label": "explain", "isCorrect": false }
+      {
+        "id": "i-A",
+        "label": "conclusive",
+        "isCorrect": true
+      },
+      {
+        "id": "i-B",
+        "label": "preliminary",
+        "isCorrect": false
+      },
+      {
+        "id": "i-C",
+        "label": "fraudulent",
+        "isCorrect": false
+      },
+      {
+        "id": "ii-D",
+        "label": "skeptical",
+        "isCorrect": true
+      },
+      {
+        "id": "ii-E",
+        "label": "persuaded",
+        "isCorrect": false
+      },
+      {
+        "id": "ii-F",
+        "label": "indifferent",
+        "isCorrect": false
+      },
+      {
+        "id": "iii-G",
+        "label": "overturn",
+        "isCorrect": true
+      },
+      {
+        "id": "iii-H",
+        "label": "corroborate",
+        "isCorrect": false
+      },
+      {
+        "id": "iii-I",
+        "label": "explain",
+        "isCorrect": false
+      }
     ],
     "numericAnswer": null,
     "explanation": "'Although' sets up a contrast: colleagues found the results 'conclusive' (i), but she stayed 'skeptical' (ii) because one experiment could not 'overturn' (iii) established theory. 'Persuaded' contradicts her insistence; 'corroborate'/'explain' don't fit 'could not ___ decades of theory' after voicing doubt.",
@@ -134,12 +274,36 @@
     "passageBodyHtml": null,
     "stem": "The senator's ______ remarks, delivered without any attempt to soften their bluntness, alienated even her allies.",
     "choices": [
-      { "id": "A", "label": "tactful", "isCorrect": false },
-      { "id": "B", "label": "candid", "isCorrect": true },
-      { "id": "C", "label": "forthright", "isCorrect": true },
-      { "id": "D", "label": "evasive", "isCorrect": false },
-      { "id": "E", "label": "verbose", "isCorrect": false },
-      { "id": "F", "label": "eloquent", "isCorrect": false }
+      {
+        "id": "A",
+        "label": "tactful",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "candid",
+        "isCorrect": true
+      },
+      {
+        "id": "C",
+        "label": "forthright",
+        "isCorrect": true
+      },
+      {
+        "id": "D",
+        "label": "evasive",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "verbose",
+        "isCorrect": false
+      },
+      {
+        "id": "F",
+        "label": "eloquent",
+        "isCorrect": false
+      }
     ],
     "numericAnswer": null,
     "explanation": "'Delivered without any attempt to soften their bluntness' calls for a word meaning frank/direct. 'Candid' and 'forthright' are synonyms and both produce sentences alike in meaning. 'Tactful'/'evasive' contradict bluntness; 'verbose'/'eloquent' are unrelated and do not pair.",
@@ -155,12 +319,36 @@
     "passageBodyHtml": null,
     "stem": "The film received ______ reviews, with nearly every critic praising its originality.",
     "choices": [
-      { "id": "A", "label": "glowing", "isCorrect": true },
-      { "id": "B", "label": "mixed", "isCorrect": false },
-      { "id": "C", "label": "enthusiastic", "isCorrect": true },
-      { "id": "D", "label": "scathing", "isCorrect": false },
-      { "id": "E", "label": "tepid", "isCorrect": false },
-      { "id": "F", "label": "cursory", "isCorrect": false }
+      {
+        "id": "A",
+        "label": "glowing",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "mixed",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "enthusiastic",
+        "isCorrect": true
+      },
+      {
+        "id": "D",
+        "label": "scathing",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "tepid",
+        "isCorrect": false
+      },
+      {
+        "id": "F",
+        "label": "cursory",
+        "isCorrect": false
+      }
     ],
     "numericAnswer": null,
     "explanation": "If nearly every critic praised the film, the reviews were very positive. 'Glowing' and 'enthusiastic' are synonyms that both fit. 'Mixed', 'scathing', and 'tepid' are not positive; 'cursory' (superficial) is unrelated.",
@@ -176,12 +364,36 @@
     "passageBodyHtml": null,
     "stem": "Though the treatise was celebrated for its erudition, specialists found its central argument surprisingly ______, resting on assumptions few in the field still accepted.",
     "choices": [
-      { "id": "A", "label": "specious", "isCorrect": true },
-      { "id": "B", "label": "rigorous", "isCorrect": false },
-      { "id": "C", "label": "tenuous", "isCorrect": true },
-      { "id": "D", "label": "cogent", "isCorrect": false },
-      { "id": "E", "label": "arcane", "isCorrect": false },
-      { "id": "F", "label": "profound", "isCorrect": false }
+      {
+        "id": "A",
+        "label": "specious",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "rigorous",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "tenuous",
+        "isCorrect": true
+      },
+      {
+        "id": "D",
+        "label": "cogent",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "arcane",
+        "isCorrect": false
+      },
+      {
+        "id": "F",
+        "label": "profound",
+        "isCorrect": false
+      }
     ],
     "numericAnswer": null,
     "explanation": "'Resting on assumptions few still accepted' signals a weakly grounded argument. 'Specious' (superficially plausible but flawed) and 'tenuous' (flimsy) both convey that and are alike in meaning. 'Rigorous', 'cogent', and 'profound' are opposites; 'arcane' (obscure) is a trap prompted by 'erudition' but does not mean poorly founded.",
@@ -197,11 +409,31 @@
     "passageBodyHtml": "<p>Lichens, long classified as single organisms, are in fact composite life forms: a fungus living in symbiosis with an alga or cyanobacterium. The fungal partner provides structure and shelters the photosynthetic partner from desiccation, while the alga supplies carbohydrates produced through photosynthesis. For decades this two-partner model was considered complete. Recent genomic surveys, however, have detected a second, previously overlooked fungal species embedded in many lichens' tissues. Its precise contribution remains uncertain, but its consistent presence across geographically distant samples suggests it is integral rather than incidental. The finding complicates the tidy binary of the classic account and hints that other apparently simple symbioses may harbor comparable hidden complexity.</p>",
     "stem": "The primary purpose of the passage is to",
     "choices": [
-      { "id": "A", "label": "argue that lichens should be reclassified as a type of fungus", "isCorrect": false },
-      { "id": "B", "label": "describe how a long-accepted model of an organism has been complicated by new evidence", "isCorrect": true },
-      { "id": "C", "label": "explain in detail the biochemical process by which algae produce carbohydrates", "isCorrect": false },
-      { "id": "D", "label": "contrast the relative importance of the fungal and algal partners", "isCorrect": false },
-      { "id": "E", "label": "cast doubt on the reliability of genomic survey methods", "isCorrect": false }
+      {
+        "id": "A",
+        "label": "argue that lichens should be reclassified as a type of fungus",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "describe how a long-accepted model of an organism has been complicated by new evidence",
+        "isCorrect": true
+      },
+      {
+        "id": "C",
+        "label": "explain in detail the biochemical process by which algae produce carbohydrates",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "contrast the relative importance of the fungal and algal partners",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "cast doubt on the reliability of genomic survey methods",
+        "isCorrect": false
+      }
     ],
     "numericAnswer": null,
     "explanation": "The passage lays out the accepted two-partner model, then presents genomic evidence of a third partner that 'complicates the tidy binary' — a model-complicated-by-new-evidence structure, so (B). (A) is never claimed; (C) and (D) are details; (E) reverses the passage, which relies on the surveys.",
@@ -217,11 +449,31 @@
     "passageBodyHtml": "<p>Lichens, long classified as single organisms, are in fact composite life forms: a fungus living in symbiosis with an alga or cyanobacterium. The fungal partner provides structure and shelters the photosynthetic partner from desiccation, while the alga supplies carbohydrates produced through photosynthesis. For decades this two-partner model was considered complete. Recent genomic surveys, however, have detected a second, previously overlooked fungal species embedded in many lichens' tissues. Its precise contribution remains uncertain, but its consistent presence across geographically distant samples suggests it is integral rather than incidental. The finding complicates the tidy binary of the classic account and hints that other apparently simple symbioses may harbor comparable hidden complexity.</p>",
     "stem": "The passage suggests that the newly detected fungal species is most likely",
     "choices": [
-      { "id": "A", "label": "harmful to the lichen's long-term survival", "isCorrect": false },
-      { "id": "B", "label": "a functional component of the lichen rather than a chance contaminant", "isCorrect": true },
-      { "id": "C", "label": "responsible for the majority of the lichen's photosynthesis", "isCorrect": false },
-      { "id": "D", "label": "present only in geographically isolated samples", "isCorrect": false },
-      { "id": "E", "label": "genetically identical to the primary fungal partner", "isCorrect": false }
+      {
+        "id": "A",
+        "label": "harmful to the lichen's long-term survival",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "a functional component of the lichen rather than a chance contaminant",
+        "isCorrect": true
+      },
+      {
+        "id": "C",
+        "label": "responsible for the majority of the lichen's photosynthesis",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "present only in geographically isolated samples",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "genetically identical to the primary fungal partner",
+        "isCorrect": false
+      }
     ],
     "numericAnswer": null,
     "explanation": "The passage says the second fungus's 'consistent presence across geographically distant samples suggests it is integral rather than incidental' — a functional component, so (B). (D) contradicts 'geographically distant'; (A), (C), (E) assert facts the passage never provides.",
@@ -237,11 +489,31 @@
     "passageBodyHtml": "<p>Cities are consistently warmer than the surrounding countryside, a phenomenon known as the urban heat island. The conventional explanation attributes the difference to dark pavement and roofing that absorb solar radiation by day and release it slowly at night. Yet this account alone cannot explain why the temperature gap often peaks in winter, when solar input is lowest. Researchers now point to a second driver: the sheer density of heat-generating activity — heating systems, vehicles, and machinery — concentrated in urban cores. Because this waste heat is released regardless of season, it may sustain the temperature gap precisely when the solar mechanism is weakest.</p>",
     "stem": "The primary purpose of the passage is to",
     "choices": [
-      { "id": "A", "label": "argue that dark pavement has no effect on urban temperatures", "isCorrect": false },
-      { "id": "B", "label": "introduce an additional factor that helps explain a known phenomenon", "isCorrect": true },
-      { "id": "C", "label": "compare winter and summer temperatures in rural areas", "isCorrect": false },
-      { "id": "D", "label": "propose a specific method for reducing the urban heat island", "isCorrect": false },
-      { "id": "E", "label": "dispute the existence of the urban heat island", "isCorrect": false }
+      {
+        "id": "A",
+        "label": "argue that dark pavement has no effect on urban temperatures",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "introduce an additional factor that helps explain a known phenomenon",
+        "isCorrect": true
+      },
+      {
+        "id": "C",
+        "label": "compare winter and summer temperatures in rural areas",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "propose a specific method for reducing the urban heat island",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "dispute the existence of the urban heat island",
+        "isCorrect": false
+      }
     ],
     "numericAnswer": null,
     "explanation": "The passage accepts the heat island and its conventional cause, notes a gap the cause can't explain (winter peak), then adds waste heat as a second driver — introducing an additional explanatory factor, so (B). (A) overstates; the passage keeps pavement as a real cause. (C), (D), (E) are unsupported.",
@@ -257,14 +529,374 @@
     "passageBodyHtml": "<p>Cities are consistently warmer than the surrounding countryside, a phenomenon known as the urban heat island. The conventional explanation attributes the difference to dark pavement and roofing that absorb solar radiation by day and release it slowly at night. Yet this account alone cannot explain why the temperature gap often peaks in winter, when solar input is lowest. Researchers now point to a second driver: the sheer density of heat-generating activity — heating systems, vehicles, and machinery — concentrated in urban cores. Because this waste heat is released regardless of season, it may sustain the temperature gap precisely when the solar mechanism is weakest.</p>",
     "stem": "According to the passage, the conventional explanation is inadequate primarily because it",
     "choices": [
-      { "id": "A", "label": "overstates the role of vehicles and machinery", "isCorrect": false },
-      { "id": "B", "label": "cannot account for the timing of the largest temperature differences", "isCorrect": true },
-      { "id": "C", "label": "applies only to cities in warm climates", "isCorrect": false },
-      { "id": "D", "label": "ignores the cooling effect of the surrounding countryside", "isCorrect": false },
-      { "id": "E", "label": "relies on measurements that are now outdated", "isCorrect": false }
+      {
+        "id": "A",
+        "label": "overstates the role of vehicles and machinery",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "cannot account for the timing of the largest temperature differences",
+        "isCorrect": true
+      },
+      {
+        "id": "C",
+        "label": "applies only to cities in warm climates",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "ignores the cooling effect of the surrounding countryside",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "relies on measurements that are now outdated",
+        "isCorrect": false
+      }
     ],
     "numericAnswer": null,
     "explanation": "The passage faults the solar-absorption account because it 'cannot explain why the temperature gap often peaks in winter, when solar input is lowest' — a timing problem, so (B). (A) inverts the passage (waste heat is the new addition, not overstated); (C), (D), (E) are never stated.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "TEXT_COMPLETION",
+    "skillTag": "TEXT_COMPLETION",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Comparison structure ('far more ___ than the accessible stories') plus the descriptive clue 'dense with allusion and syntactic complexity'; distractors include a same-topic trap ('derivative').",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "The novelist's later works, dense with allusion and syntactic complexity, are far more ______ than the accessible stories that made her famous.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "abstruse",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "lucid",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "derivative",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "concise",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "popular",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Works 'dense with allusion and syntactic complexity' contrasted with 'accessible' ones are harder to understand — 'abstruse'. 'Lucid' and 'concise' are the opposite; 'derivative' and 'popular' address originality/appeal, not difficulty.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "TEXT_COMPLETION",
+    "skillTag": "TEXT_COMPLETION",
+    "difficulty": "EASY",
+    "difficultyRationale": "Direct restatement clue ('working long hours without any expectation of reward') and common vocabulary.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "The volunteers were praised for their ______ efforts, working long hours without any expectation of reward.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "selfless",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "reluctant",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "sporadic",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "profitable",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "cautious",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Working without expectation of reward, and being praised for it, describes 'selfless' effort. 'Profitable' contradicts 'no reward'; 'reluctant', 'sporadic', and 'cautious' are not what earns praise here.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "SENTENCE_EQUIVALENCE",
+    "skillTag": "SENTENCE_EQUIVALENCE",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Contrast with 'compelled even skeptics to take it seriously' points to an initially dismissive word; one clean synonym pair, with same-field distractors that don't pair.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "Critics initially dismissed the theory as ______, but subsequent experiments compelled even skeptics to take it seriously.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "outlandish",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "rigorous",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "preposterous",
+        "isCorrect": true
+      },
+      {
+        "id": "D",
+        "label": "conventional",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "verifiable",
+        "isCorrect": false
+      },
+      {
+        "id": "F",
+        "label": "modest",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "A theory 'dismissed' and later taken seriously was first judged absurd. 'Outlandish' and 'preposterous' are synonyms meaning absurd/implausible and both fit. 'Rigorous'/'verifiable' would not be dismissed; 'conventional' and 'modest' don't pair with each other.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "SENTENCE_EQUIVALENCE",
+    "skillTag": "SENTENCE_EQUIVALENCE",
+    "difficulty": "HARD",
+    "difficultyRationale": "'Far from being the ___' inverts the blank against 'wracked by doubt and indecision'; distractors evoke the imperial theme ('tyrannical', 'benevolent', 'capricious') without forming the needed synonym pair.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "Far from being the ______ figure his official portraits suggested, the emperor was, by most contemporary accounts, wracked by doubt and indecision.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "resolute",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "tyrannical",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "decisive",
+        "isCorrect": true
+      },
+      {
+        "id": "D",
+        "label": "benevolent",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "enigmatic",
+        "isCorrect": false
+      },
+      {
+        "id": "F",
+        "label": "capricious",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "'Far from being ___ ... wracked by doubt and indecision' means the emperor was the opposite of the blank, so the blank describes firmness: 'resolute' and 'decisive' are synonyms that both fit. 'Tyrannical', 'benevolent', 'enigmatic', and 'capricious' are thematically tempting but none pairs as a firmness synonym.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "READING_COMPREHENSION",
+    "skillTag": "RC_MAIN_IDEA",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Main-concern question over a third original passage; the correct choice captures the reframing structure while the strongest distractor overreaches by claiming the debate is resolved.",
+    "passageId": "psg_octopus_1",
+    "passageBodyHtml": "<p>Octopuses have long fascinated biologists for behaviors that resemble problem-solving: opening jars, navigating mazes, and carrying coconut shells to use as portable shelter. Skeptics once dismissed such feats as rigid instinct dressed up as intelligence. More recent experiments, however, show that individual octopuses vary in how quickly they master a novel task, and that a solution learned in one context can transfer to a different one — hallmarks of flexible learning rather than fixed reflex. What remains debated is whether this flexibility reflects a general intelligence or a collection of specialized abilities honed by the animal's unusual ecology.</p>",
+    "stem": "The passage is primarily concerned with",
+    "choices": [
+      {
+        "id": "A",
+        "label": "proving that octopuses are more intelligent than other invertebrates",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "presenting evidence that reframes an earlier interpretation of octopus behavior",
+        "isCorrect": true
+      },
+      {
+        "id": "C",
+        "label": "describing the ecological niche that octopuses occupy",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "explaining how octopuses use tools to construct shelter",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "resolving the debate about the nature of octopus intelligence",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "The passage recounts the skeptics' 'rigid instinct' view, then presents newer evidence of flexible learning that reframes it, so (B). (E) overreaches — the passage explicitly says the question 'remains debated'. (A), (C), (D) are narrower than the passage's purpose.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "READING_COMPREHENSION",
+    "skillTag": "RC_INFERENCE",
+    "difficulty": "HARD",
+    "difficultyRationale": "Requires attributing a viewpoint to the 'skeptics' specifically, using their characterization ('rigid instinct'), while distractors describe the newer view the skeptics rejected.",
+    "passageId": "psg_octopus_1",
+    "passageBodyHtml": "<p>Octopuses have long fascinated biologists for behaviors that resemble problem-solving: opening jars, navigating mazes, and carrying coconut shells to use as portable shelter. Skeptics once dismissed such feats as rigid instinct dressed up as intelligence. More recent experiments, however, show that individual octopuses vary in how quickly they master a novel task, and that a solution learned in one context can transfer to a different one — hallmarks of flexible learning rather than fixed reflex. What remains debated is whether this flexibility reflects a general intelligence or a collection of specialized abilities honed by the animal's unusual ecology.</p>",
+    "stem": "The skeptics referred to in the passage would most likely have explained an octopus's opening of a jar as",
+    "choices": [
+      {
+        "id": "A",
+        "label": "evidence of a general intelligence",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "a skill learned in one context and transferred to another",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "an automatic, inflexible behavior",
+        "isCorrect": true
+      },
+      {
+        "id": "D",
+        "label": "proof of individual variation in learning ability",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "a direct consequence of the animal's unusual ecology",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "The skeptics dismissed such feats as 'rigid instinct' — i.e., automatic, inflexible behavior, so (C). (A), (B), (D) describe the flexible-learning interpretation the skeptics rejected; (E) belongs to the unresolved debate, not the skeptics' position.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "TEXT_COMPLETION",
+    "skillTag": "TEXT_COMPLETION",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Two interdependent blanks: a 'measured' tone is what avoids the rhetoric that had 'plagued' prior debate; each blank has a plausible opposite-direction distractor.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "The report was praised for its (i)______ tone, avoiding the partisan rhetoric that had (ii)______ earlier discussions of the issue.",
+    "choices": [
+      {
+        "id": "i-A",
+        "label": "measured",
+        "isCorrect": true
+      },
+      {
+        "id": "i-B",
+        "label": "inflammatory",
+        "isCorrect": false
+      },
+      {
+        "id": "i-C",
+        "label": "tentative",
+        "isCorrect": false
+      },
+      {
+        "id": "ii-D",
+        "label": "plagued",
+        "isCorrect": true
+      },
+      {
+        "id": "ii-E",
+        "label": "enriched",
+        "isCorrect": false
+      },
+      {
+        "id": "ii-F",
+        "label": "clarified",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Praise for 'avoiding partisan rhetoric' points to a calm, 'measured' tone (blank i). The partisan rhetoric had 'plagued' — harmed — earlier discussions (blank ii). 'Inflammatory' contradicts the praise; 'enriched'/'clarified' would be positive, contradicting 'avoiding' that rhetoric.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "SENTENCE_EQUIVALENCE",
+    "skillTag": "SENTENCE_EQUIVALENCE",
+    "difficulty": "EASY",
+    "difficultyRationale": "Clear positive context ('after the long drought, the sudden rains') and a high-frequency synonym pair.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "After the long drought, the sudden rains were a ______ relief to the farmers.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "welcome",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "gratifying",
+        "isCorrect": true
+      },
+      {
+        "id": "C",
+        "label": "temporary",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "costly",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "surprising",
+        "isCorrect": false
+      },
+      {
+        "id": "F",
+        "label": "minor",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Rain ending a drought is a positive relief; 'welcome' and 'gratifying' are synonyms that both fit and give sentences alike in meaning. 'Temporary', 'costly', 'surprising', and 'minor' are neither positive-relief synonyms nor a matching pair.",
     "assetUrl": null
   }
 ]
