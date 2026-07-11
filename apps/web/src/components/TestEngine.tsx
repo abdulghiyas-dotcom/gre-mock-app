@@ -1,7 +1,8 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 import type { Test } from "@/lib/types";
 import { QuestionRenderer } from "./QuestionRenderer";
 import { Calculator } from "./Calculator";
@@ -12,6 +13,7 @@ import {
   isCorrect,
   type AnswerMap,
 } from "@/lib/scoring";
+import { loadAttempt, saveAttempt, clearAttempt } from "@/lib/attemptStore";
 
 type Phase = "intro" | "active" | "review" | "submitted";
 
@@ -22,6 +24,7 @@ function fmt(seconds: number): string {
 }
 
 export function TestEngine({ test }: { test: Test }) {
+  const router = useRouter();
   const [phase, setPhase] = useState<Phase>("intro");
   const [index, setIndex] = useState(0);
   const [answers, setAnswers] = useState<AnswerMap>({});
@@ -29,8 +32,53 @@ export function TestEngine({ test }: { test: Test }) {
   const [remaining, setRemaining] = useState(test.timeLimitSeconds);
   const [showTimer, setShowTimer] = useState(true);
   const [showCalc, setShowCalc] = useState(false);
+  const [hydrated, setHydrated] = useState(false);
 
   const q = test.questions[index];
+
+  // Hydrate from a saved attempt after mount (localStorage is client-only, so we
+  // can't read it during SSR without a hydration mismatch). A paused or
+  // in-progress attempt resumes directly into the section at its saved position
+  // and remaining time — no bonus time, matching real proctoring.
+  useEffect(() => {
+    const saved = loadAttempt(test.id);
+    if (saved && saved.status !== "completed") {
+      setIndex(Math.min(saved.index, test.questions.length - 1));
+      setAnswers(saved.answers ?? {});
+      setMarks(saved.marks ?? {});
+      setRemaining(saved.remaining);
+      setPhase("active");
+    }
+    setHydrated(true);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
+  // Debounced autosave: mirror state to the checkpoint on every change while the
+  // section is live (see docs/ARCHITECTURE.md §2 — writes never block the UI).
+  const saveTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
+  useEffect(() => {
+    if (!hydrated || (phase !== "active" && phase !== "review")) return;
+    if (saveTimer.current) clearTimeout(saveTimer.current);
+    saveTimer.current = setTimeout(() => {
+      saveAttempt({ testId: test.id, status: "in_progress", index, answers, marks, remaining, updatedAt: Date.now() });
+    }, 300);
+    return () => {
+      if (saveTimer.current) clearTimeout(saveTimer.current);
+    };
+  }, [hydrated, phase, index, answers, marks, remaining, test.id]);
+
+  // On completion, mark the attempt completed so the catalog shows it as done.
+  useEffect(() => {
+    if (phase === "submitted") {
+      saveAttempt({ testId: test.id, status: "completed", index, answers, marks, remaining, updatedAt: Date.now() });
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [phase]);
+
+  const saveAndExit = () => {
+    saveAttempt({ testId: test.id, status: "paused", index, answers, marks, remaining, updatedAt: Date.now() });
+    router.push("/");
+  };
 
   // Countdown; auto-submit at zero (matches real proctoring).
   useEffect(() => {
@@ -149,7 +197,15 @@ export function TestEngine({ test }: { test: Test }) {
     <div className="test-shell">
       {/* Top chrome */}
       <header className="flex items-center justify-between border-b border-testline bg-white px-6 py-3">
-        <div className="text-sm font-medium">{test.name}</div>
+        <div className="flex items-center gap-4">
+          <span className="text-sm font-medium">{test.name}</span>
+          <button
+            onClick={saveAndExit}
+            className="rounded border border-testline px-3 py-1 text-xs text-neutral-600 hover:bg-neutral-50"
+          >
+            Save &amp; exit
+          </button>
+        </div>
         <div className="flex items-center gap-4 text-sm">
           {test.section === "QUANT" && (
             <button
