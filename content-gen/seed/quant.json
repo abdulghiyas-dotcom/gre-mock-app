@@ -7008,5 +7008,220 @@
     "numericAnswer": null,
     "explanation": "2n is always even by definition (A). n² + n = n(n+1) is a product of two consecutive integers, one of which is always even, so it's always even (B). 4n + 2 = 2(2n+1) is always even (D). n + 1 is even only when n is odd, and n² is even only when n is even, so neither must be even (C, E false). Correct selections: A, B, D.",
     "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "QUANT_COMPARISON",
+    "skillTag": "QUANT_COMPARISON_LOGIC",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Requires computing both the mean and the median of the same small set and noticing they coincide, rather than assuming they differ.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "Quantity A: the average (arithmetic mean) of 4, 7, and 10\nQuantity B: the median of 4, 7, and 10",
+    "choices": [
+      {
+        "id": "A",
+        "label": "Quantity A is greater",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "Quantity B is greater",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "The two quantities are equal",
+        "isCorrect": true
+      },
+      {
+        "id": "D",
+        "label": "The relationship cannot be determined from the information given",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "The average is (4 + 7 + 10)/3 = 21/3 = 7. The median of 4, 7, 10 (already in order) is the middle value, 7. Both equal 7: (C).",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "QUANT_COMPARISON",
+    "skillTag": "QUANT_COMPARISON_LOGIC",
+    "difficulty": "HARD",
+    "difficultyRationale": "Requires recognizing x^2 - 2x + 1 = (x-1)^2 >= 0 as a perfect square, so the relationship is sometimes equality (x=1) and sometimes Quantity A greater, but never constant, forcing 'cannot be determined'.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "x is a real number.\nQuantity A: x² + 1\nQuantity B: 2x",
+    "choices": [
+      {
+        "id": "A",
+        "label": "Quantity A is greater",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "Quantity B is greater",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "The two quantities are equal",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "The relationship cannot be determined from the information given",
+        "isCorrect": true
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Quantity A − Quantity B = x² + 1 − 2x = (x − 1)², which is always ≥ 0, so Quantity A is never less than Quantity B. But at x = 1, (x−1)² = 0, so the quantities are equal; for any other x (e.g., x = 3, giving 10 vs 6), Quantity A is greater. Since the relationship is sometimes equality and sometimes 'A greater' depending on x, with no single relationship holding for every x, the answer is (D).",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "NUMERIC_ENTRY",
+    "skillTag": "DATA_INTERPRETATION",
+    "difficulty": "EASY",
+    "difficultyRationale": "First of a three-question set sharing the same customer-satisfaction survey data; a direct percent-of-a-percent computation.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "A survey of 250 customers rated their experience as excellent, good, fair, or poor. 60% rated it 'good' or 'excellent' combined; of those, 40% rated it specifically 'excellent.' How many customers rated their experience 'excellent'?",
+    "choices": null,
+    "numericAnswer": 60,
+    "explanation": "Customers rating 'good' or 'excellent': 0.60 × 250 = 150. Of those, 40% rated it 'excellent': 0.40 × 150 = 60.",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "NUMERIC_ENTRY",
+    "skillTag": "DATA_INTERPRETATION",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Requires subtracting the 'excellent' count from the combined 'good or excellent' total, the second question in the shared survey data set.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "Using the same survey (250 customers; 60% rated 'good' or 'excellent' combined; of those, 40% rated it 'excellent'), how many customers rated their experience 'good'?",
+    "choices": null,
+    "numericAnswer": 90,
+    "explanation": "Customers rating 'good' or 'excellent' combined: 150 (from 60% of 250). Of those, 60 rated it 'excellent' (40% of 150), so the remaining 150 − 60 = 90 rated it 'good'.",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "NUMERIC_ENTRY",
+    "skillTag": "DATA_INTERPRETATION",
+    "difficulty": "HARD",
+    "difficultyRationale": "Requires combining two independently stated percentages (good/excellent combined, and poor) to find the remaining category by subtraction from the whole, the hardest question in the shared survey data set.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "Using the same survey of 250 customers (60% rated 'good' or 'excellent' combined), if 20% of all customers rated their experience 'poor' and the remainder rated it 'fair,' how many customers rated their experience 'fair'?",
+    "choices": null,
+    "numericAnswer": 50,
+    "explanation": "Good or excellent: 60% of 250 = 150. Poor: 20% of 250 = 50. Fair = 250 − 150 − 50 = 50.",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "MULTIPLE_CHOICE_SINGLE",
+    "skillTag": "ARITHMETIC",
+    "difficulty": "EASY",
+    "difficultyRationale": "Direct evaluation of a difference of squares with round numbers.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "What is the value of 6² − 4²?",
+    "choices": [
+      {
+        "id": "A",
+        "label": "4",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "10",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "16",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "20",
+        "isCorrect": true
+      },
+      {
+        "id": "E",
+        "label": "24",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "6² − 4² = 36 − 16 = 20, so (D).",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "NUMERIC_ENTRY",
+    "skillTag": "WORD_PROBLEMS",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Combined-rate problem with one pipe filling and another draining, requiring the solver to subtract rather than add rates.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "A tank is filled by pipe A alone in 6 hours and drained by pipe B alone in 10 hours. If both pipes are open at the same time on an empty tank, how many hours will it take to fill the tank?",
+    "choices": null,
+    "numericAnswer": 15,
+    "explanation": "Net rate = 1/6 − 1/10 = 5/30 − 3/30 = 2/30 = 1/15 tank per hour. Time to fill 1 tank = 1 ÷ (1/15) = 15 hours.",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "NUMERIC_ENTRY",
+    "skillTag": "ALGEBRA",
+    "difficulty": "HARD",
+    "difficultyRationale": "Requires using the given exclusion (x ≠ −5) to select the correct root of a factored quadratic before squaring it.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "If (x − 3)(x + 5) = 0 and x ≠ −5, what is the value of x²?",
+    "choices": null,
+    "numericAnswer": 9,
+    "explanation": "(x − 3)(x + 5) = 0 means x = 3 or x = −5. Since x ≠ −5, x = 3, so x² = 9.",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "QUANT_COMPARISON",
+    "skillTag": "GEOMETRY",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Requires estimating π to compare a circle's area against a square's area rather than assuming visually similar dimensions produce similar areas.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "Quantity A: the area of a circle with radius 4\nQuantity B: the area of a square with side length 7",
+    "choices": [
+      {
+        "id": "A",
+        "label": "Quantity A is greater",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "Quantity B is greater",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "The two quantities are equal",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "The relationship cannot be determined from the information given",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "The circle's area is π(4²) = 16π ≈ 50.3. The square's area is 7² = 49. Since 50.3 > 49, Quantity A is greater: (A).",
+    "assetUrl": null
   }
 ]

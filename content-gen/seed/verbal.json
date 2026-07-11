@@ -7758,5 +7758,260 @@
     "numericAnswer": null,
     "explanation": "Signaling support without committing to specific action describes careful hedging: 'circumspect' and 'guarded' both fit equivalently. 'Reckless' and 'impulsive' contradict 'carefully'; 'enthusiastic' and 'unambiguous' contradict avoiding commitment.",
     "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "READING_COMPREHENSION",
+    "skillTag": "RC_STRUCTURE",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Requires identifying that the final sentence names the underlying source of a debate rather than adding new policy content or refuting a side.",
+    "passageId": "psg_tariffs_1",
+    "passageBodyHtml": "<p>Economists have long debated the effects of tariffs, taxes imposed on imported goods. Proponents argue that tariffs protect domestic industries from foreign competition, preserving jobs that might otherwise be lost to cheaper imports. Critics counter that tariffs raise prices for consumers and invite retaliatory tariffs from trading partners, potentially harming export-dependent industries more than the tariffs help the protected ones. Much of the disagreement stems not from differing facts but from differing weights assigned to these competing effects: whether the benefit to a relatively small number of workers in protected industries outweighs the diffuse cost borne by consumers and exporters across the broader economy.</p>",
+    "stem": "Which of the following best describes the function of the passage's final sentence?",
+    "choices": [
+      {
+        "id": "A",
+        "label": "It identifies the underlying source of the debate described earlier in the passage",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "It proposes a new tariff policy not previously discussed",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "It refutes the critics' position outlined earlier in the passage",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "It provides historical examples of tariffs' economic impact",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "It summarizes only the proponents' arguments",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "The final sentence explains that the disagreement stems from 'differing weights assigned to these competing effects,' identifying the debate's root cause — matching (A). No new policy is proposed (B), no side is refuted (C), no historical examples appear (D), and both proponents' and critics' views are addressed, not just one (E).",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "MULTIPLE_CHOICE_SINGLE",
+    "skillTag": "VOCAB_IN_CONTEXT",
+    "difficulty": "HARD",
+    "difficultyRationale": "Requires the 'spread out/dispersed' sense of 'diffuse' as an adjective describing a cost distributed across many people, distinct from the unrelated senses offered as distractors.",
+    "passageId": "psg_tariffs_1",
+    "passageBodyHtml": "<p>Economists have long debated the effects of tariffs, taxes imposed on imported goods. Proponents argue that tariffs protect domestic industries from foreign competition, preserving jobs that might otherwise be lost to cheaper imports. Critics counter that tariffs raise prices for consumers and invite retaliatory tariffs from trading partners, potentially harming export-dependent industries more than the tariffs help the protected ones. Much of the disagreement stems not from differing facts but from differing weights assigned to these competing effects: whether the benefit to a relatively small number of workers in protected industries outweighs the diffuse cost borne by consumers and exporters across the broader economy.</p>",
+    "stem": "As used in the passage, \"diffuse\" most nearly means",
+    "choices": [
+      {
+        "id": "A",
+        "label": "spread out across many people",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "confusing or unclear",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "intense and concentrated",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "temporary",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "illegal",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "The 'diffuse cost' is contrasted with a benefit concentrated in 'a relatively small number of workers,' so 'diffuse' describes a cost spread thinly across consumers and exporters broadly — (A). 'Intense and concentrated' is nearly opposite; the other choices reflect unrelated senses of 'diffuse'.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "TEXT_COMPLETION",
+    "skillTag": "TEXT_COMPLETION",
+    "difficulty": "HARD",
+    "difficultyRationale": "Two interdependent blanks: economists rarely disputing something implies it's settled (facts, blank i), while what they do dispute is how much emphasis to place on effects (weight, blank ii).",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "Economists who study tariffs rarely dispute the underlying (i)______; they dispute instead how much (ii)______ should be placed on each of several competing effects.",
+    "choices": [
+      {
+        "id": "i-A",
+        "label": "facts",
+        "isCorrect": true
+      },
+      {
+        "id": "i-B",
+        "label": "legislation",
+        "isCorrect": false
+      },
+      {
+        "id": "i-C",
+        "label": "tariffs",
+        "isCorrect": false
+      },
+      {
+        "id": "ii-D",
+        "label": "weight",
+        "isCorrect": true
+      },
+      {
+        "id": "ii-E",
+        "label": "blame",
+        "isCorrect": false
+      },
+      {
+        "id": "ii-F",
+        "label": "tax",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "If economists 'rarely dispute' something, that thing is largely settled — the underlying 'facts' (blank i). What remains disputed is how much emphasis, or 'weight,' to give each competing effect (blank ii). 'Legislation' and 'tariffs' don't fit 'underlying', and 'blame'/'tax' don't fit 'placed on ... effects'.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "TEXT_COMPLETION",
+    "skillTag": "TEXT_COMPLETION",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Requires recognizing that both sides claiming support from the same treaty text implies that text was open to multiple readings.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "Despite the treaty's ______ language, both signatories later claimed it supported their conflicting interpretations of the border dispute.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "vague",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "precise",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "translated",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "classified",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "brief",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Two conflicting interpretations of the same text suggest that text was unclear — 'vague'. 'Precise' language would typically prevent conflicting readings, contradicting the sentence; 'translated', 'classified', and 'brief' don't explain conflicting interpretations.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "SENTENCE_EQUIVALENCE",
+    "skillTag": "SENTENCE_EQUIVALENCE",
+    "difficulty": "EASY",
+    "difficultyRationale": "Clear clue (fully renovated in a single weekend) with a common synonym pair for hard-working.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "The volunteers worked so ______ that the shelter was fully renovated in a single weekend.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "tirelessly",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "industriously",
+        "isCorrect": true
+      },
+      {
+        "id": "C",
+        "label": "reluctantly",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "sporadically",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "carelessly",
+        "isCorrect": false
+      },
+      {
+        "id": "F",
+        "label": "quietly",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Fully renovating a shelter in one weekend describes hard, sustained work: 'tirelessly' and 'industriously' both fit equivalently. 'Reluctantly' and 'sporadically' would slow such fast progress; 'carelessly' and 'quietly' don't explain the pace of the work.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "SENTENCE_EQUIVALENCE",
+    "skillTag": "SENTENCE_EQUIVALENCE",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Requires matching a decision that runs counter to competitors' behavior to synonyms for 'unwise' rather than to words implying deliberate strategy.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "The CEO's decision to cut the marketing budget seemed ______ given that competitors were simultaneously increasing their own advertising spending.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "imprudent",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "injudicious",
+        "isCorrect": true
+      },
+      {
+        "id": "C",
+        "label": "strategic",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "inevitable",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "popular",
+        "isCorrect": false
+      },
+      {
+        "id": "F",
+        "label": "overdue",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Cutting spending while competitors increase theirs, in context, reads as a poor decision: 'imprudent' and 'injudicious' both mean unwise and fit equivalently. 'Strategic' contradicts the implied criticism; 'inevitable', 'popular', and 'overdue' don't fit the contrast with competitors' behavior.",
+    "assetUrl": null
   }
 ]
