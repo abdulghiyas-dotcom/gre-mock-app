@@ -3438,5 +3438,360 @@
     "numericAnswer": null,
     "explanation": "The unconvinced researchers' specific, limited objections (methodological anomalies elsewhere, small sample) show why the debate remains open rather than settled by the new evidence — (B). (A) and (D) overstate their role as decisive; (C) and (E) misdescribe what they're doing.",
     "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "TEXT_COMPLETION",
+    "skillTag": "TEXT_COMPLETION",
+    "difficulty": "EASY",
+    "difficultyRationale": "Direct clue ('every ingredient traced back to a single farm') with common vocabulary.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "The restaurant prides itself on being fully ______, with every ingredient traced back to a single local farm.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "traceable",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "anonymous",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "expensive",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "seasonal",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "imported",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Every ingredient being traced to a single farm describes traceability directly. 'Anonymous' is the opposite; 'expensive', 'seasonal', and 'imported' don't capture the traceability claim.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "TEXT_COMPLETION",
+    "skillTag": "TEXT_COMPLETION",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Requires inferring that a plan surviving intense scrutiny unchanged must be well-designed; 'flawed' is the reversed-polarity trap.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "The proposal emerged from committee review essentially unchanged, a testament to how ______ it had been from the outset.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "well-conceived",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "flawed",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "controversial",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "lengthy",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "expensive",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Surviving review 'unchanged' as a 'testament to' its quality implies the proposal was sound from the start — 'well-conceived'. 'Flawed' would have invited changes; 'controversial', 'lengthy', and 'expensive' don't explain why it emerged unchanged.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "TEXT_COMPLETION",
+    "skillTag": "TEXT_COMPLETION",
+    "difficulty": "HARD",
+    "difficultyRationale": "Three interdependent blanks describing a critic whose harshness is really a form of respect; each blank requires tracking the underlying paradox.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "Her reviews were (i)______, but colleagues understood this to be a form of (ii)______: she reserved her harshest critiques for writers she considered talented enough to (iii)______ the effort of a serious response.",
+    "choices": [
+      {
+        "id": "i-A",
+        "label": "unsparing",
+        "isCorrect": true
+      },
+      {
+        "id": "i-B",
+        "label": "flattering",
+        "isCorrect": false
+      },
+      {
+        "id": "i-C",
+        "label": "indifferent",
+        "isCorrect": false
+      },
+      {
+        "id": "ii-D",
+        "label": "respect",
+        "isCorrect": true
+      },
+      {
+        "id": "ii-E",
+        "label": "contempt",
+        "isCorrect": false
+      },
+      {
+        "id": "ii-F",
+        "label": "jealousy",
+        "isCorrect": false
+      },
+      {
+        "id": "iii-G",
+        "label": "merit",
+        "isCorrect": true
+      },
+      {
+        "id": "iii-H",
+        "label": "avoid",
+        "isCorrect": false
+      },
+      {
+        "id": "iii-I",
+        "label": "resent",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Her reviews were harsh ('unsparing', i), yet this was understood as 'respect' (ii) because she only bothered with writers talented enough to 'merit' (iii) a serious response. 'Contempt' and 'jealousy' would explain harshness differently, not as respect; 'avoid'/'resent' don't fit 'talented enough to ___ the effort'.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "SENTENCE_EQUIVALENCE",
+    "skillTag": "SENTENCE_EQUIVALENCE",
+    "difficulty": "EASY",
+    "difficultyRationale": "Clear clue (survived the crash with only minor scratches) with a high-frequency synonym pair.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "The phone's case proved ______, surviving a fall from the third floor with only minor scratches.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "durable",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "fragile",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "sturdy",
+        "isCorrect": true
+      },
+      {
+        "id": "D",
+        "label": "colorful",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "lightweight",
+        "isCorrect": false
+      },
+      {
+        "id": "F",
+        "label": "expensive",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Surviving a third-floor fall with only minor scratches shows toughness: 'durable' and 'sturdy' are synonyms that both fit. 'Fragile' is the opposite; 'colorful', 'lightweight', and 'expensive' don't describe toughness.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "SENTENCE_EQUIVALENCE",
+    "skillTag": "SENTENCE_EQUIVALENCE",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Contrast clue ('unlike the confident forecasts of his rivals') requiring a hedging word; one synonym pair among plausible near-field distractors.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "Unlike the confident forecasts of his rivals, the analyst's predictions were carefully ______, acknowledging the many variables that could upend them.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "hedged",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "definitive",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "qualified",
+        "isCorrect": true
+      },
+      {
+        "id": "D",
+        "label": "publicized",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "outdated",
+        "isCorrect": false
+      },
+      {
+        "id": "F",
+        "label": "optimistic",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "'Acknowledging the many variables that could upend them' describes cautious, qualified predictions: 'hedged' and 'qualified' are synonyms that both fit. 'Definitive' is the opposite of cautious; 'publicized', 'outdated', and 'optimistic' don't capture hedging.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "SENTENCE_EQUIVALENCE",
+    "skillTag": "SENTENCE_EQUIVALENCE",
+    "difficulty": "HARD",
+    "difficultyRationale": "Low-frequency pair ('perfunctory'/'cursory') needed for an inspection sentence; 'thorough' reverses polarity and 'brief' is a tempting but imprecise near-miss that doesn't capture the negative connotation of carelessness.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "The safety inspection turned out to be entirely ______, lasting only a few minutes and missing several obvious hazards.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "perfunctory",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "thorough",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "cursory",
+        "isCorrect": true
+      },
+      {
+        "id": "D",
+        "label": "brief",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "mandatory",
+        "isCorrect": false
+      },
+      {
+        "id": "F",
+        "label": "overdue",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Missing obvious hazards in a matter of minutes describes a careless, superficial inspection: 'perfunctory' and 'cursory' both mean done without real effort or care and fit equivalently. 'Thorough' is the opposite; 'brief' alone doesn't imply carelessness (a brief inspection could still be careful), and 'mandatory'/'overdue' don't fit.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "READING_COMPREHENSION",
+    "skillTag": "RC_MAIN_IDEA",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Main-purpose question over an original linguistics passage describing a phenomenon and its explanation; distractor overstates the passage's claims about universality.",
+    "passageId": "psg_language_1",
+    "passageBodyHtml": "<p>Children acquiring their first language make a curious class of errors: they say things like \"I goed\" or \"two mouses,\" applying regular grammatical patterns to words that are, in fact, exceptions. What makes these errors striking is that the children rarely heard adults say \"goed\" or \"mouses\" — the forms are not imitated but generated. This pattern, sometimes called overregularization, suggests that children are not merely repeating language they hear but actively inferring and applying underlying rules, even when those rules yield an incorrect result for a particular word. The errors, paradoxically, offer some of the clearest evidence that rule-based grammar is at work in the developing mind.</p>",
+    "stem": "The primary purpose of the passage is to",
+    "choices": [
+      {
+        "id": "A",
+        "label": "argue that children should be corrected whenever they make grammatical errors",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "explain how a certain type of language error reveals an underlying cognitive process",
+        "isCorrect": true
+      },
+      {
+        "id": "C",
+        "label": "prove that all languages share the same grammatical rules",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "describe the vocabulary children typically learn first",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "compare the language errors of children and adults",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "The passage describes overregularization errors and explains what they reveal — active rule inference rather than imitation — so (B). (A) is not discussed; (C), (D), (E) are not the passage's focus.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "READING_COMPREHENSION",
+    "skillTag": "RC_INFERENCE",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Inference anchored to 'rarely heard adults say ... the forms are not imitated but generated'; distractors contradict or overstate this specific claim.",
+    "passageId": "psg_language_1",
+    "passageBodyHtml": "<p>Children acquiring their first language make a curious class of errors: they say things like \"I goed\" or \"two mouses,\" applying regular grammatical patterns to words that are, in fact, exceptions. What makes these errors striking is that the children rarely heard adults say \"goed\" or \"mouses\" — the forms are not imitated but generated. This pattern, sometimes called overregularization, suggests that children are not merely repeating language they hear but actively inferring and applying underlying rules, even when those rules yield an incorrect result for a particular word. The errors, paradoxically, offer some of the clearest evidence that rule-based grammar is at work in the developing mind.</p>",
+    "stem": "The passage suggests that a word like \"goed\" is significant to researchers primarily because it",
+    "choices": [
+      {
+        "id": "A",
+        "label": "is a common word that most children learn early",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "was very likely not directly imitated from adult speech",
+        "isCorrect": true
+      },
+      {
+        "id": "C",
+        "label": "appears in nearly every human language",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "is easier for children to pronounce than \"went\"",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "shows that children ignore grammatical rules entirely",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "The passage says such forms are significant because children 'rarely heard adults say' them — 'not imitated but generated' — so (B). (E) is the opposite: the errors show children DO apply rules, just incorrectly for exceptions. (A), (C), (D) are not stated.",
+    "assetUrl": null
   }
 ]
