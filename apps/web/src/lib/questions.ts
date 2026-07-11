@@ -52,14 +52,19 @@ function buildFullLength(
   quantShare: Question[],
   prompt: { id: string; promptText: string } | undefined,
 ): TestDef {
+  // Real GRE sections run ~13-14 questions (27 total per subject across two
+  // sections). Cap at those targets but never promise more than the bank has.
+  const SECTION_1_TARGET = 14;
+  const SECTION_2_TARGET = 13;
+
   function sectionsFor(kind: "VERBAL" | "QUANT", share: Question[], secPrefix: string, perQ: number) {
     const tiers = byDifficulty(share);
-    // Section 1: up to 6 medium items (fixed pool, mirrors the real GRE's
-    // medium first section); the rest of the share feeds Section 2's pools.
-    const s1 = tiers.MEDIUM.slice(0, 6);
+    // Section 1: fixed medium-difficulty pool (mirrors the real GRE's medium
+    // first section); the rest of the share feeds Section 2's pools.
+    const s1 = tiers.MEDIUM.slice(0, SECTION_1_TARGET);
     const rest = share.filter((q) => !s1.includes(q));
     const pools = byDifficulty(rest);
-    const s2Count = Math.max(4, Math.min(6, Math.max(pools.EASY.length, pools.MEDIUM.length, pools.HARD.length)));
+    const s2Count = Math.max(4, Math.min(SECTION_2_TARGET, Math.max(pools.EASY.length, pools.MEDIUM.length, pools.HARD.length)));
     return [
       {
         id: `${secPrefix}-1`,
