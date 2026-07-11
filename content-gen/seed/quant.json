@@ -3191,5 +3191,308 @@
     "numericAnswer": null,
     "explanation": "32 = 2^5, so 2^(x+1) = 2^5 means x + 1 = 5, giving x = 4: (B). Choice (C) = 5 stops at the exponent on the right side without subtracting 1.",
     "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "MULTIPLE_CHOICE_SINGLE",
+    "skillTag": "ARITHMETIC",
+    "difficulty": "EASY",
+    "difficultyRationale": "Single-step average computation with round numbers.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "What is the average (arithmetic mean) of 12, 18, and 24?",
+    "choices": [
+      {
+        "id": "A",
+        "label": "16",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "18",
+        "isCorrect": true
+      },
+      {
+        "id": "C",
+        "label": "20",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "22",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "54",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Average = (12 + 18 + 24) / 3 = 54 / 3 = 18: (B). Choice (E) = 54 is the sum, not the average.",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "MULTIPLE_CHOICE_SINGLE",
+    "skillTag": "GEOMETRY",
+    "difficulty": "EASY",
+    "difficultyRationale": "Direct triangle area computation from base and height.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "A triangle has a base of 10 and a height of 6. What is its area?",
+    "choices": [
+      {
+        "id": "A",
+        "label": "16",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "30",
+        "isCorrect": true
+      },
+      {
+        "id": "C",
+        "label": "32",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "60",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "120",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Triangle area = (1/2)(base)(height) = (1/2)(10)(6) = 30: (B). Choice (D) = 60 forgets to divide by 2.",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "QUANT_COMPARISON",
+    "skillTag": "ALGEBRA",
+    "difficulty": "EASY",
+    "difficultyRationale": "Direct substitution and comparison; no hidden cases since the value of x is fully specified.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "x = 5\n\nQuantity A: x^2 - 1\nQuantity B: 4x",
+    "choices": [
+      {
+        "id": "A",
+        "label": "Quantity A is greater",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "Quantity B is greater",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "The two quantities are equal",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "The relationship cannot be determined from the information given",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Quantity A: 5² - 1 = 24. Quantity B: 4(5) = 20. Since 24 > 20, Quantity A is greater: (A).",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "NUMERIC_ENTRY",
+    "skillTag": "DATA_INTERPRETATION",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Requires computing a new average after one value in a known set is changed, without recomputing from scratch.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "The average (arithmetic mean) of four numbers is 15. If one of the numbers, currently 10, is changed to 26, what is the new average of the four numbers?",
+    "choices": [],
+    "numericAnswer": 19,
+    "explanation": "Original sum = 4 × 15 = 60. Replacing 10 with 26 changes the sum by +16, giving a new sum of 76. New average = 76 / 4 = 19.",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "MULTIPLE_CHOICE_SINGLE",
+    "skillTag": "WORD_PROBLEMS",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Requires setting up a rate problem involving a change in speed to make up lost time, a two-stage distance/time relationship.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "A cyclist plans to ride 60 miles at a speed of 15 miles per hour. After riding for 2 hours, she has covered only 24 miles due to a strong headwind. At what speed, in miles per hour, must she ride the remaining distance to finish in the time she originally planned?",
+    "choices": [
+      {
+        "id": "A",
+        "label": "16",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "18",
+        "isCorrect": true
+      },
+      {
+        "id": "C",
+        "label": "20",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "24",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "30",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Original planned time = 60/15 = 4 hours. After 2 hours she has covered 24 miles, leaving 36 miles and 4 - 2 = 2 hours remaining. Required speed = 36/2 = 18 mph: (B).",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "MULTIPLE_CHOICE_SINGLE",
+    "skillTag": "GEOMETRY",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Requires the triangle angle-sum relationship when only two angles' relationship is given algebraically, not numerically.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "In a triangle, one angle is twice as large as a second angle, and the third angle measures 30 degrees. What is the measure of the largest angle?",
+    "choices": [
+      {
+        "id": "A",
+        "label": "50",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "60",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "80",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "100",
+        "isCorrect": true
+      },
+      {
+        "id": "E",
+        "label": "130",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Let the smaller unknown angle be y, so the other unknown angle is 2y. The three angles sum to 180: y + 2y + 30 = 180, so 3y = 150, giving y = 50 and 2y = 100. The largest angle is 100 degrees: (D). Choice (A) = 50 is the smaller unknown angle, not the largest.",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "NUMERIC_ENTRY",
+    "skillTag": "ARITHMETIC",
+    "difficulty": "EASY",
+    "difficultyRationale": "Single-step computation of a number that is a given percent greater than another.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "What number is 20 percent greater than 50?",
+    "choices": [],
+    "numericAnswer": 60,
+    "explanation": "20% of 50 is 10, and 50 + 10 = 60.",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "MULTIPLE_CHOICE_SINGLE",
+    "skillTag": "ALGEBRA",
+    "difficulty": "HARD",
+    "difficultyRationale": "Requires manipulating a symmetric expression using the relationship between (a+b)^2 and a^2+b^2, without solving for a and b individually.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "If a + b = 9 and ab = 14, what is the value of a^2 + b^2 ?",
+    "choices": [
+      {
+        "id": "A",
+        "label": "53",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "67",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "81",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "95",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "109",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "(a + b)² = a² + 2ab + b², so a² + b² = (a+b)² - 2ab = 9² - 2(14) = 81 - 28 = 53: (A). (Check: a and b are 2 and 7, since 2+7=9 and 2×7=14; 2² + 7² = 4 + 49 = 53. ✓)",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "MULTIPLE_CHOICE_MULTIPLE",
+    "skillTag": "WORD_PROBLEMS",
+    "difficulty": "HARD",
+    "difficultyRationale": "Select-all item requiring the solver to determine which group sizes are consistent with two separate divisibility constraints simultaneously.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "A teacher wants to divide a class into groups. The class size must be evenly divisible by both 4 and 6 for the groups to work out. Which of the following could be the size of the class?\n\nSelect all that apply.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "20",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "24",
+        "isCorrect": true
+      },
+      {
+        "id": "C",
+        "label": "30",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "36",
+        "isCorrect": true
+      },
+      {
+        "id": "E",
+        "label": "48",
+        "isCorrect": true
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "A number divisible by both 4 and 6 must be divisible by their LCM, 12. Checking each: 20/12 no, 24/12=2 yes, 30/12 no, 36/12=3 yes, 48/12=4 yes. Correct selections: B, D, E.",
+    "assetUrl": null
   }
 ]

@@ -3793,5 +3793,345 @@
     "numericAnswer": null,
     "explanation": "The passage says such forms are significant because children 'rarely heard adults say' them — 'not imitated but generated' — so (B). (E) is the opposite: the errors show children DO apply rules, just incorrectly for exceptions. (A), (C), (D) are not stated.",
     "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "TEXT_COMPLETION",
+    "skillTag": "TEXT_COMPLETION",
+    "difficulty": "EASY",
+    "difficultyRationale": "Direct cause-effect clue ('every citation checked against the original source') and common vocabulary.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "The fact-checker was ______, verifying every citation against its original source before publication.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "diligent",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "careless",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "impatient",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "opinionated",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "forgetful",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Verifying every citation before publication shows careful thoroughness — 'diligent'. 'Careless' and 'forgetful' are opposites; 'impatient' and 'opinionated' don't fit meticulous verification.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "TEXT_COMPLETION",
+    "skillTag": "TEXT_COMPLETION",
+    "difficulty": "EASY",
+    "difficultyRationale": "Direct restatement clue ('could be assembled by a child in minutes') and common vocabulary.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "The furniture kit was designed to be ______, requiring no tools and assembled by a child in minutes.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "simple",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "intricate",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "costly",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "heavy",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "fragile",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Assembled by a child in minutes without tools describes something easy — 'simple'. 'Intricate' is the opposite; 'costly', 'heavy', and 'fragile' don't fit ease of assembly.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "TEXT_COMPLETION",
+    "skillTag": "TEXT_COMPLETION",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Two interdependent blanks about a diplomat's speech that seems conciliatory but contains a hidden warning; each blank carries a plausible same-register distractor.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "The minister's speech was outwardly (i)______, yet careful listeners detected a (ii)______ warning embedded in its closing lines.",
+    "choices": [
+      {
+        "id": "i-A",
+        "label": "conciliatory",
+        "isCorrect": true
+      },
+      {
+        "id": "i-B",
+        "label": "hostile",
+        "isCorrect": false
+      },
+      {
+        "id": "i-C",
+        "label": "rambling",
+        "isCorrect": false
+      },
+      {
+        "id": "ii-D",
+        "label": "veiled",
+        "isCorrect": true
+      },
+      {
+        "id": "ii-E",
+        "label": "explicit",
+        "isCorrect": false
+      },
+      {
+        "id": "ii-F",
+        "label": "absent",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "'Outwardly ___, yet careful listeners detected' sets up a surface/hidden contrast: the speech seemed 'conciliatory' (i) on the surface, but held a 'veiled' (ii) warning underneath, requiring careful listening to detect. 'Hostile' would be obvious, not needing careful listeners; 'explicit' and 'absent' contradict a hidden warning requiring detection.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "SENTENCE_EQUIVALENCE",
+    "skillTag": "SENTENCE_EQUIVALENCE",
+    "difficulty": "EASY",
+    "difficultyRationale": "Clear cause-effect clue (guests raved about the food for weeks) with a high-frequency synonym pair.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "The wedding feast was ______, with guests raving about the food for weeks afterward.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "sumptuous",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "bland",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "lavish",
+        "isCorrect": true
+      },
+      {
+        "id": "D",
+        "label": "brief",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "formal",
+        "isCorrect": false
+      },
+      {
+        "id": "F",
+        "label": "crowded",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Guests raving about the food for weeks implies an especially rich, impressive feast: 'sumptuous' and 'lavish' are synonyms that both fit. 'Bland' is the opposite; 'brief', 'formal', and 'crowded' don't describe food quality and don't pair.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "SENTENCE_EQUIVALENCE",
+    "skillTag": "SENTENCE_EQUIVALENCE",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Requires recognizing that 'refused to accept the award, citing discomfort with public recognition' points to modesty; one synonym pair among plausible near-field distractors.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "Despite her many achievements, the scientist remained strikingly ______, refusing the award ceremony and citing her discomfort with public recognition.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "unassuming",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "arrogant",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "modest",
+        "isCorrect": true
+      },
+      {
+        "id": "D",
+        "label": "ambitious",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "reclusive",
+        "isCorrect": false
+      },
+      {
+        "id": "F",
+        "label": "controversial",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Refusing public recognition despite achievements describes humility: 'unassuming' and 'modest' are synonyms that both fit. 'Arrogant' is the opposite; 'ambitious', 'reclusive', and 'controversial' don't specifically mean humble about achievement and don't form a matching pair.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "SENTENCE_EQUIVALENCE",
+    "skillTag": "SENTENCE_EQUIVALENCE",
+    "difficulty": "HARD",
+    "difficultyRationale": "Low-frequency pair ('obsequious'/'servile') needed to describe excessive flattery toward a superior; 'diplomatic' is a tempting near-miss with a milder, more positive connotation.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "His ______ manner toward the new department head, praising her every remark and anticipating her every whim, struck his colleagues as excessive even by office standards.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "obsequious",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "diplomatic",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "servile",
+        "isCorrect": true
+      },
+      {
+        "id": "D",
+        "label": "aloof",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "candid",
+        "isCorrect": false
+      },
+      {
+        "id": "F",
+        "label": "reserved",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Praising every remark and anticipating every whim, judged 'excessive,' describes excessive flattery: 'obsequious' and 'servile' both mean fawning/excessively eager to please and fit equivalently. 'Diplomatic' is too mild and positive; 'aloof', 'candid', and 'reserved' contradict eager flattery.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "READING_COMPREHENSION",
+    "skillTag": "RC_MAIN_IDEA",
+    "difficulty": "EASY",
+    "difficultyRationale": "Short original passage with a clear single claim; distractors are unsupported or overly narrow.",
+    "passageId": "psg_sleep_1",
+    "passageBodyHtml": "<p>Sleep was once viewed as a passive state in which the brain simply shut down for rest. Modern neuroscience has overturned this view: during certain sleep stages, the brain is nearly as active as during wakefulness, consolidating memories formed during the day and clearing out cellular waste products that accumulate during hours of activity. Far from being a pause in mental life, sleep now appears to be an essential, active process without which memory and cognitive function steadily deteriorate.</p>",
+    "stem": "The main point of the passage is that",
+    "choices": [
+      {
+        "id": "A",
+        "label": "sleep is an active process essential to memory and cognitive function",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "the brain is more active during sleep than during wakefulness",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "cellular waste products cause most cognitive decline",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "modern neuroscience has fully explained the purpose of sleep",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "memory consolidation only occurs during sleep",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "The passage's main point is that sleep is an active, essential process for memory and cognition, not a passive shutdown — (A). (B) overstates: the passage says 'nearly as active', not more active. (C), (D), (E) overreach beyond what the passage states.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "READING_COMPREHENSION",
+    "skillTag": "RC_STRUCTURE",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Structural question requiring identification of the passage's overall pattern (revised-view exposition) rather than a specific fact.",
+    "passageId": "psg_sleep_1",
+    "passageBodyHtml": "<p>Sleep was once viewed as a passive state in which the brain simply shut down for rest. Modern neuroscience has overturned this view: during certain sleep stages, the brain is nearly as active as during wakefulness, consolidating memories formed during the day and clearing out cellular waste products that accumulate during hours of activity. Far from being a pause in mental life, sleep now appears to be an essential, active process without which memory and cognitive function steadily deteriorate.</p>",
+    "stem": "The passage is organized primarily around",
+    "choices": [
+      {
+        "id": "A",
+        "label": "a comparison between two competing theories, neither of which is favored",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "an outdated view that is replaced by a more accurate current understanding",
+        "isCorrect": true
+      },
+      {
+        "id": "C",
+        "label": "a chronological account of sleep research over the past century",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "a list of practical tips for improving sleep quality",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "an unresolved dispute among neuroscientists",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "The passage states the old 'passive state' view, then says modern neuroscience 'has overturned this view' with a more accurate active-process account — a replaced-view structure, so (B). (A) wrongly implies neither view is favored; (C), (D), (E) don't match the passage's short, single-shift structure.",
+    "assetUrl": null
   }
 ]
