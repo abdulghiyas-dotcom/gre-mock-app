@@ -5142,5 +5142,272 @@
     "numericAnswer": null,
     "explanation": "|2x - 6| = 10 means 2x - 6 = 10 or 2x - 6 = -10. The first gives x = 8; the second gives x = -2. Checking: at x=-2, |2(-2)-6| = |-10| = 10 ✓. At x=8, |2(8)-6| = |10| = 10 ✓. Correct selections: A, D.",
     "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "MULTIPLE_CHOICE_SINGLE",
+    "skillTag": "ARITHMETIC",
+    "difficulty": "EASY",
+    "difficultyRationale": "Single-step percent discount with round numbers; distractors reflect common percent-of slips.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "A shirt originally priced at $40 is discounted by 25%. What is the sale price?",
+    "choices": [
+      {
+        "id": "A",
+        "label": "$10",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "$25",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "$28",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "$30",
+        "isCorrect": true
+      },
+      {
+        "id": "E",
+        "label": "$35",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "A 25% discount leaves 75% of the price: 0.75 × $40 = $30, so (D). $10 is the discount amount itself, not the sale price.",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "NUMERIC_ENTRY",
+    "skillTag": "ALGEBRA",
+    "difficulty": "EASY",
+    "difficultyRationale": "Single-variable linear equation with one solve step after combining constants.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "If 3x + 7 = 22, what is the value of x?",
+    "choices": null,
+    "numericAnswer": 5,
+    "explanation": "3x + 7 = 22, so 3x = 15, and x = 5.",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "QUANT_COMPARISON",
+    "skillTag": "QUANT_COMPARISON_LOGIC",
+    "difficulty": "EASY",
+    "difficultyRationale": "Direct comparison of two fractions with a common near-equal look, resolved by decimal conversion.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "Quantity A: 3/4\nQuantity B: 7/9",
+    "choices": [
+      {
+        "id": "A",
+        "label": "Quantity A is greater",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "Quantity B is greater",
+        "isCorrect": true
+      },
+      {
+        "id": "C",
+        "label": "The two quantities are equal",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "The relationship cannot be determined from the information given",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "3/4 = 0.75 and 7/9 ≈ 0.778. Since 0.778 > 0.75, Quantity B is greater: (B).",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "QUANT_COMPARISON",
+    "skillTag": "ALGEBRA",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Requires expanding (x+3)^2 symbolically and reasoning about the sign of the difference for all positive x, rather than plugging in a single value.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "x is a positive integer.\nQuantity A: (x + 3)^2\nQuantity B: x^2 + 9",
+    "choices": [
+      {
+        "id": "A",
+        "label": "Quantity A is greater",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "Quantity B is greater",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "The two quantities are equal",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "The relationship cannot be determined from the information given",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "(x + 3)^2 = x^2 + 6x + 9, so Quantity A − Quantity B = 6x. Since x is a positive integer, 6x > 0 for every possible value, so Quantity A is always greater: (A).",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "MULTIPLE_CHOICE_SINGLE",
+    "skillTag": "ALGEBRA",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Two-sided linear equation requiring careful distribution and sign handling before isolating x.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "If 2(x − 3) = 3(x − 5) − 1, what is the value of x?",
+    "choices": [
+      {
+        "id": "A",
+        "label": "5",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "7",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "9",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "10",
+        "isCorrect": true
+      },
+      {
+        "id": "E",
+        "label": "12",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Expanding: 2x − 6 = 3x − 15 − 1 = 3x − 16. Adding 16 to both sides and subtracting 2x: 10 = x, so (D).",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "NUMERIC_ENTRY",
+    "skillTag": "GEOMETRY",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Requires setting up a perimeter equation from a length-width ratio before computing area, two chained steps.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "A rectangle has a perimeter of 36 and a length that is twice its width. What is the area of the rectangle?",
+    "choices": null,
+    "numericAnswer": 72,
+    "explanation": "Let the width be w and the length be 2w. Perimeter = 2(w + 2w) = 6w = 36, so w = 6 and length = 12. Area = 6 × 12 = 72.",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "MULTIPLE_CHOICE_SINGLE",
+    "skillTag": "WORD_PROBLEMS",
+    "difficulty": "HARD",
+    "difficultyRationale": "Requires summing three disjoint combinatorial cases (2, 3, and 4 women) rather than a single formula application.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "A committee of 4 people is to be chosen from a group of 6 men and 5 women. How many different committees can be formed that include at least 2 women?",
+    "choices": [
+      {
+        "id": "A",
+        "label": "150",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "165",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "200",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "215",
+        "isCorrect": true
+      },
+      {
+        "id": "E",
+        "label": "330",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Sum the cases by number of women: 2 women, 2 men: C(5,2)×C(6,2) = 10×15 = 150. 3 women, 1 man: C(5,3)×C(6,1) = 10×6 = 60. 4 women, 0 men: C(5,4) = 5. Total = 150 + 60 + 5 = 215, so (D). 330 is the total number of 4-person committees with no restriction.",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "QUANT_COMPARISON",
+    "skillTag": "QUANT_COMPARISON_LOGIC",
+    "difficulty": "HARD",
+    "difficultyRationale": "The condition x^2 = y^2 admits both x = y and x = −y, so the comparison depends on unstated sign information — a classic 'cannot be determined' trap for anyone who assumes x = y.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "x and y are integers such that x^2 = y^2.\nQuantity A: x\nQuantity B: y",
+    "choices": [
+      {
+        "id": "A",
+        "label": "Quantity A is greater",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "Quantity B is greater",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "The two quantities are equal",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "The relationship cannot be determined from the information given",
+        "isCorrect": true
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "x^2 = y^2 means x = y or x = −y. If x = 2 and y = −2, Quantity A is greater; if x = −2 and y = 2, Quantity B is greater; if x = y, they're equal. Since more than one relationship is possible, the answer is (D).",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "NUMERIC_ENTRY",
+    "skillTag": "WORD_PROBLEMS",
+    "difficulty": "HARD",
+    "difficultyRationale": "Combined work-rate problem with a phase change (two machines, then one alone) requiring tracking remaining work after a partial combined phase.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "Machine A can complete a job in 6 hours, and Machine B can complete the same job in 12 hours. Both machines work together for 2 hours, then Machine A stops and Machine B continues alone until the job is finished. How many total hours does Machine B work?",
+    "choices": null,
+    "numericAnswer": 8,
+    "explanation": "Combined rate = 1/6 + 1/12 = 1/4 job per hour; in 2 hours they complete 2 × 1/4 = 1/2 of the job, leaving 1/2. Machine B alone (rate 1/12 per hour) needs (1/2) ÷ (1/12) = 6 hours to finish the remainder. Machine B's total time = 2 hours (together) + 6 hours (alone) = 8 hours.",
+    "assetUrl": null
   }
 ]

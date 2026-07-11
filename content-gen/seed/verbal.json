@@ -5948,5 +5948,255 @@
     "numericAnswer": null,
     "explanation": "The passage states that interference with one cue 'does not necessarily derail the entire journey' because birds cross-reference multiple systems — so the bird would likely still navigate using remaining cues, (B). (A) and (D) contradict this redundancy; (C) overstates exclusive reliance; (E) is unsupported.",
     "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "TEXT_COMPLETION",
+    "skillTag": "TEXT_COMPLETION",
+    "difficulty": "EASY",
+    "difficultyRationale": "Direct clue ('found a way to reduce costs by nearly half') and common vocabulary.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "The new supply chain manager was ______, finding a way to reduce shipping costs by nearly half within her first month.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "effective",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "ineffective",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "hesitant",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "unfamiliar",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "temporary",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Cutting costs nearly in half quickly shows strong performance — 'effective'. 'Ineffective' is the opposite; 'hesitant', 'unfamiliar', and 'temporary' don't fit a described success.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "TEXT_COMPLETION",
+    "skillTag": "TEXT_COMPLETION",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Requires inferring that a novel praised for realism nonetheless invented an entire war, revealing a tension between reputation and fact; 'accurate' is the reversed-polarity trap.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "Despite its reputation for historical ______, the novel invented an entire war that never occurred in the period it depicted.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "accuracy",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "invention",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "ambiguity",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "brevity",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "controversy",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "'Despite its reputation for ___' followed by an invented war signals a contradiction with a reputation for faithfulness to history — 'accuracy'. 'Invention' would make the fabricated war unsurprising rather than contradictory; 'ambiguity', 'brevity', and 'controversy' don't fit a reputation contradicted by fabrication.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "SENTENCE_EQUIVALENCE",
+    "skillTag": "SENTENCE_EQUIVALENCE",
+    "difficulty": "EASY",
+    "difficultyRationale": "Clear clue (identified the malfunction within seconds of hearing the sound) with a common synonym pair.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "The technician's diagnosis was ______, identifying the exact malfunction within seconds of hearing the engine's sound.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "instant",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "delayed",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "immediate",
+        "isCorrect": true
+      },
+      {
+        "id": "D",
+        "label": "costly",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "uncertain",
+        "isCorrect": false
+      },
+      {
+        "id": "F",
+        "label": "formal",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Identifying a problem within seconds describes speed: 'instant' and 'immediate' are synonyms that both fit. 'Delayed' is the opposite; 'costly', 'uncertain', and 'formal' don't describe speed and don't pair.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "SENTENCE_EQUIVALENCE",
+    "skillTag": "SENTENCE_EQUIVALENCE",
+    "difficulty": "HARD",
+    "difficultyRationale": "Low-frequency pair ('capricious'/'erratic') describing unpredictable funding decisions; 'generous' is a tempting near-miss addressing amount rather than predictability.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "Nonprofit directors complained that the foundation's grant decisions had become ______, awarding generously one year and rejecting nearly identical proposals the next.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "capricious",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "predictable",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "erratic",
+        "isCorrect": true
+      },
+      {
+        "id": "D",
+        "label": "generous",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "transparent",
+        "isCorrect": false
+      },
+      {
+        "id": "F",
+        "label": "delayed",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Awarding generously one year and rejecting similar proposals the next describes unpredictable decisions: 'capricious' and 'erratic' both mean unpredictable/inconsistent and fit equivalently. 'Predictable' is the opposite; 'generous' addresses amount, not consistency; 'transparent' and 'delayed' don't fit either.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "READING_COMPREHENSION",
+    "skillTag": "RC_MAIN_IDEA",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Main-purpose question over an original passage on a scientific replication crisis; distractor overstates the passage's conclusion as fully resolved.",
+    "passageId": "psg_replication_1",
+    "passageBodyHtml": "<p>Over the past decade, large-scale efforts to replicate influential findings in several scientific fields have succeeded only about half the time, prompting concern about the reliability of published research. Some attribute the shortfall to outright misconduct, but most researchers who study the problem point instead to subtler causes: small sample sizes that produce unstable estimates, flexible analytical choices made after data are collected, and a publishing system that rewards novel, striking results over careful, modest ones. Proposed reforms — pre-registering study designs, requiring larger samples, and publishing null results — address these subtler causes directly, though it remains too early to know how widely such reforms will be adopted.</p>",
+    "stem": "The primary purpose of the passage is to",
+    "choices": [
+      {
+        "id": "A",
+        "label": "argue that most published scientific findings are the result of misconduct",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "explain the likely causes of a documented reliability problem and describe proposed responses",
+        "isCorrect": true
+      },
+      {
+        "id": "C",
+        "label": "prove that pre-registration has already solved the replication problem",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "compare sample sizes across different scientific fields",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "criticize researchers who study the replication crisis",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "The passage identifies the replication shortfall, attributes it mainly to subtler structural causes, and describes reforms addressing them — explaining causes and responses, so (B). (A) contradicts 'most researchers ... point instead to subtler causes'; (C) contradicts 'too early to know how widely such reforms will be adopted'; (D), (E) are not the passage's focus.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "READING_COMPREHENSION",
+    "skillTag": "RC_INFERENCE",
+    "difficulty": "HARD",
+    "difficultyRationale": "Requires inferring why the passage's proposed reforms (pre-registration, larger samples, publishing null results) are relevant specifically to the 'subtler causes' rather than to misconduct.",
+    "passageId": "psg_replication_1",
+    "passageBodyHtml": "<p>Over the past decade, large-scale efforts to replicate influential findings in several scientific fields have succeeded only about half the time, prompting concern about the reliability of published research. Some attribute the shortfall to outright misconduct, but most researchers who study the problem point instead to subtler causes: small sample sizes that produce unstable estimates, flexible analytical choices made after data are collected, and a publishing system that rewards novel, striking results over careful, modest ones. Proposed reforms — pre-registering study designs, requiring larger samples, and publishing null results — address these subtler causes directly, though it remains too early to know how widely such reforms will be adopted.</p>",
+    "stem": "It can be inferred from the passage that pre-registering study designs is intended primarily to address which of the subtler causes mentioned?",
+    "choices": [
+      {
+        "id": "A",
+        "label": "small sample sizes producing unstable estimates",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "flexible analytical choices made after data are collected",
+        "isCorrect": true
+      },
+      {
+        "id": "C",
+        "label": "outright misconduct by researchers",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "the high cost of conducting large studies",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "a general lack of interest in replication studies",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Pre-registering a study design commits researchers to their analytical plan before seeing the data, directly countering 'flexible analytical choices made after data are collected' — (B). (A) is better addressed by 'requiring larger samples'; (C) is explicitly downplayed by 'most researchers ... point instead to subtler causes'; (D) and (E) are not discussed.",
+    "assetUrl": null
   }
 ]

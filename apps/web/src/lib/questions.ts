@@ -130,11 +130,18 @@ function buildPractice(
   };
 }
 
-// Assemble the catalog: 2 full-length + 2 verbal practice + 2 quant practice,
-// each drawing from a DISJOINT slice of the bank so no two tests share items.
-// As the bank grows (run content-gen), the same partitioning yields fuller
-// sections automatically; the real GRE's 13-14 per section needs ~55+ items
-// per section type per full-length test.
+// Assemble the catalog: N_FULL full-length + N_VERBAL_PRACTICE verbal-only +
+// N_QUANT_PRACTICE quant-only tests, each drawing from a DISJOINT slice of the
+// bank so no two tests share items. Each bank is partitioned ONCE into
+// (N_FULL + N_practice) shares — flatter than nested halving, so rounding
+// loss doesn't compound and every share gets the largest possible slice.
+// As the bank grows (run content-gen), bump these counts toward the 6
+// full-length + 5 verbal + 5 quant target; the partitioning yields fuller
+// sections automatically as more content becomes available.
+const N_FULL = 3;
+const N_VERBAL_PRACTICE = 3;
+const N_QUANT_PRACTICE = 3;
+
 export async function getTestDefs(): Promise<TestDef[]> {
   const [verbalRaw, quantRaw, prompts] = await Promise.all([
     readSeed("verbal.json"),
@@ -144,22 +151,42 @@ export async function getTestDefs(): Promise<TestDef[]> {
   const verbal = withIds(verbalRaw, "v");
   const quant = withIds(quantRaw, "q");
 
-  // Half the bank feeds the two full-length tests, half the practice tests.
-  const [vFull, vPractice] = partition(verbal, 2);
-  const [qFull, qPractice] = partition(quant, 2);
-  const [vFull1, vFull2] = partition(vFull, 2);
-  const [qFull1, qFull2] = partition(qFull, 2);
-  const [vPrac1, vPrac2] = partition(vPractice, 2);
-  const [qPrac1, qPrac2] = partition(qPractice, 2);
+  const verbalShares = partition(verbal, N_FULL + N_VERBAL_PRACTICE);
+  const quantShares = partition(quant, N_FULL + N_QUANT_PRACTICE);
+  const vFull = verbalShares.slice(0, N_FULL);
+  const vPrac = verbalShares.slice(N_FULL);
+  const qFull = quantShares.slice(0, N_FULL);
+  const qPrac = quantShares.slice(N_FULL);
 
-  return [
-    buildFullLength("full-length-1", "Full-Length Mock Test 1", vFull1, qFull1, prompts[0]),
-    buildFullLength("full-length-2", "Full-Length Mock Test 2", vFull2, qFull2, prompts[1]),
-    buildPractice("verbal-practice-1", "Verbal Practice Test 1", "VERBAL_PRACTICE", vPrac1, 90),
-    buildPractice("verbal-practice-2", "Verbal Practice Test 2", "VERBAL_PRACTICE", vPrac2, 90),
-    buildPractice("quant-practice-1", "Quantitative Practice Test 1", "QUANT_PRACTICE", qPrac1, 105),
-    buildPractice("quant-practice-2", "Quantitative Practice Test 2", "QUANT_PRACTICE", qPrac2, 105),
-  ];
+  const fullLength = vFull.map((vShare, i) =>
+    buildFullLength(
+      `full-length-${i + 1}`,
+      `Full-Length Mock Test ${i + 1}`,
+      vShare,
+      qFull[i],
+      prompts[i],
+    ),
+  );
+  const verbalPractice = vPrac.map((share, i) =>
+    buildPractice(
+      `verbal-practice-${i + 1}`,
+      `Verbal Practice Test ${i + 1}`,
+      "VERBAL_PRACTICE",
+      share,
+      90,
+    ),
+  );
+  const quantPractice = qPrac.map((share, i) =>
+    buildPractice(
+      `quant-practice-${i + 1}`,
+      `Quantitative Practice Test ${i + 1}`,
+      "QUANT_PRACTICE",
+      share,
+      105,
+    ),
+  );
+
+  return [...fullLength, ...verbalPractice, ...quantPractice];
 }
 
 export async function getTestSummaries(): Promise<TestSummary[]> {
