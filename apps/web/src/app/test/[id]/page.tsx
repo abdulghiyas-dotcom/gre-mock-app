@@ -1,9 +1,9 @@
 import { notFound } from "next/navigation";
-import { getTest } from "@/lib/questions";
-import { TestEngine } from "@/components/TestEngine";
+import { getTestDef } from "@/lib/questions";
+import { FullTestEngine } from "@/components/FullTestEngine";
 
 export default async function TestPage({ params }: { params: { id: string } }) {
-  const test = await getTest(params.id);
+  const test = await getTestDef(params.id);
   if (!test) notFound();
-  return <TestEngine test={test} />;
+  return <FullTestEngine test={test} />;
 }

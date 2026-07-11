@@ -1,4 +1,4 @@
-import type { Question, SectionType } from "./types";
+import type { Difficulty, Question } from "./types";
 
 export type AnswerMap = Record<string, string[] | number | null>;
 
@@ -20,27 +20,42 @@ export function rawScore(questions: Question[], answers: AnswerMap): number {
 }
 
 // Section-level adaptive routing (see docs/SCORING_ENGINE.md §1). Thresholds are
-// config, tuned against real distributions once calibration data exists.
+// config, tuned against real distributions once calibration data exists. Scaled
+// here to the section length so the same rule works for small dev sections and
+// full 13-14 question sections.
 export const ADAPTIVE_THRESHOLDS = {
-  VERBAL: { hardMin: 10, mediumMin: 6 },
-  QUANT: { hardMin: 10, mediumMin: 6 },
+  VERBAL: { hardFrac: 0.75, mediumFrac: 0.45 },
+  QUANT: { hardFrac: 0.75, mediumFrac: 0.45 },
 } as const;
 
-export function routeDifficulty(section: "VERBAL" | "QUANT", raw: number): "EASY" | "MEDIUM" | "HARD" {
+export function routeDifficulty(
+  section: "VERBAL" | "QUANT",
+  raw: number,
+  total: number,
+): Difficulty {
   const t = ADAPTIVE_THRESHOLDS[section];
-  if (raw >= t.hardMin) return "HARD";
-  if (raw >= t.mediumMin) return "MEDIUM";
+  const frac = total > 0 ? raw / total : 0;
+  if (frac >= t.hardFrac) return "HARD";
+  if (frac >= t.mediumFrac) return "MEDIUM";
   return "EASY";
 }
 
-// PLACEHOLDER raw -> scaled (130-170) conversion. The real engine uses the
-// ScoreConversionTable keyed by (section, secondSectionDifficulty, rawTotal)
-// per docs/SCORING_ENGINE.md §2. This linear map is a stand-in until the
-// equating curve is seeded and calibrated against user p-values.
-export function scaledScore(section: SectionType, raw: number, total: number): number {
-  if (total === 0) return 130;
-  const fraction = raw / total;
-  return Math.round(130 + fraction * 40); // 130..170
+// Pick the second-section question set from the per-difficulty pools, falling
+// back to the nearest non-empty pool when the routed tier is thin (a content
+// limitation of a small bank, not a logic error).
+export function selectAdaptiveQuestions(
+  pools: Partial<Record<Difficulty, Question[]>>,
+  routed: Difficulty,
+  count: number,
+): { questions: Question[]; administeredLevel: Difficulty } {
+  const order: Difficulty[] = [routed, "MEDIUM", "HARD", "EASY"];
+  for (const level of order) {
+    const pool = pools[level];
+    if (pool && pool.length > 0) {
+      return { questions: pool.slice(0, count > 0 ? count : pool.length), administeredLevel: level };
+    }
+  }
+  return { questions: [], administeredLevel: routed };
 }
 
 export interface SkillBreakdownRow {
