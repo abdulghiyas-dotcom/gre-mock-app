@@ -23,6 +23,66 @@
     "section": "VERBAL",
     "questionType": "TEXT_COMPLETION",
     "skillTag": "TEXT_COMPLETION",
+    "difficulty": "EASY",
+    "difficultyRationale": "Single blank with a direct restatement clue ('even non-experts grasped it immediately') and common vocabulary; no trap distractors in the correct direction.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "The scientist's explanation was so ______ that even non-experts in the audience grasped it immediately.",
+    "choices": [
+      { "id": "A", "label": "lucid", "isCorrect": true },
+      { "id": "B", "label": "convoluted", "isCorrect": false },
+      { "id": "C", "label": "tedious", "isCorrect": false },
+      { "id": "D", "label": "abstract", "isCorrect": false },
+      { "id": "E", "label": "verbose", "isCorrect": false }
+    ],
+    "numericAnswer": null,
+    "explanation": "If non-experts grasped it immediately, the explanation was clear — 'lucid'. 'Convoluted' and 'abstract' would make it harder to grasp; 'tedious' and 'verbose' describe length/tone, not clarity.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "TEXT_COMPLETION",
+    "skillTag": "TEXT_COMPLETION",
+    "difficulty": "EASY",
+    "difficultyRationale": "Straightforward cause-effect clue ('completed the setup without asking a single question') and everyday vocabulary.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "Because the instructions were so ______, the new employees completed the setup without asking a single question.",
+    "choices": [
+      { "id": "A", "label": "clear", "isCorrect": true },
+      { "id": "B", "label": "confusing", "isCorrect": false },
+      { "id": "C", "label": "lengthy", "isCorrect": false },
+      { "id": "D", "label": "technical", "isCorrect": false },
+      { "id": "E", "label": "outdated", "isCorrect": false }
+    ],
+    "numericAnswer": null,
+    "explanation": "Completing setup without questions implies the instructions were easy to follow — 'clear'. 'Confusing' is the opposite; 'lengthy', 'technical', and 'outdated' would tend to prompt questions, not prevent them.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "TEXT_COMPLETION",
+    "skillTag": "TEXT_COMPLETION",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "'Far from being ______' inverts the blank: the reader must supply the opposite of what the sentence describes, and 'bipartisan' is a tempting same-direction trap.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "Far from being ______, the senator's proposal drew support from across the political spectrum, uniting factions that rarely agree.",
+    "choices": [
+      { "id": "A", "label": "divisive", "isCorrect": true },
+      { "id": "B", "label": "popular", "isCorrect": false },
+      { "id": "C", "label": "innovative", "isCorrect": false },
+      { "id": "D", "label": "pragmatic", "isCorrect": false },
+      { "id": "E", "label": "bipartisan", "isCorrect": false }
+    ],
+    "numericAnswer": null,
+    "explanation": "'Far from being ___' means the proposal is the opposite of the blank. Since it united rival factions, it was NOT divisive — so the blank is 'divisive'. 'Bipartisan' describes what the proposal actually was, so 'far from being bipartisan' contradicts the sentence.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "TEXT_COMPLETION",
+    "skillTag": "TEXT_COMPLETION",
     "difficulty": "HARD",
     "difficultyRationale": "Two-blank item whose blanks are interdependent: the reader must infer that an 'arbitrary' decision is hard to 'justify'. Blank options are encoded as 'i-*' (blank 1) and 'ii-*' (blank 2), three per blank as on the real GRE.",
     "passageId": null,
@@ -37,7 +97,31 @@
       { "id": "ii-F", "label": "exaggerate", "isCorrect": false }
     ],
     "numericAnswer": null,
-    "explanation": "The word 'struggled' plus 'even its staunchest supporters' implies the decision was hard to defend; a decision that is 'arbitrary' (blank i) is exactly what supporters would struggle to 'justify' (blank ii). 'Defensible'/'transparent' would make justification easy, contradicting 'struggled'. 'Conceal' and 'exaggerate' do not match a public defense of a decision.",
+    "explanation": "'Struggled' plus 'even its staunchest supporters' implies the decision was hard to defend; an 'arbitrary' decision (blank i) is exactly what supporters would struggle to 'justify' (blank ii). 'Defensible'/'transparent' would make justification easy, contradicting 'struggled'.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "TEXT_COMPLETION",
+    "skillTag": "TEXT_COMPLETION",
+    "difficulty": "HARD",
+    "difficultyRationale": "Three interdependent blanks requiring a chain of inference about an unpersuaded researcher; each blank has a plausible in-context distractor.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "Although her colleagues regarded the results as (i)______, she remained (ii)______, insisting that a single unreplicated experiment could not (iii)______ decades of established theory.",
+    "choices": [
+      { "id": "i-A", "label": "conclusive", "isCorrect": true },
+      { "id": "i-B", "label": "preliminary", "isCorrect": false },
+      { "id": "i-C", "label": "fraudulent", "isCorrect": false },
+      { "id": "ii-D", "label": "skeptical", "isCorrect": true },
+      { "id": "ii-E", "label": "persuaded", "isCorrect": false },
+      { "id": "ii-F", "label": "indifferent", "isCorrect": false },
+      { "id": "iii-G", "label": "overturn", "isCorrect": true },
+      { "id": "iii-H", "label": "corroborate", "isCorrect": false },
+      { "id": "iii-I", "label": "explain", "isCorrect": false }
+    ],
+    "numericAnswer": null,
+    "explanation": "'Although' sets up a contrast: colleagues found the results 'conclusive' (i), but she stayed 'skeptical' (ii) because one experiment could not 'overturn' (iii) established theory. 'Persuaded' contradicts her insistence; 'corroborate'/'explain' don't fit 'could not ___ decades of theory' after voicing doubt.",
     "assetUrl": null
   },
   {
@@ -58,7 +142,49 @@
       { "id": "F", "label": "eloquent", "isCorrect": false }
     ],
     "numericAnswer": null,
-    "explanation": "'Delivered without any attempt to soften their bluntness' calls for a word meaning frank/direct. 'Candid' and 'forthright' are synonyms and both produce sentences alike in meaning. 'Tactful' and 'evasive' contradict bluntness; 'verbose' (wordy) and 'eloquent' (fluent) are unrelated to frankness and do not pair with each other.",
+    "explanation": "'Delivered without any attempt to soften their bluntness' calls for a word meaning frank/direct. 'Candid' and 'forthright' are synonyms and both produce sentences alike in meaning. 'Tactful'/'evasive' contradict bluntness; 'verbose'/'eloquent' are unrelated and do not pair.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "SENTENCE_EQUIVALENCE",
+    "skillTag": "SENTENCE_EQUIVALENCE",
+    "difficulty": "EASY",
+    "difficultyRationale": "Explicit clue ('nearly every critic praising') points clearly to positive words; the synonym pair is high-frequency.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "The film received ______ reviews, with nearly every critic praising its originality.",
+    "choices": [
+      { "id": "A", "label": "glowing", "isCorrect": true },
+      { "id": "B", "label": "mixed", "isCorrect": false },
+      { "id": "C", "label": "enthusiastic", "isCorrect": true },
+      { "id": "D", "label": "scathing", "isCorrect": false },
+      { "id": "E", "label": "tepid", "isCorrect": false },
+      { "id": "F", "label": "cursory", "isCorrect": false }
+    ],
+    "numericAnswer": null,
+    "explanation": "If nearly every critic praised the film, the reviews were very positive. 'Glowing' and 'enthusiastic' are synonyms that both fit. 'Mixed', 'scathing', and 'tepid' are not positive; 'cursory' (superficial) is unrelated.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "SENTENCE_EQUIVALENCE",
+    "skillTag": "SENTENCE_EQUIVALENCE",
+    "difficulty": "HARD",
+    "difficultyRationale": "Low-frequency vocabulary and a tempting distractor ('arcane') suggested by 'erudition'; the correct pair hinges on the clause about discredited assumptions.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "Though the treatise was celebrated for its erudition, specialists found its central argument surprisingly ______, resting on assumptions few in the field still accepted.",
+    "choices": [
+      { "id": "A", "label": "specious", "isCorrect": true },
+      { "id": "B", "label": "rigorous", "isCorrect": false },
+      { "id": "C", "label": "tenuous", "isCorrect": true },
+      { "id": "D", "label": "cogent", "isCorrect": false },
+      { "id": "E", "label": "arcane", "isCorrect": false },
+      { "id": "F", "label": "profound", "isCorrect": false }
+    ],
+    "numericAnswer": null,
+    "explanation": "'Resting on assumptions few still accepted' signals a weakly grounded argument. 'Specious' (superficially plausible but flawed) and 'tenuous' (flimsy) both convey that and are alike in meaning. 'Rigorous', 'cogent', and 'profound' are opposites; 'arcane' (obscure) is a trap prompted by 'erudition' but does not mean poorly founded.",
     "assetUrl": null
   },
   {
@@ -78,7 +204,7 @@
       { "id": "E", "label": "cast doubt on the reliability of genomic survey methods", "isCorrect": false }
     ],
     "numericAnswer": null,
-    "explanation": "The passage lays out the accepted two-partner model, then presents genomic evidence of a third partner that 'complicates the tidy binary' — a model-complicated-by-new-evidence structure, so (B). (A) is never claimed. (C) and (D) are details, not the purpose. (E) reverses the passage, which relies on the surveys rather than doubting them.",
+    "explanation": "The passage lays out the accepted two-partner model, then presents genomic evidence of a third partner that 'complicates the tidy binary' — a model-complicated-by-new-evidence structure, so (B). (A) is never claimed; (C) and (D) are details; (E) reverses the passage, which relies on the surveys.",
     "assetUrl": null
   },
   {
@@ -98,7 +224,47 @@
       { "id": "E", "label": "genetically identical to the primary fungal partner", "isCorrect": false }
     ],
     "numericAnswer": null,
-    "explanation": "The passage states the second fungus's 'consistent presence across geographically distant samples suggests it is integral rather than incidental' — i.e., a functional component, so (B). (D) contradicts 'geographically distant'. (A), (C), and (E) assert facts the passage never provides; it explicitly says the fungus's 'precise contribution remains uncertain'.",
+    "explanation": "The passage says the second fungus's 'consistent presence across geographically distant samples suggests it is integral rather than incidental' — a functional component, so (B). (D) contradicts 'geographically distant'; (A), (C), (E) assert facts the passage never provides.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "READING_COMPREHENSION",
+    "skillTag": "RC_MAIN_IDEA",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Main-purpose question over a second original passage; correct answer captures the 'additional factor' structure, distractors overstate or misassign the argument.",
+    "passageId": "psg_heat_1",
+    "passageBodyHtml": "<p>Cities are consistently warmer than the surrounding countryside, a phenomenon known as the urban heat island. The conventional explanation attributes the difference to dark pavement and roofing that absorb solar radiation by day and release it slowly at night. Yet this account alone cannot explain why the temperature gap often peaks in winter, when solar input is lowest. Researchers now point to a second driver: the sheer density of heat-generating activity — heating systems, vehicles, and machinery — concentrated in urban cores. Because this waste heat is released regardless of season, it may sustain the temperature gap precisely when the solar mechanism is weakest.</p>",
+    "stem": "The primary purpose of the passage is to",
+    "choices": [
+      { "id": "A", "label": "argue that dark pavement has no effect on urban temperatures", "isCorrect": false },
+      { "id": "B", "label": "introduce an additional factor that helps explain a known phenomenon", "isCorrect": true },
+      { "id": "C", "label": "compare winter and summer temperatures in rural areas", "isCorrect": false },
+      { "id": "D", "label": "propose a specific method for reducing the urban heat island", "isCorrect": false },
+      { "id": "E", "label": "dispute the existence of the urban heat island", "isCorrect": false }
+    ],
+    "numericAnswer": null,
+    "explanation": "The passage accepts the heat island and its conventional cause, notes a gap the cause can't explain (winter peak), then adds waste heat as a second driver — introducing an additional explanatory factor, so (B). (A) overstates; the passage keeps pavement as a real cause. (C), (D), (E) are unsupported.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "READING_COMPREHENSION",
+    "skillTag": "RC_STRUCTURE",
+    "difficulty": "HARD",
+    "difficultyRationale": "Requires identifying WHY the conventional explanation is called inadequate — a structural/logical read tied to the 'peaks in winter' clause, with distractors that misstate the passage's reasoning.",
+    "passageId": "psg_heat_1",
+    "passageBodyHtml": "<p>Cities are consistently warmer than the surrounding countryside, a phenomenon known as the urban heat island. The conventional explanation attributes the difference to dark pavement and roofing that absorb solar radiation by day and release it slowly at night. Yet this account alone cannot explain why the temperature gap often peaks in winter, when solar input is lowest. Researchers now point to a second driver: the sheer density of heat-generating activity — heating systems, vehicles, and machinery — concentrated in urban cores. Because this waste heat is released regardless of season, it may sustain the temperature gap precisely when the solar mechanism is weakest.</p>",
+    "stem": "According to the passage, the conventional explanation is inadequate primarily because it",
+    "choices": [
+      { "id": "A", "label": "overstates the role of vehicles and machinery", "isCorrect": false },
+      { "id": "B", "label": "cannot account for the timing of the largest temperature differences", "isCorrect": true },
+      { "id": "C", "label": "applies only to cities in warm climates", "isCorrect": false },
+      { "id": "D", "label": "ignores the cooling effect of the surrounding countryside", "isCorrect": false },
+      { "id": "E", "label": "relies on measurements that are now outdated", "isCorrect": false }
+    ],
+    "numericAnswer": null,
+    "explanation": "The passage faults the solar-absorption account because it 'cannot explain why the temperature gap often peaks in winter, when solar input is lowest' — a timing problem, so (B). (A) inverts the passage (waste heat is the new addition, not overstated); (C), (D), (E) are never stated.",
     "assetUrl": null
   }
 ]

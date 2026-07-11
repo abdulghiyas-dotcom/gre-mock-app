@@ -1,6 +1,45 @@
 [
   {
     "section": "QUANT",
+    "questionType": "MULTIPLE_CHOICE_SINGLE",
+    "skillTag": "ARITHMETIC",
+    "difficulty": "EASY",
+    "difficultyRationale": "Single-step percent-of computation with round numbers; distractors reflect common off-by-a-factor slips.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "What is 15% of 240?",
+    "choices": [
+      { "id": "A", "label": "24", "isCorrect": false },
+      { "id": "B", "label": "30", "isCorrect": false },
+      { "id": "C", "label": "36", "isCorrect": true },
+      { "id": "D", "label": "40", "isCorrect": false },
+      { "id": "E", "label": "48", "isCorrect": false }
+    ],
+    "numericAnswer": null,
+    "explanation": "15% of 240 = 0.15 × 240 = 36, so (C). 24 is 10% of 240; 48 is 20%.",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "QUANT_COMPARISON",
+    "skillTag": "QUANT_COMPARISON_LOGIC",
+    "difficulty": "EASY",
+    "difficultyRationale": "Direct evaluation of two small powers; no hidden cases.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "Quantity A: 2^5\nQuantity B: 5^2",
+    "choices": [
+      { "id": "A", "label": "Quantity A is greater", "isCorrect": true },
+      { "id": "B", "label": "Quantity B is greater", "isCorrect": false },
+      { "id": "C", "label": "The two quantities are equal", "isCorrect": false },
+      { "id": "D", "label": "The relationship cannot be determined from the information given", "isCorrect": false }
+    ],
+    "numericAnswer": null,
+    "explanation": "2^5 = 32 and 5^2 = 25. Since 32 > 25, Quantity A is greater: (A).",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
     "questionType": "QUANT_COMPARISON",
     "skillTag": "QUANT_COMPARISON_LOGIC",
     "difficulty": "MEDIUM",
@@ -39,6 +78,25 @@
   },
   {
     "section": "QUANT",
+    "questionType": "QUANT_COMPARISON",
+    "skillTag": "QUANT_COMPARISON_LOGIC",
+    "difficulty": "HARD",
+    "difficultyRationale": "Squaring is not monotonic across signs; with only a < b and both nonzero, the comparison of squares is indeterminate. Rewards testing both same-sign and opposite-sign cases.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "a and b are nonzero numbers and a < b.\n\nQuantity A: a^2\nQuantity B: b^2",
+    "choices": [
+      { "id": "A", "label": "Quantity A is greater", "isCorrect": false },
+      { "id": "B", "label": "Quantity B is greater", "isCorrect": false },
+      { "id": "C", "label": "The two quantities are equal", "isCorrect": false },
+      { "id": "D", "label": "The relationship cannot be determined from the information given", "isCorrect": true }
+    ],
+    "numericAnswer": null,
+    "explanation": "a < b constrains order but not magnitude. If a = -3, b = 1 then a^2 = 9 > 1 = b^2 (A greater); if a = 1, b = 2 then a^2 = 1 < 4 = b^2 (B greater). Different cases give different results, so (D).",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
     "questionType": "MULTIPLE_CHOICE_SINGLE",
     "skillTag": "ALGEBRA",
     "difficulty": "MEDIUM",
@@ -60,9 +118,29 @@
   {
     "section": "QUANT",
     "questionType": "MULTIPLE_CHOICE_SINGLE",
+    "skillTag": "ALGEBRA",
+    "difficulty": "HARD",
+    "difficultyRationale": "Requires translating a Diophantine-style constraint (positive integers) into a parity condition and bounding the range — multi-step counting rather than a single solve.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "If x and y are positive integers and 2x + 3y = 24, how many possible values of x are there?",
+    "choices": [
+      { "id": "A", "label": "2", "isCorrect": false },
+      { "id": "B", "label": "3", "isCorrect": true },
+      { "id": "C", "label": "4", "isCorrect": false },
+      { "id": "D", "label": "5", "isCorrect": false },
+      { "id": "E", "label": "6", "isCorrect": false }
+    ],
+    "numericAnswer": null,
+    "explanation": "x = (24 - 3y)/2 must be a positive integer, so 24 - 3y must be even and positive. 24 is even, so 3y must be even, meaning y is even; and 24 - 3y > 0 means y < 8. Even positive y under 8 are 2, 4, 6, giving x = 9, 6, 3 — three values, so (B).",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "MULTIPLE_CHOICE_SINGLE",
     "skillTag": "GEOMETRY",
     "difficulty": "MEDIUM",
-    "difficultyRationale": "Combines the distance formula (to find the radius) with the circle-area formula; distractors reflect using the radius as the area or using diameter instead of radius.",
+    "difficultyRationale": "Combines the distance formula (to find the radius) with the circle-area formula; distractors reflect using the diameter as the radius.",
     "passageId": null,
     "passageBodyHtml": null,
     "stem": "In the xy-plane, a circle has its center at the origin (0, 0) and passes through the point (3, 4). What is the area of the circle?",
@@ -79,6 +157,26 @@
   },
   {
     "section": "QUANT",
+    "questionType": "MULTIPLE_CHOICE_SINGLE",
+    "skillTag": "GEOMETRY",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Requires setting up and solving a perimeter/area system; distractors include the shorter side and near-miss factor pairs.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "A rectangle has a perimeter of 34 and an area of 60. What is the length of its longer side?",
+    "choices": [
+      { "id": "A", "label": "10", "isCorrect": false },
+      { "id": "B", "label": "11", "isCorrect": false },
+      { "id": "C", "label": "12", "isCorrect": true },
+      { "id": "D", "label": "13", "isCorrect": false },
+      { "id": "E", "label": "15", "isCorrect": false }
+    ],
+    "numericAnswer": null,
+    "explanation": "Perimeter 34 gives length + width = 17; area gives length × width = 60. The two numbers that sum to 17 and multiply to 60 are 12 and 5 (roots of t^2 - 17t + 60 = 0). The longer side is 12: (C).",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
     "questionType": "NUMERIC_ENTRY",
     "skillTag": "ARITHMETIC",
     "difficulty": "MEDIUM",
@@ -88,7 +186,41 @@
     "stem": "A store offers a 20% discount on a jacket originally priced at $80, then adds 5% sales tax to the discounted price. What is the final price, in dollars?",
     "choices": [],
     "numericAnswer": 67.2,
-    "explanation": "Discounted price = 80 × (1 - 0.20) = 80 × 0.80 = 64. Final price with tax = 64 × 1.05 = 67.20. Applying the tax to the original $80 first is the common trap and gives a different result.",
+    "explanation": "Discounted price = 80 × (1 - 0.20) = 80 × 0.80 = 64. Final price with tax = 64 × 1.05 = 67.20. Applying tax to the original $80 first is the common trap and gives a different result.",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "NUMERIC_ENTRY",
+    "skillTag": "WORD_PROBLEMS",
+    "difficulty": "HARD",
+    "difficultyRationale": "Mixture problem requiring a correct concentration equation with the added volume appearing on both sides; a common error omits the added acid from the total.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "A 20-liter mixture is 40% acid. How many liters of pure acid must be added to make the mixture 60% acid?",
+    "choices": [],
+    "numericAnswer": 10,
+    "explanation": "Let x be the liters of pure acid added. Acid present: 0.40 × 20 + x = 8 + x. Total volume: 20 + x. Require (8 + x)/(20 + x) = 0.60, so 8 + x = 12 + 0.6x, giving 0.4x = 4 and x = 10. Check: 18 acid / 30 total = 0.60.",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "MULTIPLE_CHOICE_SINGLE",
+    "skillTag": "DATA_INTERPRETATION",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Two-step read: convert a percentage to counts, then take a difference; distractors include the individual counts.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "In a survey of 200 people, 45% preferred tea and the rest preferred coffee. How many more people preferred coffee than tea?",
+    "choices": [
+      { "id": "A", "label": "10", "isCorrect": false },
+      { "id": "B", "label": "20", "isCorrect": true },
+      { "id": "C", "label": "30", "isCorrect": false },
+      { "id": "D", "label": "40", "isCorrect": false },
+      { "id": "E", "label": "90", "isCorrect": false }
+    ],
+    "numericAnswer": null,
+    "explanation": "Tea: 45% of 200 = 90. Coffee: the rest = 110. Difference = 110 - 90 = 20, so (B). Choice (E) is the tea count itself.",
     "assetUrl": null
   },
   {
@@ -108,7 +240,7 @@
       { "id": "E", "label": "90", "isCorrect": false }
     ],
     "numericAnswer": null,
-    "explanation": "Growth from 2021 (45) to 2022 (60) is (60 - 45) / 45 = 15/45 = 33.33%. Applying the same rate to 2022: 60 × (1 + 1/3) = 60 × 4/3 = 80: (C). Choice (B) = 75 comes from adding the absolute increase (15) again instead of the percent.",
+    "explanation": "Growth from 2021 (45) to 2022 (60) is (60 - 45)/45 = 15/45 = 33.33%. Applying the same rate to 2022: 60 × (1 + 1/3) = 60 × 4/3 = 80: (C). Choice (B) = 75 comes from adding the absolute increase (15) again instead of the percent.",
     "assetUrl": null
   }
 ]
