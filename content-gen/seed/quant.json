@@ -1904,5 +1904,343 @@
     "numericAnswer": null,
     "explanation": "Notebooks: 150 × $3 = $450. Pens: 80 × $1.50 = $120. Total: $450 + $120 = $570: (C). Choice (B) = 450 is only the notebook cost.",
     "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "MULTIPLE_CHOICE_SINGLE",
+    "skillTag": "ARITHMETIC",
+    "difficulty": "EASY",
+    "difficultyRationale": "Single-step LCM identification with small numbers.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "What is the least common multiple of 6 and 8?",
+    "choices": [
+      {
+        "id": "A",
+        "label": "14",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "24",
+        "isCorrect": true
+      },
+      {
+        "id": "C",
+        "label": "36",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "48",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "2",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Multiples of 6: 6, 12, 18, 24. Multiples of 8: 8, 16, 24. The least common multiple is 24: (B). Choice (E) = 2 is the greatest common factor, not the LCM.",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "MULTIPLE_CHOICE_SINGLE",
+    "skillTag": "GEOMETRY",
+    "difficulty": "EASY",
+    "difficultyRationale": "Direct application of the rectangular-solid volume formula.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "A rectangular box has length 5, width 4, and height 3. What is its volume?",
+    "choices": [
+      {
+        "id": "A",
+        "label": "12",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "20",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "35",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "60",
+        "isCorrect": true
+      },
+      {
+        "id": "E",
+        "label": "94",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Volume = length × width × height = 5 × 4 × 3 = 60: (D). Choice (E) = 94 mistakenly adds surface-area-style terms instead of multiplying.",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "QUANT_COMPARISON",
+    "skillTag": "QUANT_COMPARISON_LOGIC",
+    "difficulty": "EASY",
+    "difficultyRationale": "Direct comparison of two percentages of the same base.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "Quantity A: 40 percent of 150\nQuantity B: 55 percent of 100",
+    "choices": [
+      {
+        "id": "A",
+        "label": "Quantity A is greater",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "Quantity B is greater",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "The two quantities are equal",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "The relationship cannot be determined from the information given",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "40% of 150 = 60. 55% of 100 = 55. Since 60 > 55, Quantity A is greater: (A).",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "NUMERIC_ENTRY",
+    "skillTag": "ALGEBRA",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Two-variable system requiring substitution; the numbers are chosen so a hasty guess-and-check is error-prone.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "If 2a + b = 17 and a - b = 1, what is the value of a?",
+    "choices": [],
+    "numericAnswer": 6,
+    "explanation": "From a - b = 1, b = a - 1. Substitute into 2a + b = 17: 2a + (a - 1) = 17, so 3a - 1 = 17, giving 3a = 18 and a = 6. (Check: b = 5, and 2(6) + 5 = 17. ✓)",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "MULTIPLE_CHOICE_SINGLE",
+    "skillTag": "WORD_PROBLEMS",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Requires converting a rate given per hour into a different time unit and scaling to a new quantity; distractors reflect unit-conversion slips.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "A printer produces 300 pages every 15 minutes. At this rate, how many pages does it produce in 2 hours?",
+    "choices": [
+      {
+        "id": "A",
+        "label": "1,200",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "2,400",
+        "isCorrect": true
+      },
+      {
+        "id": "C",
+        "label": "3,600",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "4,500",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "6,000",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "2 hours = 120 minutes = 8 periods of 15 minutes. Pages = 8 × 300 = 2,400: (B). Choice (A) = 1,200 mistakenly uses 4 periods (1 hour) instead of 8.",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "MULTIPLE_CHOICE_SINGLE",
+    "skillTag": "GEOMETRY",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Requires recognizing similar triangles from parallel lines and setting up a proportion; distractors reflect an inverted or additive ratio.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "In triangle ABC, a line segment DE is drawn parallel to side BC, where D is on AB and E is on AC. If AD = 4, DB = 2, and AE = 6, what is the length of EC?",
+    "choices": [
+      {
+        "id": "A",
+        "label": "2",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "3",
+        "isCorrect": true
+      },
+      {
+        "id": "C",
+        "label": "4",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "8",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "9",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Since DE is parallel to BC, triangle ADE is similar to triangle ABC, giving AD/DB = AE/EC. So 4/2 = 6/EC, meaning EC = 6 × 2/4 = 3: (B).",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "MULTIPLE_CHOICE_SINGLE",
+    "skillTag": "DATA_INTERPRETATION",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Requires reconstructing a total from a stated mean and solving for a missing value; a clean single-concept average-reversal item.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "A set of 6 test scores has a mean of 77. Five of the scores are 65, 70, 80, 85, and 90. What is the sixth score?",
+    "choices": [
+      {
+        "id": "A",
+        "label": "68",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "72",
+        "isCorrect": true
+      },
+      {
+        "id": "C",
+        "label": "75",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "78",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "82",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Six scores averaging 77 sum to 6 × 77 = 462. The five known scores sum to 65 + 70 + 80 + 85 + 90 = 390. The sixth score is 462 - 390 = 72: (B).",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "MULTIPLE_CHOICE_SINGLE",
+    "skillTag": "ALGEBRA",
+    "difficulty": "HARD",
+    "difficultyRationale": "Requires factoring a quadratic that does not factor with integer roots at first glance, testing the quadratic formula or completing the square rather than guess-and-check.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "What is the sum of the two solutions to the equation x^2 - 6x - 7 = 0 ?",
+    "choices": [
+      {
+        "id": "A",
+        "label": "-7",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "-1",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "1",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "6",
+        "isCorrect": true
+      },
+      {
+        "id": "E",
+        "label": "7",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "x^2 - 6x - 7 factors as (x - 7)(x + 1) = 0, giving solutions x = 7 and x = -1. Their sum is 7 + (-1) = 6: (D). (This also follows directly from the sum-of-roots formula -b/a = 6/1 = 6.)",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "NUMERIC_ENTRY",
+    "skillTag": "ARITHMETIC",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Requires finding a number from a stated fractional relationship to another unknown quantity — reverse fraction problem.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "Two-thirds of a number is 48. What is the number?",
+    "choices": [],
+    "numericAnswer": 72,
+    "explanation": "If (2/3)x = 48, then x = 48 × (3/2) = 72.",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "QUANT_COMPARISON",
+    "skillTag": "QUANT_COMPARISON_LOGIC",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Requires recognizing that percent-of relationships are not symmetric: 'A is x% more than B' does not mean 'B is x% less than A' by the same number.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "y is 25 percent greater than x, where x is positive.\n\nQuantity A: The percent by which x is less than y\nQuantity B: 25 percent",
+    "choices": [
+      {
+        "id": "A",
+        "label": "Quantity A is greater",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "Quantity B is greater",
+        "isCorrect": true
+      },
+      {
+        "id": "C",
+        "label": "The two quantities are equal",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "The relationship cannot be determined from the information given",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Let x = 100, so y = 125. The percent by which x is less than y is (125-100)/125 = 25/125 = 20 percent, not 25 percent, because percent-less-than uses y (the larger value) as the base while percent-greater-than used x. Since 20% < 25%, Quantity B is greater: (B).",
+    "assetUrl": null
   }
 ]

@@ -2338,5 +2338,385 @@
     "numericAnswer": null,
     "explanation": "The passage pairs the angle (direction) and the duration (distance) as two features each conveying different information — (B). No comparison to another species (A), no history (C), no competing theories (D), and no statistics (E) appear.",
     "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "TEXT_COMPLETION",
+    "skillTag": "TEXT_COMPLETION",
+    "difficulty": "EASY",
+    "difficultyRationale": "Direct clue ('refused to change his opinion despite overwhelming evidence') with everyday vocabulary.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "Despite overwhelming evidence to the contrary, he remained ______, refusing to change his opinion.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "stubborn",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "flexible",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "curious",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "apologetic",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "forgetful",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Refusing to change one's opinion despite evidence describes 'stubborn'. 'Flexible' and 'curious' would allow reconsideration; 'apologetic' and 'forgetful' don't fit refusing to change one's mind.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "TEXT_COMPLETION",
+    "skillTag": "TEXT_COMPLETION",
+    "difficulty": "EASY",
+    "difficultyRationale": "Direct restatement clue ('everyone could hear her from the back row without a microphone') and common vocabulary.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "The actress's voice was remarkably ______, allowing everyone in the back row to hear her without a microphone.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "resonant",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "faint",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "melodic",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "hoarse",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "muffled",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Being heard from the back row without a microphone implies a powerful, carrying voice — 'resonant'. 'Faint' and 'muffled' are opposites; 'melodic' and 'hoarse' describe quality, not carrying power.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "TEXT_COMPLETION",
+    "skillTag": "TEXT_COMPLETION",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "'Not merely X but truly Y' escalation structure; 'competent' is a plausible-but-insufficient trap given the intensifying 'truly'.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "The young violinist's performance was not merely competent but truly ______, drawing a standing ovation from an audience notoriously difficult to impress.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "virtuosic",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "adequate",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "forgettable",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "tentative",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "brief",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "'Not merely competent but truly ___' escalates beyond adequacy to something exceptional — 'virtuosic' — matching a standing ovation from a hard-to-impress audience. 'Adequate' repeats 'competent' rather than escalating; 'forgettable', 'tentative', and 'brief' contradict a standing ovation.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "TEXT_COMPLETION",
+    "skillTag": "TEXT_COMPLETION",
+    "difficulty": "HARD",
+    "difficultyRationale": "Two interdependent blanks describing a diplomat whose public calm masks private worry; each blank has a plausible same-register distractor.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "In public the ambassador maintained an air of (i)______, but aides close to her later revealed that she had been (ii)______ about the summit's chances from the very first day.",
+    "choices": [
+      {
+        "id": "i-A",
+        "label": "composure",
+        "isCorrect": true
+      },
+      {
+        "id": "i-B",
+        "label": "agitation",
+        "isCorrect": false
+      },
+      {
+        "id": "i-C",
+        "label": "indifference",
+        "isCorrect": false
+      },
+      {
+        "id": "ii-D",
+        "label": "apprehensive",
+        "isCorrect": true
+      },
+      {
+        "id": "ii-E",
+        "label": "confident",
+        "isCorrect": false
+      },
+      {
+        "id": "ii-F",
+        "label": "unaware",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "'In public ... but ... later revealed' sets up a public/private contrast: the public face was 'composure' (i), while privately she was 'apprehensive' (ii) about the summit. 'Agitation' would show, contradicting a calm public image; 'confident' and 'unaware' contradict private worry revealed by aides.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "SENTENCE_EQUIVALENCE",
+    "skillTag": "SENTENCE_EQUIVALENCE",
+    "difficulty": "EASY",
+    "difficultyRationale": "Clear cause-effect clue (customers waited months for the item) and a high-frequency synonym pair.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "Demand for the new phone was so ______ that customers waited months for their orders to arrive.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "overwhelming",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "modest",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "intense",
+        "isCorrect": true
+      },
+      {
+        "id": "D",
+        "label": "predictable",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "seasonal",
+        "isCorrect": false
+      },
+      {
+        "id": "F",
+        "label": "regional",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Months-long waits imply very high demand: 'overwhelming' and 'intense' are synonyms that both fit. 'Modest' is the opposite; 'predictable', 'seasonal', and 'regional' don't describe intensity and don't pair with each other.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "SENTENCE_EQUIVALENCE",
+    "skillTag": "SENTENCE_EQUIVALENCE",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "'Rather than settling the dispute, only ___ it' requires a worsening verb; one clean pair among tempting neutral distractors.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "Rather than settling the dispute, the arbitrator's ruling only ______ tensions between the two companies.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "inflamed",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "eased",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "exacerbated",
+        "isCorrect": true
+      },
+      {
+        "id": "D",
+        "label": "clarified",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "documented",
+        "isCorrect": false
+      },
+      {
+        "id": "F",
+        "label": "postponed",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "'Rather than settling ... only ___' signals the ruling made things worse: 'inflamed' and 'exacerbated' are synonyms meaning worsened and both fit. 'Eased' and 'clarified' are the opposite direction; 'documented' and 'postponed' don't describe worsening tension.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "SENTENCE_EQUIVALENCE",
+    "skillTag": "SENTENCE_EQUIVALENCE",
+    "difficulty": "HARD",
+    "difficultyRationale": "Low-frequency pair ('inscrutable'/'impenetrable') describing an unreadable expression; 'somber' and 'grim' are tempting mood-words that don't mean unreadable.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "Throughout the negotiations, the diplomat's expression remained ______, giving her counterparts no clue as to which proposals she found acceptable.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "inscrutable",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "somber",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "impenetrable",
+        "isCorrect": true
+      },
+      {
+        "id": "D",
+        "label": "grim",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "animated",
+        "isCorrect": false
+      },
+      {
+        "id": "F",
+        "label": "sincere",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "An expression giving 'no clue' as to her thinking is unreadable: 'inscrutable' and 'impenetrable' both mean impossible to interpret and fit equivalently. 'Somber' and 'grim' describe mood, which could still be legible; 'animated' and 'sincere' contradict giving no clues.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "READING_COMPREHENSION",
+    "skillTag": "RC_MAIN_IDEA",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Main-purpose question over an original economics-flavored passage that reframes a puzzle; the strongest distractor claims the puzzle is fully resolved.",
+    "passageId": "psg_returns_1",
+    "passageBodyHtml": "<p>Classical economic models predict that workers will move toward regions offering higher wages until pay levels converge. Yet wage gaps between certain regions have persisted for decades despite ample opportunity to relocate. One explanation, once dominant, held that moving costs — the expense of relocating a household — were simply too high to bear. Newer research complicates this picture: even when direct relocation costs are subsidized, migration rates barely rise, suggesting that non-monetary factors, such as attachment to family networks and local institutions, may weigh as heavily as wages in workers' decisions. The persistence of regional wage gaps, in other words, may reflect not market failure but preferences the classical model never accounted for.</p>",
+    "stem": "The primary purpose of the passage is to",
+    "choices": [
+      {
+        "id": "A",
+        "label": "prove that the classical economic model of migration is entirely incorrect",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "offer an alternative explanation for a puzzle left incomplete by an earlier account",
+        "isCorrect": true
+      },
+      {
+        "id": "C",
+        "label": "argue that governments should subsidize relocation costs",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "describe the history of regional wage disparities",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "criticize the methodology of the newer research described",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "The passage presents the moving-costs explanation, shows evidence that undercuts it (subsidized costs don't raise migration much), and proposes non-monetary preferences as an additional factor — offering an alternative explanation, so (B). (A) overstates; the classical model isn't declared 'entirely incorrect', just incomplete. (C), (D), (E) are not the passage's purpose.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "READING_COMPREHENSION",
+    "skillTag": "RC_INFERENCE",
+    "difficulty": "HARD",
+    "difficultyRationale": "Requires inferring what the subsidy experiment shows about the ORIGINAL moving-costs theory specifically, distinguishing it from the newer theory the passage favors.",
+    "passageId": "psg_returns_1",
+    "passageBodyHtml": "<p>Classical economic models predict that workers will move toward regions offering higher wages until pay levels converge. Yet wage gaps between certain regions have persisted for decades despite ample opportunity to relocate. One explanation, once dominant, held that moving costs — the expense of relocating a household — were simply too high to bear. Newer research complicates this picture: even when direct relocation costs are subsidized, migration rates barely rise, suggesting that non-monetary factors, such as attachment to family networks and local institutions, may weigh as heavily as wages in workers' decisions. The persistence of regional wage gaps, in other words, may reflect not market failure but preferences the classical model never accounted for.</p>",
+    "stem": "It can be inferred that the finding that subsidized relocation barely raises migration rates most directly",
+    "choices": [
+      {
+        "id": "A",
+        "label": "confirms that moving costs are the primary barrier to migration",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "undermines the explanation that moving costs alone account for persistent wage gaps",
+        "isCorrect": true
+      },
+      {
+        "id": "C",
+        "label": "proves that workers are unaware of wage differences between regions",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "shows that government subsidies are poorly designed",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "demonstrates that wage gaps will eventually disappear on their own",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "If subsidizing the very cost the theory blames doesn't raise migration much, that finding weakens the moving-costs-alone explanation — (B), which the passage explicitly frames as 'complicating this picture'. (A) reverses the point; (C), (D), (E) go beyond what the passage supports.",
+    "assetUrl": null
   }
 ]
