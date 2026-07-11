@@ -16,6 +16,7 @@ A web platform that replicates the official ETS GRE General Test experience: sec
 | [`docs/DATABASE_SCHEMA.md`](docs/DATABASE_SCHEMA.md) | Full relational schema (question bank, attempts, responses, scoring) |
 | [`docs/SCORING_ENGINE.md`](docs/SCORING_ENGINE.md) | Section-level adaptive routing + raw→scaled (130–170) conversion |
 | [`docs/UI_COMPONENTS.md`](docs/UI_COMPONENTS.md) | Component tree that clones the ETS POWERPREP-style interface |
+| [`docs/CONTENT_GENERATION.md`](docs/CONTENT_GENERATION.md) | LLM question-generation pipeline (generate → solve-blind → critique → calibrate) |
 | [`docs/ROADMAP.md`](docs/ROADMAP.md) | Phased build plan, MVP → launch |
 
 ## Status
