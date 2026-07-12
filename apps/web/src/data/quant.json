@@ -7490,5 +7490,392 @@
     "numericAnswer": null,
     "explanation": "a/b = 0.75 = 3/4, so a must be a multiple of 3 with a corresponding integer b = 4a/3. a = 3 gives b = 4; a = 6 gives b = 8; a = 9 gives b = 12 — all valid. a = 4 gives b = 16/3 (not an integer); a = 8 gives b = 32/3 (not an integer). Correct selections: A, C, E.",
     "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "MULTIPLE_CHOICE_SINGLE",
+    "skillTag": "ARITHMETIC",
+    "difficulty": "EASY",
+    "difficultyRationale": "Single-step percent-of computation with round numbers.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "What is 40% of 150?",
+    "choices": [
+      {
+        "id": "A",
+        "label": "40",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "50",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "60",
+        "isCorrect": true
+      },
+      {
+        "id": "D",
+        "label": "70",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "80",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "0.40 × 150 = 60, so (C).",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "NUMERIC_ENTRY",
+    "skillTag": "ALGEBRA",
+    "difficulty": "EASY",
+    "difficultyRationale": "Single-step linear equation.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "If 4x = 28, what is the value of x?",
+    "choices": null,
+    "numericAnswer": 7,
+    "explanation": "x = 28 ÷ 4 = 7.",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "QUANT_COMPARISON",
+    "skillTag": "ARITHMETIC",
+    "difficulty": "EASY",
+    "difficultyRationale": "Tests order-of-operations application with a parenthesized expression.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "Quantity A: 9 + 3 × 2\nQuantity B: (9 + 3) × 2",
+    "choices": [
+      {
+        "id": "A",
+        "label": "Quantity A is greater",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "Quantity B is greater",
+        "isCorrect": true
+      },
+      {
+        "id": "C",
+        "label": "The two quantities are equal",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "The relationship cannot be determined from the information given",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Quantity A: multiplication first, 9 + 6 = 15. Quantity B: parentheses first, 12 × 2 = 24. Since 24 > 15, Quantity B is greater: (B).",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "MULTIPLE_CHOICE_SINGLE",
+    "skillTag": "GEOMETRY",
+    "difficulty": "EASY",
+    "difficultyRationale": "Single-step application of the square perimeter formula.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "A square has a perimeter of 20. What is the length of one side?",
+    "choices": [
+      {
+        "id": "A",
+        "label": "4",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "5",
+        "isCorrect": true
+      },
+      {
+        "id": "C",
+        "label": "6",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "8",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "10",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "A square's perimeter is 4 times its side length, so side = 20 ÷ 4 = 5, so (B).",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "NUMERIC_ENTRY",
+    "skillTag": "WORD_PROBLEMS",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Sequential percent discounts require multiplying successive factors rather than adding the percentages together.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "A jacket originally priced at $120 is discounted by 15%, and then an additional 10% is taken off the already-discounted price. What is the final price, in dollars?",
+    "choices": null,
+    "numericAnswer": 91.8,
+    "explanation": "After the first discount: $120 × 0.85 = $102. After the second discount: $102 × 0.90 = $91.80. (Adding the percentages to get a flat 25% off would incorrectly give $90.)",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "MULTIPLE_CHOICE_SINGLE",
+    "skillTag": "ALGEBRA",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Requires substituting a known value into a two-variable equation before solving for the remaining variable.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "If 2x + 3y = 12 and x = 3, what is the value of y?",
+    "choices": [
+      {
+        "id": "A",
+        "label": "1",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "2",
+        "isCorrect": true
+      },
+      {
+        "id": "C",
+        "label": "3",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "4",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "5",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Substituting x = 3: 2(3) + 3y = 12, so 6 + 3y = 12, giving 3y = 6 and y = 2, so (B).",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "QUANT_COMPARISON",
+    "skillTag": "GEOMETRY",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Requires deriving the square's side length from its area before computing its perimeter, rather than directly comparing the given rectangle dimensions to the area.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "Quantity A: the perimeter of a rectangle with length 10 and width 4\nQuantity B: the perimeter of a square with area 64",
+    "choices": [
+      {
+        "id": "A",
+        "label": "Quantity A is greater",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "Quantity B is greater",
+        "isCorrect": true
+      },
+      {
+        "id": "C",
+        "label": "The two quantities are equal",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "The relationship cannot be determined from the information given",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "The rectangle's perimeter is 2(10 + 4) = 28. The square's side is √64 = 8, so its perimeter is 4 × 8 = 32. Since 32 > 28, Quantity B is greater: (B).",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "MULTIPLE_CHOICE_SINGLE",
+    "skillTag": "DATA_INTERPRETATION",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Standard ratio-to-count problem requiring the solver to find the value of one 'part' before scaling to the target group.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "A class has 30 students. If the ratio of boys to girls is 2 to 3, how many girls are in the class?",
+    "choices": [
+      {
+        "id": "A",
+        "label": "12",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "15",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "18",
+        "isCorrect": true
+      },
+      {
+        "id": "D",
+        "label": "20",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "24",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "The ratio 2:3 splits the class into 5 equal parts, each worth 30 ÷ 5 = 6 students. Girls = 3 parts = 3 × 6 = 18, so (C).",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "NUMERIC_ENTRY",
+    "skillTag": "ALGEBRA",
+    "difficulty": "HARD",
+    "difficultyRationale": "Requires recognizing the difference-of-squares factorization (x+y)(x-y) to avoid solving for x and y individually.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "If x + y = 10 and x² − y² = 40, what is the value of x − y?",
+    "choices": null,
+    "numericAnswer": 4,
+    "explanation": "x² − y² = (x + y)(x − y) = 40. Since x + y = 10, 10(x − y) = 40, so x − y = 4.",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "QUANT_COMPARISON",
+    "skillTag": "QUANT_COMPARISON_LOGIC",
+    "difficulty": "HARD",
+    "difficultyRationale": "Requires prime factorization and counting distinct primes rather than total prime factors (with multiplicity), a common source of confusion.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "Quantity A: the number of distinct prime factors of 60\nQuantity B: the number of distinct prime factors of 100",
+    "choices": [
+      {
+        "id": "A",
+        "label": "Quantity A is greater",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "Quantity B is greater",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "The two quantities are equal",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "The relationship cannot be determined from the information given",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "60 = 2² × 3 × 5 has 3 distinct prime factors (2, 3, 5). 100 = 2² × 5² has 2 distinct prime factors (2, 5). Since 3 > 2, Quantity A is greater: (A).",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "MULTIPLE_CHOICE_SINGLE",
+    "skillTag": "WORD_PROBLEMS",
+    "difficulty": "HARD",
+    "difficultyRationale": "Sequential percent change (increase then decrease) trap where the two percentages don't simply subtract to a net change, since the second applies to a new, larger base.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "A store's revenue increased by 20% in the first year and then decreased by 10% in the second year. What was the overall percent change over the two years?",
+    "choices": [
+      {
+        "id": "A",
+        "label": "+6%",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "+8%",
+        "isCorrect": true
+      },
+      {
+        "id": "C",
+        "label": "+10%",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "+12%",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "+20%",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Combined factor: 1.20 × 0.90 = 1.08, an overall increase of 8%, so (B). Simply subtracting 20% − 10% = 10% (choice C) ignores that the decrease applies to the already-increased revenue.",
+    "assetUrl": null
+  },
+  {
+    "section": "QUANT",
+    "questionType": "MULTIPLE_CHOICE_SINGLE",
+    "skillTag": "GEOMETRY",
+    "difficulty": "HARD",
+    "difficultyRationale": "Requires taking a cube root to find the side length from volume before applying the surface area formula, chaining two non-trivial geometric steps.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "A cube has a volume of 125. What is the surface area of the cube?",
+    "choices": [
+      {
+        "id": "A",
+        "label": "75",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "100",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "125",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "150",
+        "isCorrect": true
+      },
+      {
+        "id": "E",
+        "label": "175",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Side length = ∛125 = 5. Surface area = 6 × side² = 6 × 25 = 150, so (D).",
+    "assetUrl": null
   }
 ]

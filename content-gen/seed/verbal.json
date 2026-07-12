@@ -8313,5 +8313,520 @@
     "numericAnswer": null,
     "explanation": "Analysis conducted carefully over several years, contrasted with a 'sudden breakthrough,' describes sustained, careful effort: 'painstaking' and 'meticulous' fit equivalently. 'Hasty' and 'accidental' contradict 'rather than a sudden breakthrough'; 'superficial' and 'informal' contradict years of careful analysis.",
     "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "TEXT_COMPLETION",
+    "skillTag": "TEXT_COMPLETION",
+    "difficulty": "EASY",
+    "difficultyRationale": "Direct clue (students fell asleep) with a common vocabulary match.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "The lecture was so ______ that several students in the back row fell asleep.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "tedious",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "fascinating",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "brief",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "mandatory",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "interactive",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Students falling asleep describes a boring lecture — 'tedious'. 'Fascinating' and 'interactive' would keep students engaged, the opposite; 'brief' and 'mandatory' don't explain falling asleep.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "TEXT_COMPLETION",
+    "skillTag": "TEXT_COMPLETION",
+    "difficulty": "EASY",
+    "difficultyRationale": "Direct clue (practiced every day, over the course of a year) with a common vocabulary match for large improvement.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "Because she practiced every day, her piano skills improved ______ over the course of the year.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "significantly",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "minimally",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "briefly",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "accidentally",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "secretly",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Daily practice over a year would produce large gains — 'significantly'. 'Minimally' contradicts the effort described; 'briefly', 'accidentally', and 'secretly' don't fit sustained daily practice.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "SENTENCE_EQUIVALENCE",
+    "skillTag": "SENTENCE_EQUIVALENCE",
+    "difficulty": "EASY",
+    "difficultyRationale": "Clear clue (trip cancelled) with a common synonym pair for a negative emotional reaction.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "The children were ______ when they heard that the school trip had been cancelled.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "disappointed",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "upset",
+        "isCorrect": true
+      },
+      {
+        "id": "C",
+        "label": "thrilled",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "indifferent",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "confused",
+        "isCorrect": false
+      },
+      {
+        "id": "F",
+        "label": "relieved",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "A cancelled trip would upset children who expected it: 'disappointed' and 'upset' fit equivalently. 'Thrilled' and 'relieved' are positive reactions, the opposite; 'indifferent' and 'confused' don't fit a clear negative reaction to bad news.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "SENTENCE_EQUIVALENCE",
+    "skillTag": "SENTENCE_EQUIVALENCE",
+    "difficulty": "EASY",
+    "difficultyRationale": "Clear clue (drawing customers from across the city) with a common synonym pair for being well-known.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "The chef's signature dish was ______, drawing customers from across the city.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "renowned",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "famous",
+        "isCorrect": true
+      },
+      {
+        "id": "C",
+        "label": "obscure",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "bland",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "expensive",
+        "isCorrect": false
+      },
+      {
+        "id": "F",
+        "label": "seasonal",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Drawing customers from across the city describes wide reputation: 'renowned' and 'famous' fit equivalently. 'Obscure' is the opposite; 'bland', 'expensive', and 'seasonal' don't explain drawing crowds from afar.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "TEXT_COMPLETION",
+    "skillTag": "TEXT_COMPLETION",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Requires recognizing that avoiding partisan rhetoric implies a conciliatory, non-confrontational tone.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "The senator's speech was praised for its ______ tone, avoiding the partisan rhetoric that had characterized the earlier debate.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "conciliatory",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "inflammatory",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "technical",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "lengthy",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "improvised",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Avoiding partisan rhetoric describes a tone aimed at reconciliation — 'conciliatory'. 'Inflammatory' is the opposite, matching the earlier partisan debate rather than avoiding it; 'technical', 'lengthy', and 'improvised' don't fit the contrast with partisan rhetoric.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "TEXT_COMPLETION",
+    "skillTag": "TEXT_COMPLETION",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Requires recognizing that 'although' signals a weakness offset by the praised strengths (characterization, prose), so the blank names a flaw.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "Although the novel's plot was ______, critics praised its vivid characterization and lyrical prose.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "predictable",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "original",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "complex",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "concise",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "controversial",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "'Although' signals a contrast between a flaw and praised strengths, so the plot must have a shortcoming — 'predictable'. 'Original' would be a strength, not a contrasted flaw; 'complex', 'concise', and 'controversial' don't fit as a plot weakness being contrasted with praise.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "SENTENCE_EQUIVALENCE",
+    "skillTag": "SENTENCE_EQUIVALENCE",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Requires matching 'struggled to maintain quality once tripled in size' to synonyms for unable to be maintained, rather than to positive growth-related words.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "The startup's rapid growth proved ______, as it struggled to maintain quality control once it tripled in size.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "unsustainable",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "untenable",
+        "isCorrect": true
+      },
+      {
+        "id": "C",
+        "label": "profitable",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "inevitable",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "admirable",
+        "isCorrect": false
+      },
+      {
+        "id": "F",
+        "label": "gradual",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Struggling to maintain quality after rapid growth describes growth that couldn't be sustained: 'unsustainable' and 'untenable' fit equivalently. 'Profitable' and 'admirable' contradict the described struggle; 'inevitable' and 'gradual' don't describe the growth's failure.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "SENTENCE_EQUIVALENCE",
+    "skillTag": "SENTENCE_EQUIVALENCE",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Requires recognizing that 'though initially ___' followed by 'gained wide acceptance' signals the blank describes early resistance or doubt.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "The professor's argument, though initially ______, gained wide acceptance after further evidence emerged.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "contentious",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "disputed",
+        "isCorrect": true
+      },
+      {
+        "id": "C",
+        "label": "popular",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "proven",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "obvious",
+        "isCorrect": false
+      },
+      {
+        "id": "F",
+        "label": "irrelevant",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "'Though initially ___' followed by later gaining acceptance implies early doubt or controversy: 'contentious' and 'disputed' fit equivalently. 'Popular', 'proven', and 'obvious' would need no further evidence to gain acceptance; 'irrelevant' doesn't fit gaining acceptance at all.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "TEXT_COMPLETION",
+    "skillTag": "TEXT_COMPLETION",
+    "difficulty": "HARD",
+    "difficultyRationale": "Two interdependent blanks: a deliberately unclear statement (blank i) lets each side read it however serves their interests (blank ii), requiring both blanks to cohere around strategic ambiguity.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "The diplomat's statement was deliberately (i)______, allowing each side to (ii)______ it according to their own interests.",
+    "choices": [
+      {
+        "id": "i-A",
+        "label": "ambiguous",
+        "isCorrect": true
+      },
+      {
+        "id": "i-B",
+        "label": "precise",
+        "isCorrect": false
+      },
+      {
+        "id": "i-C",
+        "label": "public",
+        "isCorrect": false
+      },
+      {
+        "id": "ii-D",
+        "label": "interpret",
+        "isCorrect": true
+      },
+      {
+        "id": "ii-E",
+        "label": "reject",
+        "isCorrect": false
+      },
+      {
+        "id": "ii-F",
+        "label": "publish",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Letting each side read a statement 'according to their own interests' requires the statement to be unclear — 'ambiguous' (blank i) — and each side must 'interpret' it accordingly (blank ii). 'Precise' language would prevent divergent readings, contradicting the sentence.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "TEXT_COMPLETION",
+    "skillTag": "TEXT_COMPLETION",
+    "difficulty": "HARD",
+    "difficultyRationale": "Requires recognizing that 'far from being a mere footnote' negates insignificance, so the blank must affirm major importance to the war's outcome.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "Far from being a mere footnote to the larger conflict, the skirmish proved ______ in determining the war's ultimate outcome.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "pivotal",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "irrelevant",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "forgotten",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "symbolic",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "brief",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "'Far from being a mere footnote' negates insignificance, so the skirmish must have been highly important — 'pivotal'. 'Irrelevant' and 'forgotten' contradict the negation; 'symbolic' and 'brief' don't imply determining the war's outcome.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "SENTENCE_EQUIVALENCE",
+    "skillTag": "SENTENCE_EQUIVALENCE",
+    "difficulty": "HARD",
+    "difficultyRationale": "Requires matching 'once dismissed as ___' with 'now regarded as ... ahead of its time' to synonyms for unoriginal, the contradicted earlier judgment.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "The author's prose, once dismissed as ______, is now regarded by scholars as remarkably ahead of its time.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "derivative",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "unoriginal",
+        "isCorrect": true
+      },
+      {
+        "id": "C",
+        "label": "groundbreaking",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "accessible",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "profound",
+        "isCorrect": false
+      },
+      {
+        "id": "F",
+        "label": "timeless",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "'Once dismissed as ___' contrasted with being 'ahead of its time' now implies the earlier dismissal was for lacking originality: 'derivative' and 'unoriginal' fit equivalently. 'Groundbreaking' and 'profound' would not have been dismissed; 'accessible' and 'timeless' don't fit a dismissal reversed by 'ahead of its time'.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "SENTENCE_EQUIVALENCE",
+    "skillTag": "SENTENCE_EQUIVALENCE",
+    "difficulty": "HARD",
+    "difficultyRationale": "Requires matching 'just enough to each side to make rejection politically costly' to synonyms for cunning strategic design rather than to words implying generosity or naivety.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "The negotiator's proposal was ______, offering just enough to each side to make rejection politically costly.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "shrewd",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "calculated",
+        "isCorrect": true
+      },
+      {
+        "id": "C",
+        "label": "naive",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "generous",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "impulsive",
+        "isCorrect": false
+      },
+      {
+        "id": "F",
+        "label": "transparent",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "A proposal engineered to make rejection costly for each side reflects strategic cunning: 'shrewd' and 'calculated' fit equivalently. 'Naive' and 'impulsive' contradict such careful design; 'generous' and 'transparent' don't capture the strategic, self-interested framing.",
+    "assetUrl": null
   }
 ]
