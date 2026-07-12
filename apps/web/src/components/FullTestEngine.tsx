@@ -247,8 +247,8 @@ export function FullTestEngine({ test }: { test: TestDef }) {
             onChange={(v) => patchRun({ essay: v })}
           />
         </div>
-        <footer className="flex justify-end border-t border-testline bg-white px-6 py-3">
-          <button onClick={submitSection} className="rounded bg-testblue px-4 py-1.5 font-medium text-white">
+        <footer className="flex justify-end bg-gretop px-6 py-3">
+          <button onClick={submitSection} className="rounded bg-testblue px-5 py-1.5 font-medium text-white">
             Submit essay
           </button>
         </footer>
@@ -277,9 +277,16 @@ export function FullTestEngine({ test }: { test: TestDef }) {
           />
         ) : (
           <div className="mx-auto h-full max-w-5xl">
-            <div className="mb-3 text-xs uppercase tracking-wide text-neutral-500">
-              Question {run.index + 1} of {questions.length}
-              {run.marks[q.id] && <span className="ml-2 text-amber-600">● marked</span>}
+            <div className="mb-3 flex items-center gap-2 text-xs font-semibold uppercase tracking-wide text-neutral-500">
+              <span>Question {run.index + 1} of {questions.length}</span>
+              {run.marks[q.id] && (
+                <span className="flex items-center gap-1 text-amber-700">
+                  <svg viewBox="0 0 16 16" className="h-3 w-3 fill-amber-600">
+                    <path d="M3 1h9l-3 4 3 4H3v6H2V1z" />
+                  </svg>
+                  Marked for Review
+                </span>
+              )}
             </div>
             <QuestionRenderer
               question={q}
@@ -290,39 +297,52 @@ export function FullTestEngine({ test }: { test: TestDef }) {
         )}
       </div>
 
-      <footer className="flex items-center justify-between border-t border-testline bg-white px-6 py-3">
-        <div className="flex gap-2">
+      <footer className="flex items-center justify-between bg-gretop px-6 py-3 text-white">
+        <div className="flex items-center gap-2">
           <button
             disabled={run.index === 0 || state.phase === "review"}
             onClick={() => patchRun({ index: Math.max(0, run.index - 1) })}
-            className="rounded border border-testline px-4 py-1.5 disabled:opacity-40"
+            className="rounded border border-white/30 bg-white/10 px-4 py-1.5 disabled:opacity-30"
           >
             Back
           </button>
           <button
             disabled={state.phase === "review"}
             onClick={() => patchRun({ marks: { ...run.marks, [q.id]: !run.marks[q.id] } })}
-            className="rounded border border-testline px-4 py-1.5 disabled:opacity-40"
+            className={`flex items-center gap-2 rounded border border-white/30 px-4 py-1.5 disabled:opacity-30 ${
+              run.marks[q.id] ? "bg-amber-500 text-black" : "bg-white/10"
+            }`}
           >
-            {run.marks[q.id] ? "Unmark" : "Mark for review"}
+            <span
+              className={`flex h-3.5 w-3.5 items-center justify-center rounded-sm border ${
+                run.marks[q.id] ? "border-black bg-black" : "border-white/60"
+              }`}
+            >
+              {run.marks[q.id] && (
+                <svg viewBox="0 0 16 16" className="h-2.5 w-2.5 fill-none stroke-white stroke-[3]">
+                  <path d="M3 8.5 L6.5 12 L13 4" strokeLinecap="round" strokeLinejoin="round" />
+                </svg>
+              )}
+            </span>
+            Mark for Review
           </button>
         </div>
 
-        <div className="flex gap-2">
+        <div className="flex items-center gap-2">
           <button
             onClick={() => setState((s) => ({ ...s, phase: s.phase === "review" ? "active" : "review" }))}
-            className="rounded border border-testline px-4 py-1.5"
+            className="rounded border border-white/30 bg-white/10 px-4 py-1.5 hover:bg-white/20"
           >
             {state.phase === "review" ? "Return" : "Review"}
           </button>
           {run.index === questions.length - 1 || state.phase === "review" ? (
-            <button onClick={submitSection} className="rounded bg-testblue px-4 py-1.5 font-medium text-white">
+            <button onClick={submitSection} className="rounded bg-testblue px-5 py-1.5 font-medium text-white">
               Submit section
             </button>
           ) : (
             <button
               onClick={() => patchRun({ index: Math.min(questions.length - 1, run.index + 1) })}
-              className="rounded bg-testblue px-4 py-1.5 font-medium text-white"
+              className="rounded bg-testblue px-5 py-1.5 font-medium text-white"
             >
               Next
             </button>
@@ -351,25 +371,30 @@ function TopBar({
   calc?: () => void;
 }) {
   return (
-    <header className="flex items-center justify-between border-b border-testline bg-white px-6 py-3">
+    <header className="flex items-center justify-between bg-gretop px-6 py-3 text-white">
       <div className="flex items-center gap-4">
         <span className="text-sm font-medium">{title}</span>
-        <button onClick={onExit} className="rounded border border-testline px-3 py-1 text-xs text-neutral-600 hover:bg-neutral-50">
-          Save &amp; exit
-        </button>
       </div>
-      <div className="flex items-center gap-4 text-sm">
+      <div className="flex items-center gap-3 text-sm">
         {calc && (
-          <button onClick={calc} className="rounded border border-testline px-3 py-1">
+          <button onClick={calc} className="rounded border border-white/30 bg-white/10 px-3 py-1 hover:bg-white/20">
             Calculator
           </button>
         )}
-        <button onClick={onToggleTimer} className="text-neutral-500 underline">
-          {showTimer ? "Hide" : "Show"} time
+        <div className="flex items-center gap-2 rounded border border-white/30 bg-white/10 px-3 py-1">
+          <button onClick={onToggleTimer} className="text-white/70 underline">
+            {showTimer ? "Hide" : "Show"}
+          </button>
+          <span className={`font-mono tabular-nums ${remaining <= 300 ? "text-red-400" : ""}`}>
+            {showTimer ? fmt(remaining) : "—:—"}
+          </span>
+        </div>
+        <button
+          onClick={onExit}
+          className="rounded border border-white/30 bg-white/10 px-3 py-1 text-xs hover:bg-white/20"
+        >
+          Save &amp; exit
         </button>
-        <span className={`font-mono ${remaining <= 300 ? "text-red-600" : ""}`}>
-          {showTimer ? fmt(remaining) : "—:—"}
-        </span>
       </div>
     </header>
   );
@@ -386,10 +411,25 @@ function ReviewGrid({
 }) {
   return (
     <div className="mx-auto max-w-3xl">
-      <h2 className="mb-4 text-lg font-semibold">Review screen</h2>
+      <h2 className="mb-1 text-lg font-semibold">Review Section</h2>
       <p className="mb-4 text-sm text-neutral-600">
-        Click a question to return to it. You can change answers until you submit the section.
+        Click a question number to go directly to that question. You can change your answers until you
+        submit the section.
       </p>
+      <div className="mb-4 flex items-center gap-5 text-xs text-neutral-600">
+        <span className="flex items-center gap-1.5">
+          <span className="h-3 w-3 rounded-full border-2 border-testblue bg-[#dceafb]" /> Answered
+        </span>
+        <span className="flex items-center gap-1.5">
+          <span className="h-3 w-3 rounded-full border-2 border-neutral-400 bg-white" /> Unanswered
+        </span>
+        <span className="flex items-center gap-1.5">
+          <svg viewBox="0 0 16 16" className="h-3 w-3 fill-amber-600">
+            <path d="M3 1h9l-3 4 3 4H3v6H2V1z" />
+          </svg>
+          Marked for Review
+        </span>
+      </div>
       <div className="grid grid-cols-6 gap-2 sm:grid-cols-10">
         {questions.map((qq, i) => {
           const ans = run.answers[qq.id];
@@ -398,10 +438,16 @@ function ReviewGrid({
             <button
               key={qq.id}
               onClick={() => onJump(i)}
-              className={`relative rounded border py-3 text-sm ${answered ? "border-testblue bg-blue-50" : "border-testline bg-white"}`}
+              className={`relative flex items-center justify-center rounded-full border-2 py-3 text-sm ${
+                answered ? "border-testblue bg-[#dceafb]" : "border-neutral-400 bg-white"
+              }`}
             >
               {i + 1}
-              {run.marks[qq.id] && <span className="absolute right-1 top-0.5 text-[10px] text-amber-600">●</span>}
+              {run.marks[qq.id] && (
+                <svg viewBox="0 0 16 16" className="absolute -right-1 -top-1 h-3.5 w-3.5 fill-amber-600">
+                  <path d="M3 1h9l-3 4 3 4H3v6H2V1z" />
+                </svg>
+              )}
             </button>
           );
         })}
