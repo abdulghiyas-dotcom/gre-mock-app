@@ -8828,5 +8828,600 @@
     "numericAnswer": null,
     "explanation": "A proposal engineered to make rejection costly for each side reflects strategic cunning: 'shrewd' and 'calculated' fit equivalently. 'Naive' and 'impulsive' contradict such careful design; 'generous' and 'transparent' don't capture the strategic, self-interested framing.",
     "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "TEXT_COMPLETION",
+    "skillTag": "TEXT_COMPLETION",
+    "difficulty": "EASY",
+    "difficultyRationale": "Direct clue (speaking only when asked) with a common vocabulary match.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "The new employee was ______ during her first meeting, speaking only when directly asked a question.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "reserved",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "confident",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "talkative",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "rude",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "forgetful",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Speaking only when asked describes a quiet, holding-back manner — 'reserved'. 'Talkative' is the opposite; 'confident', 'rude', and 'forgetful' don't fit speaking only when prompted.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "TEXT_COMPLETION",
+    "skillTag": "TEXT_COMPLETION",
+    "difficulty": "EASY",
+    "difficultyRationale": "Direct clue (needed more salt) with a common vocabulary match.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "The soup needed more salt; as it was, the flavor seemed ______.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "bland",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "spicy",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "rich",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "sweet",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "sour",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Needing more salt describes an under-seasoned, weak-flavored soup — 'bland'. 'Spicy' and 'rich' describe strong flavors, the opposite; 'sweet' and 'sour' aren't implied by needing salt.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "SENTENCE_EQUIVALENCE",
+    "skillTag": "SENTENCE_EQUIVALENCE",
+    "difficulty": "EASY",
+    "difficultyRationale": "Clear clue (fish visible near the bottom) with a common synonym pair for transparency.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "The lake was so ______ that visitors could see fish swimming near the bottom.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "clear",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "transparent",
+        "isCorrect": true
+      },
+      {
+        "id": "C",
+        "label": "murky",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "frozen",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "shallow",
+        "isCorrect": false
+      },
+      {
+        "id": "F",
+        "label": "polluted",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Seeing fish near the bottom describes clear water: 'clear' and 'transparent' fit equivalently. 'Murky' and 'polluted' are the opposite; 'frozen' and 'shallow' don't imply visibility.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "SENTENCE_EQUIVALENCE",
+    "skillTag": "SENTENCE_EQUIVALENCE",
+    "difficulty": "EASY",
+    "difficultyRationale": "Clear clue (landing every punchline exactly when expected) with a common synonym pair for precision.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "The comedian's timing was ______, landing every punchline exactly when the audience expected a pause.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "precise",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "impeccable",
+        "isCorrect": true
+      },
+      {
+        "id": "C",
+        "label": "sloppy",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "delayed",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "accidental",
+        "isCorrect": false
+      },
+      {
+        "id": "F",
+        "label": "forgettable",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Landing every punchline exactly right describes flawless timing: 'precise' and 'impeccable' fit equivalently. 'Sloppy' and 'delayed' contradict exact timing; 'accidental' and 'forgettable' don't fit consistent skill.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "TEXT_COMPLETION",
+    "skillTag": "TEXT_COMPLETION",
+    "difficulty": "EASY",
+    "difficultyRationale": "Direct clue (bridge closed for repairs) implying a negative commuting impact.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "Because the bridge had been closed for repairs, commuters faced ______ delays each morning.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "significant",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "minor",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "rare",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "pleasant",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "brief",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "A closed bridge each morning implies substantial, not small, delays — 'significant'. 'Minor' and 'brief' undersell the impact of a closed bridge; 'rare' and 'pleasant' don't fit daily delays.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "SENTENCE_EQUIVALENCE",
+    "skillTag": "SENTENCE_EQUIVALENCE",
+    "difficulty": "EASY",
+    "difficultyRationale": "Clear clue (filling the room with joy) with a common synonym pair for spreading easily.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "The toddler's laughter was ______, filling the entire room with joy.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "infectious",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "contagious",
+        "isCorrect": true
+      },
+      {
+        "id": "C",
+        "label": "silent",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "forced",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "rare",
+        "isCorrect": false
+      },
+      {
+        "id": "F",
+        "label": "muted",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Laughter that fills a room with joy spreads easily to others: 'infectious' and 'contagious' fit equivalently. 'Silent' and 'muted' contradict filling a room; 'forced' and 'rare' don't fit spreading joy.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "TEXT_COMPLETION",
+    "skillTag": "TEXT_COMPLETION",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Requires recognizing that 'though' signals a remaining pocket of doubt despite most objections being addressed.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "The committee's revised proposal addressed most objections, though a few skeptics remained ______ about its long-term feasibility.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "unconvinced",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "enthusiastic",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "certain",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "indifferent",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "informed",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "'Though' signals a contrast with 'addressed most objections,' so some skeptics still doubted the proposal — 'unconvinced'. 'Enthusiastic' and 'certain' contradict remaining as skeptics; 'indifferent' and 'informed' don't fit lingering doubt about feasibility.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "SENTENCE_EQUIVALENCE",
+    "skillTag": "SENTENCE_EQUIVALENCE",
+    "difficulty": "MEDIUM",
+    "difficultyRationale": "Requires matching 'rather than through ticket sales' to synonyms for large donation amounts.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "The museum's expansion was funded largely through ______ donations from alumni rather than through ticket sales.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "generous",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "substantial",
+        "isCorrect": true
+      },
+      {
+        "id": "C",
+        "label": "meager",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "delayed",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "public",
+        "isCorrect": false
+      },
+      {
+        "id": "F",
+        "label": "disputed",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Funding an expansion primarily through donations implies those donations were large: 'generous' and 'substantial' fit equivalently. 'Meager' is the opposite; 'delayed', 'public', and 'disputed' don't describe donation size.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "TEXT_COMPLETION",
+    "skillTag": "TEXT_COMPLETION",
+    "difficulty": "HARD",
+    "difficultyRationale": "Two interdependent blanks contrasting unrestrained praise for one element (blank i) with pointed silence about another (blank ii), requiring the reader to track 'yet strikingly' as a pivot.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "The critic's essay was (i)______ in its praise for the film's visuals yet strikingly (ii)______ about its narrative coherence.",
+    "choices": [
+      {
+        "id": "i-A",
+        "label": "effusive",
+        "isCorrect": true
+      },
+      {
+        "id": "i-B",
+        "label": "restrained",
+        "isCorrect": false
+      },
+      {
+        "id": "i-C",
+        "label": "brief",
+        "isCorrect": false
+      },
+      {
+        "id": "ii-D",
+        "label": "reticent",
+        "isCorrect": true
+      },
+      {
+        "id": "ii-E",
+        "label": "enthusiastic",
+        "isCorrect": false
+      },
+      {
+        "id": "ii-F",
+        "label": "detailed",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "'Yet strikingly' signals a contrast between the two blanks: unrestrained praise for visuals is 'effusive' (blank i), contrasted with pointed silence on narrative coherence — 'reticent' (blank ii). 'Restrained' in blank i would eliminate the needed contrast with 'strikingly'.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "TEXT_COMPLETION",
+    "skillTag": "TEXT_COMPLETION",
+    "difficulty": "HARD",
+    "difficultyRationale": "Requires recognizing that a reputation later 'restored' by vindication must have first been damaged by the earlier claim.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "The scholar's reputation, once ______ by a single controversial claim, was gradually restored as subsequent research vindicated her original hypothesis.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "tarnished",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "enhanced",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "unaffected",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "celebrated",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "secured",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "A reputation that needed to be 'restored' must have first been damaged — 'tarnished'. 'Enhanced' and 'celebrated' contradict needing restoration; 'unaffected' and 'secured' don't fit something later vindicated after being doubted.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "SENTENCE_EQUIVALENCE",
+    "skillTag": "SENTENCE_EQUIVALENCE",
+    "difficulty": "HARD",
+    "difficultyRationale": "Requires matching 'thought irreparably ___' with 'resumed unexpectedly' to synonyms for a severe breakdown, not merely a pause.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "The negotiations, once thought irreparably ______, resumed unexpectedly after a private meeting between the two leaders.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "fractured",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "broken",
+        "isCorrect": true
+      },
+      {
+        "id": "C",
+        "label": "productive",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "formal",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "public",
+        "isCorrect": false
+      },
+      {
+        "id": "F",
+        "label": "brief",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "'Irreparably ___' followed by an unexpected resumption implies a severe breakdown thought unfixable: 'fractured' and 'broken' fit equivalently. 'Productive' contradicts needing to 'resume'; 'formal', 'public', and 'brief' don't describe irreparable breakdown.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "TEXT_COMPLETION",
+    "skillTag": "TEXT_COMPLETION",
+    "difficulty": "HARD",
+    "difficultyRationale": "Requires inferring that excessive qualification would obscure, rather than clarify, a report's central claim.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "The report's conclusions were so heavily ______ with qualifications that readers struggled to identify its central claim.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "hedged",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "qualified",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "simplified",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "illustrated",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "shortened",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Struggling to identify a central claim amid many qualifications describes excessive caveats — 'hedged'. 'Simplified' and 'shortened' would make the claim easier to find, the opposite; 'illustrated' doesn't fit obscuring a claim through qualification.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "SENTENCE_EQUIVALENCE",
+    "skillTag": "SENTENCE_EQUIVALENCE",
+    "difficulty": "HARD",
+    "difficultyRationale": "Requires matching an unusually fast career rise to synonyms for rapid, unexpected ascent rather than to words describing steady or modest progress.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "Her rise from an unknown intern to company president was so ______ that colleagues joked she must have a secret shortcut.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "meteoric",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "rapid",
+        "isCorrect": true
+      },
+      {
+        "id": "C",
+        "label": "gradual",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "predictable",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "modest",
+        "isCorrect": false
+      },
+      {
+        "id": "F",
+        "label": "delayed",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "A rise so fast that colleagues joke about a 'secret shortcut' describes extreme speed: 'meteoric' and 'rapid' fit equivalently. 'Gradual', 'modest', and 'delayed' contradict the implied speed; 'predictable' doesn't fit prompting jokes about shortcuts.",
+    "assetUrl": null
+  },
+  {
+    "section": "VERBAL",
+    "questionType": "TEXT_COMPLETION",
+    "skillTag": "TEXT_COMPLETION",
+    "difficulty": "HARD",
+    "difficultyRationale": "Requires selecting a word that captures combining old craftsmanship with new materials as a positive, forward-looking quality.",
+    "passageId": null,
+    "passageBodyHtml": null,
+    "stem": "The architect's design was praised as ______, marrying centuries-old craftsmanship with cutting-edge materials.",
+    "choices": [
+      {
+        "id": "A",
+        "label": "innovative",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "derivative",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "outdated",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "conventional",
+        "isCorrect": false
+      },
+      {
+        "id": "E",
+        "label": "flawed",
+        "isCorrect": false
+      }
+    ],
+    "numericAnswer": null,
+    "explanation": "Combining old craftsmanship with cutting-edge materials in a praised way describes a fresh, forward-looking approach — 'innovative'. 'Derivative', 'outdated', and 'conventional' contradict 'cutting-edge'; 'flawed' contradicts being praised.",
+    "assetUrl": null
   }
 ]
