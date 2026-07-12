@@ -50,12 +50,18 @@ function buildFullLength(
   quantShare: Question[],
   prompt: { id: string; promptText: string } | undefined,
 ): TestDef {
-  // Real GRE sections run ~13-14 questions (27 total per subject across two
-  // sections). Cap at those targets but never promise more than the bank has.
-  const SECTION_1_TARGET = 14;
-  const SECTION_2_TARGET = 13;
+  // Exact real-GRE section sizes (post-2023 shortened format): Section 1 is
+  // 12 questions, Section 2 is 15 questions (27 total per subject). Times
+  // match ETS's official per-subject allocations. Capped at these targets
+  // but never promise more than the bank has for a given share.
+  const SECTION_1_TARGET = 12;
+  const SECTION_2_TARGET = 15;
+  const SECTION_TIMES: Record<"VERBAL" | "QUANT", { s1: number; s2: number }> = {
+    VERBAL: { s1: 18 * 60, s2: 23 * 60 },
+    QUANT: { s1: 21 * 60, s2: 26 * 60 },
+  };
 
-  function sectionsFor(kind: "VERBAL" | "QUANT", share: Question[], secPrefix: string, perQ: number) {
+  function sectionsFor(kind: "VERBAL" | "QUANT", share: Question[], secPrefix: string) {
     const tiers = byDifficulty(share);
     // Section 1: fixed medium-difficulty pool (mirrors the real GRE's medium
     // first section); the rest of the share feeds Section 2's pools.
@@ -63,12 +69,13 @@ function buildFullLength(
     const rest = share.filter((q) => !s1.includes(q));
     const pools = byDifficulty(rest);
     const s2Count = Math.max(4, Math.min(SECTION_2_TARGET, Math.max(pools.EASY.length, pools.MEDIUM.length, pools.HARD.length)));
+    const times = SECTION_TIMES[kind];
     return [
       {
         id: `${secPrefix}-1`,
         kind,
         title: `${kind === "VERBAL" ? "Verbal" : "Quantitative"} Reasoning — Section 1`,
-        timeLimitSeconds: s1.length * perQ,
+        timeLimitSeconds: times.s1,
         adaptive: false,
         questions: s1,
       },
@@ -76,7 +83,7 @@ function buildFullLength(
         id: `${secPrefix}-2`,
         kind,
         title: `${kind === "VERBAL" ? "Verbal" : "Quantitative"} Reasoning — Section 2 (adaptive)`,
-        timeLimitSeconds: s2Count * perQ,
+        timeLimitSeconds: times.s2,
         adaptive: true,
         pools,
         questionCount: s2Count,
@@ -98,8 +105,8 @@ function buildFullLength(
         essayPromptId: prompt?.id,
         essayPromptText: prompt?.promptText,
       },
-      ...sectionsFor("VERBAL", verbalShare, "verbal", 90),
-      ...sectionsFor("QUANT", quantShare, "quant", 105),
+      ...sectionsFor("VERBAL", verbalShare, "verbal"),
+      ...sectionsFor("QUANT", quantShare, "quant"),
     ],
   };
 }
@@ -110,20 +117,24 @@ function buildPractice(
   name: string,
   kind: "VERBAL_PRACTICE" | "QUANT_PRACTICE",
   share: Question[],
-  perQ: number,
 ): TestDef {
   const secKind = kind === "VERBAL_PRACTICE" ? "VERBAL" : "QUANT";
   const label = secKind === "VERBAL" ? "Verbal" : "Quantitative";
-  const half = Math.ceil(share.length / 2);
-  const s1 = share.slice(0, half);
-  const s2 = share.slice(half);
+  const times =
+    secKind === "VERBAL" ? { s1: 18 * 60, s2: 23 * 60 } : { s1: 21 * 60, s2: 26 * 60 };
+  // Mirror one full subject's worth of the real GRE: 12 in Section 1, 15 in
+  // Section 2 (27 total), capped by whatever the share actually has.
+  const s1Count = Math.min(12, share.length);
+  const s2Count = Math.min(15, Math.max(0, share.length - s1Count));
+  const s1 = share.slice(0, s1Count);
+  const s2 = share.slice(s1Count, s1Count + s2Count);
   return {
     id,
     name,
     kind,
     sections: [
-      { id: "s1", kind: secKind, title: `${label} Reasoning — Section 1`, timeLimitSeconds: s1.length * perQ, adaptive: false, questions: s1 },
-      { id: "s2", kind: secKind, title: `${label} Reasoning — Section 2`, timeLimitSeconds: s2.length * perQ, adaptive: false, questions: s2 },
+      { id: "s1", kind: secKind, title: `${label} Reasoning — Section 1`, timeLimitSeconds: times.s1, adaptive: false, questions: s1 },
+      { id: "s2", kind: secKind, title: `${label} Reasoning — Section 2`, timeLimitSeconds: times.s2, adaptive: false, questions: s2 },
     ],
   };
 }
@@ -167,7 +178,6 @@ export async function getTestDefs(): Promise<TestDef[]> {
       `Verbal Practice Test ${i + 1}`,
       "VERBAL_PRACTICE",
       share,
-      90,
     ),
   );
   const quantPractice = qPrac.map((share, i) =>
@@ -176,7 +186,6 @@ export async function getTestDefs(): Promise<TestDef[]> {
       `Quantitative Practice Test ${i + 1}`,
       "QUANT_PRACTICE",
       share,
-      105,
     ),
   );
 
