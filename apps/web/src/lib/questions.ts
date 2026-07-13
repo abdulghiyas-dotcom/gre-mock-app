@@ -27,70 +27,82 @@ function byDifficulty(questions: Question[]): Record<Difficulty, Question[]> {
   return pools;
 }
 
-// Deterministically partition the bank into n disjoint shares, balanced per
-// difficulty tier (round-robin within each tier), so every test gets its own
-// questions AND its own usable EASY/MEDIUM/HARD pools. Deterministic order
-// keeps server/client rendering and resumed attempts stable.
-function partition(questions: Question[], n: number): Question[][] {
-  const shares: Question[][] = Array.from({ length: n }, () => []);
-  const tiers = byDifficulty(questions);
-  for (const tier of ["EASY", "MEDIUM", "HARD"] as const) {
-    tiers[tier].forEach((q, i) => shares[i % n].push(q));
-  }
-  return shares;
+// Deterministically take `n` questions from `pool` starting at `offset`,
+// wrapping around the end. Never returns a duplicate within a single call
+// (count is clamped to the pool size), so a section is always internally
+// distinct. Different offsets across tests spread the draws over the bank to
+// keep tests as different from one another as the bank size allows.
+function take(pool: Question[], offset: number, n: number): Question[] {
+  if (pool.length === 0) return [];
+  const count = Math.min(n, pool.length);
+  const start = ((offset % pool.length) + pool.length) % pool.length;
+  const out: Question[] = [];
+  for (let i = 0; i < count; i++) out.push(pool[(start + i) % pool.length]);
+  return out;
 }
 
-// Build one full-length test from a verbal share + quant share + essay prompt.
-// Section 1 is a fixed medium-difficulty set; Section 2 is adaptive, drawing
-// from the share's remaining items grouped into difficulty pools.
+// Exact real-GRE section sizes (post-2023 shortened format): Section 1 = 12
+// questions, Section 2 = 15 questions (27 per subject). ETS's official
+// per-subject timing.
+const SECTION_1 = 12;
+const SECTION_2 = 15;
+const TIMES: Record<"VERBAL" | "QUANT", { s1: number; s2: number }> = {
+  VERBAL: { s1: 18 * 60, s2: 23 * 60 },
+  QUANT: { s1: 21 * 60, s2: 26 * 60 },
+};
+
+function label(kind: "VERBAL" | "QUANT"): string {
+  return kind === "VERBAL" ? "Verbal" : "Quantitative";
+}
+
+// Build the two sections for one subject of a full-length test. Section 1 is a
+// fixed 12-question medium set; Section 2 is adaptive with full 15-question
+// EASY / MEDIUM / HARD pools, so it always administers a complete 15-question
+// section whichever difficulty the test-taker routes into. `k` offsets the
+// draws so the six full-length tests overlap as little as the bank allows.
+function fullLengthSubject(
+  kind: "VERBAL" | "QUANT",
+  tiers: Record<Difficulty, Question[]>,
+  secPrefix: string,
+  k: number,
+): TestDef["sections"] {
+  const t = TIMES[kind];
+  // Draw 12 + 15 = 27 medium in one contiguous block so Section 1 and the
+  // Section-2 medium pool never share a question within this test.
+  const medBlock = take(tiers.MEDIUM, k * SECTION_2, SECTION_1 + SECTION_2);
+  const s1 = medBlock.slice(0, SECTION_1);
+  const mediumPool = medBlock.slice(SECTION_1, SECTION_1 + SECTION_2);
+  const easyPool = take(tiers.EASY, k * 10, SECTION_2);
+  const hardPool = take(tiers.HARD, k * 11, SECTION_2);
+  return [
+    {
+      id: `${secPrefix}-1`,
+      kind,
+      title: `${label(kind)} Reasoning — Section 1`,
+      timeLimitSeconds: t.s1,
+      adaptive: false,
+      questions: s1,
+    },
+    {
+      id: `${secPrefix}-2`,
+      kind,
+      title: `${label(kind)} Reasoning — Section 2 (adaptive)`,
+      timeLimitSeconds: t.s2,
+      adaptive: true,
+      pools: { EASY: easyPool, MEDIUM: mediumPool, HARD: hardPool },
+      questionCount: SECTION_2,
+    },
+  ];
+}
+
 function buildFullLength(
   id: string,
   name: string,
-  verbalShare: Question[],
-  quantShare: Question[],
+  verbalTiers: Record<Difficulty, Question[]>,
+  quantTiers: Record<Difficulty, Question[]>,
   prompt: { id: string; promptText: string } | undefined,
+  k: number,
 ): TestDef {
-  // Exact real-GRE section sizes (post-2023 shortened format): Section 1 is
-  // 12 questions, Section 2 is 15 questions (27 total per subject). Times
-  // match ETS's official per-subject allocations. Capped at these targets
-  // but never promise more than the bank has for a given share.
-  const SECTION_1_TARGET = 12;
-  const SECTION_2_TARGET = 15;
-  const SECTION_TIMES: Record<"VERBAL" | "QUANT", { s1: number; s2: number }> = {
-    VERBAL: { s1: 18 * 60, s2: 23 * 60 },
-    QUANT: { s1: 21 * 60, s2: 26 * 60 },
-  };
-
-  function sectionsFor(kind: "VERBAL" | "QUANT", share: Question[], secPrefix: string) {
-    const tiers = byDifficulty(share);
-    // Section 1: fixed medium-difficulty pool (mirrors the real GRE's medium
-    // first section); the rest of the share feeds Section 2's pools.
-    const s1 = tiers.MEDIUM.slice(0, SECTION_1_TARGET);
-    const rest = share.filter((q) => !s1.includes(q));
-    const pools = byDifficulty(rest);
-    const s2Count = Math.max(4, Math.min(SECTION_2_TARGET, Math.max(pools.EASY.length, pools.MEDIUM.length, pools.HARD.length)));
-    const times = SECTION_TIMES[kind];
-    return [
-      {
-        id: `${secPrefix}-1`,
-        kind,
-        title: `${kind === "VERBAL" ? "Verbal" : "Quantitative"} Reasoning — Section 1`,
-        timeLimitSeconds: times.s1,
-        adaptive: false,
-        questions: s1,
-      },
-      {
-        id: `${secPrefix}-2`,
-        kind,
-        title: `${kind === "VERBAL" ? "Verbal" : "Quantitative"} Reasoning — Section 2 (adaptive)`,
-        timeLimitSeconds: times.s2,
-        adaptive: true,
-        pools,
-        questionCount: s2Count,
-      },
-    ] satisfies TestDef["sections"];
-  }
-
   return {
     id,
     name,
@@ -105,87 +117,83 @@ function buildFullLength(
         essayPromptId: prompt?.id,
         essayPromptText: prompt?.promptText,
       },
-      ...sectionsFor("VERBAL", verbalShare, "verbal"),
-      ...sectionsFor("QUANT", quantShare, "quant"),
+      ...fullLengthSubject("VERBAL", verbalTiers, "verbal", k),
+      ...fullLengthSubject("QUANT", quantTiers, "quant", k),
     ],
   };
 }
 
-// Build one two-section practice test from a share (non-adaptive).
+// Build one single-subject practice test: 12 + 15 = 27 questions (non-adaptive)
+// with a real-test-like difficulty mix, drawn with a `k` offset for distinctness.
 function buildPractice(
   id: string,
   name: string,
   kind: "VERBAL_PRACTICE" | "QUANT_PRACTICE",
-  share: Question[],
+  tiers: Record<Difficulty, Question[]>,
+  k: number,
 ): TestDef {
   const secKind = kind === "VERBAL_PRACTICE" ? "VERBAL" : "QUANT";
-  const label = secKind === "VERBAL" ? "Verbal" : "Quantitative";
-  const times =
-    secKind === "VERBAL" ? { s1: 18 * 60, s2: 23 * 60 } : { s1: 21 * 60, s2: 26 * 60 };
-  // Mirror one full subject's worth of the real GRE: 12 in Section 1, 15 in
-  // Section 2 (27 total), capped by whatever the share actually has.
-  const s1Count = Math.min(12, share.length);
-  const s2Count = Math.min(15, Math.max(0, share.length - s1Count));
-  const s1 = share.slice(0, s1Count);
-  const s2 = share.slice(s1Count, s1Count + s2Count);
+  const t = TIMES[secKind];
+  // 27 total across a representative spread: 7 easy, 13 medium, 7 hard.
+  const all = [
+    ...take(tiers.EASY, k * 7, 7),
+    ...take(tiers.MEDIUM, k * 13, 13),
+    ...take(tiers.HARD, k * 7, 7),
+  ];
+  const s1 = all.slice(0, SECTION_1);
+  const s2 = all.slice(SECTION_1, SECTION_1 + SECTION_2);
   return {
     id,
     name,
     kind,
     sections: [
-      { id: "s1", kind: secKind, title: `${label} Reasoning — Section 1`, timeLimitSeconds: times.s1, adaptive: false, questions: s1 },
-      { id: "s2", kind: secKind, title: `${label} Reasoning — Section 2`, timeLimitSeconds: times.s2, adaptive: false, questions: s2 },
+      { id: "s1", kind: secKind, title: `${label(secKind)} Reasoning — Section 1`, timeLimitSeconds: t.s1, adaptive: false, questions: s1 },
+      { id: "s2", kind: secKind, title: `${label(secKind)} Reasoning — Section 2`, timeLimitSeconds: t.s2, adaptive: false, questions: s2 },
     ],
   };
 }
 
 // Assemble the catalog: N_FULL full-length + N_VERBAL_PRACTICE verbal-only +
-// N_QUANT_PRACTICE quant-only tests, each drawing from a DISJOINT slice of the
-// bank so no two tests share items. Each bank is partitioned ONCE into
-// (N_FULL + N_practice) shares — flatter than nested halving, so rounding
-// loss doesn't compound and every share gets the largest possible slice.
-// As the bank grows (run content-gen), bump these counts toward the 6
-// full-length + 5 verbal + 5 quant target; the partitioning yields fuller
-// sections automatically as more content becomes available.
+// N_QUANT_PRACTICE quant-only tests. Every test draws a full, difficulty-correct
+// 12 + 15 = 27 questions per subject from the whole bank. Because 16 tests at 27
+// per subject (432) exceeds the current bank, questions may recur across tests;
+// rotating offsets (the `k` argument) spread the draws so distinct tests differ
+// as much as the bank allows. Within any single test no question repeats.
 const N_FULL = 6;
 const N_VERBAL_PRACTICE = 5;
 const N_QUANT_PRACTICE = 5;
 
 export async function getTestDefs(): Promise<TestDef[]> {
   const prompts = readEssayPrompts();
-  const verbal = withIds(readSeed(verbalRaw), "v");
-  const quant = withIds(readSeed(quantRaw), "q");
+  const verbalTiers = byDifficulty(withIds(readSeed(verbalRaw), "v"));
+  const quantTiers = byDifficulty(withIds(readSeed(quantRaw), "q"));
 
-  const verbalShares = partition(verbal, N_FULL + N_VERBAL_PRACTICE);
-  const quantShares = partition(quant, N_FULL + N_QUANT_PRACTICE);
-  const vFull = verbalShares.slice(0, N_FULL);
-  const vPrac = verbalShares.slice(N_FULL);
-  const qFull = quantShares.slice(0, N_FULL);
-  const qPrac = quantShares.slice(N_FULL);
-
-  const fullLength = vFull.map((vShare, i) =>
+  const fullLength = Array.from({ length: N_FULL }, (_, i) =>
     buildFullLength(
       `full-length-${i + 1}`,
       `Full-Length Mock Test ${i + 1}`,
-      vShare,
-      qFull[i],
-      prompts[i],
+      verbalTiers,
+      quantTiers,
+      prompts[i % prompts.length],
+      i,
     ),
   );
-  const verbalPractice = vPrac.map((share, i) =>
+  const verbalPractice = Array.from({ length: N_VERBAL_PRACTICE }, (_, i) =>
     buildPractice(
       `verbal-practice-${i + 1}`,
       `Verbal Practice Test ${i + 1}`,
       "VERBAL_PRACTICE",
-      share,
+      verbalTiers,
+      N_FULL + i,
     ),
   );
-  const quantPractice = qPrac.map((share, i) =>
+  const quantPractice = Array.from({ length: N_QUANT_PRACTICE }, (_, i) =>
     buildPractice(
       `quant-practice-${i + 1}`,
       `Quantitative Practice Test ${i + 1}`,
       "QUANT_PRACTICE",
-      share,
+      quantTiers,
+      N_FULL + i,
     ),
   );
 
